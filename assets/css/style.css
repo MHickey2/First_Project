@@ -71,3 +71,25 @@ header {
     margin-top: 15px;
     
 }
+
+#cover-text {
+    color: white;
+    font-size: 130%;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 500px;
+    height: 200px;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-left: 50px;
+
+    background-color: rgba(21, 146, 84, 0.4);
+
+    bottom: 100px;
+    left: 30px;
+
+    position: absolute;
+}
+
