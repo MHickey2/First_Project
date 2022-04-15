@@ -63,3 +63,11 @@ header {
     border-bottom: 1px solid white;
 }
 
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/stones.jpg') no-repeat center center;
+    margin-top: 15px;
+    
+}
