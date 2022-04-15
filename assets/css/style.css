@@ -24,11 +24,42 @@ header {
 
 #logo {
     color: white;
-} 
-
-#logo h1{
+    float: left;
+    font-size: 240%;
+    margin-left: 80px;
+    margin-top: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 50px;
-    margin-top: 10px;
+    letter-spacing: 5px;
+} 
+
+/* Navigation Section */
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 5px;
 }
+
+#menu, #logo {
+    line-height: 80px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid white;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
