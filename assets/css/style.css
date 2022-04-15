@@ -93,3 +93,25 @@ header {
     position: absolute;
 }
 
+#sign-up {
+    margin-top: 15px;
+    background-color: #927397;
+    height: 60px;
+    
+    
+}
+
+#sign-up h2 {
+    color: white;
+    font-size: 130%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+button {
+    margin-left: 25px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
