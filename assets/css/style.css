@@ -75,7 +75,7 @@ header {
 #cover-text {
     color: white;
     font-size: 130%;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -240,9 +240,32 @@ footer {
     height: 600px;
 }
 
-spirit {
+.spirit {
     background-color:deeppink;
     height: 600px;
+    
 }
 
+.ornate {
+    text-align: Center;
+    word-spacing: 20%;
+    font-size: 220%;
+    color: white;
+    padding: 15px;
+    font-family: 'Caudex', serif;
+    
+}
 
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid white;
+    height: 200px;
+}  
+
+.flex-child:first-child {
+    margin-left: 15px;
+} 
