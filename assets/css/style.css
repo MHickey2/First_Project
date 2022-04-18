@@ -228,3 +228,20 @@ footer {
     height: 300px;
     width: 100%;
 }
+
+/*technique page */
+.body {
+    background-color: mediumorchid;
+    height: 600px;
+
+}
+
+.mind {
+    background-color:violet;
+    height: 600px;
+}
+
+spirit {
+    background-color:deeppink;
+    height: 600px;
+}
