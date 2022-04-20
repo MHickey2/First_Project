@@ -155,7 +155,7 @@ button {
 
 
 
-
+/*
 .container-class {
     display: flex;
     height: 450px;
@@ -219,11 +219,29 @@ button {
     display: inline-flex;
     
 }
+*/
 
+* Boxes */
+#boxes{
+  clear: both;  
+  margin-top:20px;
+  
+}
 
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:33%;
+  padding:25px;
+}
+
+#boxes .box img{
+  width:300px;
+  
+}
 
 footer {
-    height: 150px;
+    height: 180px;
     clear: both;
     margin: 10px 0 10px 0;
     background-color: #927397;
@@ -380,7 +398,11 @@ footer {
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
-
+    #boxes .box {
+    float:none;
+    text-align:center;
+    width:100%;
     
-    
+    }
+}
 }
