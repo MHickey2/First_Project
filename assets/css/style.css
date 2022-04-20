@@ -220,13 +220,32 @@ button {
     
 }
 
+
+
 footer {
+    height: 150px;
     clear: both;
     margin: 10px 0 10px 0;
     background-color: #927397;
-    height: 300px;
+    
     width: 100%;
 }
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: white;
+}
+
 
 /*technique page */
 .body {
@@ -346,7 +365,7 @@ footer {
     #cover-text {
         left: 0;
     }
-    
+
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     
