@@ -19,7 +19,7 @@ body {
     margin:auto;
     overflow:hidden;
   }
-  
+
 /*Header Section */
 
 header {
@@ -129,20 +129,20 @@ button {
 .welcome {
     background-color: #9fa4c4;
     background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
-    margin: 10px 0 10px 0;
+    margin: 7px 0 7px 0;
     display: flex;
-    padding: 15px;
+    padding: 6px;
     
 
 }
 
 .introduction p {
     color: white;
-    font: 180%;
+    font: 170%;
     text-align: justify;
-    font-family: Roboto, sans-serif;
-    margin: 10px;
-    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    
+    line-height: 1.6;
 }
 
 .introduction h2 {
@@ -167,21 +167,51 @@ button {
 /* Boxes for information on index page*/
 
 #boxes{
-  clear: both;  
-  margin-top:20px;
+  margin: 25px;
+  padding: 10px;
+  display: inline-block;
+  
   
 }
 
 #boxes .box{
-  float:left;
-  text-align: center;
-  width:33%;
-  padding:25px;
+  float: left;
+  height: 700px;
+  width: 30%;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  
+  
 }
 
 #boxes .box img{
-  width:300px;
+  width: 300px;
+  height: 300px;
+  float: center;
+  padding: 5px;
   
+}
+
+#boxes .box h3, p {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding: 5%;
+    
+  
+}
+
+#boxes .box .button {
+    clear: both;   
+    background-color:rgba(135, 18, 212, 0.6);
+    display: inline-block;
+    width: 50%;
+    color: white;
+    padding: 10px;   
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
 }
 
 footer {
@@ -206,7 +236,7 @@ footer p {
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 140%;
     margin: 1%;
     padding: 5%;
     color: white;
@@ -354,8 +384,8 @@ footer p {
     }
 
     .peaceful {
-        float: left;
-        text-align: center;
+        display: none;
     }
 }
+
 }
