@@ -246,7 +246,35 @@ footer p {
 /*technique page */
 .body {
     background-color: mediumorchid;
-    height: 600px;
+    height: 1200px;
+    margin: 10px;
+
+}
+
+.body-technique {
+    
+    width: 60%;
+    background-color: hotpink;
+    border: 5px solid rgb(245, 5, 97);
+    text-align: center;
+    border-radius: 5%;
+    float: left;
+}
+
+.body .shapely-body {
+  
+    width: 35%;
+    float: right;
+}
+
+.body-list {
+    margin: 15px;
+    width: 80%;
+    background-color: peachpuff;
+    border: 5px solid rgb(245, 5, 97);
+    text-align: center;
+    border-radius: 5%;
+    float: left;
 
 }
 
