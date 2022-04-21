@@ -140,7 +140,7 @@ button {
     color: white;
     font: 170%;
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     
     line-height: 1.6;
 }
@@ -186,8 +186,8 @@ button {
 }
 
 #boxes .box img{
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   float: center;
   padding: 5px;
   
@@ -196,8 +196,9 @@ button {
 #boxes .box h3, p {
     text-align: center;
     color: black;
-    font-size: 16px;
-    padding: 5%;
+    font-size: 100%;
+    padding: 5px;
+    font-family: 'Roboto', 'sans-serif';
     
   
 }
@@ -210,8 +211,9 @@ button {
     color: white;
     padding: 10px;   
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
+    text-align: center;
 }
 
 footer {
@@ -246,8 +248,9 @@ footer p {
 /*technique page */
 .body {
     background-color: mediumorchid;
-    height: 1200px;
-    margin: 10px;
+    height: 700px;
+    margin: 15px;
+    padding: 15px;
 
 }
 
@@ -261,13 +264,19 @@ footer p {
     float: left;
 }
 
-.body .shapely-body {
+.body-technique p {
+    font-size: 120%;
+    font-family: 'Roboto', 'sans-serif';
+    text-align: justify;
+}
+
+.body .shapely-body  {
   
     width: 35%;
     float: right;
 }
 
-.body-list {
+.body-list  {
     margin: 15px;
     width: 80%;
     background-color: peachpuff;
@@ -280,23 +289,96 @@ footer p {
 
 .mind {
     background-color:violet;
-    height: 600px;
+    height: 700px;
+    margin: 10px;
+    padding: 15px;
 }
 
+
+.mind-technique {
+    
+    width: 60%;
+    background-color: hotpink;
+    border: 5px solid rgb(245, 5, 97);
+    text-align: center;
+    border-radius: 5%;
+    float: left;
+}
+
+
+.mind-technique p {
+    font-size: 120%;
+    font-family: 'Roboto', 'sans-serif';
+    text-align: justify;
+}
+.mind .shapely-body  {
+  
+    width: 35%;
+    float: right;
+}
+
+.mind-list  {
+    margin: 15px;
+    width: 80%;
+    background-color: peachpuff;
+    border: 5px solid rgb(245, 5, 97);
+    text-align: center;
+    border-radius: 5%;
+    float: left;
+
+}
 .spirit {
     background-color:deeppink;
-    height: 600px;
+    height: 700px;
+    margin: 15px;
+    padding: 15px;
     
 }
 
+
+
+.spirit-technique {
+    
+    width: 60%;
+    background-color: hotpink;
+    border: 5px solid rgb(245, 5, 97);
+    text-align: center;
+    border-radius: 5%;
+    float: left;
+}
+
+.spirit-technique p {
+    font-size: 120%;
+    font-family: 'Roboto', 'sans-serif';
+    text-align: justify;
+}
+
+.spirit .shapely-body  {
+  
+    width: 35%;
+    float: right;
+}
+
+.spirit-list  {
+    margin: 15px;
+    width: 80%;
+    background-color: peachpuff;
+    border: 5px solid rgb(245, 5, 97);
+    text-align: center;
+    border-radius: 5%;
+    float: left;
+
+}
 .ornate {
     text-align: Center;
-    word-spacing: 20%;
-    font-size: 220%;
+    word-spacing: 30%;
+    font-size: 240%;
     color: white;
     padding: 15px;
-    font-family: 'Caudex', serif;
-    
+    font-family: 'Caudex', 'sans-serif';
+    font-weight: bold;
+    font-style: italic;
+ 
 }
 
 .flex-container {
@@ -404,14 +486,14 @@ footer p {
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
-    #boxes .box, .introduction {
+    #boxes .box, .introduction, .body-technique, .mind-technique, .spirit-technique {
     float:none;
     text-align:center;
     width:100%;
     
     }
 
-    .peaceful {
+    .peaceful, .shapely-body {
         display: none;
     }
 }
