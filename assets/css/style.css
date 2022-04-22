@@ -219,16 +219,18 @@ button {
 }
 
 footer {
-    height: 170px;
-    clear: both;
-    margin: 10px 0 10px 0;
+    height: 160px;
     background-color: #927397;
     width: 100%;
+    padding: 15px;
+    
 }
 
 footer p {
     color: white;
     text-align: center;
+    margin-bottom: 10px;
+    font-size: 110%;
 }
 
 .social-networks {
@@ -242,7 +244,7 @@ footer p {
 .social-networks i {
     font-size: 140%;
     margin: 1%;
-    padding: 5%;
+    
     color: white;
 }
 
