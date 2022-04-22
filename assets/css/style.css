@@ -143,7 +143,6 @@ button {
     font: 170%;
     text-align: justify;
     font-family: 'Roboto', 'sans-serif';
-    
     line-height: 1.6;
 }
 
@@ -244,7 +243,6 @@ footer p {
 .social-networks i {
     font-size: 140%;
     margin: 1%;
-    
     color: white;
 }
 
@@ -267,6 +265,7 @@ footer p {
     text-align: center;
     float: left;
     box-shadow: 10px 10px;
+    line-height: 1.4;
 }
 
 .body-technique p {
@@ -284,12 +283,13 @@ footer p {
 
 .body-list  {
     margin: 20px;
-    width: 70%;
+    width: 80%;
     background-color: white;
     border: 5px solid rgb(245, 5, 97);
     text-align: center;
     float: left;
     box-shadow: 10px 10px;
+    line-height: 1.6;
 
 }
 
@@ -301,12 +301,14 @@ footer p {
     font-size: 110%;
     margin-left: 10px;
     padding: 5px;
+    
    
 }
 
 .body-list ul li {
     font-family: 'Roboto', 'sans-serif';
     font-size: 110%;
+    
     
 }
 
@@ -332,6 +334,7 @@ footer p {
     text-align: center;
     float: left;
     box-shadow: 10px 10px;
+    line-height: 1.4;
 }
 
 
@@ -348,13 +351,13 @@ footer p {
 
 .mind-list  {
     margin: 15px;
-    width: 70%;
+    width: 80%;
     background-color: white;
     border: 5px solid rgb(245, 5, 97);
     text-align: center;
     float: left;
     box-shadow: 10px 10px;
-
+    line-height: 1.6;
 }
 
 .mind-list ul {
@@ -398,7 +401,8 @@ footer p {
     border: 5px solid rgb(245, 5, 97);
     text-align: center;
     float: left;
-    box-shadow: 10px 10px
+    box-shadow: 10px 10px;
+    line-height: 1.4;
 }
 
 .spirit-technique p {
@@ -421,6 +425,7 @@ footer p {
     text-align: center;
     float: left;
     box-shadow: 10px 10px;
+    line-height: 1.4;
 }
 
 .spirit-list ul {
@@ -463,6 +468,7 @@ footer p {
     border-width: 10px;
     border-color: #CC63FF;
     background-color:fuchsia;
+    text-transform: uppercase;
  
 }
 
