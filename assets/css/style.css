@@ -542,6 +542,25 @@ footer p {
     .peaceful, .shapely-body {
         display: none;
     }
+
+    
+
+    #menu{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: left;
+        width: fit-content;
+    }
+    #menu li{
+        float: left;
+    }
+    #menu a:hover{
+        background-color: transparent;
+        color: var(--gray);
+
+    }
+
 }
 
 }
