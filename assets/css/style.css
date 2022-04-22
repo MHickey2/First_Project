@@ -318,6 +318,7 @@ footer p {
     height: 850px;
     margin: 10px;
     padding: 15px;
+    border-radius: 15px;
 }
 
 
@@ -358,8 +359,8 @@ footer p {
     float: right;
     margin-top: -250px;
     margin-right: 30px;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
 
 }
 .spirit {
@@ -367,7 +368,7 @@ footer p {
     height: 850px;
     margin: 15px;
     padding: 15px;
-    
+    border-radius: 15px;
 }
 
 
@@ -412,11 +413,13 @@ footer p {
 
 }
 .ornate {
+    clear: both;
     text-align: Center;
     word-spacing: 30%;
     font-size: 240%;
     color: rgb(109, 17, 109);
     padding: 15px;
+    margin-top: 20px;
     font-family: 'Caudex', 'sans-serif';
     font-weight: bold;
     font-style: italic;
