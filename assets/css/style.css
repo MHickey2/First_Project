@@ -486,11 +486,36 @@ footer p {
     margin-left: 15px;
 } 
 
+
+/* next page */
+
+
+
+.next-woman {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.closing p {
+    line-height: 1.4;
+    width: 70%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 100%;
+    border: 1px solid black;
+    background-color: white;
+}
 /* Form */
 
 .form-section {
     clear: left;
-    background: url("");
+    background-image: url;
     background-size: cover;
     background-position: center;
     height: 1000px;
