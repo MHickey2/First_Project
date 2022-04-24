@@ -511,6 +511,44 @@ footer p {
     border: 1px solid black;
     background-color: white;
 }
+
+.resources {
+    padding: 00px;
+}
+
+
+th, td {
+    border: 1px solid;
+    padding: 5px;
+  }
+
+table {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th {
+    height: 80px;
+    
+  }
+
+  
+
+  th, td {
+      
+      background-color: white;
+      color: purple;
+      font-size: 120%;
+      line-height: 1.5;
+      font-family: 'Roboto', 'sans-serif';
+    
+      
+  }
+
+  
+
 /* Form */
 
 .form-section {   
