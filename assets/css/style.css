@@ -53,12 +53,23 @@ header {
     line-height: 80px;
 }
 
-#menu li {
-    float: right;
+
+ul {
+    text-align: right;
+    
+   
+}
+li {
+    display:inline;
+    margin-right: 30px;
     list-style-type: none;
+}
+/*#menu li {
+    float: right;
+    
     margin-right: 30px;
 }
-
+*/
 #menu a {
     text-decoration: none;
     color: white;
@@ -74,6 +85,7 @@ header {
 
 
 #hero-image {
+    clear:both;
     height: 500px;
     width: 100%;
     background: url('../images/stones.jpg') no-repeat center center;
@@ -168,16 +180,17 @@ button {
   padding: 10px;
   display: inline-block;
   
-  
+    
 }
 
-#boxes .box{
+ .box{
   float: left;
-  height: 700px;
+  height: 670px;
   width: 30%;
   background-color: white;
-  border: 1px solid black;
+  gap: 10px;
   padding: 5px;
+  margin: 15px;
   
   
 }
@@ -185,7 +198,6 @@ button {
 #boxes .box img{
   width: 280px;
   height: 280px;
-  float: center;
   padding: 5px;
   
 }
@@ -201,15 +213,19 @@ button {
 }
 
 #boxes .box .button {
-    clear: both;   
+    
     background-color:rgba(135, 18, 212, 0.6);
-    display: inline-block;
     width: 50%;
     color: white;
     padding: 10px;   
     text-decoration: none;
     font-size: 18px;
     margin: 4px 2px;
+    text-align: center;
+        
+}
+
+.button {
     text-align: center;
 }
 
@@ -452,7 +468,7 @@ footer p {
 .ornate {
     clear: both;
     text-align: Center;
-    word-spacing: 30%;
+    word-spacing: 4;
     font-size: 240%;
     color: rgb(109, 17, 109);
     padding: 15px;
@@ -649,6 +665,36 @@ input[type=text]:focus, input[type=password]:focus {
         left: 0;
     }
 
+    .box{
+        float: center;
+        height: 700px;
+        width: 20%;
+        background-color: white;
+        gap: 5px;
+        padding: 5px;
+        margin: 5px;
+        
+        
+      }
+
+      .box-image {
+        width: 180px;
+        height: 180px;
+        padding: 5px;
+        
+      }
+
+      #boxes .box h3, p {
+        text-align: center;
+        color: black;
+        font-size: 800%;
+        padding: 5px;
+        font-family: 'Roboto', 'sans-serif';
+        
+      
+    }
+}
+
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     
@@ -707,7 +753,8 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
-    #boxes .box, .introduction, .body-technique, .mind-technique, .spirit-technique {
+    #boxes .box, .introduction, .body-technique, .mind-technique, .spirit-technique, 
+    .welcome {
     float:none;
     text-align:center;
     width:100%;
@@ -754,7 +801,7 @@ input[type=text]:focus, input[type=password]:focus {
 
     #logo {
         color: white;
-        float: center;
+        /*float: center;*/
         font-size: 130%;
         margin-top: 10px;
         text-decoration: none;
@@ -781,7 +828,7 @@ input[type=text]:focus, input[type=password]:focus {
         width: 350px;
         height: 200px;
         margin-left: 10px;
-        margin-top: 330;
+        margin-top: 330px;
         background-color: rgba(21, 146, 84, 0.4);
         position: sticky;
     }
