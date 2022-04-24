@@ -87,18 +87,14 @@ header {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 500px;
     height: 200px;
     margin-left: 30px;
     padding-top: 20px;
     padding-left: 50px;
-
     background-color: rgba(21, 146, 84, 0.4);
-
     bottom: 100px;
     left: 30px;
-
     position: absolute;
 }
 
@@ -661,6 +657,50 @@ input[type=text]:focus, input[type=password]:focus {
         padding: 30px 0;
         margin: 0;
     }
+    
+    .resources {
+        width: 100%;
+        height: 1200px;
+    }
+
+    th, td {
+      
+        background-color: white;
+        color: purple;
+        font-size: 80%;
+        line-height: 1;
+        font-family: 'Roboto', 'sans-serif';
+      
+        
+    }
+
+
+    table {
+        width: 100%;
+    }
+    .form-section {   
+        margin-top: 20px; 
+        background-color:rgba(126, 43, 182, 0.6);
+        height: 800px;
+        margin-bottom: 10px;
+        
+    }
+    .workshop-news {
+        float: left;
+        width: 45%;        
+        margin-top: 5px;
+        display: block
+    }
+
+    .workshop-signup-form {
+        margin: 60px 5px 0 5px;
+        color: black;
+        background-color: rgba(126, 43, 182, 0.6);
+        width: 45%;         
+        float: right;  
+        
+          
+    }
 
    
 }
@@ -751,6 +791,17 @@ input[type=text]:focus, input[type=password]:focus {
         margin-left: auto;
         margin-right: auto;
 
+    }
+
+    th, td {
+      
+        background-color: white;
+        color: purple;
+        font-size: 80%;
+        line-height: 1.1;
+        font-family: 'Roboto', 'sans-serif';
+      
+        
     }
 
     .form-section{
