@@ -745,6 +745,38 @@ input[type=text]:focus, input[type=password]:focus {
         background-color: rgba(21, 146, 84, 0.4);
         position: sticky;
     }
+
+    .closing p {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .form-section{
+        height: 900px;
+
+    }
+
+    .workshop-signup-form {
+        margin: 60px 15px 0 15px;
+        color: black;
+        background-color: rgba(126, 43, 182, 0.6);
+        width: 500px;
+        padding: 20px;  
+        float: left;  
+        margin-left: auto;
+        margin-right: auto;
+          
+    }
+
+    .workshop-news {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5px;
+    }
     
 }
 
