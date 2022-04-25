@@ -5,6 +5,9 @@
     padding: 0;
     border: none;
     box-sizing: border-box;
+    max-width: 1500;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
@@ -221,8 +224,8 @@ button {
     padding: 10px;   
     text-decoration: none;
     font-size: 18px;
-    float: center;
-        
+    display: block;
+    margin: auto;
 }
 
 .button {
@@ -234,6 +237,7 @@ footer {
     background-color: #927397;
     width: 100%;
     padding: 15px;
+
     
 }
 
