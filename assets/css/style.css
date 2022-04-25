@@ -85,6 +85,7 @@ header {
     border-bottom: 3px solid white;
 }
 
+/*Heo Image Section */
 
 #hero-image {
     clear:both;
@@ -112,12 +113,13 @@ header {
     position: absolute;
 }
 
+/*Sign Up for Newsletter */
+
 #sign-up {
     margin-top: 15px;
     background-color: purple;
     height: 80px;
-    
-    
+      
 }
 
 #sign-up h2 {
@@ -203,7 +205,7 @@ button {
   display: inline-block;
 }
 
-#boxes .box h3, p {
+#boxes .box p {
     text-align: center;
     color: black;
     font-size: 100%;
@@ -212,7 +214,10 @@ button {
     font-weight: 400;
     padding: 6px;
     
-  
+}
+
+#boxes .box h2 {
+    text-align: center;
 }
 
 #boxes .box .button {
@@ -796,8 +801,11 @@ input[type=text]:focus, input[type=password]:focus {
         width: 100%;
         
     }
+
+    /* Logo and Menu Section */
+
     #logo {
-        display: block;
+        display: inline-block;
         margin: auto;
         margin-top: 5px;
         text-decoration: none;
@@ -806,25 +814,24 @@ input[type=text]:focus, input[type=password]:focus {
         font-size: 180%;
         font-family: 'Roboto', 'sans-serif';
         font-weight: 500;
+        width: 100%;
         
     } 
 
     #menu {
+        clear: both;
         font-size: 100%;
         letter-spacing: 2px;
-       
+        font-size: 100%;
+        word-spacing: 15%;       
     }
     
-    
-    
     #menu li {
-        float: center;
+        float: inline-block;
         margin: auto;
         list-style-type: none;
         font-family: 'Roboto', 'sans-serif';
-        font-size: 100%;
-        word-spacing: 5%;
-       
+           
     }
     
     #menu a {
@@ -840,14 +847,15 @@ input[type=text]:focus, input[type=password]:focus {
         border-bottom: 3px solid white;
     }
     
+    /* Hero Image Section */
+
     #hero-image {
-        margin-bottom: 100px;
+        margin-bottom: 10px;
         clear: both;
         height: 300px;
         width: 100%;
         background: url('../images/stones.jpg') no-repeat center center;
-       
-        
+            
     }
 
     #cover-text {
@@ -860,15 +868,142 @@ input[type=text]:focus, input[type=password]:focus {
         background-color: rgba(21, 146, 84, 0.4);
         position: sticky;
     }
+
+    /* Sign up for Newsletter Section */
+
+    #sign-up {
+        background-color: purple;
+        height: 100px;
+        margin-bottom: 15px;
+             
+    }
+    
+    #sign-up h2 {
+        color: white;
+        font-size: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    button {
+        margin: 20px;
+        background-color: palevioletred;
+        color: white;
+        width: 100px;
+        height: 30px;
+    }
+    
+    /* Welcome Section */
+/*
+    .welcome {
+        background-color: #9fa4c4;
+        background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+        margin: 7px 5px 7px 5px;
+        display: flex;
+        padding: 6px;
+        
+    }*/
+    
+    .introduction p {
+        color: white;
+        font: 100%;
+        text-align: justify;
+        font-family: 'Roboto', 'sans-serif';
+        line-height: 1.5;
+    }
+    
+    .introduction h2 {
+        color: white;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .introduction {
+        float: center;
+        width: 100%;
+        display: block;
+        align-items: flex-start;
+        padding: 5px;
+    }
+    
     .peaceful, .shapely-body {
         display: none;
     }
-
-   
-
    
     
+    /* Boxes for information on index page*/
 
+    #boxes .box img{
+    width: 210px;
+    height: 210px;
+    display: inline-block;
+  }
+  
+  #boxes .box  p {
+      
+      color: black;
+      font-size: 100%;
+      font-family: 'Roboto', 'sans-serif';
+      width: 100%;
+      line-height: 1.2;
+      font-weight: 400;
+      text-align: justify;
+      
+      
+  }
+  
+  #boxes .box h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+  #boxes .box  {
+        
+      width: 100%;
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin: auto;
+  }
+  
+  .button {
+      width: 60%;
+      display: block;
+      margin: auto;
+  }
+  
+  footer {
+      height: 140px;
+      background-color: #927397;
+      width: 100%;
+      padding: 10px;
+  
+      
+  }
+  
+  footer p {
+      color: white;
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 100%;
+  }
+  
+  .social-networks {
+      text-align: center;
+  }
+  
+  .social-networks > li {
+      display: inline;
+  }
+  
+  .social-networks i {
+      font-size: 140%;
+      margin: 1%;
+      color: white;
+  }
+  
+  
     
     
     
