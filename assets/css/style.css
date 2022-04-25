@@ -14,7 +14,7 @@ body {
     font-family: 'Roboto', 'sans-serif';
     font-weight: 300;
     color: #030303;
-    background-color: #f7eff3;
+    background-color: white;
     
 }
 
@@ -34,56 +34,55 @@ header {
     
 }
 
+/*Logo Section */
+
 #logo {
-    color: white;
+    
     float: left;
-    font-size: 240%;
     margin-left: 40px;
     margin-top: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    font-size: 230%;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+    color: white;
 } 
+
+
 
 /* Navigation Section */
 
 #menu {
-    font-size: 150%;
-    letter-spacing: 3px;
+    
+    text-align: right;
 }
 
 #menu, #logo {
     line-height: 80px;
 }
 
-
-#menu {
-    text-align: right;
-    
-   
-}
 #menu li {
-    display:inline;
+    display: inline;
     margin-right: 30px;
     list-style-type: none;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 130%;
+    letter-spacing: 2px;
 }
-/*#menu li {
-    float: right;
-    
-    margin-right: 30px;
-}
-*/
+
 #menu a {
     text-decoration: none;
     color: white;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
 }
 
 
@@ -782,6 +781,8 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
+
+    
     #boxes .box, .introduction, .body-technique, .mind-technique, .spirit-technique, 
     .welcome {
     float:none;
@@ -790,27 +791,40 @@ input[type=text]:focus, input[type=password]:focus {
     
     }
 
-    .peaceful, .shapely-body {
-        display: none;
-    }
-
     header {
         height: 150px;
+        width: 100%;
         
     }
+    #logo {
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 180%;
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 500;
+        
+    } 
 
     #menu {
         font-size: 100%;
         letter-spacing: 2px;
+       
     }
     
     
     
     #menu li {
-        display: inline;
-        float: left;
+        float: center;
+        margin: auto;
         list-style-type: none;
-        margin-left: 10px;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 100%;
+        word-spacing: 5%;
+       
     }
     
     #menu a {
@@ -823,28 +837,16 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     .active {
-        border-bottom: 1px solid white;
+        border-bottom: 3px solid white;
     }
     
-    
-
-    #logo {
-        color: white;
-        /*float: center;*/
-        font-size: 110%;
-        margin-top: 10px;
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-align: center;
-        
-    } 
-
     #hero-image {
+        margin-bottom: 100px;
+        clear: both;
         height: 300px;
         width: 100%;
         background: url('../images/stones.jpg') no-repeat center center;
-        margin-top: 10px;
+       
         
     }
 
@@ -853,14 +855,26 @@ input[type=text]:focus, input[type=password]:focus {
         font-size: 90%;
         font-family: 'Roboto', 'sans-serif';
         text-transform: uppercase;
-        letter-spacing: 2px;
-        width: 350px;
-        height: 200px;
-        margin-left: 10px;
-        margin-top: 330px;
+        letter-spacing: 1px;
+        width: 60%;   
         background-color: rgba(21, 146, 84, 0.4);
         position: sticky;
     }
+    .peaceful, .shapely-body {
+        display: none;
+    }
+
+   
+
+   
+    
+
+    
+    
+    
+    
+
+   
 
     .closing p {
         width: 100%;
