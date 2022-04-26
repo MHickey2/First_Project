@@ -57,6 +57,8 @@ header {
 #menu {
     
     text-align: right;
+    display: flex;
+    list-style: none;
 }
 
 #menu, #logo {
@@ -65,11 +67,14 @@ header {
 
 #menu li {
     display: inline;
-    margin-right: 30px;
+    margin-right: 60px;
     list-style-type: none;
     font-family: 'Roboto', 'sans-serif';
     font-size: 130%;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
+    align-self: center;
+    color: white;
+    font-weight: 800;
 }
 
 #menu a {
@@ -78,12 +83,17 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 
 .active {
-    border-bottom: 3px solid white;
+    border-bottom: 2px solid white;
 }
+
+ 
+  .push {
+      margin-left: auto;
+  }
 
 /*Heo Image Section */
 
@@ -667,122 +677,8 @@ input[type=text]:focus, input[type=password]:focus {
     display: hidden;
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* ************************For larger to medium screens size from 1200px wide and down ***************** */
 
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-
-    
-    .introduction {
-        float: right;
-        width: 60%;
-        display: block;
-        align-items: flex-start;
-        padding: 10px;
-        
-    }
-    
-    .peaceful {
-        width: 40%;
-        float: left;
-        display: block;
-        padding: 10px;
-    }
-    
-    .introduction p {
-        color: white;
-        font: 150%;
-        text-align: justify;
-        font-family: 'Roboto', 'sans-serif';
-        line-height: 1.5;
-        width: 90%;
-        padding: 5px;
-        
-    }
-
-        
-    .peaceful, .shapely-body {
-        display: none;
-    }
-   
-    
-
-    #boxes{
-        margin: 10px;
-        padding: 10px;
-        display: inline-block;
-            
-      }
-      
-       .box{
-        float: left;
-        height: 670px;
-        background-color: white;
-        gap: 5px;
-        padding: 5px;
-        
-        
-      }
-      #boxes .box img{
-         
-        width: 200px;
-        height: 200px;
-        display: inline-block;
-      }
-      
-      
-    
-
-
-    
-    .body-technique {
-       
-        width: 100%;
-        background-color: white;
-        border: 5px solid rgb(245, 5, 97);
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: none;
-        line-height: 1.1;
-    }
-
-    .body-list  {
-        
-        width: 100%;
-        background-color: white;
-        border: 5px solid rgb(245, 5, 97);
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: none;
-        line-height: 1.1;
-    
-    }
-
-    .body-graphic {
-        width: 90%;
-        margin-top: -10px;
-    }
-
-    .resources {
-        width: 100%;
-        height: 600px;
-        background-color: blue;
-    }
-}
-
-/* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     
 
@@ -838,7 +734,137 @@ input[type=text]:focus, input[type=password]:focus {
    
 }
 
-/* For small screen sizes 800px and down */
+
+/* **********************  For medium screen sizes from 950px wide and down ****************************/
+@media screen and (max-width: 950px) {
+
+    #logo {
+        text-align: center;
+        margin-top: 10px;
+        margin: auto;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 130%;
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 500;
+        color: white;
+    } 
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #menu li {
+        display: block;
+        color: black;
+        list-style-type: none;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 110%;
+        padding: 15px;
+        color: white;
+        font-weight: 800;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    
+    .introduction {
+        float: right;
+        width: 60%;
+        display: block;
+        align-items: flex-start;
+        padding: 10px;        
+    }
+    
+    .peaceful {
+        width: 40%;
+        float: left;
+        display: block;
+        padding: 10px;
+    }
+    
+    .introduction p {
+        color: white;
+        font: 150%;
+        text-align: justify;
+        font-family: 'Roboto', 'sans-serif';
+        line-height: 1.5;
+        width: 90%;
+        padding: 5px;        
+    }
+
+        
+    .peaceful, .shapely-body {
+        display: none;
+    }
+   
+    
+
+    #boxes{       
+        padding: 1px;
+        display: block;            
+      }
+      
+    .box{
+        float: left;
+        background-color: white;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    #boxes .box img{
+        width: 180px;
+        height: 180px;
+        display: inline-block;
+      }
+      
+        
+    .body-technique {
+        width: 100%;
+        background-color: white;
+        border: 5px solid rgb(245, 5, 97);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: none;
+        line-height: 1.1;
+    }
+
+    .body-list  {
+        width: 100%;
+        background-color: white;
+        border: 5px solid rgb(245, 5, 97);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: none;
+        line-height: 1.1;
+    
+    }
+
+    .body-graphic {
+        width: 90%;
+        margin-top: -10px;
+    }
+
+    .resources {
+        width: 100%;
+        height: 600px;
+        background-color: blue;
+    }
+}
+
+
+
+/* *******************For small screen sizes 800px and down *************************************************/
+
 @media screen and (max-width: 800px) {
 
     
@@ -865,26 +891,26 @@ input[type=text]:focus, input[type=password]:focus {
         text-decoration: none;
         text-transform: uppercase;
         letter-spacing: 2px;
-        font-size: 180%;
+        font-size: 150%;
         font-family: 'Roboto', 'sans-serif';
         font-weight: 500;
-        width: 100%;
+        width: 60%;
         
     } 
 
     #menu {
         clear: both;
-        font-size: 100%;
         letter-spacing: 2px;
         font-size: 100%;
-        word-spacing: 15%;       
+        word-spacing: 5px;       
     }
     
     #menu li {
-        float: inline-block;
+        float: center;
         margin: auto;
         list-style-type: none;
         font-family: 'Roboto', 'sans-serif';
+        
            
     }
     
