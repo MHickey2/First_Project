@@ -20,7 +20,7 @@ body {
 
 /* Global */
 .container{
-    width:80%;
+    width:100%;
     margin:auto;
     overflow:hidden;
   }
@@ -39,7 +39,7 @@ header {
 #logo {
     
     float: left;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 10px;
     text-decoration: none;
     text-transform: uppercase;
@@ -74,7 +74,14 @@ header {
     letter-spacing: 4px;
     align-self: center;
     color: white;
-    font-weight: 800;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
 }
 
 #menu a {
@@ -207,19 +214,20 @@ button {
 }
 
 #boxes .box img{
-  width: 280px;
-  height: 250px;
-  padding: 8px;
-  display: inline-block;
+  width: 250px;
+  height: 280px;
+  padding: 10px;
+  display: block;
+  margin: auto;
 }
 
 #boxes .box p {
-    text-align: center;
+    text-align: justify;
     color: black;
     font-size: 100%;
     padding: 5px;
     font-family: 'Roboto', 'sans-serif';
-    font-weight: 400;
+    font-weight: 300;
     padding: 6px;
     
 }
@@ -546,7 +554,7 @@ footer p {
 
 .resources{
     height: 600px;
-    background-color: pink;
+    
 }
 
 
@@ -566,8 +574,6 @@ table {
     height: 80px;
     
   }
-
-  
 
   th, td {
       
@@ -736,6 +742,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 
 /* **********************  For medium screen sizes from 950px wide and down ****************************/
+
 @media screen and (max-width: 950px) {
 
     #logo {
@@ -805,31 +812,57 @@ input[type=text]:focus, input[type=password]:focus {
         display: none;
     }
    
+
+
+    #boxes .box img {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+        padding: 10px;
+        
+      }
+
     
 
-    #boxes{       
-        padding: 1px;
-        display: block;            
-      }
-      
-    .box{
-        float: left;
-        background-color: white;
-        gap: 5px;
+      #boxes .box p {
+        text-align: justify;
+        color: black;
+        font-size: 90%;
         padding: 5px;
+        font-family: 'Roboto', 'sans-serif';
+        font-weight: 300;
+        padding: 3px;
+        
     }
-
-    #boxes .box img{
-        width: 180px;
-        height: 180px;
-        display: inline-block;
-      }
+    
+    #boxes .box h2 {
+        text-align: center;
+        color: black;
+        font-family: 'Roboto', 'sans-serif';
+    }
+    
+    #boxes .box .button {
+        
+        background-color:rgba(135, 18, 212, 0.6);
+        width: 50%;
+        color: white;
+        padding: 10px;   
+        text-decoration: none;
+        font-size: 18px;
+        display: block;
+        margin: auto;
+    }
+    
+    .button {
+        text-align: center;
+    }
+     
       
         
     .body-technique {
         width: 100%;
         background-color: white;
-        border: 5px solid rgb(245, 5, 97);
+        border: 2px solid rgb(95, 11, 145);
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -838,9 +871,9 @@ input[type=text]:focus, input[type=password]:focus {
     }
 
     .body-list  {
-        width: 100%;
+         width: 100%;
         background-color: white;
-        border: 5px solid rgb(245, 5, 97);
+        border: 2px solid rgb(95, 11, 145);
         text-align: center;
         margin-left: auto;
         margin-right: auto;
@@ -856,8 +889,8 @@ input[type=text]:focus, input[type=password]:focus {
 
     .resources {
         width: 100%;
-        height: 600px;
-        background-color: blue;
+        
+       
     }
 }
 
@@ -884,7 +917,7 @@ input[type=text]:focus, input[type=password]:focus {
 
     /* Logo and Menu Section */
 
-    #logo {
+  /*  #logo {
         display: inline-block;
         margin: auto;
         margin-top: 5px;
@@ -904,12 +937,14 @@ input[type=text]:focus, input[type=password]:focus {
         font-size: 100%;
         word-spacing: 5px;       
     }
-    
+    */
     #menu li {
-        float: center;
-        margin: auto;
+        clear: both;
+        
+        margin-left: 5px;
         list-style-type: none;
         font-family: 'Roboto', 'sans-serif';
+        font-size: 50%;
         
            
     }
@@ -926,6 +961,8 @@ input[type=text]:focus, input[type=password]:focus {
     .active {
         border-bottom: 3px solid white;
     }
+
+    */
     
     /* Hero Image Section */
 
@@ -974,16 +1011,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     /* Welcome Section */
-/*
-    .welcome {
-        background-color: #9fa4c4;
-        background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
-        margin: 7px 5px 7px 5px;
-        display: flex;
-        padding: 6px;
-        
-    }*/
-    
+
     .introduction p {
         color: white;
         font: 100%;
@@ -1314,7 +1342,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
 
     .form-section{
-        height: 900px;
+        height: 1150px;
 
     }
 
@@ -1322,11 +1350,12 @@ input[type=text]:focus, input[type=password]:focus {
         margin: 60px 15px 0 15px;
         color: black;
         background-color: rgba(126, 43, 182, 0.6);
-        width: 500px;
-        padding: 20px;  
+        width: 400px;
+        padding: 10px;  
         float: none;  
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 10px;
           
     }
 
@@ -1335,8 +1364,8 @@ input[type=text]:focus, input[type=password]:focus {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5px;
         padding: 5%;
+        border: 2px solid rgb(95, 11, 145);
         
     }
 
@@ -1353,7 +1382,8 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     .resources {
-        height: 840px;
+        height: 820px;
+        margin-bottom: 20px;
     }
 
     .body {
