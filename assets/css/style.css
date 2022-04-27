@@ -15,6 +15,7 @@ body {
     font-weight: 300;
     color: #030303;
     background-color: white;
+    scroll-behavior: smooth;
     
 }
 
@@ -43,8 +44,8 @@ header {
     margin-top: 10px;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 230%;
+    letter-spacing: 3px;
+    font-size: 220%;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
     color: white;
@@ -85,11 +86,11 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid grey;
 }
 
 .active {
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
 }
 
  
