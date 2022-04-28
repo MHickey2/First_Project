@@ -11,121 +11,137 @@
 </head>
 
 <body>
+
+<!--Header Section with the Logo and the Navigation-->
+
     <header>
-        <a href="index.html">
-            <h1 id="logo">The Balancing Pact</h1>
-        </a>
+
+        <div id="top"></div>
+
+        <a href="index.html" aria-label="Going to the Home Page"><h1 id="logo">The Balancing Pact</h1></a>
         <nav>
             <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="technique.html">Lifestyle</a>
-                </li>
-                <li>
-                    <a href="next.html" class="active">Next</a>
-                </li>
-                
-                
+                <li><a href="index.html" aria-label="Going to the Home Page">Home</a></li>
+                <li><a href="technique.html" aria-label="Going to the Lifestyle Page">Lifestyle</a></li>             
+                <li><a href="next.html" aria-label="Going to the Next Page" class="active">Next</a></li>
             </ul>
         </nav>
     </header>
 
+<!--************************************************************************************************************-->
+<!--Closing Information section to correspond with welcome section, includes relevant image and recapping information
+    with parting words on what the user can do next-->    
+
     <section class="closing">
         <h2 class="specific-styling">What Next?</h2>
 
-          <img src="assets/images/healthywoman.jpg" alt="woman with healthy lifestyle" class="next-woman">
+            <img src="assets/images/healthywoman.jpg" alt="woman with healthy lifestyle" class="next-woman">
 
-          <p>Life can be busy, whether you are a Student, a Worker, a stay at home Mum or a human of
+            <p>
+            life can be busy, whether you are a Student, a Worker, a stay at home Mum or a human of
             any variety. It can be hard to get the balance right between work and play. How do we turn
             off and experience life without worrying about our next crisis. It's important to step back
             and evaluate what we are doing right and what could be better. This website attempts to offer
             ways that you can try new practises that give you a chance to stop and breathe. They may inspire
             you to find your own coping strategies, but you never know what can make the difference, just
             open your mind and step into a new way of living, it will make living a whole lot easier for
-            yourself and the people around you.
-            
-        </p>
+            yourself and the people around you.            
+            </p>
     </section>
+
+<!--************************************************************************************************************-->
+<!--Resources section, which shares relevant organisations dealing with all aspects of health, including brief
+description and including a link for further information-->    
 
     <section class="resources">
         <h2 class="specific-styling">Resources</h2>
 
         <table>
             <tr>
-              <th>Name</th>
-              <th>Description</th>
-              <th>Link To Sites</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Links To Sites</th>
             </tr>
             <tr>
                 <td>HSE Healthy Eating Guidelines</td>
                 <td>Website with information relating to healthy wellbeing.</td>
-                <td><a href="https://www.hse.ie/eng/about/who/healthwellbeing/our-priority-programmes/heal/healthy-eating-guidelines/">Link</a></td>
+                <td><a href="https://www.hse.ie/eng/about/who/healthwellbeing/our-priority-programmes/heal/healthy-eating-guidelines/" aria-label="Going to HSE Website">Link</a></td>
             </tr>
             <tr>
                 <td>Irish Life Health - Health Blog</td>
                 <td>Website with useful information on a range of Health Topics.</td>
-                <td><a href="https://www.irishlifehealth.ie/blog">Link</a></td>
+                <td><a href="https://www.irishlifehealth.ie/blog" aria-label="Going to Irish Life Health Blog">Link</a></td>
             </tr>
             <tr>
                 <td>Mental Health Ireland</td>
                 <td>Website Promoting good Mental Health.</td>
-                <td><a href="https://www.mentalhealthireland.ie/promoting-positive-mental-health-and-wellbeing/">Link</a></td>
+                <td><a href="https://www.mentalhealthireland.ie/promoting-positive-mental-health-and-wellbeing/" aria-label="Going to Mental Health Ireland Website">Link</a></td>
             </tr>
             <tr>
                 <td>Safe Food Ireland</td>
                 <td>Website with healthy eating guidelines with Recipes.</td>
-                <td><a href="https://www.safefood.net/healthy-eating/guidelines">Link</a></td>
+                <td><a href="https://www.safefood.net/healthy-eating/guidelines" aria-label="Going to Safe Food Ireland Website">Link</a></td>
             </tr>
             <tr>
                 <td>Sport Ireland | Be Well</td>
                 <td>Website with expert advice and guidelines on maintaining Mental Health.</td>
-                <td><a href="https://www.sportireland.ie/covid19/be-well">Link</a></td>
+                <td><a href="https://www.sportireland.ie/covid19/be-well" aria-label="Going to Sport Ireland Website">Link</a></td>
             </tr>
             <tr>
-              <td>Body Mind Green</td>
-              <td>Holistic Health Website, that offers great tips for a healthy lifestyle.</td>
-              <td><a href="https://www.mindbodygreen.com/">Link</a></td>
+                <td>Body Mind Green</td>
+                <td>Holistic Health Website, that offers great tips for a healthy lifestyle.</td>
+                <td><a href="https://www.mindbodygreen.com/" aria-label="Going to Body Mind Green Website">Link</a></td>
             </tr>
             
         </table>
     </section>
+
+<!--******************************************************************************************************************-->
+<!--Workshop Section contains information on upcoming Webinar, and a form where the user can register for the event-->        
     
     <section class="form-section">
         <h3 class="specific-styling">Join me for an Online Workshop!</h3>
-        <div class="workshop-info">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="workshop-signup-form">
-            <h3 class="specific-styling">Sign up for my Free Workshop!</h3>
-                <label for="fname">First Name</label>
-                <input id="fname" name="first_name" class="input" type="text" required>
-                <br>
-                <label for="lname">Last Name</label>
-                <input id="lname" name="last_name" type="text" required>
-                <br>
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email_address" required>
-                <br>                      
-                <input class="signup-button" type="submit" value="Sign Up!">
-        </form>
-        <div class="workshop-news">
-        <h3 class="specific-styling">Workshop Information</h3>
         
-        <p>I am hosting an online Webinar, diving deeper into the topic and introducing a more indepth knowledge
-            on the subject. It will be you chance to interact and ask questions about setting up your own wellness
-            routines. There will be information on the benefits of physical and mental wellness. There will also be
-            a special speaker, who has a strong holistic influence who will share tips on caring for yourself emotionally.
-            There will be a guided meditation and I will provide you with an information pack after the Event. So Sign up
-            as soon as you can as places are limited.
-        </p>
-        <p>
-            Location: Zoom;
-            Time: 7:00pm;
-            Date: 23rd May 2022;
-        </p>
+        <div class="workshop-info">
+            <form method="POST" action="https://formdump.codeinstitute.net/" aria-label="Posting to Mock Site"  class="workshop-signup-form">
+                <h3 class="specific-styling">Sign up for my Free Workshop!</h3>
+                    <label for="fname">First Name</label>
+                    <input id="fname" name="first_name" class="input" type="text" required>
+                    <br>
+                    <label for="lname">Last Name</label>
+                    <input id="lname" name="last_name" type="text" required>
+                    <br>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" required>
+                    <br>                      
+                    <input class="signup-button" type="submit" value="Sign Up!">
+            </form>
+
+
+            <div class="workshop-news">
+                <h3 class="specific-styling">Workshop Information</h3>
+        
+                    <p>I am hosting an online Webinar, diving deeper into the topic and introducing a more indepth knowledge
+                    on the subject. It will be you chance to interact and ask questions about setting up your own wellness
+                    routines. There will be information on the benefits of physical and mental wellness. There will also be
+                    a special speaker, who has a strong holistic influence who will share tips on caring for yourself emotionally.
+                    There will be a guided meditation and I will provide you with an information pack after the Event. So Sign up
+                    as soon as you can as places are limited.
+                    </p>
+                    <p>
+                    Location: Zoom;
+                    Time: 7:00pm;
+                    Date: 23rd May 2022;
+                    </p>
+                </div>
         </div>
-    </div>
-        </section>
+    </section>
+
+    <a href="technique.html#top" aria-label="Going to top of page"><button>Return to Top</button></a>
+    
+<!--******************************************************************************************************************-->
+<!--Footer section with Social Media Links and copyright information, would contain more information on real live site-->     
+
     <footer>
         <ul class="social-networks">
             <li>
