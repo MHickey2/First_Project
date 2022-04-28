@@ -60,6 +60,9 @@ header {
     text-align: right;
     display: flex;
     list-style: none;
+    text-transform: uppercase;
+    
+   
 }
 
 #menu, #logo {
@@ -68,7 +71,7 @@ header {
 
 #menu li {
     display: inline;
-    margin-right: 60px;
+    margin-right: 50px;
     list-style-type: none;
     font-family: 'Roboto', 'sans-serif';
     font-size: 130%;
@@ -86,11 +89,21 @@ header {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid grey;
+    border-bottom: 2px solid white;
 }
 
-.active {
-    border-bottom: 3px solid white;
+#menu a:hover,
+#menu a:focus {
+	color: #036;
+	background-color: #fff;
+	text-decoration: underline;
+}
+
+#menu .active {
+    border: 3px solid white;
+    color: #fff;
+    padding: 3px;
+	
 }
 
  
@@ -1420,4 +1433,7 @@ input[type=text]:focus, input[type=password]:focus {
     .next-woman {
         width: 70%;
     }
+
+
+    
 }
