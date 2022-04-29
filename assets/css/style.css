@@ -15,8 +15,7 @@ body {
     font-weight: 300;
     color: #030303;
     background-color: white;
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;    
 }
 
 /* Global */
@@ -31,14 +30,12 @@ body {
 header {
     background-color: #927397;
     height: 100px;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 /*Logo Section */
 
-#logo {
-    
+#logo {    
     float: left;
     margin-left: 30px;
     margin-top: 10px;
@@ -51,18 +48,13 @@ header {
     color: white;
 } 
 
-
-
 /* Navigation Section */
 
-#menu {
-    
+#menu {    
     text-align: right;
     display: flex;
     list-style: none;
     text-transform: uppercase;
-    
-   
 }
 
 #menu, #logo {
@@ -102,8 +94,7 @@ header {
 #menu .active {
     border: 3px solid white;
     color: #fff;
-    padding: 3px;
-	
+    padding: 3px;	
 }
 
  
@@ -118,8 +109,7 @@ header {
     height: 500px;
     width: 100%;
     background: url('../images/stones.jpg') no-repeat center center;
-    margin-top: 15px;
-    
+    margin-top: 15px;    
 }
 
 #cover-text {
@@ -144,8 +134,7 @@ header {
 #sign-up {
     margin-top: 15px;
     background-color: purple;
-    height: 90px;
-      
+    height: 90px;      
 }
 
 #sign-up h2 {
@@ -210,8 +199,7 @@ button {
 #boxes{
   margin: 25px;
   padding: 10px;
-  display: inline-block;
-      
+  display: inline-block;      
 }
 
  .box{
@@ -221,9 +209,7 @@ button {
   background-color: white;
   gap: 10px;
   padding: 5px;
-  margin: 15px;
-  
-  
+  margin: 15px;  
 }
 
 #boxes .box img{
@@ -239,8 +225,7 @@ button {
     padding: 5px;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 300;
-    padding: 6px;
-    
+    padding: 6px;    
 }
 
 #boxes .box h2 {
@@ -249,8 +234,7 @@ button {
     font-family: 'Roboto', 'sans-serif';
 }
 
-#boxes .box .button {
-    
+#boxes .box .button {    
     background-color:rgba(135, 18, 212, 0.6);
     background-color: #927397;
     width: 50%;
@@ -272,8 +256,7 @@ footer {
     height: 160px;
     background-color: #927397;
     width: 100%;
-    padding: 15px;
-   
+    padding: 15px;   
 }
 
 footer p {
@@ -301,11 +284,9 @@ footer p {
 /*technique page */
 .body {
     /*background-color: mediumorchid;*/
-   
-    margin: 15px;
-    padding: 15px;
+    margin: 30px;
+    padding: 20px;
     border-radius: 15px;
-
 }
 
 .body-technique {
@@ -315,8 +296,7 @@ footer p {
     text-align: center;
     float: left;
     line-height: 1.4;
-    padding: 5px;
-    
+    padding: 5px;    
 }
 
 .body-technique p {
@@ -326,8 +306,7 @@ footer p {
     padding: 5px;
 }
 
- .healthy-person  {
-     
+ .healthy-person {     
     float: right;
     display: block;
     padding: 5px;
@@ -342,7 +321,6 @@ footer p {
     text-align: center;
     float: left;
     line-height: 1.4;
-
 }
 
 .body-list ul {
@@ -353,35 +331,27 @@ footer p {
     font-size: 100%;
     margin-left: 10px;
     padding: 5px;
-    font-weight: 400;
-    
-    
-   
+    font-weight: 400;   
 }
 
 .body-list ul li {
     font-family: 'Roboto', 'sans-serif';
-    font-size: 110%;
-    
-    
+    font-size: 110%;    
 }
 
 .body-graphic {
-    float: right;
-    
+    float: right;    
 }
 
 .mind {
-   /* background-color:violet;*/
-    
+   /* background-color:violet;*/    
     margin: 10px;
     padding: 15px;
     border-radius: 15px;
 }
 
 
-.mind-technique {
-    
+.mind-technique {    
     width: 60%;
     border: 2px solid rgb(95, 11, 145);
     text-align: center;
@@ -396,8 +366,8 @@ footer p {
     font-family: 'Roboto', 'sans-serif';
     text-align: justify;
 }
-.mind .shapely-body  {
-  
+
+.mind .shapely-body  {  
     float: right;
 }
 
@@ -419,14 +389,12 @@ footer p {
     text-align: left;
     font-size: 100%;
     margin-left: 10px;
-    padding: 5px;
-   
+    padding: 5px;   
 }
 
 .mind-list ul li {
     font-family: 'Roboto', 'sans-serif';
-    font-size: 110%;
-    
+    font-size: 110%;    
 }
 
 
@@ -440,8 +408,6 @@ footer p {
     border-radius: 10px;
 }
 
-
-
 .spirit-technique {
     width: 60%;
     border: 2px solid rgb(95, 11, 145);
@@ -452,10 +418,7 @@ footer p {
     font-size: 110%;
 }
 
-
-
-.spirit .shapely-body  {
-  
+.spirit .shapely-body  {  
     width: 35%;
     float: right;
 }
@@ -479,14 +442,12 @@ footer p {
     text-align: left;
     font-size: 100%;
     margin-left: 10px;
-    padding: 5px;
-   
+    padding: 5px;   
 }
 
 .spirit-list ul li {
     font-family: 'Roboto', 'sans-serif';
-    font-size: 110%;
-    
+    font-size: 110%;    
 }
 
 /*.spirit-graphic {
@@ -495,7 +456,6 @@ footer p {
     margin-right: 30px;
     width: 200px;
     height: 200px;
-
 }*/
 
 .ornate {
@@ -514,8 +474,7 @@ footer p {
     border-width: 2px;
     margin-bottom: 10px;
     text-transform: uppercase;
-    width: 50%;
- 
+    width: 50%; 
 }
 
 .specific-styling {
@@ -527,7 +486,7 @@ footer p {
     padding-top: 5px;
 }
 
-.flex-container {
+/*.flex-container {
     display: flex;
 }
 
@@ -539,7 +498,7 @@ footer p {
 
 .flex-child:first-child {
     margin-left: 15px;
-} 
+} */
 
 
 /* next page */
@@ -550,8 +509,7 @@ footer p {
     display: block;
     margin-top: 20px;
     margin-left: auto;
-    margin-right: auto;
-   
+    margin-right: auto;   
 }
 
 .closing p {
@@ -560,22 +518,18 @@ footer p {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 120%;
-    
+    font-size: 120%;    
     background-color: white;
     padding: 10px;
     line-height: 1.5;
     color: black;
+    text-align: justify;
 }
 
 .resources{
     height: 480px;
-    background-color: #CC63FF;
-    
+    background-color: #CC63FF;    
 }
-
-
-
 
 table {
     background-color: white;
@@ -584,25 +538,17 @@ table {
     margin-right: auto;
   }
   
-  
-
   th, td {
-      
       background-color: white;
       color: purple;
       font-size: 120%;
       line-height: 1.5;
       font-family: 'Roboto', 'sans-serif';
       border: 1px solid;
-      padding: 5px;
-      
-    
-      
+      padding: 5px;         
   }
 
-  
-
-/* Form */
+ /* Form */
 
 .form-section {   
     margin-top: 20px; 
@@ -610,8 +556,7 @@ table {
     background: url('../images/stones.jpg') no-repeat center center;
     width:100%;
     height: fit-content; 
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 
 .workshop-signup-form {
@@ -625,8 +570,7 @@ table {
 
 .workshop-signup-form h2 {
     color: #fafafa;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 
 input[type="text"] ,input[type="email"]{
@@ -635,8 +579,7 @@ input[type="text"] ,input[type="email"]{
     width: 90%;
     border: 1px solid #fafafa;
     border: none;
-    padding: 15px;
-    
+    padding: 15px;    
 }
 
 label {
@@ -646,8 +589,7 @@ label {
 }
 
 .text-input:hover{
-    border-color: #25043b;
-    
+    border-color: #25043b;    
 }
 
 input[type=text]:focus, input[type=password]:focus {
@@ -664,7 +606,6 @@ input[type=text]:focus, input[type=password]:focus {
     background-color: #36064b;
     color: #fafafa;
     display: block;
-
 }
 
 .signup-button:hover {
@@ -672,23 +613,19 @@ input[type=text]:focus, input[type=password]:focus {
     color: white;
 }
 
-.workshop-news {
-   
-    
+.workshop-news {    
     width: 35%;
     display: block;
     background-color: white;
     display: inline-block;
     margin: 65px;
     padding: 5px;
-    line-height: 1.5;
-       
+    line-height: 1.5;       
 }
 
 .workshop-news p {
-    text-align: center;
-    font-size: 120%;
-    
+    text-align: justify;
+    font-size: 120%;    
 }
 
 .workshop-news h2 {
@@ -702,8 +639,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* ************************For larger to medium screens size from 1200px wide and down ***************** */
 
-@media screen and (max-width: 1200px) {
-    
+@media screen and (max-width: 1200px) {    
 
     .welcome {
         padding: 30px 0;
@@ -711,32 +647,28 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     .resources {
-        width: 100%;
-       
+        width: 100%;       
     }
 
-    th, td {
-      
+    th, td {      
         background-color: white;
         color: purple;
         font-size: 80%;
         line-height: 1;
-        font-family: 'Roboto', 'sans-serif';
-      
-        
+        font-family: 'Roboto', 'sans-serif';        
     }
-
 
     table {
         width: 100%;
     }
+
     .form-section {   
         margin-top: 20px; 
         background-color:rgba(126, 43, 182, 0.6);
         height: 800px;
-        margin-bottom: 10px;
-        
+        margin-bottom: 10px;        
     }
+
     .workshop-news {
         float: left;
         width: 45%;        
@@ -749,12 +681,9 @@ input[type=text]:focus, input[type=password]:focus {
         color: black;
         background-color: rgba(126, 43, 182, 0.6);
         width: 45%;         
-        float: right;  
-        
-          
+        float: right;           
     }
 
-   
 }
 
 
@@ -799,8 +728,7 @@ input[type=text]:focus, input[type=password]:focus {
         height: 400px;
         width: 50%;
         background: url('../images/stones-sm.jpg') no-repeat center center;
-        margin-top: 15px;
-        
+        margin-top: 15px;        
     }
 
 
@@ -818,7 +746,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     .peaceful {
-        width: 40%;
+        width: 30%;
         float: left;
         display: block;
         padding: 10px;
@@ -842,28 +770,21 @@ input[type=text]:focus, input[type=password]:focus {
         padding: 5px;
     }    
     
-   
-*/
-
     #boxes .box img {
         width: 150px;
         height: 150px;
         display: inline-block;
-        padding: 10px;
-        
+        padding: 10px;        
       }
 
-    
-
-      #boxes .box p {
+    #boxes .box p {
         text-align: justify;
         color: black;
         font-size: 90%;
         padding: 5px;
         font-family: 'Roboto', 'sans-serif';
         font-weight: 300;
-        padding: 3px;
-        
+        padding: 3px;        
     }
     
     #boxes .box h2 {
@@ -872,8 +793,7 @@ input[type=text]:focus, input[type=password]:focus {
         font-family: 'Roboto', 'sans-serif';
     }
     
-    #boxes .box .button {
-        
+    #boxes .box .button {        
         background-color:rgba(135, 18, 212, 0.6);
         width: 50%;
         color: white;
@@ -888,8 +808,6 @@ input[type=text]:focus, input[type=password]:focus {
         text-align: center;
     }
      
-      
-        
     .body-technique {
         width: 100%;
         background-color: white;
@@ -907,16 +825,11 @@ input[type=text]:focus, input[type=password]:focus {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        line-height: 1.1;
-    
+        line-height: 1.1;    
     }
 
-    
-
     .resources {
-        width: 100%;
-        
-       
+        width: 100%;       
     }
 }
 
@@ -925,20 +838,17 @@ input[type=text]:focus, input[type=password]:focus {
 /* *******************For small screen sizes 800px and down *************************************************/
 
 @media screen and (max-width: 800px) {
-
     
     #boxes .box, .introduction, .body-technique, .mind-technique, .spirit-technique, 
     .welcome {
     float:none;
     text-align:center;
-    width:100%;
-    
+    width:100%;    
     }
 
     header {
         height: 150px;
-        width: 100%;
-        
+        width: 100%;        
     }
 
     /* Logo and Menu Section */
@@ -969,9 +879,7 @@ input[type=text]:focus, input[type=password]:focus {
         margin-left: 5px;
         list-style-type: none;
         font-family: 'Roboto', 'sans-serif';
-        font-size: 50%;
-        
-           
+        font-size: 50%;           
     }
     
     #menu a {
@@ -987,7 +895,7 @@ input[type=text]:focus, input[type=password]:focus {
         border-bottom: 3px solid white;
     }
 
-    */
+    
     
     /* Hero Image Section */
 
@@ -995,20 +903,27 @@ input[type=text]:focus, input[type=password]:focus {
         margin-bottom: 10px;
         clear: both;
         height: 300px;
-        width: 70%;
-        background: url('../images/stones.jpg') no-repeat center center;
-            
+        width: 100%;
+        background: url('../images/stones.jpg') no-repeat center center;            
     }
 
     #cover-text {
         color: white;
-        font-size: 90%;
+        font-size: 80%;
         font-family: 'Roboto', 'sans-serif';
         text-transform: uppercase;
         letter-spacing: 1px;
-        width: 60%;   
+        width: 65%;   
         background-color: rgba(21, 146, 84, 0.4);
-        position: sticky;
+        position: absolute;
+        left: 20%;
+        top: 40%;
+       
+        
+    background-color: rgba(21, 146, 84, 0.4);
+    bottom:120px;
+    left: 30px;
+        
     }
 
     /* Sign up for Newsletter Section */
@@ -1016,8 +931,7 @@ input[type=text]:focus, input[type=password]:focus {
     #sign-up {
         background-color: purple;
         height: 100px;
-        margin-bottom: 15px;
-             
+        margin-bottom: 15px;             
     }
     
     #sign-up h2 {
@@ -1071,17 +985,14 @@ input[type=text]:focus, input[type=password]:focus {
     display: inline-block;
   }
   
-  #boxes .box  p {
-      
+  #boxes .box  p {      
       color: black;
       font-size: 100%;
       font-family: 'Roboto', 'sans-serif';
       width: 100%;
       line-height: 1.2;
       font-weight: 400;
-      text-align: justify;
-      
-      
+      text-align: justify;      
   }
   
   #boxes .box h2 {
@@ -1090,8 +1001,7 @@ input[type=text]:focus, input[type=password]:focus {
     font-family: 'Roboto', 'sans-serif';
 }
 
-  #boxes .box  {
-        
+  #boxes .box  {        
       width: 100%;
       color: white;
       text-decoration: none;
@@ -1109,9 +1019,7 @@ input[type=text]:focus, input[type=password]:focus {
       height: 140px;
       background-color: #927397;
       width: 100%;
-      padding: 10px;
-  
-      
+      padding: 10px;      
   }
   
   footer p {
@@ -1135,18 +1043,14 @@ input[type=text]:focus, input[type=password]:focus {
       color: white;
   }
   
-  
-    
-    
-    
-    
-
    
-
-   
-
-    .body-technique ,.mind-technique, .spirit-technique  {
-       
+    .body {
+       /*background-color: mediumorchid;*/
+       margin: 10px;
+       padding: 10px;
+       border-radius: 15px;
+}
+    .body-technique ,.mind-technique, .spirit-technique  {       
         width: 100%;
         text-align: justify;
         margin-left: auto;
@@ -1157,8 +1061,7 @@ input[type=text]:focus, input[type=password]:focus {
         border: none;
     }
 
-    .body-list, .mind-list, .spirit-list  {
-        
+    .body-list, .mind-list, .spirit-list  {        
         width: 100%;
         text-align: justify;
         margin-left: auto;
@@ -1167,11 +1070,12 @@ input[type=text]:focus, input[type=password]:focus {
         margin-bottom: 15px;
         padding: 5px;
         border: 1px solid purple;
-        border-radius: 10px;
-    
+        border-radius: 10px;    
     }
 
-     
+    .healthy-person {
+        height: 70%
+    }
 
     .next-woman {
         display: block;
@@ -1182,73 +1086,42 @@ input[type=text]:focus, input[type=password]:focus {
         height:fit-content;
     }
     
-    .closing p {
-        width: 80%;
-        margin-top: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: 'Roboto', 'sans-serif';
-        font-size: 120%;
        
-        background-color: white;
-        padding: 10px;
-        line-height: 1.5;
-        color: black;
-    }
-    
-    
-    
-    th, td {
-        border: 1px solid;
-        padding: 5px;
-      }
-    
     table {
         background-color: white;
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
-      }
+    }
       
-        
-      
-    
-      th, td {
-          background-color: white;
-          color: purple;
-          font-size: 120%;
-          line-height: 1.5;
-          font-family: 'Roboto', 'sans-serif';
-               
-      }
-    
-      
-    
-    
+    th, td {   
+        border: 1px solid;
+        padding: 5px;         
+        background-color: white;
+        color: purple;
+        font-size: 80%;
+        line-height: 1.1;
+        font-family: 'Roboto', 'sans-serif';        
+    }    
     .resources {
         display: hidden;
     }
 
     .closing p {
+        margin-top: 15px;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 100%;       
+        background-color: white;
+        line-height: 1.5;
+        color: black;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        font-size: 100%;
         padding: 5px;
         text-align: justify;
-
     }
 
-    th, td {
-      
-        background-color: white;
-        color: purple;
-        font-size: 80%;
-        line-height: 1.1;
-        font-family: 'Roboto', 'sans-serif';
-      
-        
-    }
+   
 
     .form-section{
         height:fit-content;
@@ -1263,8 +1136,7 @@ input[type=text]:focus, input[type=password]:focus {
         float: right;  
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 10px;
-          
+        margin-bottom: 10px;          
     }
 
     .workshop-news {
@@ -1272,8 +1144,7 @@ input[type=text]:focus, input[type=password]:focus {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding: 5%;
-        
+        padding: 5%;        
     }
 
     .workshop-news p {
@@ -1290,39 +1161,31 @@ input[type=text]:focus, input[type=password]:focus {
     
     .resources {
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
-    .body {
-        background-color: white;
-        
     
-    }
 
     /* Form */
     
     .form-section {   
         margin-top: 0px; 
         background-color:rgba(126, 43, 182, 0.6);
-        margin-bottom: 20px;
-        
+        margin-bottom: 20px;        
     }
 
     .workshop-news {
         float: none;
         width: 100%;
         display: block;
-        background-color: white;
-       
+        background-color: white;       
         padding: 10px;
-        line-height: 1.5;
-           
+        line-height: 1.5;           
     }
     
     .workshop-news p {
         text-align: center;
-        font-size: 100%;
-        
+        font-size: 100%;        
     }
     
     .workshop-news h2 {
@@ -1331,19 +1194,16 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     
-    .workshop-signup-form {
-        
+    .workshop-signup-form {        
         color: black;
-        background-color: rgba(126, 43, 182, 0.6);
-       
+        background-color: rgba(126, 43, 182, 0.6);       
         padding: 20px;  
         float: none;    
     }
     
     .workshop-signup-form h2 {
         color: #fafafa;
-        margin-bottom: 20px;
-        
+        margin-bottom: 20px;        
     }
     
     input[type="text"] ,input[type="email"]{
@@ -1352,8 +1212,7 @@ input[type=text]:focus, input[type=password]:focus {
         width: 90%;
         border: 1px solid #fafafa;
         border: none;
-        padding: 15px;
-        
+        padding: 15px;        
     }
     
     label {
@@ -1363,14 +1222,13 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     .text-input:hover{
-        border-color: #25043b;
-        
+        border-color: #25043b;        
     }
     
     input[type=text]:focus, input[type=password]:focus {
         background-color: #ddd;
         outline: none;
-      }
+    }
       
     .signup-button {
         margin-top: 20px;
@@ -1380,15 +1238,13 @@ input[type=text]:focus, input[type=password]:focus {
         font-size: 100%;
         background-color: #36064b;
         color: #fafafa;
-        display: block;
-    
+        display: block;    
     }
     
     .signup-button:hover {
         background-color: fuchsia;
         color: white;
     }
-    
     
 }
 
@@ -1408,6 +1264,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* For ultra small screen sizes 400px and lower */
+
 @media screen and (max-width: 400px) {
     #menu li {
         margin: 0 3px 0 3px;
@@ -1428,9 +1285,16 @@ input[type=text]:focus, input[type=password]:focus {
     }
 
     .next-woman {
-        width: 70%;
+        width: 100%;
+        padding: 5%
     }
 
+    .hero-image {
+        background: url('../images/stones-sm.jpg') no-repeat center center;
+        width: 40%;
+    }
 
     
+
+   
 }
