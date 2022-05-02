@@ -74,7 +74,6 @@ header {
     text-transform: uppercase;
 }
 
-
 #menu a {
     text-decoration: none;
     color: white;
@@ -97,8 +96,7 @@ header {
     padding: 3px;	
 }
 
- 
-  .push {
+.push {
       margin-left: auto;
   }
 
@@ -172,7 +170,6 @@ button {
     align-items: flex-start;
 }
 
-
 .introduction p {
     color: white;
     font: 170%;
@@ -186,7 +183,6 @@ button {
     text-align: center;
 }
 
-
 .peaceful {
     width: 40%;
     float: left;
@@ -194,7 +190,7 @@ button {
     padding: 12px;
 }
 
-/* Boxes for information on index page*/
+/* Boxes for Body, Mind and Spirit information on index page*/
 
 #boxes{
   margin: 20px;
@@ -281,7 +277,10 @@ footer p {
 }
 
 
-/*technique page */
+/*technique page/Lifestyle Page, Body, Mind and Spirit Sections */
+
+/*Body Section */
+
 .body {
     margin: 30px;
     padding: 20px;
@@ -339,13 +338,13 @@ footer p {
     font-size: 110%;    
 }
 
+/* Mind Section */
 
 .mind {
     margin: 30px;
     padding: 20px;
     border-radius: 15px;
 }
-
 
 .mind-technique {    
     width: 60%;
@@ -355,7 +354,6 @@ footer p {
     line-height: 1.4;
     padding: 5px;
 }
-
 
 .mind-technique p {
     font-size: 120%;
@@ -393,7 +391,7 @@ footer p {
     font-size: 110%;    
 }
 
-
+/* Spirit Section */
 
 .spirit {
     margin: 30px;
@@ -444,6 +442,8 @@ footer p {
     font-size: 110%;    
 }
 
+/* Styling for Headings */
+
 .ornate {
     clear: both;
     text-align: Center;
@@ -472,24 +472,9 @@ footer p {
     padding-top: 5px;
 }
 
-/*.flex-container {
-    display: flex;
-}
+/* Next Page as in the last page with the wind up information */
 
-.flex-child {
-    flex: 1;
-    border: 2px solid white;
-    height: 200px;
-}  
-
-.flex-child:first-child {
-    margin-left: 15px;
-} */
-
-
-/* next page */
-
-
+/* Main image for the last page */
 
 .next-woman {
     display: block;
@@ -497,6 +482,8 @@ footer p {
     margin-left: auto;
     margin-right: auto;   
 }
+
+/* Closing Text Box summing up the website */
 
 .closing p {
     width: 80%;
@@ -511,6 +498,8 @@ footer p {
     color: black;
     text-align: justify;
 }
+
+/* Resource Section */
 
 .resources{
     height: 480px;
@@ -534,7 +523,7 @@ table {
       padding: 5px;         
   }
 
- /* Form */
+ /* Form Section with information on Workshop and Registration Form */
 
 .form-section {   
     margin-top: 20px; 
@@ -581,7 +570,7 @@ label {
 input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
     outline: none;
-  }
+}
   
 .signup-button {
     margin-top: 20px;
@@ -605,8 +594,7 @@ input[type=text]:focus, input[type=password]:focus {
     background-color: white;
     display: inline-block;
     margin: 85px;
-    padding: 5px;
-          
+    padding: 5px;          
 }
 
 .workshop-news p {
@@ -616,18 +604,11 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 .workshop-news h3 {
-    text-align: center;
-    
+    text-align: center;    
 }
 
-/*.workshop-news h3 .span1, .span2, .span3 {
-    vertical-align: middle;
-    display: inline-block;
-       
-}*/
-.resources {
-    display: hidden;
-}
+/*****************************************    MEDIA QUERIES    *******************************************************/
+/*********************************************************************************************************************/
 
 /* ************************For larger to medium screens size from 1200px wide and down ***************** */
 
@@ -642,13 +623,7 @@ input[type=text]:focus, input[type=password]:focus {
         width: 100%;       
     }
 
-    th, td {      
-        background-color: white;
-        color: purple;
-        font-size: 80%;
-        line-height: 1;
-        font-family: 'Roboto', 'sans-serif';        
-    }
+    
 
     table {
         width: 100%;
@@ -657,7 +632,7 @@ input[type=text]:focus, input[type=password]:focus {
     .form-section {   
         margin-top: 20px; 
         background-color:rgba(126, 43, 182, 0.6);
-        height: 800px;
+        height: fit-content;
         margin-bottom: 10px;        
     }
 
@@ -685,20 +660,13 @@ input[type=text]:focus, input[type=password]:focus {
 
     #logo {
         text-align: center;
-        margin-top: 10px;
         margin: auto;
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        font-size: 130%;
-        font-family: 'Roboto', 'sans-serif';
-        font-weight: 500;
-        color: white;
+        font-size: 140%;          
     } 
     
     #menu {
         clear: left;
-        float: left;
+        display: flex;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -707,11 +675,8 @@ input[type=text]:focus, input[type=password]:focus {
     #menu li {
         display: block;
         color: black;
-        list-style-type: none;
-        font-family: 'Roboto', 'sans-serif';
-        font-size: 110%;
-        padding: 15px;
-        color: white;
+        font-size: 160%;
+        padding: 15px;        
         font-weight: 800;
     }
 
@@ -720,7 +685,7 @@ input[type=text]:focus, input[type=password]:focus {
         height: 400px;
         width: 50%;
         background: url('../images/stones-sm.jpg') no-repeat center center;
-        margin-top: 15px;        
+              
     }
 
 
@@ -731,32 +696,22 @@ input[type=text]:focus, input[type=password]:focus {
 
     
     .introduction {
-        float: right;
-        width: 60%;
-        display: block;
-        align-items: flex-start;
         padding: 10px;        
     }
     
     .peaceful {
         width: 30%;
-        float: left;
-        display: block;
         padding: 10px;
     }
     
-    .introduction p {
-        color: white;
-        font: 150%;
-        text-align: justify;
-        font-family: 'Roboto', 'sans-serif';
+    .introduction p {       
+        font: 150%;        
         line-height: 1.5;
         width: 90%;
         padding: 5px;        
     }
 
-    .healthy-person  {
-  
+    .healthy-person  {  
         width: 100%;
         float: none;
         display: block;
@@ -780,42 +735,17 @@ input[type=text]:focus, input[type=password]:focus {
         padding: 3px;        
     }
     
-    #boxes .box h2 {
-        text-align: center;
-        color: black;
-        font-family: 'Roboto', 'sans-serif';
-    }
-    
-    #boxes .box .button {        
-        background-color:rgba(135, 18, 212, 0.6);
-        width: 50%;
-        color: white;
-        padding: 10px;   
-        text-decoration: none;
-        font-size: 18px;
-        display: block;
-        margin: auto;
-    }
-    
-    .button {
-        text-align: center;
-    }
      
     .body-technique {
         width: 100%;
         background-color: white;
-        border: 2px solid rgb(95, 11, 145);
-        text-align: center;
         margin-left: auto;
         margin-right: auto;
         line-height: 1.1;
     }
 
     .body-list  {
-         width: 100%;
-        background-color: white;
-        border: 2px solid rgb(95, 11, 145);
-        text-align: center;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         line-height: 1.1;    
@@ -855,33 +785,12 @@ input[type=text]:focus, input[type=password]:focus {
 
     /* Logo and Menu Section */
 
-  /*  #logo {
-        display: inline-block;
-        margin: auto;
-        margin-top: 5px;
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 150%;
-        font-family: 'Roboto', 'sans-serif';
-        font-weight: 500;
-        width: 60%;
-        
-    } 
-
-    #menu {
-        clear: both;
-        letter-spacing: 2px;
-        font-size: 100%;
-        word-spacing: 5px;       
-    }
-    */
     #menu li {
         clear: both;        
         margin-left: 5px;
         list-style-type: none;
         font-family: 'Roboto', 'sans-serif';
-        font-size: 50%;           
+        font-size: 160%;           
     }
     
     #menu a {
@@ -953,6 +862,13 @@ input[type=text]:focus, input[type=password]:focus {
     
     /* Welcome Section */
 
+    .introduction {
+               
+        align-items: flex-start;
+        display: block;        
+        margin: auto; 
+    }
+
     .introduction p {
         color: white;
         font: 100%;
@@ -967,13 +883,7 @@ input[type=text]:focus, input[type=password]:focus {
         text-align: center;
     }
     
-    .introduction {
-               
-        align-items: flex-start;
-        display: block;        
-        margin: auto; 
-    }
-    
+     
     .peaceful, .shapely-body {
         display: none;
     }
@@ -1123,8 +1033,6 @@ input[type=text]:focus, input[type=password]:focus {
         text-align: justify;
     }
 
-   
-
     .form-section{
         height:fit-content;
     }
@@ -1165,8 +1073,6 @@ input[type=text]:focus, input[type=password]:focus {
         margin-top: 20px;
         margin-bottom: 10px;
     }
-
-    
 
     /* Form */
     
@@ -1295,8 +1201,5 @@ input[type=text]:focus, input[type=password]:focus {
         background: url('../images/stones-sm.jpg') no-repeat center center;
         width: 40%;
     }
-
-    
-
-   
+  
 }
