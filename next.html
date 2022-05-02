@@ -105,7 +105,7 @@ description and including a link for further information-->
         <h2 style="color:white; text-align: center">Join me for an Online Workshop!</h2>
         
         <div class="workshop-info">
-            <form method="confirmation.html" action="GET" aria-label="Posting to Mock Site"  class="workshop-signup-form">
+            <form method="confirmation.html" action="Post" aria-label="Posting to Mock Site"  class="workshop-signup-form">
                 <h3 style="color: white;">Sign up for my Free Workshop!</h3>
                     <label for="fname">First Name</label>
                     <input id="fname" name="first_name" class="input" type="text" required>
@@ -116,10 +116,13 @@ description and including a link for further information-->
                     <label for="email">Email Address</label>
                     <input type="email" id="email" name="email_address" required>
                     <br>                      
-                    <input class="signup-button" type="submit" value="Sign Up!">                    
-                    <input type="reset" value="Reset Form">
+                    <!--<a href="confirmation.html" aria-label="Going to Confirmation Page">-->
+                    <input class="signup-button" type="submit" value="Sign Up!" onClick="myFunction()"/>                   
+                    <input type="reset" value="Reset Form" input class="reset-button">
             </form>
-
+        <Script>function myFunction(){
+            location.href="confirmation.html";
+        }</Script>
 
             <div class="workshop-news">
                 <h3 class="specific-styling">Workshop Information</h3>
@@ -139,7 +142,7 @@ description and including a link for further information-->
         </div>
     </section>
 
-    <a href="next.html#top" aria-label="Going to top of page"><button>Return to Top</button></a>
+    <a href="next.html#top" aria-label="Going to top of page"><button>Top</button></a>
     
 <!--******************************************************************************************************************-->
 <!--Footer section with Social Media Links and copyright information, would contain more information on real live site-->     
