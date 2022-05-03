@@ -51,7 +51,6 @@ header {
 /* Navigation Section */
 
 #menu {    
-    text-align: right;
     display: flex;
     list-style: none;
     text-transform: uppercase;
@@ -66,11 +65,13 @@ header {
     margin-right: 30px;
     list-style-type: none;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     /*align-self: center;*/
     color: white;
     font-weight: 500;
     text-transform: uppercase;
+    
+    
 }
 
 #menu a {
@@ -104,21 +105,23 @@ header {
     height: 500px;
     width: 100%;
     background: url('../images/stones.jpg') no-repeat center center;
-    margin-top: 15px;    
+    margin-top: 15px;   
+    overflow: hidden;
+    position: relative; 
 }
 
 #cover-text {
     color: white;
-    font-size: 1.25rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
+    font-family: 'Roboto', 'sans-serif';
     text-transform: uppercase;
     letter-spacing: 2px;
     width: 40%;
-    height: 200px;
+    height: 180px;
     margin-left: 30px;
     padding-top: 20px;
     padding-left: 50px;
-    background-color: rgba(21, 146, 84, 0.4);
+    background-color: rgba(21, 146, 84, 0.8);
     bottom:120px;
     left: 30px;
     position: absolute;
@@ -159,6 +162,7 @@ header {
     float: left;
     display: block;
     padding: 12px;
+    object-fit: cover;
 }
 
 /* Boxes for Body, Mind and Spirit information on index page*/
@@ -184,6 +188,7 @@ header {
   display: block;
   margin: auto;
   object-fit: cover;
+  border: 1px solid black;
 }
 
 #boxes .box p {
@@ -194,7 +199,7 @@ header {
     font-family: 'Roboto', 'sans-serif';
     font-weight: 300;
     padding: 6px; 
-    line-height: 1.6;   
+    line-height: 1.5;   
 }
 
 #boxes .box h2 {
@@ -214,8 +219,7 @@ header {
     margin: auto;
     text-align: center;
     font-weight: bold;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
 
 
@@ -224,7 +228,7 @@ header {
 /* Footer Section */
 footer {
     height: 160px;
-    background-color: #927397;
+    background-color: rgba(135, 18, 212, 0.6);
     width: 100%;
     padding: 15px;   
 }
@@ -233,7 +237,7 @@ footer p {
     color: white;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 110%;
+    font-size: 120%;
 }
 
 .social-networks {
@@ -245,7 +249,7 @@ footer p {
 }
 
 .social-networks i {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin: 1%;
     color: white;
 }
@@ -259,7 +263,8 @@ footer p {
     margin: 25px 20px;
     padding: 20px;
     border-radius: 15px;
-    min-height: 700px;
+    min-height: 1000px;
+    
 }
 
 .body-technique {
@@ -287,7 +292,7 @@ footer p {
 
 .body-list  {
     margin: 20px;
-    width: 60%;
+    width: 55%;
     background-color: white;
     border: 2px solid  rgb(95, 11, 145);
     border-radius: 10px;
@@ -317,11 +322,11 @@ footer p {
 /* Mind Section */
 
 .mind {
-    margin: 30px;
+    margin: 25px 20px;
     padding: 20px;
     border-radius: 15px;
-    min-height: 700px;
-    margin: 25px 20px;
+    min-height: 1000px;
+    
 }
 
 .mind-technique {    
@@ -344,10 +349,10 @@ footer p {
 }
 
 .mind-list  {
-    margin: 15px;
-    width: 60%;
+    margin: 20px;
+    width: 55%;
     background-color: white;
-    border: 2px solid rgb(95, 11, 145);
+    border: 2px solid  rgb(95, 11, 145);
     border-radius: 10px;
     text-align: center;
     float: left;
@@ -373,12 +378,15 @@ footer p {
 
 /* Spirit Section */
 
+
+
 .spirit {
     margin: 30px;
     padding: 20px;
     border-radius: 15px;
-    min-height: 700px;
+    min-height: 1000px;
     margin: 25px 20px;
+    
 }
 
 .spirit-technique {
@@ -391,16 +399,22 @@ footer p {
     font-family: 'Roboto', 'sans-serif';
 }
 
+.spirit-technique p {
+    font-size: 110%;
+    font-family: 'Roboto', 'sans-serif';
+    text-align: justify;
+}
+
 .spirit .shapely-body  {  
     width: 35%;
     float: right;
 }
 
 .spirit-list  {
-    margin: 10px;
-    width: 60%;
+    margin: 20px;
+    width: 55%;
     background-color: white;
-    border: 2px solid rgb(95, 11, 145);
+    border: 2px solid  rgb(95, 11, 145);
     border-radius: 10px;
     text-align: center;
     float: left;
@@ -416,7 +430,8 @@ footer p {
     text-align: left;
     font-size: 100%;
     margin-left: 10px;
-    padding: 5px;   
+    padding: 5px; 
+
 }
 
 .spirit-list ul li {
@@ -440,7 +455,6 @@ footer p {
     font-weight: bold;
     font-style: italic;
     border-style: groove;
-    border-radius: 4px solid black;
     margin-bottom: 10px;
     text-transform: uppercase;
     width: 50%; 
@@ -535,7 +549,6 @@ input[type="text"] ,input[type="email"]  {
     background: transparent;
     background-color: white;
     width: 90%;
-    border: 1px solid #fafafa;
     border: none;
     padding: 15px;    
 }
@@ -569,7 +582,7 @@ input[type=text]:focus, input[type=password]:focus {
 .reset-button {
     text-align: left;
     font-size: 100%;
-    background-color: #36064b;
+    background-color: #b336e9;
     color: #fafafa;
     padding: 5px;
 }
@@ -621,7 +634,7 @@ input[type=text]:focus, input[type=password]:focus {
     .form-section {   
         margin-top: 20px; 
         background-color:rgba(126, 43, 182, 0.6);
-        height: fit-content;
+        height: 700px;
         margin-bottom: 10px;        
     }
 
@@ -647,15 +660,20 @@ input[type=text]:focus, input[type=password]:focus {
 
 @media screen and (max-width: 950px) {
 
+    header {
+        height: 150px;
+    }
+    
     #logo {
-        text-align: center;
-        margin: auto;
-        font-size: 160%;          
+        text-align: right;
+        margin-left: 20px;    
+        font-size: 140%;          
     } 
     
+   
     #menu {
         clear: left;
-        display: flex;
+        float: left;
         margin-left: 20px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -664,23 +682,28 @@ input[type=text]:focus, input[type=password]:focus {
     #menu li {
         display: block;
         color: black;
-        font-size: 150%;
-        padding: 15px;        
-        font-weight: 800;
+        font-size: 140%;
+        padding: 10px;        
+        font-weight: 500;
     }
 
     #hero-image {
         clear:both;
         height: 400px;
-        width: 50%;
-        background: url('../images/stones-sm.jpg') no-repeat center center;
+        padding: 5px;
+        width: 100%;
+        background: url('../images/stones.jpg') no-repeat center center;
+        position: relative;
+        margin-bottom: 20px;
               
     }
 
-
     #cover-text {
-        left: 0;
-        width: 50%;
+        width: 40%;
+        position: absolute;
+        left: 40px;
+        font-size: 90%;
+        margin-left: 90px;
     }
 
     
@@ -689,14 +712,15 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     .peaceful {
-        width: 30%;
+        width: 40%;
+        height: 50%;
         padding: 10px;
     }
     
     .introduction p {       
-        font: 150%;        
-        line-height: 1.5;
-        width: 90%;
+        font-size: 100%;        
+        line-height: 1;
+        width: 100%;
         padding: 5px;        
     }
 
@@ -707,9 +731,25 @@ input[type=text]:focus, input[type=password]:focus {
         padding: 5px;
     }    
     
+    #boxes{
+        margin: 30px;
+        padding: 5px;
+        display: inline-block;      
+      }
+      
+       .box{
+        float: left;
+        min-height: 670px;
+        width: 29%;
+        background-color: white;
+        gap: 10px;
+       
+        margin: 15px;  
+      }
+
     #boxes .box img {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         display: inline-block;
         object-fit: cover;       
       }
@@ -718,7 +758,6 @@ input[type=text]:focus, input[type=password]:focus {
         text-align: justify;
         color: black;
         font-size: 90%;
-        padding: 5px;
         font-family: 'Roboto', 'sans-serif';
         font-weight: 300;
         padding: 3px;        
@@ -753,6 +792,26 @@ input[type=text]:focus, input[type=password]:focus {
         background: none;
         height: 700px;
     }
+    
+    .workshop-signup-form {
+        margin: 65px 30px 0 10px;
+        color: black;
+        background-color: rgba(126, 43, 182, 0.6);
+        width: 350px;
+        padding: 10px;  
+        float: right;    
+    }
+
+    .workshop-news {    
+        width: 38%;
+        margin-top: 10px;
+        background-color: white;        
+        margin: 55px;
+        padding: 5px;
+        float: left;
+        border: 1px solid black;
+                 
+    }
 
     .spirit {
         height: fit-content;
@@ -779,12 +838,34 @@ input[type=text]:focus, input[type=password]:focus {
 
     /* Logo and Menu Section */
 
+    #logo {
+        text-align: center;
+        margin-left: 10px;    
+        font-size: 150%;          
+    } 
+    
+    #menu {
+        display: flex;
+        margin-right: 10px;       
+       
+    }
+    
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+    
+
+
     #menu li {
         clear: both;        
-        margin-left: 5px;
+        margin-right: 5px;
         list-style-type: none;
         font-family: 'Roboto', 'sans-serif';
-        font-size: 160%;           
+        font-size: 100%;           
     }
     
     #menu a {
@@ -1174,13 +1255,18 @@ input[type=text]:focus, input[type=password]:focus {
     #menu li {
         margin: 5px ;
         padding: 2px ;
-        font-size: 2rem;
-        word-spacing: 2rem;
+        font-size: 1.5rem;
+        
 
     }
 
+    
     #menu {
-        line-height: 15px;
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
     .workshop-signup-form {
