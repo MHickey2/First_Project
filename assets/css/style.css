@@ -42,7 +42,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 1.25rem;
+    font-size: 2rem;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 500;
     color: white;
@@ -123,33 +123,6 @@ header {
     left: 30px;
     position: absolute;
 }
-
-/*Sign Up for Newsletter */
-
-/*#sign-up {
-    margin-top: 15px;
-    background-color: rgb(134, 76, 134);
-    height: 90px;      
-}
-
-#sign-up h2 {
-    color: white;
-    font-size: 120%;
-    text-align: center;
-    padding: 20px;
-}
-
-button {
-    margin-left: 25px;
-    background-color: rgb(245, 40, 74);
-    color: white;
-    width: 100px;
-    height: 30px;
-    font-size: 100%;
-    border: 2px solid white;
-    font-weight: bold;
-}
-*/
 
 /*Welcome Section */
 
@@ -283,19 +256,20 @@ footer p {
 /*Body Section */
 
 .body {
-    margin: 30px;
+    margin: 25px 20px;
     padding: 20px;
     border-radius: 15px;
+    min-height: 700px;
 }
 
 .body-technique {
     margin: 10px;
     width: 60%;
-    border: 2px solid  rgb(95, 11, 145);
     text-align: center;
     float: left;
     line-height: 1.4;
-    padding: 10px;    
+    padding: 10px; 
+    font-family: 'Roboto', 'sans-serif';   
 }
 
 .body-technique p {
@@ -321,6 +295,7 @@ footer p {
     float: left;
     line-height: 1.4;
     padding: 10px;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 .body-list ul {
@@ -345,19 +320,21 @@ footer p {
     margin: 30px;
     padding: 20px;
     border-radius: 15px;
+    min-height: 700px;
+    margin: 25px 20px;
 }
 
 .mind-technique {    
-    width: 60%;
-    border: 2px solid rgb(95, 11, 145);
+    width: 60%;    
     text-align: center;
     float: left;
     line-height: 1.4;
-    padding: 5px;
+    padding: 10px;
+    
 }
 
 .mind-technique p {
-    font-size: 120%;
+    font-size: 110%;
     font-family: 'Roboto', 'sans-serif';
     text-align: justify;
 }
@@ -375,6 +352,8 @@ footer p {
     text-align: center;
     float: left;
     line-height: 1.4;
+    padding: 10px;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 .mind-list ul {
@@ -399,16 +378,17 @@ footer p {
     padding: 20px;
     border-radius: 15px;
     min-height: 700px;
+    margin: 25px 20px;
 }
 
 .spirit-technique {
     width: 60%;
-    border: 2px solid rgb(95, 11, 145);
     text-align: center;
     float: left;
     line-height: 1.4;
-    padding: 5px;
+    padding: 10px;
     font-size: 110%;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 .spirit .shapely-body  {  
@@ -425,7 +405,8 @@ footer p {
     text-align: center;
     float: left;
     line-height: 1.4;
-    font-size: 100%;
+    padding: 10px;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 .spirit-list ul {
@@ -452,14 +433,14 @@ footer p {
     font-size: 2rem;
     /*background-color:  #927397;*/
     background-color: white;
-    color: #927397;
-    padding: 12px;
+    color:  rgb(95, 11, 145);
+    padding: 15px;
     margin-top: 20px;
     font-family: 'Roboto', 'sans-serif';
     font-weight: bold;
     font-style: italic;
     border-style: groove;
-    border-width: 2px;
+    border-radius: 4px solid black;
     margin-bottom: 10px;
     text-transform: uppercase;
     width: 50%; 
