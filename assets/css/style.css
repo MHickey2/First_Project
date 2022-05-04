@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Lato:wght@300&family=Roboto:wght@300&family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 * {
     margin: 0;
@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #030303;
     background-color: white;
@@ -43,8 +43,8 @@ header {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 2rem;
-    font-family: 'Roboto', 'sans-serif';
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     color: white;
 } 
 
@@ -68,7 +68,7 @@ header {
     font-size: 1.3rem;
     /*align-self: center;*/
     color: white;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
     
     
@@ -449,12 +449,11 @@ footer p {
     /*background-color:  #927397;*/
     background-color: white;
     color:  rgb(95, 11, 145);
-    padding: 15px;
+    padding: 20px;
     margin-top: 20px;
     font-family: 'Roboto', 'sans-serif';
     font-weight: bold;
     font-style: italic;
-    border-style: groove;
     margin-bottom: 10px;
     text-transform: uppercase;
     width: 50%; 
@@ -616,7 +615,35 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* ************************For larger to medium screens size from 1200px wide and down ***************** */
 
-@media screen and (max-width: 1200px) {    
+@media screen and (max-width: 1200px) {
+    
+    #hero-image {
+        clear:both;
+        height: 500px;
+        width: 100%;
+        background: url('../images/stones.jpg') no-repeat center center;
+        margin-top: 15px;   
+        overflow: hidden;
+        position: relative; 
+    }
+    
+    #cover-text {
+        color: white;
+        font-size: 1rem;
+        font-family: 'Roboto', 'sans-serif';
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        width: 40%;
+        height: 180px;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-left: 50px;
+        background-color: rgba(21, 146, 84, 0.8);
+        bottom:120px;
+        left: 30px;
+        position: absolute;
+    }
+    
 
     .welcome {
         padding: 30px 0;
@@ -658,7 +685,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* **********************  For medium screen sizes from 950px wide and down ****************************/
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 950px)  {
 
     header {
         height: 150px;
@@ -671,7 +698,7 @@ input[type=text]:focus, input[type=password]:focus {
     } 
     
    
-    #menu {
+  /*  #menu {
         clear: left;
         float: left;
         margin-left: 20px;
@@ -684,10 +711,10 @@ input[type=text]:focus, input[type=password]:focus {
         color: black;
         font-size: 140%;
         padding: 10px;        
-        font-weight: 500;
-    }
+        font-weight: 700;
+    }*/
 
-    #hero-image {
+    /*#hero-image {
         clear:both;
         height: 400px;
         padding: 5px;
@@ -704,8 +731,9 @@ input[type=text]:focus, input[type=password]:focus {
         left: 40px;
         font-size: 90%;
         margin-left: 90px;
-    }
+    }*/
 
+    
     
     .introduction {
         padding: 10px;        
@@ -844,18 +872,11 @@ input[type=text]:focus, input[type=password]:focus {
         font-size: 150%;          
     } 
     
-    #menu {
+    #menu {    
         display: flex;
-        margin-right: 10px;       
-       
-    }
-    
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        line-height: 25px;
+        list-style: none;
+        text-transform: uppercase;
+        margin-right: 10px;  
     }
     
 
@@ -865,7 +886,8 @@ input[type=text]:focus, input[type=password]:focus {
         margin-right: 5px;
         list-style-type: none;
         font-family: 'Roboto', 'sans-serif';
-        font-size: 100%;           
+        font-size: 100%;  
+                 
     }
     
     #menu a {
@@ -899,7 +921,7 @@ input[type=text]:focus, input[type=password]:focus {
         font-family: 'Roboto', 'sans-serif';
         text-transform: uppercase;
         letter-spacing: 1px;
-        width: 65%;   
+        width: 55%;   
         background-color: rgba(21, 146, 84, 0.4);
         position: absolute;
         left: 20%;
@@ -1229,18 +1251,28 @@ input[type=text]:focus, input[type=password]:focus {
 /* For smartphones screen sizes 600px and lower */
 @media screen and (max-width: 600px) {
 
-    #logo {
-        text-align: center;
-    }
-
+    
     #menu {
         margin-bottom: 2.5rem;
     }
 
+    #logo {
+        text-align: center;
+        font-family: 'Robot' sans-serif;
+        font-weight: 300;
+    }
     #menu li {
-        margin: 0 4px 0 4px;
-        padding: 0 6px 0 6px;
-        font-size: 16px;
+        margin: 5px ;
+        padding: 2px ;
+        font-size: 300;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
 }
@@ -1255,11 +1287,35 @@ input[type=text]:focus, input[type=password]:focus {
     #menu li {
         margin: 5px ;
         padding: 2px ;
-        font-size: 1.5rem;
-        
-
+        font-size: 300;
     }
 
+    #hero-image {
+        clear:both;
+        height: 500px;
+        width: 100%;
+        background: url('../images/stones-sm.jpg') no-repeat center center;
+        margin-top: 15px;   
+        overflow: hidden;
+        position: relative; 
+    }
+    
+    #cover-text {
+        color: white;
+        font-size: 1rem;
+        font-family: 'Roboto', 'sans-serif';
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        width: 40%;
+        height: 180px;
+        margin-left: 30px;
+        padding-top: 20px;
+        padding-left: 50px;
+        background-color: rgba(21, 146, 84, 0.8);
+        bottom:120px;
+        left: 30px;
+        position: absolute;
+    }
     
     #menu {
         clear: left;
