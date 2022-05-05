@@ -22,13 +22,15 @@ body {
 .container{
     width:100%;
     margin:auto;
-    overflow:hidden;
+    height: fit-content;
+    
   }
 
 /*Header Section */
 
 header {
-    background-color: rgba(135, 18, 212, 0.6);
+    /*background-color: rgba(135, 18, 212, 0.6);*/
+    background-color: #927397;
     height: 100px;
     width: 100%;    
 }
@@ -181,6 +183,7 @@ header {
   gap: 10px;
   padding: 5px;
   margin: 15px;  
+ 
 }
 
 #boxes .box img{
@@ -209,7 +212,7 @@ header {
 }
 
 #boxes .box .button {    
-    background-color:rgba(135, 18, 212, 0.6);
+    background-color: #789773;
     width: 50%;
     color: white;
     padding: 10px;   
@@ -228,7 +231,8 @@ header {
 /* Footer Section */
 footer {
     height: 160px;
-    background-color: rgba(135, 18, 212, 0.6);
+    /*background-color: rgba(135, 18, 212, 0.6);*/
+    background-color: #927397;
     width: 100%;
     padding: 15px;   
 }
@@ -260,21 +264,26 @@ footer p {
 /*Body Section */
 
 .body {
-    margin: 25px 20px;
+    margin: 25px 10px;
     padding: 20px;
     border-radius: 15px;
-    min-height: 1000px;
+    min-height: 750px;
     
 }
 
 .body-technique {
-    margin: 10px;
+    /*margin: 10px;
     width: 60%;
     text-align: center;
     float: left;
     line-height: 1.4;
-    padding: 10px; 
-    font-family: 'Roboto', 'sans-serif';   
+    padding: 10px; */
+    font-family: 'Roboto', 'sans-serif';
+    width: 60%;    
+    text-align: center;
+    float: left;
+    line-height: 1.4;
+    padding: 20px;   
 }
 
 .body-technique p {
@@ -294,19 +303,20 @@ footer p {
     margin: 20px;
     width: 55%;
     background-color: white;
-    border: 2px solid  rgb(95, 11, 145);
+    border: 2px solid  #927397;
     border-radius: 10px;
     text-align: center;
     float: left;
     line-height: 1.4;
     padding: 10px;
     font-family: 'Roboto', 'sans-serif';
+    padding: 20px;
 }
 
 .body-list ul {
     list-style-position: inside;
     list-style-type:disc;
-    color:  rgb(95, 11, 145);
+    color:  #927397;
     text-align: left;
     font-size: 100%;
     margin-left: 10px;
@@ -322,10 +332,10 @@ footer p {
 /* Mind Section */
 
 .mind {
-    margin: 25px 20px;
+    margin: 25px 10px;
     padding: 20px;
     border-radius: 15px;
-    min-height: 1000px;
+    min-height: 750px;
     
 }
 
@@ -334,7 +344,7 @@ footer p {
     text-align: center;
     float: left;
     line-height: 1.4;
-    padding: 10px;
+    padding: 20px;
     
 }
 
@@ -352,19 +362,20 @@ footer p {
     margin: 20px;
     width: 55%;
     background-color: white;
-    border: 2px solid  rgb(95, 11, 145);
+    border: 2px solid  #927397;
     border-radius: 10px;
     text-align: center;
     float: left;
     line-height: 1.4;
     padding: 10px;
     font-family: 'Roboto', 'sans-serif';
+    padding: 10px;
 }
 
 .mind-list ul {
     list-style-position: inside;
     list-style-type: disc;
-    color:  rgb(95, 11, 145);
+    color: #927397;
     text-align: left;
     font-size: 100%;
     margin-left: 10px;
@@ -378,14 +389,12 @@ footer p {
 
 /* Spirit Section */
 
-
-
 .spirit {
     margin: 30px;
     padding: 20px;
     border-radius: 15px;
-    min-height: 1000px;
-    margin: 25px 20px;
+    min-height: 880px;
+    margin: 25px 10px;
     
 }
 
@@ -397,6 +406,7 @@ footer p {
     padding: 10px;
     font-size: 110%;
     font-family: 'Roboto', 'sans-serif';
+    padding: 20px;
 }
 
 .spirit-technique p {
@@ -414,19 +424,20 @@ footer p {
     margin: 20px;
     width: 55%;
     background-color: white;
-    border: 2px solid  rgb(95, 11, 145);
+    border: 2px solid  #927397;
     border-radius: 10px;
     text-align: center;
     float: left;
     line-height: 1.4;
     padding: 10px;
     font-family: 'Roboto', 'sans-serif';
+    padding: 20px;
 }
 
 .spirit-list ul {
     list-style-position: inside;
     list-style-type: disc;
-    color:  rgb(95, 11, 145);
+    color: #927397;
     text-align: left;
     font-size: 100%;
     margin-left: 10px;
@@ -448,7 +459,7 @@ footer p {
     font-size: 2rem;
     /*background-color:  #927397;*/
     background-color: white;
-    color:  rgb(95, 11, 145);
+    color:  #927397;
     padding: 20px;
     margin-top: 20px;
     font-family: 'Roboto', 'sans-serif';
@@ -461,7 +472,7 @@ footer p {
 
 .specific-styling {
     text-align: center;
-    color:rgb(95, 11, 145);
+    color:#927397;
     text-transform: uppercase;
     font-family: 'Robot', 'sans-serif';
     margin-top: 12px;
@@ -499,7 +510,7 @@ footer p {
 
 .resources{
     height: 430px;
-    background-color: #CC63FF;    
+    background-color: #927397;    
 }
 
 table {
@@ -511,7 +522,7 @@ table {
   
   th, td {
       background-color: white;
-      color: purple;
+      color: #927397;
       font-size: 120%;
       line-height: 1.5;
       font-family: 'Roboto', 'sans-serif';
@@ -581,7 +592,7 @@ input[type=text]:focus, input[type=password]:focus {
 .reset-button {
     text-align: left;
     font-size: 100%;
-    background-color: #b336e9;
+    background-color: #789773;
     color: #fafafa;
     padding: 5px;
 }
@@ -762,22 +773,20 @@ input[type=text]:focus, input[type=password]:focus {
     #boxes{
         margin: 30px;
         padding: 5px;
-        display: inline-block;      
+        display: inline-block; 
+        height: fit-content;     
       }
       
        .box{
         float: left;
-        min-height: 670px;
+        min-height: 870px;
         width: 29%;
         background-color: white;
-        gap: 10px;
-       
+        gap: 10px;       
         margin: 15px;  
       }
 
     #boxes .box img {
-        width: 100px;
-        height: 100px;
         display: inline-block;
         object-fit: cover;       
       }
@@ -926,7 +935,6 @@ input[type=text]:focus, input[type=password]:focus {
         position: absolute;
         left: 20%;
         top: 40%;     
-        background-color: rgba(21, 146, 84, 0.4);
         bottom:120px;
         left: 30px;        
     }
@@ -1023,7 +1031,7 @@ input[type=text]:focus, input[type=password]:focus {
   
   footer {
       height: 140px;
-      background-color: rgba(135, 18, 212, 0.6);
+      background-color: #927397;
       width: 100%;
       padding: 10px;      
   }
@@ -1075,7 +1083,7 @@ input[type=text]:focus, input[type=password]:focus {
         line-height: 1.2;
         margin-bottom: 15px;
         padding: 5px;
-        border: 1px solid purple;
+        border: 1px solid #927397;
         border-radius: 10px;    
     }
 
@@ -1104,7 +1112,7 @@ input[type=text]:focus, input[type=password]:focus {
         border: 1px solid;
         padding: 5px;         
         background-color: white;
-        color: purple;
+        color: #927397;
         font-size: 80%;
         line-height: 1.1;
         font-family: 'Roboto', 'sans-serif';        
@@ -1168,8 +1176,10 @@ input[type=text]:focus, input[type=password]:focus {
     
     .form-section {   
         margin-top: 0px; 
+        background: none;
         background-color:rgba(126, 43, 182, 0.6);
         margin-bottom: 20px;  
+        height: fit-content;
             
     }
 
@@ -1274,6 +1284,12 @@ input[type=text]:focus, input[type=password]:focus {
         line-height: 25px;
     }
 
+    .form-section {
+        height: fit-content;
+        background: none;
+        background-color:rgba(126, 43, 182, 0.6);
+    }
+
 }
 
 /* For ultra small screen sizes 400px and lower */
@@ -1291,10 +1307,11 @@ input[type=text]:focus, input[type=password]:focus {
 
     #hero-image {
         clear:both;
-        height: 500px;
+        height: 300px;
         width: 100%;
-        background: url('../images/stones.jpg') no-repeat center center;
-        margin-top: 5px;   
+        background: url('../images/stones-sm.jpg') no-repeat center center;
+        margin-top: 0px;
+        margin-bottom: 0px;   
         overflow: hidden;
         position: relative; 
     }
@@ -1304,9 +1321,9 @@ input[type=text]:focus, input[type=password]:focus {
         font-size: .6rem;
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         width: 45%;
-        height: 180px;
+        height: 150px;
         margin-left: 10px;
         padding-top: 10px;
         padding-left: 10px;
@@ -1339,11 +1356,13 @@ input[type=text]:focus, input[type=password]:focus {
     }
 
     .hero-image {
+        clear: both;
         overflow: hidden;
         position: relative; 
-        margin: 5px;
         background: url('../images/stones-sm.jpg') no-repeat center center;
-        width: 40%;
+        width: 100%;
+        margin: 5px;
+    
     }
 
     .form-section {
