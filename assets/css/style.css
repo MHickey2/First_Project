@@ -13,7 +13,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    color: #030303;
+    color: #313131;
     background-color: white;
     scroll-behavior: smooth;    
 }
@@ -29,7 +29,6 @@ body {
 /*Header Section */
 
 header {
-    /*background-color: rgba(135, 18, 212, 0.6);*/
     background-color: #927397;
     height: 100px;
     width: 100%;    
@@ -47,7 +46,7 @@ header {
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: white;
+    color: #fff;
 } 
 
 /* Navigation Section */
@@ -63,26 +62,25 @@ header {
 }
 
 #menu li {
-    display: inline;
+    display: inline-block;
     margin-right: 30px;
     list-style-type: none;
     font-family: 'Roboto', 'sans-serif';
     font-size: 1.3rem;
-    /*align-self: center;*/
-    color: white;
+    color: #fff;
     font-weight: 700;
     text-transform: uppercase;
     
-    
+     
 }
 
 #menu a {
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 #menu a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #fff;
 }
 
 #menu a:hover,
@@ -90,10 +88,11 @@ header {
 	color: black;
 	background-color: #fff;
 	text-decoration: underline;
+      
 }
 
 #menu .active {
-    border: 3px solid white;
+    border: 3px solid #fff;
     color: #fff;
     padding: 2px;	
 }
@@ -113,7 +112,7 @@ header {
 }
 
 #cover-text {
-    color: white;
+    color: #fff;
     font-size: 1.15rem;
     font-family: 'Roboto', 'sans-serif';
     text-transform: uppercase;
@@ -140,22 +139,25 @@ header {
 }
 
 .introduction {
+   
     float: right;
-    width: 60%;
+    width: 55%;
     display: block;
     align-items: flex-start;
 }
 
 .introduction p {
-    color: white;
+    color: #ffffff;
     font: 170%;
     text-align: justify;
     font-family: 'Roboto', 'sans-serif';
     line-height: 1.6;
+    font-weight: 300;
+    padding: 1%;
 }
 
 .introduction h2 {
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -177,9 +179,9 @@ header {
 
  .box{
   float: left;
-  height: 670px;
+  height: fit-content;
   width: 30%;
-  background-color: white;
+  background-color: #fff;
   gap: 10px;
   padding: 5px;
   margin: 15px;  
@@ -196,7 +198,7 @@ header {
 
 #boxes .box p {
     text-align: justify;
-    color: black;
+    color: #313131;
     font-size: 100%;
     padding: 5px;
     font-family: 'Roboto', 'sans-serif';
@@ -207,17 +209,18 @@ header {
 
 #boxes .box h2 {
     text-align: center;
-    color: black;
+    color: #927397;
+    font-weight: bold;
     font-family: 'Roboto', 'sans-serif';
 }
 
 #boxes .box .button {    
     background-color: #789773;
     width: 50%;
-    color: white;
+    color: #fff;
     padding: 10px;   
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     display: block;
     margin: auto;
     text-align: center;
@@ -238,10 +241,10 @@ footer {
 }
 
 footer p {
-    color: white;
+    color: #fff;
     text-align: center;
     margin-bottom: 10px;
-    font-size: 120%;
+    font-size: 1.6rem;
 }
 
 .social-networks {
@@ -253,9 +256,9 @@ footer p {
 }
 
 .social-networks i {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin: 1%;
-    color: white;
+    color: #fff;
 }
 
 
@@ -302,7 +305,7 @@ footer p {
 .body-list  {
     margin: 20px;
     width: 55%;
-    background-color: white;
+    background-color: #fff;
     border: 2px solid  #927397;
     border-radius: 10px;
     text-align: center;
@@ -361,7 +364,7 @@ footer p {
 .mind-list  {
     margin: 20px;
     width: 55%;
-    background-color: white;
+    background-color: #fff;
     border: 2px solid  #927397;
     border-radius: 10px;
     text-align: center;
@@ -423,7 +426,7 @@ footer p {
 .spirit-list  {
     margin: 20px;
     width: 55%;
-    background-color: white;
+    background-color: #fff;
     border: 2px solid  #927397;
     border-radius: 10px;
     text-align: center;
@@ -458,7 +461,7 @@ footer p {
     word-spacing: 4px;
     font-size: 2rem;
     /*background-color:  #927397;*/
-    background-color: white;
+    background-color: #fff;
     color:  #927397;
     padding: 20px;
     margin-top: 20px;
@@ -474,7 +477,7 @@ footer p {
     text-align: center;
     color:#927397;
     text-transform: uppercase;
-    font-family: 'Robot', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
     margin-top: 12px;
     padding-top: 5px;
 }
@@ -499,10 +502,10 @@ footer p {
     margin-right: auto;
     font-family: 'Roboto', 'sans-serif';
     font-size: 120%;    
-    background-color: white;
+    background-color: #fff;
     padding: 10px;
     line-height: 1.5;
-    color: black;
+    color: #313131;
     text-align: justify;
 }
 
@@ -514,19 +517,20 @@ footer p {
 }
 
 table {
-    background-color: white;
+    background-color: #fff;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
   }
   
   th, td {
-      background-color: white;
-      color: #927397;
+      background-color: #fff;
+      color: #313131;
       font-size: 120%;
       line-height: 1.5;
       font-family: 'Roboto', 'sans-serif';
-      border: 1px solid;
+      border: 1px solid black;
+      font-weight: 700;
       padding: 5px;         
   }
 
@@ -565,7 +569,7 @@ input[type="text"] ,input[type="email"]  {
 
 label {
     line-height: 2.1;
-    color: white;
+    color: #fff;
     font-size: 110%;
 }
 
@@ -583,10 +587,12 @@ input[type=text]:focus, input[type=password]:focus {
     border-radius: 12px;
     padding: 15px 32px 15px 32px;
     text-align: center;
-    font-size: 100%;
+    font-size: 110%;
     background-color: #36064b;
     color: #fafafa;
+    font-weight: bold;
     display: block;
+    text-transform: uppercase;
 }
 
 .reset-button {
@@ -594,18 +600,19 @@ input[type=text]:focus, input[type=password]:focus {
     font-size: 100%;
     background-color: #789773;
     color: #fafafa;
-    padding: 5px;
+    padding: 8px;
+    font-weight: bold;
 }
 
 .signup-button:hover {
     background-color: fuchsia;
-    color: white;
+    color: #fff;
 }
 
 .workshop-news {    
     width: 32%;
     display: block;
-    background-color: white;
+    background-color: #fff;
     display: inline-block;
     margin: 85px;
     padding: 5px;          
@@ -639,7 +646,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     #cover-text {
-        color: white;
+        color: #fff;
         font-size: 1rem;
         font-family: 'Roboto', 'sans-serif';
         text-transform: uppercase;
@@ -685,7 +692,7 @@ input[type=text]:focus, input[type=password]:focus {
 
     .workshop-signup-form {
         margin: 70px 15px 0 5px;
-        color: black;
+        color: #313131;
         background-color: rgba(126, 43, 182, 0.6);
         width: 40%;         
         float: right;           
@@ -781,7 +788,7 @@ input[type=text]:focus, input[type=password]:focus {
         float: left;
         min-height: 870px;
         width: 29%;
-        background-color: white;
+        background-color: #fff;
         gap: 10px;       
         margin: 15px;  
       }
@@ -793,7 +800,7 @@ input[type=text]:focus, input[type=password]:focus {
 
     #boxes .box p {
         text-align: justify;
-        color: black;
+        color: #313131;
         font-size: 90%;
         font-family: 'Roboto', 'sans-serif';
         font-weight: 300;
@@ -842,7 +849,7 @@ input[type=text]:focus, input[type=password]:focus {
     .workshop-news {    
         width: 38%;
         margin-top: 10px;
-        background-color: white;        
+        background-color: #fff;        
         margin: 55px;
         padding: 5px;
         float: left;
@@ -925,7 +932,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
 
     #cover-text {
-        color: white;
+        color: #fff;
         font-size: 80%;
         font-family: 'Roboto', 'sans-serif';
         text-transform: uppercase;
@@ -948,7 +955,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     #sign-up h2 {
-        color: white;
+        color: #fff;
         font-size: 90%;
         text-align: center;
         padding: 15px;
@@ -957,7 +964,7 @@ input[type=text]:focus, input[type=password]:focus {
     button {
         margin: 20px;
         background-color: palevioletred;
-        color: white;
+        color: #fff;
         width: 100px;
         height: 30px;
     }
@@ -971,7 +978,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
 
     .introduction p {
-        color: white;
+        color: #fff;
         font: 100%;
         text-align: justify;
         font-family: 'Roboto', 'sans-serif';
@@ -979,7 +986,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     .introduction h2 {
-        color: white;
+        color: #fff;
         font-weight: 500;
         text-align: center;
     }
@@ -1000,7 +1007,7 @@ input[type=text]:focus, input[type=password]:focus {
   }
   
   #boxes .box  p {      
-      color: black;
+      color: #313131;
       font-size: 100%;
       font-family: 'Roboto', 'sans-serif';
       width: 100%;
@@ -1011,13 +1018,13 @@ input[type=text]:focus, input[type=password]:focus {
   
   #boxes .box h2 {
     text-align: center;
-    color: black;
+    color: #313131;
     font-family: 'Roboto', 'sans-serif';
 }
 
   #boxes .box  {        
       width: 100%;
-      color: white;
+      color: #fff;
       text-decoration: none;
       display: block;
       margin: auto;
@@ -1037,7 +1044,7 @@ input[type=text]:focus, input[type=password]:focus {
   }
   
   footer p {
-      color: white;
+      color: #fff;
       text-align: center;
       margin-bottom: 10px;
       font-size: 100%;
@@ -1054,7 +1061,7 @@ input[type=text]:focus, input[type=password]:focus {
   .social-networks i {
       font-size: 100%;
       margin: 1%;
-      color: white;
+      color: #fff;
   }
   
    
@@ -1102,7 +1109,7 @@ input[type=text]:focus, input[type=password]:focus {
     
        
     table {
-        background-color: white;
+        background-color: #fff;
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
@@ -1111,7 +1118,7 @@ input[type=text]:focus, input[type=password]:focus {
     th, td {   
         border: 1px solid;
         padding: 5px;         
-        background-color: white;
+        background-color: #fff;
         color: #927397;
         font-size: 80%;
         line-height: 1.1;
@@ -1123,9 +1130,9 @@ input[type=text]:focus, input[type=password]:focus {
         margin-top: 15px;
         font-family: 'Roboto', 'sans-serif';
         font-size: 100%;       
-        background-color: white;
+        background-color: #fff;
         line-height: 1.5;
-        color: black;
+        color: #313131;
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -1137,7 +1144,7 @@ input[type=text]:focus, input[type=password]:focus {
 
     .workshop-signup-form {
         margin: 60px 15px 0 15px;
-        color: black;
+        color: #313131;
         background-color: rgba(126, 43, 182, 0.6);
         width: 400px;
         padding: 10px;  
@@ -1187,7 +1194,7 @@ input[type=text]:focus, input[type=password]:focus {
         float: none;
         width: 100%;
         display: block;
-        background-color: white;       
+        background-color: #fff;       
         padding: 10px;
         line-height: 1.5;           
     }
@@ -1199,7 +1206,7 @@ input[type=text]:focus, input[type=password]:focus {
     
     .workshop-news h2 {
         text-align: center;
-        color: black;
+        color: #313131;
     }
     
     
@@ -1211,22 +1218,22 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     .workshop-signup-form h2 {
-        color: #fafafa;
+        color: #fff;
         margin-bottom: 20px;        
     }
     
     input[type="text"] ,input[type="email"]{
         background: transparent;
-        background-color: white;
+        background-color: #fff;
         width: 90%;
-        border: 1px solid #fafafa;
+        border: 1px solid #fff;
         border: none;
         padding: 15px;        
     }
     
     label {
         line-height: 2.1;
-        color: white;
+        color: #fff;
         font-size: 110%;
     }
     
@@ -1235,7 +1242,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     input[type=text]:focus, input[type=password]:focus {
-        background-color: #ddd;
+        background-color: #fff;
         outline: none;
     }
       
@@ -1252,7 +1259,7 @@ input[type=text]:focus, input[type=password]:focus {
     
     .signup-button:hover {
         background-color: fuchsia;
-        color: white;
+        color: #fff;
     }
     
 }
@@ -1317,7 +1324,7 @@ input[type=text]:focus, input[type=password]:focus {
     }
     
     #cover-text {
-        color: white;
+        color: #fff;
         font-size: .6rem;
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
