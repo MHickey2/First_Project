@@ -304,7 +304,7 @@ footer p {
 
 .body-list  {
     margin: 20px;
-    width: 55%;
+    width: 60%;
     background-color: #fff;
     border: 2px solid  #927397;
     border-radius: 10px;
@@ -321,16 +321,16 @@ footer p {
     list-style-type:disc;
     color:  #927397;
     text-align: left;
-    font-size: 100%;
+    font-size: 110%;
     margin-left: 10px;
     padding: 5px;
     font-weight: 400;   
 }
 
-.body-list ul li {
+/*.body-list ul li {
     font-family: 'Roboto', 'sans-serif';
     font-size: 110%;    
-}
+}*/
 
 /* Mind Section */
 
@@ -363,7 +363,7 @@ footer p {
 
 .mind-list  {
     margin: 20px;
-    width: 55%;
+    width: 60%;
     background-color: #fff;
     border: 2px solid  #927397;
     border-radius: 10px;
@@ -380,7 +380,6 @@ footer p {
     list-style-type: disc;
     color: #927397;
     text-align: left;
-    font-size: 100%;
     margin-left: 10px;
     padding: 5px;   
 }
@@ -396,7 +395,7 @@ footer p {
     margin: 30px;
     padding: 20px;
     border-radius: 15px;
-    min-height: 880px;
+    min-height: 920px;
     margin: 25px 10px;
     
 }
@@ -425,7 +424,7 @@ footer p {
 
 .spirit-list  {
     margin: 20px;
-    width: 55%;
+    width: 60%;
     background-color: #fff;
     border: 2px solid  #927397;
     border-radius: 10px;
@@ -442,10 +441,10 @@ footer p {
     list-style-type: disc;
     color: #927397;
     text-align: left;
-    font-size: 100%;
+    font-size: 110%;
     margin-left: 10px;
     padding: 5px; 
-
+    
 }
 
 .spirit-list ul li {
@@ -478,8 +477,14 @@ footer p {
     color:#927397;
     text-transform: uppercase;
     font-family: 'Roboto', 'sans-serif';
-    margin-top: 12px;
-    padding-top: 5px;
+    margin: 12px;
+    padding: 5px;
+}
+
+.center {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 /* Next Page as in the last page with the wind up information */
