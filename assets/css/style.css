@@ -225,7 +225,8 @@ header {
     margin: auto;
     text-align: center;
     font-weight: bold;
-    text-transform: uppercase;    
+    text-transform: uppercase;  
+    border: 1px solid black;  
 }
 
 
@@ -319,12 +320,12 @@ footer p {
 .body-list ul {
     list-style-position: inside;
     list-style-type:disc;
-    color:  #927397;
+    color:  #5c2766;
     text-align: left;
-    font-size: 110%;
+    font-size: 100%;
     margin-left: 10px;
     padding: 5px;
-    font-weight: 400;   
+    font-weight: 700;   
 }
 
 /*.body-list ul li {
@@ -378,15 +379,16 @@ footer p {
 .mind-list ul {
     list-style-position: inside;
     list-style-type: disc;
-    color: #927397;
+    color: #5c2766;
     text-align: left;
     margin-left: 10px;
-    padding: 5px;   
+    padding: 5px; 
+    font-weight: bold;  
 }
 
 .mind-list ul li {
     font-family: 'Roboto', 'sans-serif';
-    font-size: 110%;    
+    font-size: 100%;    
 }
 
 /* Spirit Section */
@@ -439,17 +441,18 @@ footer p {
 .spirit-list ul {
     list-style-position: inside;
     list-style-type: disc;
-    color: #927397;
+    color: #5c2766;
     text-align: left;
-    font-size: 110%;
+    font-size: 100%;
     margin-left: 10px;
     padding: 5px; 
+    font-weight: bold;
     
 }
 
 .spirit-list ul li {
     font-family: 'Roboto', 'sans-serif';
-    font-size: 110%;    
+    font-size: 100%;    
 }
 
 /* Styling for Headings */
@@ -485,15 +488,17 @@ footer p {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
+    padding: 5px;
 }
 
 /* Next Page as in the last page with the wind up information */
 
 /* Main image for the last page */
 
+
 .next-woman {
     display: block;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;   
 }
@@ -502,7 +507,7 @@ footer p {
 
 .closing p {
     width: 80%;
-    margin-top: 15px;
+    margin: 20px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto', 'sans-serif';
@@ -528,14 +533,19 @@ table {
     margin-right: auto;
   }
   
-  th, td {
+   th {
+       font-weight: bold;
+       font-size: 120%;
+   }
+
+   td {
       background-color: #fff;
       color: #313131;
       font-size: 120%;
       line-height: 1.5;
       font-family: 'Roboto', 'sans-serif';
       border: 1px solid black;
-      font-weight: 700;
+      font-weight: 300;
       padding: 5px;         
   }
 
@@ -598,15 +608,18 @@ input[type=text]:focus, input[type=password]:focus {
     font-weight: bold;
     display: block;
     text-transform: uppercase;
+    border: 1px solid black;
 }
 
 .reset-button {
     text-align: left;
     font-size: 100%;
     background-color: #789773;
-    color: #fafafa;
+    color: black;
     padding: 8px;
     font-weight: bold;
+    border: 1px solid black;
+    
 }
 
 .signup-button:hover {
@@ -631,6 +644,12 @@ input[type=text]:focus, input[type=password]:focus {
 
 .workshop-news h3 {
     text-align: center;    
+}
+
+.span {    
+    margin: 0 auto;
+    height: 100vh;
+    color:  rgb(95, 11, 145);
 }
 
 /*****************************************    MEDIA QUERIES    *******************************************************/
@@ -831,7 +850,29 @@ input[type=text]:focus, input[type=password]:focus {
         width: 100%; 
         height: fit-content;      
     }
-
+    
+    table {
+        background-color: #fff;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+       th {
+           font-weight: bold;
+           font-size: 120%;
+       }
+    
+       td {
+          background-color: #fff;
+          color: #313131;
+          font-size: 100%;
+          line-height: 1.5;
+          font-family: 'Roboto', 'sans-serif';
+          border: 1px solid black;
+          font-weight: 300;
+          padding: 5px;         
+      }
     #cover-text {
         left: 0;
     }
@@ -858,9 +899,11 @@ input[type=text]:focus, input[type=password]:focus {
         margin: 55px;
         padding: 5px;
         float: left;
-        border: 1px solid black;
+        border: none;
                  
     }
+
+
 
     .spirit {
         height: fit-content;
@@ -1119,12 +1162,21 @@ input[type=text]:focus, input[type=password]:focus {
         margin-left: auto;
         margin-right: auto;
     }
-      
-    th, td {   
+    
+    th {
+        font-weight: bold;
+        font-size: 100%;
+        border: 1px solid;
+        padding: 5px; 
+        line-height: 1.1;
+        font-family: 'Roboto', 'sans-serif';
+    }
+
+    td {   
         border: 1px solid;
         padding: 5px;         
         background-color: #fff;
-        color: #927397;
+        color: #313131;
         font-size: 80%;
         line-height: 1.1;
         font-family: 'Roboto', 'sans-serif';        
@@ -1381,6 +1433,10 @@ input[type=text]:focus, input[type=password]:focus {
         height: fit-content;
         background: none;
         background-color:rgba(126, 43, 182, 0.6);
+    }
+
+    .workshop-news{
+        border: none;
     }
   
 }
