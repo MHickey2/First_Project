@@ -662,12 +662,11 @@ input[type=text]:focus, input[type=password]:focus {
 
 #information-webinar {   
     display: block;
-    padding: 18px;
-    
+    padding: 18px;   
    
 }
 
-.time-date img{
+/*.time-date img{
     display: block;
     margin: auto;
     object-fit: cover;
@@ -699,7 +698,50 @@ input[type=text]:focus, input[type=password]:focus {
     text-align: center;
     padding: 10px;
     
-}
+}*/
+
+#boxes1{
+    
+    
+    
+    border: 1px solid black;
+    width:fit-content;
+    border: 1px solid black;
+  
+  padding: 2rem 2rem;
+  text-align: center;
+    
+
+   
+    
+    
+             
+  }
+  
+   .box1{
+      
+    display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+    
+    
+   
+  }
+  
+  #boxes1 .box1 img{
+   
+    object-fit: cover;
+    border: 1px solid black;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 /*****************************************    MEDIA QUERIES    *******************************************************/
