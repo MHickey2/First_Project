@@ -3,10 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Balancing Pact, a website to help people get balance in their lives">
     <meta name="keywords" content="Balance, Relaxing, Body, Mind, Spirit, Dublin">
+     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+
     <title>The Balancing Pact | Next</title>
 </head>
 
@@ -99,7 +105,11 @@ description and including a link for further information-->
     </section>
 
 <!--******************************************************************************************************************-->
-<!--Workshop Section contains information on upcoming Webinar, and a form where the user can register for the event-->        
+<!--Workshop Section contains information on upcoming Webinar, and a form where the user can register for the event-->
+<!--In relation to the form I created a confirmation page and would use this <form action="confirmation.html" ria-label="Going to 
+    Confirmation Page"method="GET"></form> under normal circumstances (outside of github), but instead opted for the formdump address 
+    action to show the functionality, I did devise using the button as an event listener to redirect user to this page, but have decided
+    to include it in a future iteration.-->        
     
     <section class="form-section">
         <br/>
@@ -117,13 +127,12 @@ description and including a link for further information-->
                     <label for="email">Email Address</label>
                     <input type="email" id="email" name="email_address" required>
                     <br>                      
-                    <!--<a href="confirmation.html" aria-label="Going to Confirmation Page">-->
                     <input class="signup-button" type="submit" value="Sign Up!" onClick="myFunction()"/>                   
                     <input type="reset" value="Reset Form" input class="reset-button">
             </form>
-        <Script>function myFunction(){
+        <!--<Script>function myFunction(){
             location.href="confirmation.html";
-        }</Script>
+        }</Script>  functionality to redirect on hold-->
 
             <div class="workshop-news">
                 <h3 class="specific-styling">Workshop Information</h3>

@@ -58,7 +58,7 @@ header {
 }
 
 #menu, #logo {
-    line-height: 80px;
+    line-height: 70px;
 }
 
 #menu li {
@@ -69,10 +69,10 @@ header {
     font-size: 1.3rem;
     color: #fff;
     font-weight: 700;
-    text-transform: uppercase;
-    
-     
+    text-transform: uppercase;        
 }
+
+
 
 #menu a {
     text-decoration: none;
