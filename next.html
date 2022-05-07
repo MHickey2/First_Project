@@ -116,16 +116,17 @@ description and including a link for further information-->
         <h2 class ="center">Join me for an Online Workshop!</h2>
         
         <div class="workshop-info">
-            <form method="POST" action="https://formdump.codeinstitute.net" aria-label="Posting to Mock Site"  class="workshop-signup-form">
+            <form method="GET" action="confirmation.html" aria-label="Going to Confirmation Page"  class="workshop-signup-form">
+            <!--<form method="POST" action="https://formdump.codeinstitute.net" aria-label="Posting to Mock Site"  class="workshop-signup-form">-->
                 <h3 class="center">Sign up for my Free Workshop!</h3>
                     <label for="fname">First Name</label>
-                    <input id="fname" name="first_name" class="input" type="text" required>
+                    <input id="fname" name="first_name" class="input" type="text" required minlength="4">
                     <br>
                     <label for="lname">Last Name</label>
-                    <input id="lname" name="last_name" type="text" required>
+                    <input id="lname" name="last_name" type="text" required minlength="4">
                     <br>
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email_address" required>
+                    <input type="email" id="email" name="email_address" required placeholder="jane@example.com">
                     <br>                      
                     <input class="signup-button" type="submit" value="Sign Up!" onClick="myFunction()"/>                   
                     <input type="reset" value="Reset Form" input class="reset-button">
