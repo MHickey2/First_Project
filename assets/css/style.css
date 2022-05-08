@@ -47,6 +47,7 @@ header {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #fff;
+    
 } 
 
 /* Navigation Section */
@@ -68,7 +69,7 @@ header {
     font-family: 'Roboto', 'sans-serif';
     font-size: 1.3rem;
     color: #fff;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;        
 }
 
@@ -156,9 +157,13 @@ header {
     padding: 1%;
 }
 
-.introduction h2 {
-    color: #ffffff;
+.introduction h1 {
+    color: #fff;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 120%;
+    text-transform: uppercase;
 }
 
 .peaceful {
@@ -311,7 +316,7 @@ footer p {
     border-radius: 10px;
     text-align: center;
     float: left;
-    line-height: 1.4;
+    
     padding: 10px;
     font-family: 'Roboto', 'sans-serif';
     padding: 20px;
@@ -325,7 +330,22 @@ footer p {
     font-size: 100%;
     margin-left: 10px;
     padding: 5px;
-    font-weight: 700;   
+    font-weight: 700;  
+    line-height: 1.4; 
+}
+
+.quote {
+    float: right;
+    display: block;
+    margin-right: 15px;           
+    font-size: 1.75rem;
+    font-style: italic; 
+    margin-top: 40px;
+    color:rgba(126, 43, 182); 
+    text-align: center;
+    line-height: 1.1;  
+    font-family: 'Dancing Script', cursive;
+
 }
 
 /*.body-list ul li {
@@ -557,19 +577,20 @@ table {
     background: url('../images/stones.jpg') no-repeat center center;
     width:100%;
     height: fit-content; 
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    padding: 0, 20px;   
 }
 
 .workshop-signup-form {
     margin: 70px 50px 0 10px;
     color: black;
     background-color: rgba(126, 43, 182, 0.6);
-    width: 450px;
+    width: 440px;
     padding: 20px;  
     float: right;    
 }
 
-.workshop-signup-form h2 {
+.workshop-signup-form h3 {
     color: #fafafa;
     margin-bottom: 20px;    
 }
@@ -586,6 +607,7 @@ label {
     line-height: 2.1;
     color: #fff;
     font-size: 110%;
+    font-weight: bold;
 }
 
 .text-input:hover{
@@ -666,83 +688,30 @@ input[type=text]:focus, input[type=password]:focus {
    
 }
 
-/*.time-date img{
-    display: block;
-    margin: auto;
-    object-fit: cover;
-    border: 1px solid black;
-    
-}
-.time-date{
-   display: inline-block;
-    width: 20%;   
-    border: 1px solid black;
-    margin-left:400px;
-    text-align: center;
-    padding: 10px;
-   
-}
 
- .location img{
-    display: block;
-    margin: auto;
-    object-fit: cover;
-    border: 1px solid black;
-    
-}
-
-.location{   
-    display: inline-block; 
-    width: 20%;   
-    border: 1px solid black;
-    text-align: center;
-    padding: 10px;
-    
-}*/
-
-#boxes1{
-    
-    
-    
+#boxes1{    
     border: 1px solid black;
     width:fit-content;
-    border: 1px solid black;
-  
-  padding: 2rem 2rem;
-  text-align: center;
-    
-
-   
-    
-    
+    border: 1px solid black;  
+    padding: 2rem 2rem;
+    text-align: center; 
              
   }
   
    .box1{
       
     display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
-  vertical-align: middle;
-    
-    
-   
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;   
   }
   
-  #boxes1 .box1 img{
-   
+  #boxes1 .box1 img{   
     object-fit: cover;
     border: 1px solid black;
   }
   
   
-  
-  
-  
-  
-  
-  
-
 
 /*****************************************    MEDIA QUERIES    *******************************************************/
 /*********************************************************************************************************************/
@@ -832,43 +801,6 @@ input[type=text]:focus, input[type=password]:focus {
     } 
     
    
-  /*  #menu {
-        clear: left;
-        float: left;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #menu li {
-        display: block;
-        color: black;
-        font-size: 140%;
-        padding: 10px;        
-        font-weight: 700;
-    }*/
-
-    /*#hero-image {
-        clear:both;
-        height: 400px;
-        padding: 5px;
-        width: 100%;
-        background: url('../images/stones.jpg') no-repeat center center;
-        position: relative;
-        margin-bottom: 20px;
-              
-    }
-
-    #cover-text {
-        width: 40%;
-        position: absolute;
-        left: 40px;
-        font-size: 90%;
-        margin-left: 90px;
-    }*/
-
-    
-    
     .introduction {
         padding: 10px;        
     }
@@ -928,14 +860,14 @@ input[type=text]:focus, input[type=password]:focus {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        line-height: 1.1;
+        line-height: 1.4;
     }
 
     .body-list, .mind-list, .spirit-list  {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        line-height: 1.1;    
+        line-height: 1.4;    
     }
 
     .resources {
@@ -959,7 +891,7 @@ input[type=text]:focus, input[type=password]:focus {
           background-color: #fff;
           color: #313131;
           font-size: 100%;
-          line-height: 1.5;
+          line-height: 1.4;
           font-family: 'Roboto', 'sans-serif';
           border: 1px solid black;
           font-weight: 300;
@@ -994,8 +926,6 @@ input[type=text]:focus, input[type=password]:focus {
         border: none;
                  
     }
-
-
 
     .spirit {
         height: fit-content;
@@ -1125,9 +1055,9 @@ input[type=text]:focus, input[type=password]:focus {
         line-height: 1.3;
     }
     
-    .introduction h2 {
+    .introduction h1 {
         color: #fff;
-        font-weight: 500;
+        font-weight: 700;
         text-align: center;
     }
     
