@@ -70,7 +70,7 @@ header {
     font-size: 1.3rem;
     color: #fff;
     font-weight: 400;
-
+}
 
 
 #menu a {
@@ -337,13 +337,12 @@ footer p {
     display: block;
     margin-right: 15px;           
     font-size: 1.75rem;
-    font-style: italic; 
     margin-top: 40px;
     color:rgba(126, 43, 182); 
     text-align: center;
     line-height: 1.1;  
     font-family: 'Dancing Script', cursive;
-
+    font-weight: 400;
 }
 
 /*.body-list ul li {
