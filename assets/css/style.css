@@ -319,7 +319,7 @@ footer p {
     padding: 20px;
 }
 
-.body-list ul {
+.lifeskill-lists {
     list-style-position: inside;
     list-style-type:disc;
     color:  #5c2766;
@@ -328,7 +328,7 @@ footer p {
     margin-left: 10px;
     padding: 5px;
     font-weight: 700;  
-    line-height: 1.4; 
+    line-height: 1.5; 
 }
 
 .quote {
@@ -392,7 +392,7 @@ footer p {
     padding: 10px;
 }
 
-.mind-list ul {
+/*.mind-list ul {
     list-style-position: inside;
     list-style-type: disc;
     color: #5c2766;
@@ -400,7 +400,7 @@ footer p {
     margin-left: 10px;
     padding: 5px; 
     font-weight: bold;  
-}
+}*/
 
 .mind-list ul li {
     font-family: 'Roboto', 'sans-serif';
@@ -454,7 +454,7 @@ footer p {
     padding: 20px;
 }
 
-.spirit-list ul {
+/*.spirit-list ul {
     list-style-position: inside;
     list-style-type: disc;
     color: #5c2766;
@@ -464,7 +464,7 @@ footer p {
     padding: 5px; 
     font-weight: bold;
     
-}
+}*/
 
 .spirit-list ul li {
     font-family: 'Roboto', 'sans-serif';
