@@ -866,6 +866,21 @@ input[type=text]:focus, input[type=password]:focus {
         line-height: 1.4;    
     }
 
+    .quote {
+        float: center;
+        display: block;       
+        margin-left: auto;
+        margin-right: auto;           
+        font-size: 1.50rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color:rgba(126, 43, 182); 
+        text-align: center;
+        line-height: 1.1;  
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;          
+    }
+
     .resources {
         width: 100%; 
         height: fit-content;      
@@ -1158,6 +1173,22 @@ input[type=text]:focus, input[type=password]:focus {
         padding: 5px;
         border: 1px solid #927397;
         border-radius: 10px;    
+    }
+
+    .quote {
+        display: block;
+        float: center;
+        margin-left: auto;
+        margin-right: auto;           
+        font-size: 1.50rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color:rgba(126, 43, 182); 
+        text-align: center;
+        line-height: 1.1;  
+        font-family: 'Dancing Script', cursive;
+        font-weight: 400;
+          
     }
 
     .healthy-person {
