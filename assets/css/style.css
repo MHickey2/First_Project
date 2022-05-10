@@ -96,8 +96,6 @@ header {
     padding: 2px;	
 }
 
-
-
 /*Heo Image Section */
 
 #hero-image {
@@ -125,6 +123,7 @@ header {
     bottom:120px;
     left: 30px;
     position: absolute;
+    border-radius: 20px;
 }
 
 /*Welcome Section */
@@ -132,9 +131,10 @@ header {
 .welcome {
     /*background-color: #9fa4c4;*/
     background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
-    margin: 7px 2px 7px 2px;
+    margin: 7px 3px 7px 3px;
     display: flex;
     padding: 8px;
+    
 }
 
 .introduction {
@@ -172,7 +172,8 @@ header {
     object-fit: cover;
 }
 
-/* Boxes for Body, Mind and Spirit information on index page*/
+/* Boxes for Body, Mind and Spirit information on index page. This section is an introduction to the information in
+the lifestyle page and they have links to individual areas in the lifestyle page*/ 
 
 #boxes{
   margin: 20px;
@@ -191,8 +192,7 @@ header {
  
 }
 
-#boxes .box img{
- 
+#boxes .box img{ 
   display: block;
   margin: auto;
   object-fit: cover;
@@ -233,9 +233,8 @@ header {
 }
 
 
-
-
 /* Footer Section */
+
 footer {
     height: 160px;
     /*background-color: rgba(135, 18, 212, 0.6);*/
@@ -266,7 +265,7 @@ footer p {
 }
 
 
-/*technique page/Lifestyle Page, Body, Mind and Spirit Sections */
+/*technique page/ now Lifestyle Page with Body, Mind and Spirit Sections */
 
 /*Body Section */
 
@@ -274,17 +273,10 @@ footer p {
     margin: 25px 10px;
     padding: 20px;
     border-radius: 15px;
-    min-height: 750px;
-    
+    min-height: 750px;    
 }
 
 .body-technique {
-    /*margin: 10px;
-    width: 60%;
-    text-align: center;
-    float: left;
-    line-height: 1.4;
-    padding: 10px; */
     font-family: 'Roboto', 'sans-serif';
     width: 60%;    
     text-align: center;
@@ -300,7 +292,7 @@ footer p {
     padding: 5px;
 }
 
- .healthy-person {     
+.healthy-person {     
     float: right;
     display: block;
     padding: 5px;
@@ -345,19 +337,13 @@ footer p {
     font-weight: 400;
 }
 
-/*.body-list ul li {
-    font-family: 'Roboto', 'sans-serif';
-    font-size: 110%;    
-}*/
-
 /* Mind Section */
 
 .mind {
     margin: 25px 10px;
     padding: 20px;
     border-radius: 15px;
-    min-height: 750px;
-    
+    min-height: 750px;    
 }
 
 .mind-technique {    
@@ -365,8 +351,7 @@ footer p {
     text-align: center;
     float: left;
     line-height: 1.4;
-    padding: 20px;
-    
+    padding: 20px;    
 }
 
 .mind-technique p {
@@ -393,16 +378,6 @@ footer p {
     padding: 10px;
 }
 
-/*.mind-list ul {
-    list-style-position: inside;
-    list-style-type: disc;
-    color: #5c2766;
-    text-align: left;
-    margin-left: 10px;
-    padding: 5px; 
-    font-weight: bold;  
-}*/
-
 .mind-list ul li {
     font-family: 'Roboto', 'sans-serif';
     font-size: 100%;    
@@ -415,8 +390,7 @@ footer p {
     padding: 20px;
     border-radius: 15px;
     min-height: 920px;
-    margin: 25px 10px;
-    
+    margin: 25px 10px;    
 }
 
 .spirit-technique {
@@ -455,31 +429,18 @@ footer p {
     padding: 20px;
 }
 
-/*.spirit-list ul {
-    list-style-position: inside;
-    list-style-type: disc;
-    color: #5c2766;
-    text-align: left;
-    font-size: 100%;
-    margin-left: 10px;
-    padding: 5px; 
-    font-weight: bold;
-    
-}*/
-
 .spirit-list ul li {
     font-family: 'Roboto', 'sans-serif';
     font-size: 100%;    
 }
 
-/* Styling for Headings */
+/* Styling for Headings, are used throughout the site */ 
 
 .ornate {
     clear: both;
     text-align: Center;
     word-spacing: 4px;
     font-size: 2rem;
-    /*background-color:  #927397;*/
     background-color: #fff;
     color:  #927397;
     padding: 20px;
@@ -572,11 +533,19 @@ table {
     margin-top: 20px; 
    /* background-color:rgba(126, 43, 182, 0.6);*/
     background: url('../images/rocks.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 33px;
     width:100%;
     height: fit-content; 
     margin-bottom: 20px;
-    padding: 0, 20px;   
+    padding: 0, 20px;       
 }
+
+.form-section h2 {
+    color:rgb(95, 11, 145);
+}
+
+/* Sign up form for the Webinar */
 
 .workshop-signup-form {
     margin: 70px 50px 0 10px;
@@ -585,10 +554,6 @@ table {
     width: 440px;
     padding: 20px;  
     float: right;    
-}
-
-.form-section h2 {
-    color:rgb(95, 11, 145);
 }
 
 .workshop-signup-form h3 {
@@ -641,8 +606,7 @@ input[type=text]:focus, input[type=password]:focus {
     color: black;
     padding: 8px;
     font-weight: bold;
-    border: 1px solid black;
-    
+    border: 1px solid black;    
 }
 
 .signup-button:hover {
@@ -655,8 +619,7 @@ input[type=text]:focus, input[type=password]:focus {
     display: block;
     background-color: #fff;
     display: inline-block;
-    margin: 85px;
-         
+    margin: 85px;         
 }
 
 .workshop-news p {
@@ -677,39 +640,18 @@ input[type=text]:focus, input[type=password]:focus {
     color:  rgb(95, 11, 145);
 }
 
+/* Confirmation page/ Page will be displayed to the user when they sign up for the Webinar */
+
 .congrats {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
-   
+    margin-bottom: 20px;   
 }
 
-.webinar-message {
-    display: block;    
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Roboto', 'sans-serif';
-    font-size: 120%;    
-    background-color: #fff;
-    padding: 10px;
-    line-height: 1.5;
-    color: #313131;
-    text-align: justify;
-    width: 50%;
-}
-
-#information-webinar {   
-    display: block;
-       
-}
-
-.webinar-message h1 {
-    text-align: center;
-    line-height: .8;
-}
-
+/* displays the essential details for the upcoming webinar to the user for reference, including date and time and
+indicating that is a zoom meeting and the link will be sent to the user in their preferred email. */
 
 #boxes1{    
     
@@ -731,6 +673,33 @@ input[type=text]:focus, input[type=password]:focus {
     
   }
   
+
+.webinar-message {
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 120%;    
+    background-color: #fff;
+    padding: 10px;
+    line-height: 1.5;
+    color: #313131;
+    text-align: justify;
+    width: 50%;
+}
+
+#information-webinar {   
+    display: block;       
+}
+
+.webinar-message h1 {
+    text-align: center;
+    line-height: .8;
+}
+
+/* CSS styles are included on the 404.html pages, as it is not directly involved in the website, I wanted to keep the
+styling as a seperate entity. */
+
   
 
 /*****************************************    MEDIA QUERIES    *******************************************************/
