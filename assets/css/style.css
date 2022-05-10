@@ -697,6 +697,12 @@ input[type=text]:focus, input[type=password]:focus {
     line-height: 1.5;
     color: #313131;
     text-align: justify;
+    width: 50%;
+}
+
+.webinar-message h1 {
+    text-align: center;
+    line-height: 1;
 }
 
 #information-webinar {   
@@ -961,6 +967,16 @@ input[type=text]:focus, input[type=password]:focus {
 
     .spirit {
         height: fit-content;
+    }
+
+    .webinar-message {
+        width: 100%;
+    }
+
+    .webinar-message h1 {
+        text-align: center;
+        line-height: 1;
+        width: fit-content;
     }
 }
 
