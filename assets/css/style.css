@@ -676,6 +676,20 @@ input[type=text]:focus, input[type=password]:focus {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+   
+}
+
+.webinar-message {
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 120%;    
+    background-color: #fff;
+    padding: 10px;
+    line-height: 1.5;
+    color: #313131;
+    text-align: justify;
 }
 
 #information-webinar {   
@@ -697,7 +711,7 @@ input[type=text]:focus, input[type=password]:focus {
    .box1{
       
     display: inline-block;
-    border: 1px solid red;
+    border: 3px solid  rgb(95, 11, 145);
     padding: 1rem 1rem;
     vertical-align: middle;   
   }
@@ -1367,6 +1381,22 @@ input[type=text]:focus, input[type=password]:focus {
         background-color: fuchsia;
         color: #fff;
     }
+
+    .congrats {
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height:fit-content;
+    }
+
+    .webinar-message h1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
     
 }
 
@@ -1486,6 +1516,17 @@ input[type=text]:focus, input[type=password]:focus {
 
     .workshop-news{
         border: none;
+    }
+
+    .congrats {
+        width: 100%;
+        padding: 5%;
+    }
+
+    .webinar-message h1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;        
     }
   
 }
