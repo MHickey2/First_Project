@@ -11,11 +11,32 @@ seeking out ways to improve their health and wellbeing. People will also be able
 <details>
   <summary>1. Home Page Wireframe</summary>
   
+<p align="left">
+  <img 
+    width="1000"
+    height="1000"
+    src="assets/images/wireframes/INDEX.png">
+</p>
+
 <p align="center">
   <img 
-    width="400"
+    width="200"
     height="400"
-    src="assets/images/wireframes/homepage .png">
+    src="assets/images/wireframes/ipad Pro 11 - indexpage.png">
+</p>
+
+<p align="right">
+  <img 
+    width="100"
+    height="500"
+    src="assets/images/wireframes/iphone 13 Pro Max - indexpage.png">
+</p>
+<details>
+<details>
+<p>
+  <img src="assets/images/wireframes/desktop - indexpage.png" width="250" />
+  <img src="assets/images/wireframes/iPadpro11 - indexpage.png" width="200" /> 
+  <img src="assets/images/wireframes/iPhone13promax - indexpage.png" width="100" />
 </p>
 <details>
 
