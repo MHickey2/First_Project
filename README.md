@@ -18,19 +18,7 @@ seeking out ways to improve their health and wellbeing. People will also be able
     src="assets/images/wireframes/INDEX.png">
 </p>
 
-<p align="center">
-  <img 
-    width="200"
-    height="400"
-    src="assets/images/wireframes/ipad Pro 11 - indexpage.png">
-</p>
 
-<p align="right">
-  <img 
-    width="100"
-    height="500"
-    src="assets/images/wireframes/iphone 13 Pro Max - indexpage.png">
-</p>
 <details>
 <details>
 <p>
