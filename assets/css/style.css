@@ -68,7 +68,8 @@ header {
 	font-family: 'Roboto', 'sans-serif';
 	font-size: 1.3rem;
 	color: #fff;
-	font-weight: 400;
+	font-weight: 700;
+	
 }
 
 
@@ -83,7 +84,7 @@ header {
 
 #menu a:hover,
 #menu a:focus {
-	color: black;
+	color: purple;
 	background-color: #fff;
 	text-decoration: underline;
 }
@@ -91,7 +92,7 @@ header {
 #menu .active {
 	border: 3px solid #fff;
 	color: #fff;
-	padding: 2px;
+	padding: 3px;
 }
 
 /*Heo Image Section */
@@ -960,7 +961,7 @@ styling as a seperate entity. */
 	.body-technique,
 	.mind-technique,
 	.spirit-technique,
-	.welcome, .quote {
+	.welcome, .quote, .congrats {
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -992,7 +993,7 @@ styling as a seperate entity. */
 		margin-right: 5px;
 		list-style-type: none;
 		font-family: 'Roboto', 'sans-serif';
-		font-size: 100%;
+		font-size: 120%;
 	}
 
 	#menu a {
@@ -1136,7 +1137,8 @@ styling as a seperate entity. */
 		color: #fff;
 		text-align: center;
 		margin-bottom: 10px;
-		font-size: 120%;
+		font-size: 130%;
+		padding: 5px;
 	}
 
 	.social-networks {
@@ -1148,8 +1150,8 @@ styling as a seperate entity. */
 	}
 
 	.social-networks i {
-		font-size: 120%;
-		margin: 1%;
+		font-size: 140%;
+		margin: 2%;
 		color: #fff;
 	}
 
@@ -1206,6 +1208,17 @@ styling as a seperate entity. */
 		height: 50%
 	}
 
+	.lifeskill-lists {
+		text-align: left;
+		font-size: 100%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		font-weight: 700;
+		line-height: 1.5;
+	}
+	
     .spirit {
         min-height: 800px;
     }
