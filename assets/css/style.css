@@ -699,19 +699,25 @@ styling as a seperate entity. */
 
 /*****************************************    MEDIA QUERIES    *******************************************************/
 /*********************************************************************************************************************/
+/* ************************For larger to medium screens size from 2000px wide and down ***************** */
+
+/*Fix for problems with the cover-text over the hero-image */
+
+@media screen and (max-width: 2000px) {
+
+	#cover-text {		
+		position: absolute;
+		left: 100px;
+	}
+		
+}
+
+
 /* ************************For larger to medium screens size from 1200px wide and down ***************** */
 
 @media screen and (max-width: 1200px) {
 
-	/*#hero-image {
-		clear: both;
-		height: 500px;
-		width: 100%;
-		background: url('../images/stones.jpg') no-repeat center center;
-		margin-top: 15px;
-		overflow: hidden;
-		position: relative;
-	}*/
+	
 
 	#cover-text {
 		color: #fff;
