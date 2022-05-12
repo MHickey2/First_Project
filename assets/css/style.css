@@ -68,8 +68,7 @@ header {
 	font-family: 'Roboto', 'sans-serif';
 	font-size: 1.3rem;
 	color: #fff;
-	font-weight: 700;
-	
+	font-weight: 700;	
 }
 
 
@@ -110,7 +109,7 @@ header {
 #cover-text {
 	color: #fff;
 	font-size: 1.15rem;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	width: 40%;
@@ -146,7 +145,7 @@ header {
 	color: #ffffff;
 	font: 170%;
 	text-align: justify;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.6;
 	font-weight: 300;
 	padding: 1%;
@@ -156,7 +155,7 @@ header {
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	font-size: 120%;
 	text-transform: uppercase;
 }
@@ -200,7 +199,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	color: #313131;
 	font-size: 100%;
 	padding: 5px;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	padding: 6px;
 	line-height: 1.5;
@@ -210,12 +209,12 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	text-align: center;
 	color: #927397;
 	font-weight: bold;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 }
 
 #boxes .box .button {
 	background-color: #789773;
-	width: 50%;
+	width: 55%;
 	color: #fff;
 	padding: 10px;
 	text-decoration: none;
@@ -269,11 +268,12 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 750px;
+	min-height: 1200px;
+	
 }
 
 .body-technique {
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	width: 60%;
 	text-align: center;
 	float: left;
@@ -283,7 +283,7 @@ footer p {
 
 .body-technique p {
 	font-size: 110%;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	text-align: justify;
 	padding: 5px;
 }
@@ -304,7 +304,7 @@ footer p {
 	text-align: center;
 	float: left;
 	padding: 10px;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	padding: 20px;
 }
 
@@ -339,7 +339,8 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 750px;
+	min-height: 1100px;
+	
 }
 
 .mind-technique {
@@ -352,7 +353,7 @@ footer p {
 
 .mind-technique p {
 	font-size: 110%;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	text-align: justify;
 }
 
@@ -370,23 +371,25 @@ footer p {
 	float: left;
 	line-height: 1.4;
 	padding: 10px;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	padding: 10px;
 }
 
 .mind-list ul li {
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	font-size: 100%;
 }
 
 /* Spirit Section */
 
+
+
 .spirit {
-	margin: 30px;
+	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 920px;
-	margin: 25px 10px;
+	min-height: 1200px;
+		
 }
 
 .spirit-technique {
@@ -396,13 +399,13 @@ footer p {
 	line-height: 1.4;
 	padding: 10px;
 	font-size: 110%;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	padding: 20px;
 }
 
 .spirit-technique p {
 	font-size: 110%;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	text-align: justify;
 }
 
@@ -421,12 +424,12 @@ footer p {
 	float: left;
 	line-height: 1.4;
 	padding: 10px;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	padding: 20px;
 }
 
 .spirit-list ul li {
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	font-size: 100%;
 }
 
@@ -441,7 +444,7 @@ footer p {
 	color: #927397;
 	padding: 20px;
 	margin-top: 20px;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	font-style: italic;
 	margin-bottom: 10px;
@@ -453,7 +456,7 @@ footer p {
 	text-align: center;
 	color: #927397;
 	text-transform: uppercase;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	margin: 12px;
 	padding: 5px;
 }
@@ -469,7 +472,6 @@ footer p {
 
 /* Main image for the last page */
 
-
 .next-woman {
 	display: block;
 	margin-top: 25px;
@@ -484,7 +486,7 @@ footer p {
 	margin: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	font-size: 120%;
 	background-color: #fff;
 	padding: 10px;
@@ -517,7 +519,7 @@ td {
 	color: #313131;
 	font-size: 120%;
 	line-height: 1.5;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	border: 1px solid black;
 	font-weight: 300;
 	padding: 5px;
@@ -674,7 +676,7 @@ indicating that is a zoom meeting and the link will be sent to the user in their
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: 'Roboto', 'sans-serif';
+	font-family: 'Roboto', sans-serif;
 	font-size: 120%;
 	background-color: #fff;
 	padding: 10px;
@@ -703,7 +705,7 @@ styling as a seperate entity. */
 
 /*Fix for problems with the cover-text over the hero-image */
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 5000px) {
 
 	#cover-text {		
 		position: absolute;
@@ -717,30 +719,18 @@ styling as a seperate entity. */
 
 @media screen and (max-width: 1200px) {
 
-	
-
 	#cover-text {
-		color: #fff;
-		font-size: 1rem;
-		font-family: 'Roboto', 'sans-serif';
-        margin-left: 20px;
-		/*text-transform: uppercase;
-		letter-spacing: 2px;
-		width: 40%;
-		height: 180px;		
-		/*padding-top: 20px;
-		padding-left: 50px;
-		background-color: rgba(21, 146, 84, 0.8);
-		bottom: 120px;
-		left: 30px;
-		position: absolute;*/
+		/*color: #fff;		
+		font-family: 'Roboto', sans-serif;*/
+        font-size: 1rem;
+		margin-left: 20px;		
 	}
 
 	.welcome {
 		padding: 30px 0;
 		margin: 0;
 	}
-
+    
 	.resources {
 		width: 100%;
 	}
@@ -750,8 +740,8 @@ styling as a seperate entity. */
 	}
 
 	.form-section {
-		margin-top: 20px;
-		background: url('../images/stones.jpg') no-repeat center center;
+		/*margin-top: 20px;
+		background: url('../images/stones.jpg') no-repeat center center;*/
 		height: 700px;
 		margin-bottom: 10px;
 	}
@@ -778,9 +768,9 @@ styling as a seperate entity. */
 
 @media screen and (max-width: 950px) {
 
-	header {
-		height: 150px;
-	}
+	/*header {
+		height: 100px;
+	}*/
 
 	#logo {
 		text-align: right;
@@ -788,21 +778,17 @@ styling as a seperate entity. */
 		font-size: 140%;
 	}
 
-
 	.introduction {
 		padding: 10px;
 	}
 
     .peaceful {
         width: 50%;
-        float: left;
-        padding: 10px;
-        display: block;
-        padding: 10px;
-        object-fit: cover;
+        /*float: left;
+		object-fit: cover;
+		display: block;*/
+        padding: 10px;           
     }
-
-	
 
 	.introduction p {
 		font-size: 100%;
@@ -814,8 +800,8 @@ styling as a seperate entity. */
 	.healthy-person {
 		height: 80%;
 		float: none;
-		display: block;
-		padding: 5px;
+		/*display: block;
+		padding: 5px;*/
 	}
 
 	#boxes {
@@ -826,9 +812,8 @@ styling as a seperate entity. */
 	}
 
 	.box {
-		float: left;
-		
 		width: 29%;
+		min-height: 370px;
 		background-color: #fff;
 		gap: 10px;
 		margin: 15px;
@@ -842,12 +827,28 @@ styling as a seperate entity. */
 	#boxes .box p {
 		text-align: justify;
 		color: #313131;
-		font-size: 90%;
-		font-family: 'Roboto', 'sans-serif';
+		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
+		font-size: 90%;
 		padding: 3px;
-        min-height: 350px;
+        min-height: 360px;
 	}
+
+	#boxes .box .button {
+		
+		width: 57%;
+		color: #fff;
+		padding: 10px;
+		text-decoration: none;
+		font-size: 16px;
+		display: block;
+		margin: auto;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		border: 1px solid black;
+	}
+	
 
 
 	.body-technique,
@@ -869,7 +870,7 @@ styling as a seperate entity. */
 	}
 
     .spirit {
-        min-height: 1640px;
+        min-height: fit-content;
     }
 
     .healthy-person {
@@ -878,15 +879,16 @@ styling as a seperate entity. */
         margin-right: auto;
 	    padding: 5px;
 	    max-width: 100%;
-    }    
-	/*.quote {
-        clear: both;
+    } 
+
+	.quote {
+        float: none;	
+		font-size: 1.5rem;
+		margin-top: 10px;	
         display: block;
         margin-left: auto;
-        margin-right: auto;
-        float: center;
-        text-align: center;        
-	}*/
+        margin-right: auto;              
+	}
 
 	.resources {
 		width: 100%;
@@ -910,7 +912,7 @@ styling as a seperate entity. */
 		color: #313131;
 		font-size: 100%;
 		line-height: 1.4;
-		font-family: 'Roboto', 'sans-serif';
+		font-family: 'Roboto', sans-serif;
 		border: 1px solid black;
 		font-weight: 300;
 		padding: 5px;
@@ -923,7 +925,8 @@ styling as a seperate entity. */
 	.form-section {
 		background-color: rgb(95, 11, 145);
 		background: url('../images/stones.jpg') no-repeat center center;
-		height: 700px;
+		height: 720px;
+		margin-bottom: -40px;
 	}
 
 	.workshop-signup-form {
@@ -945,7 +948,8 @@ styling as a seperate entity. */
 		border: none;
 	}
 
-	
+	/*confirmation page */
+
 	.webinar-message {
 		width: 100%;
 	}
@@ -974,15 +978,17 @@ styling as a seperate entity. */
 	}
 
 	header {
-		height: 150px;
+		height: 110px;
 		width: 100%;
 	}
 
 	/* Logo and Menu Section */
 
+	
+
 	#logo {
 		text-align: center;
-		margin-left: 10px;
+		margin-left: 12px;
 		font-size: 150%;
 	}
 
@@ -996,27 +1002,14 @@ styling as a seperate entity. */
 
 	#menu li {
 		clear: both;
-		margin-right: 5px;
+		margin-right: 10px;
+		margin-top: 10px;
 		list-style-type: none;
-		font-family: 'Roboto', 'sans-serif';
+		font-family: 'Roboto', sans-serif;
 		font-size: 120%;
 	}
 
-	#menu a {
-		text-decoration: none;
-		color: white;
-	}
-
-	#menu a:hover {
-		border-bottom: 1px solid white;
-	}
-
-	.active {
-		border-bottom: 3px solid white;
-	}
-
-
-	/* Hero Image Section */
+		/* Hero Image Section */
 
 	#hero-image {
 		margin-bottom: 10px;
@@ -1029,7 +1022,7 @@ styling as a seperate entity. */
 	#cover-text {
 		color: #fff;
 		font-size: 80%;
-		font-family: 'Roboto', 'sans-serif';
+		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		width: 55%;
@@ -1043,7 +1036,7 @@ styling as a seperate entity. */
 
 	/* Sign up for Newsletter Section */
 
-	#sign-up {
+	/*#sign-up {
 		background-color: purple;
 		height: 100px;
 		margin-bottom: 15px;
@@ -1062,22 +1055,24 @@ styling as a seperate entity. */
 		color: #fff;
 		width: 100px;
 		height: 30px;
-	}
+	}*/
+
+    
 
 	/* Welcome Section */
 
 	.introduction {
 		align-items: flex-start;
 		display: block;
-		margin: auto;
+		margin: auto;		
 	}
-
-	.introduction p {
+/*
+	.introduction p {		
 		color: #fff;
 		font: 100%;
 		text-align: justify;
-		font-family: 'Roboto', 'sans-serif';
-		line-height: 1.3;
+		font-family: 'Roboto', sans-serif;
+		line-height: 1.4;
 	}
 
 	.introduction h1 {
@@ -1085,51 +1080,18 @@ styling as a seperate entity. */
 		font-weight: 700;
 		text-align: center;
 	}
+    */
 
-
-	.peaceful,
-	.shapely-body {
+	.peaceful 	 {
 		display: none;
 	}
 
 
 	/* Boxes for information on index page*/
-
-	#boxes .box img {
-		width: 210px;
-		height: 210px;
-		display: inline-block;
-		object-fit: cover;
-	}
-
-	#boxes .box p {
-		color: #313131;
-		font-size: 100%;
-		font-family: 'Roboto', 'sans-serif';
-		width: 100%;
-		line-height: 1.2;
-		font-weight: 400;
-		text-align: justify;
-	}
-
-	#boxes .box h2 {
-		text-align: center;
-		color: #313131;
-		font-family: 'Roboto', 'sans-serif';
-	}
-
-	#boxes .box {
-		width: 100%;
-		color: #fff;
-		text-decoration: none;
+    
+	#boxes, .box .button{
+		clear: both;
 		display: block;
-		margin: auto;
-	}
-
-	.button {
-		width: 60%;
-		display: block;
-		margin: auto;
 	}
 
 	footer {
@@ -1251,7 +1213,7 @@ styling as a seperate entity. */
 		border: 1px solid;
 		padding: 5px;
 		line-height: 1.4;
-		font-family: 'Roboto', 'sans-serif';
+		font-family: 'Roboto', sans-serif;
 	}
 
 	td {
@@ -1261,13 +1223,13 @@ styling as a seperate entity. */
 		color: #313131;
 		font-size: 110%;
 		line-height: 1.4;
-		font-family: 'Roboto', 'sans-serif';
+		font-family: 'Roboto', sans-serif;
 	}
 
 
 	.closing p {
 		margin-top: 15px;
-		font-family: 'Roboto', 'sans-serif';
+		font-family: 'Roboto', sans-serif;
 		font-size: 100%;
 		background-color: #fff;
 		line-height: 1.5;
@@ -1315,7 +1277,7 @@ styling as a seperate entity. */
 		font-size: 100%;
 		line-height: 1.2;
 		text-align: justify;
-		font-family: 'Roboto', 'sans-serif';
+		font-family: 'Roboto', sans-serif;
 	}
 
 	.workshop-news h2 {
