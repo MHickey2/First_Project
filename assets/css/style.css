@@ -312,8 +312,8 @@ footer p {
 	list-style-type: disc;
 	color: #5c2766;
 	text-align: left;
-	font-size: 100%;
-	margin-left: 10px;
+	font-size: 110%;
+	margin-left: 25px;
 	padding: 5px;
 	font-weight: 700;
 	line-height: 1.5;
@@ -862,7 +862,7 @@ styling as a seperate entity. */
 	}
 
     .spirit {
-        min-height: 1600px;;
+        min-height: 1640px;
     }
 
     .healthy-person {
