@@ -625,8 +625,8 @@ input[type=password]:focus {
 .workshop-news p {
 	text-align: justify;
 	font-size: 110%;
-	line-height: 1.5;
-	padding: 5%;
+	line-height: 1.4;
+	padding: 3%;
 }
 
 .workshop-news h3 {
@@ -638,6 +638,19 @@ input[type=password]:focus {
 	margin: 0 auto;
 	height: 100vh;
 	color: rgb(95, 11, 145);
+}
+
+.testing-links {
+	display: inline-block;
+	margin-left: 30px;
+	list-style-type: none;
+	font-family: 'Roboto', 'sans-serif';
+	font-size: 1.3rem;
+	color: purple;
+	font-weight: 700;
+	text-decoration: none;
+	
+	
 }
 
 /* Confirmation page/ Page will be displayed to the user when they sign up for the Webinar */
@@ -1405,6 +1418,8 @@ styling as a seperate entity. */
 		margin-right: auto;
 	}
 
+	
+
 }
 
 /* For smartphones screen sizes 600px and lower */
@@ -1511,7 +1526,7 @@ styling as a seperate entity. */
 		clear: both;
 		overflow: hidden;
 		position: relative;
-		background: url('../images/stones-sm.jpg') no-repeat center center;
+		background: url('../assets/images/stones-sm.jpg') no-repeat center center;
 		width: 100%;
 		margin: 5px;
 	}
