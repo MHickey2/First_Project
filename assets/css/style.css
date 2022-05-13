@@ -813,7 +813,7 @@ styling as a seperate entity. */
 
 	.box {
 		width: 29%;
-		min-height: 370px;
+		/*min-height: 370px;*/
 		background-color: #fff;
 		gap: 10px;
 		margin: 15px;
@@ -1088,6 +1088,22 @@ styling as a seperate entity. */
 
 
 	/* Boxes for information on index page*/
+    
+	#boxes .box {
+		padding: 20px;
+	}
+
+
+	#boxes .box p {
+		text-align: justify;
+		color: #313131;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		font-size: 90%;
+		padding: 5px;
+        min-height: 150px;
+		
+	}
     
 	#boxes, .box .button{
 		clear: both;
