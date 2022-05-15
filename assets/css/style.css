@@ -269,7 +269,7 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 1200px;
+	min-height: 900px;
 	
 }
 
@@ -279,7 +279,8 @@ footer p {
 	text-align: center;
 	float: left;
 	line-height: 1.4;
-	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 
 .body-technique p {
@@ -292,7 +293,8 @@ footer p {
 .healthy-person {
 	float: right;
 	display: block;
-	padding: 5px;
+	/*padding: 5px;*/
+	padding-top: 20px;
 	max-width: 100%;
 }
 
@@ -304,9 +306,9 @@ footer p {
 	border-radius: 10px;
 	text-align: center;
 	float: left;
-	padding: 10px;
+	padding: 5px;
 	font-family: 'Roboto', sans-serif;
-	padding: 20px;
+	
 }
 
 .lifeskill-lists {
@@ -332,6 +334,7 @@ footer p {
 	line-height: 1.1;
 	font-family: 'Dancing Script', cursive;
 	font-weight: 400;
+	padding: 20px;
 }
 
 /* Mind Section */
@@ -340,7 +343,7 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 1100px;
+	min-height: 900px;
 	
 }
 
@@ -349,7 +352,8 @@ footer p {
 	text-align: center;
 	float: left;
 	line-height: 1.4;
-	padding: 20px;
+	
+	padding-bottom: 40px;
 }
 
 .mind-technique p {
@@ -371,9 +375,9 @@ footer p {
 	text-align: center;
 	float: left;
 	line-height: 1.4;
-	padding: 10px;
+	padding: 5px;
 	font-family: 'Roboto', sans-serif;
-	padding: 10px;
+	
 }
 
 .mind-list ul li {
@@ -389,7 +393,8 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 1200px;
+	min-height: 900px;
+	
 		
 }
 
@@ -401,7 +406,7 @@ footer p {
 	padding: 10px;
 	font-size: 110%;
 	font-family: 'Roboto', sans-serif;
-	padding: 20px;
+	padding-bottom: 40px;
 }
 
 .spirit-technique p {
@@ -424,9 +429,9 @@ footer p {
 	text-align: center;
 	float: left;
 	line-height: 1.4;
-	padding: 10px;
+	padding: 5px;
 	font-family: 'Roboto', sans-serif;
-	padding: 20px;
+	
 }
 
 .spirit-list ul li {
@@ -1037,7 +1042,7 @@ styling as a seperate entity. */
 		clear: both;
 		height: 300px;
 		width: 100%;
-		background: url('../images/stones.jpg') no-repeat center center;
+		background: url('../images/stones-sm.jpg') no-repeat center center;
 	}
 
 	#cover-text {
