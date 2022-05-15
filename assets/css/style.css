@@ -648,9 +648,7 @@ input[type=password]:focus {
 	font-size: 1.3rem;
 	color: purple;
 	font-weight: 700;
-	text-decoration: none;
-	
-	
+	text-decoration: none;	
 }
 
 /* Confirmation page/ Page will be displayed to the user when they sign up for the Webinar */
@@ -732,18 +730,20 @@ styling as a seperate entity. */
 
 @media screen and (max-width: 1200px) {
 
+/*Cover text over Hero Image*/
 	#cover-text {
-		/*color: #fff;		
-		font-family: 'Roboto', sans-serif;*/
-        font-size: 1rem;
+		font-size: 1rem;
 		margin-left: 20px;		
 	}
 
+/*Welcome section on the home page*/	
 	.welcome {
 		padding: 30px 0;
 		margin: 0;
 	}
-    
+
+/*Resource Section including the table;*/
+
 	.resources {
 		width: 100%;
 	}
@@ -752,9 +752,9 @@ styling as a seperate entity. */
 		width: 100%;
 	}
 
+/*Form Section on the next page*/
+
 	.form-section {
-		/*margin-top: 20px;
-		background: url('../images/stones.jpg') no-repeat center center;*/
 		height: 700px;
 		margin-bottom: 10px;
 	}
@@ -781,15 +781,22 @@ styling as a seperate entity. */
 
 @media screen and (max-width: 950px) {
 
-	/*header {
-		height: 100px;
-	}*/
+/*Logo*/	
 
 	#logo {
 		text-align: right;
 		margin-left: 20px;
 		font-size: 140%;
 	}
+
+/*Cover text within the hero image*/
+
+	#cover-text {
+		left: 0;
+	}
+
+
+/*Introduction section on the home page*/
 
 	.introduction {
 		padding: 10px;
@@ -810,12 +817,7 @@ styling as a seperate entity. */
 		padding: 5px;
 	}
 
-	.healthy-person {
-		height: 80%;
-		float: none;
-		/*display: block;
-		padding: 5px;*/
-	}
+/*Boxes of information related to different sections of content within the site on the home page*/
 
 	#boxes {
 		margin: 30px;
@@ -847,8 +849,7 @@ styling as a seperate entity. */
         min-height: 360px;
 	}
 
-	#boxes .box .button {
-		
+	#boxes .box .button {		
 		width: 57%;
 		color: #fff;
 		padding: 10px;
@@ -862,7 +863,14 @@ styling as a seperate entity. */
 		border: 1px solid black;
 	}
 	
-
+/*Images in the body, mind and spirit sections on the lifestyle page*/
+	
+	.healthy-person {
+		height: 80%;
+		float: none;
+		/*display: block;
+		padding: 5px;*/
+	}
 
 	.body-technique,
 	.mind-technique,
@@ -903,6 +911,8 @@ styling as a seperate entity. */
         margin-right: auto;              
 	}
 
+/*Resource section on the next page including the table of sites*/
+
 	.resources {
 		width: 100%;
 		height: fit-content;
@@ -931,9 +941,7 @@ styling as a seperate entity. */
 		padding: 5px;
 	}
 
-	#cover-text {
-		left: 0;
-	}
+/*Webinar Registration section including sign-up form*/
 
 	.form-section {
 		background-color: rgb(95, 11, 145);
@@ -984,8 +992,8 @@ styling as a seperate entity. */
 	.body-technique,
 	.mind-technique,
 	.spirit-technique,
-	.welcome, .quote, .congrats,
-	#boxes .box img {
+	.welcome, .quote, .congrats
+	 {
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -997,8 +1005,6 @@ styling as a seperate entity. */
 	}
 
 	/* Logo and Menu Section */
-
-	
 
 	#logo {
 		text-align: center;
@@ -1048,31 +1054,7 @@ styling as a seperate entity. */
 		left: 30px;
 	}
 
-	/* Sign up for Newsletter Section */
-
-	/*#sign-up {
-		background-color: purple;
-		height: 100px;
-		margin-bottom: 15px;
-	}
-
-	#sign-up h2 {
-		color: #fff;
-		font-size: 90%;
-		text-align: center;
-		padding: 15px;
-	}
-
-	button {
-		margin: 20px;
-		background-color: palevioletred;
-		color: #fff;
-		width: 100px;
-		height: 30px;
-	}*/
-
-    
-
+	
 	/* Welcome Section */
 
 	.introduction {
@@ -1080,21 +1062,6 @@ styling as a seperate entity. */
 		display: block;
 		margin: auto;		
 	}
-/*
-	.introduction p {		
-		color: #fff;
-		font: 100%;
-		text-align: justify;
-		font-family: 'Roboto', sans-serif;
-		line-height: 1.4;
-	}
-
-	.introduction h1 {
-		color: #fff;
-		font-weight: 700;
-		text-align: center;
-	}
-    */
 
 	.peaceful 	 {
 		display: none;
@@ -1102,11 +1069,15 @@ styling as a seperate entity. */
 
 
 	/* Boxes for information on index page*/
+	#boxes .box img {
+		float: none;
+		text-align: center;
+		object-fit: cover;
+	}
     
 	#boxes .box {
 		padding: 20px;
 	}
-
 
 	#boxes .box p {
 		text-align: justify;

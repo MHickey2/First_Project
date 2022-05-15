@@ -107,8 +107,8 @@ description and including a link for further information-->
 
 <!--******************************************************************************************************************-->
 <!--Workshop Section contains information on upcoming Webinar, and a form where the user can register for the event-->
-<!--In relation to the form I created a confirmation page and would use this <form action="confirmation.html" ria-label="Going to 
-    Confirmation Page"method="GET"></form> under normal circumstances (outside of github), but instead opted for the formdump address 
+<!--In relation to the form I created a confirmation page and will use this <form action="confirmation.html" aria-label="Going to 
+    Confirmation Page"method="GET"></form> under normal circumstances (outside of github), but I initially used the formdump address 
     action to show the functionality, I did devise using the button as an event listener to redirect user to this page, but have decided
     to include it in a future iteration.-->        
     
@@ -118,8 +118,8 @@ description and including a link for further information-->
         <h2 class ="center">Join me for an Online Workshop!</h2>
         
         <div class="workshop-info">
-            <!--<form method="GET" action="confirmation.html" aria-label="Going to Confirmation Page"  class="workshop-signup-form">-->
-            <form method="POST" action="https://formdump.codeinstitute.net" aria-label="Posting to Code Institute Site"  class="workshop-signup-form">
+            <form method="GET" action="confirmation.html" aria-label="Going to Confirmation Page"  class="workshop-signup-form">
+            <!--<form method="POST" action="https://formdump.codeinstitute.net" aria-label="Posting to Code Institute Site"  class="workshop-signup-form">-->
                 <h3 class="center">Sign up for my Free Workshop!</h3>
                     <label for="fname">First Name</label>
                     <input id="fname" name="first_name" class="input" type="text" required minlength="4">
