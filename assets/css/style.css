@@ -984,7 +984,8 @@ styling as a seperate entity. */
 	.body-technique,
 	.mind-technique,
 	.spirit-technique,
-	.welcome, .quote, .congrats {
+	.welcome, .quote, .congrats,
+	#boxes .box img {
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -1418,17 +1419,12 @@ styling as a seperate entity. */
 		margin-right: auto;
 	}
 
-	
-
 }
 
 /* For smartphones screen sizes 600px and lower */
 @media screen and (max-width: 600px) {
 
-
-	#menu {
-		margin-bottom: 2.5rem;
-	}
+/*Logo and Menu Section*/
 
 	#logo {
 		text-align: center;
@@ -1436,19 +1432,23 @@ styling as a seperate entity. */
 		font-weight: 300;
 	}
 
-	#menu li {
-		margin: 5px;
-		padding: 2px;
-		font-size: 300;
-	}
-
 	#menu {
+		margin-bottom: 2.5rem;
 		clear: left;
 		float: left;
 		margin-left: 30px;
 		margin-bottom: 20px;
 		line-height: 25px;
 	}
+
+
+	#menu li {
+		margin: 5px;
+		padding: 2px;
+		font-size: 300;
+	}
+
+/*Webinar Registration section on next page*/
 
 	.form-section {
 		height: fit-content;
@@ -1462,25 +1462,39 @@ styling as a seperate entity. */
 
 @media screen and (max-width: 400px) {
 
+	header {
+		height: 120px;
+	}
+
+/*Logo and Menu*/
 	#logo {
 		text-align: center;
+		margin-top: 3px;
+	}
+
+	#menu {
+		clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 10px;
+		line-height: 8px;
+		padding: 5px;
 	}
 
 	#menu li {
-		margin: 5px;
-		padding: 2px;
+		margin: 5px;		
 		font-size: 300;
 	}
 
+/*Hero Image and Cover Text*/	
 	#hero-image {
-		clear: both;
-		height: 300px;
-		width: 100%;
+	    clear: both;
+		height: 320px;
+		float: none;
+		position: relative;		
 		background: url('../images/stones-sm.jpg') no-repeat center center;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		overflow: hidden;
-		position: relative;
+		width: 100%;
+		margin-bottom: 5px;		
 	}
 
 	#cover-text {
@@ -1501,13 +1515,8 @@ styling as a seperate entity. */
 		position: absolute;
 	}
 
-	#menu {
-		clear: left;
-		float: left;
-		margin-left: 30px;
-		margin-bottom: 20px;
-		line-height: 25px;
-	}
+	
+/*Workshop Sign up Form */
 
 	.workshop-signup-form {
 		width: 85%;
@@ -1516,25 +1525,23 @@ styling as a seperate entity. */
 	input[type=submit] {
 		margin-bottom: 0.5rem;
 	}
+	
+
+/*Image on top of Next Page*/
 
 	.next-woman {
 		width: 100%;
 		padding: 5%
 	}
 
-	.hero-image {
-		clear: both;
-		overflow: hidden;
-		position: relative;
-		background: url('../assets/images/stones-sm.jpg') no-repeat center center;
-		width: 100%;
-		margin: 5px;
-	}
+/*Images in body, mind, spirit section on Technique Page */	
 
 	.healthy-person {
 		display: block;
-		height: 50%;
+		object-fit: cover;
 	}
+
+/*Webinar Registration section on next page*/
 
 	.form-section {
 		height: fit-content;
@@ -1545,6 +1552,8 @@ styling as a seperate entity. */
 	.workshop-news {
 		border: none;
 	}
+
+/*Thank you for your Registration on the confirmation page*/
 
 	.congrats {
 		width: 100%;
