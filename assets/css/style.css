@@ -214,17 +214,17 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 }
 
 #boxes .box .button {
-	background-color: #789773;
+	background-color: #33a521;
 	width: 55%;
 	color: #fff;
 	padding: 10px;
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 22px;
 	display: block;
 	margin: auto;
 	text-align: center;
 	font-weight: bold;
-	text-transform: uppercase;
+	
 	border: 1px solid black;
 }
 
@@ -1487,6 +1487,13 @@ styling as a seperate entity. */
 		position: absolute;
 	}
 
+
+	#boxes .box img {
+		float: none;
+		text-align: center;
+		width: 100%;
+		
+	}
 	
 /*Workshop Sign up Form */
 
