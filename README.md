@@ -9,17 +9,51 @@ of useful tips and some useful resources to hopefully give inspiration and pract
 seeking out ways to improve their health and wellbeing. People will also be able to sign up for a newsletter and be able to use social media to join a community of like minded people.
 
 
-<details>
-<summary>**Wireframes for Site**</summary>
+
+# Table of Contents
+1. [Introduction](#introduction)
+2. [Project Goals](#projectgoals)
+    1. [User Goals](#usergoals)
+    2. [Site owners Goals](#siteownergoals)
+3. [User Experience](#userexperience)
+    1. [Target Audience](#targetaudience)
+4. [User Stories](#userstories)
+    1. [New User](#newuser)
+    2. [Site Owner](#siteowner)
+5.  [Design](#design)
+    1. [Wireframes](#wireframes)
+    2. [Colour Scheme](#colourscheme)
+    3. [Fonts](#fonts)
+    4. [Icons](#icons)
+    5. [Structure](#structure)
+6.  [Features](#features) 
+7.  [Future](#future)
+8.  [Tools and Technology](#Technology)
+9.  [Testing](#testing)
+10. [Bugs](#bugs)
+11. [Deployment](#deployment)
+12. [Credits](#credits)
+13. [Acknowledgements](#acknowledgements)
+
+## This is the introduction <a name="introduction"></a>
+Some introduction text, formatted in heading 2 style
+
+## Some paragraph <a name="paragraph1"></a>
+The first paragraph text
+
+### Sub paragraph <a name="subparagraph1"></a>
+This is a sub paragraph, formatted in heading 3 style
+
+## Another paragraph <a name="paragraph2"></a>
+The second paragraph text
+
+<details><a name="wireframes"></a>
+<summary>WIREFRAMES FOR SITE</summary>
 
 <details>
   <summary>1. Home Page Wireframe</summary>
-  
-<p align="center">
-  <img 
-    width="1000"
-    height="1000"
-    src="assets/images/wireframes/home_page.png"/>
+  <p>
+     <img src="assets/images/wireframes/home_page.png"/>    
 </p>
 </details>
 
@@ -55,6 +89,19 @@ seeking out ways to improve their health and wellbeing. People will also be able
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
