@@ -35,7 +35,8 @@
 12. [Acknowledgements](#acknowledgements)
 
 
-<p align ="center">
+# The Balancing Pact
+<p align ="center">      
      <img src="assets/images/balance-img.png" height="150" width="150"/>    
 </p>
 
@@ -45,7 +46,7 @@ busy lifestyles and parents in need of some downtime. It provides information on
 a few simple life changes to improve the quality of your life. It is a concise and practical compendium 
 of useful tips and some useful resources to hopefully give inspiration and practical advice for people
 seeking out ways to improve their health and wellbeing. People will also be able to sign up for a newsletter and be able to use social media to join a community of like minded people.  
-<br/>
+
 
 ## The Business Goals of the website: <a name="businessgoals"></a>
 - no commercial goals, but the site is to build awareness of ways a person can improve their quality of live by adopting simple changes that can integrate into their lives and improve their quality of life.
@@ -86,9 +87,13 @@ People who are seeking some advice or tips on maintaining balance in their lives
 - I want to extend the knowledge base within my site and use innovative ways to keep my users satisfied.
 - Discover any shortcomings in the present site, and use user feedback to improve the user experience within the site.  
 
+----
+## Design
+
+
 
 <details><a name="wireframes"></a>
-<summary>WIREFRAMES FOR SITE</summary>
+<summary>Wireframes for Site</summary>
 
 Wireframes for Desktop, Medium Screens and Mobile Screens.  
 
@@ -131,10 +136,44 @@ Wireframes for Desktop, Medium Screens and Mobile Screens.
 
 </details>
 
+<details><a name="colourscheme"></a>
+<summary>Colour Scheme</summary>
+</details>
+
+<details><a name="fonts"></a>
+<summary>Fonts</summary>
+font-family: 'Roboto', sans-serif;
+
+Roboto
+font-weight: Light 300
+font-weight: Bold 700
+
+Used for the majority of the site, both for regular text and headings.
+
+font-family: 'Dancing Script', cursive;
+
+Dancing Script
+Font-weight: Regular 400
+Font-weight: Bold 700
+
+Used for the opening Welcome section on the home page and for the Quotes linked to the body, mind and
+spirit section on the lifestyle page.
+
+</details>
+
+<details><a name="icons"></a>
+<summary>Icons</summary>
+</details>
+
+<details><a name="structure"></a>
+<summary>Structure</summary>
+</details>
+
+----
  ## Features  <a name="features"></a>
 There are some common featurses available on each page of the website. The Logo is positioned at the top left corner and it also acts as a link back to the home page, wherever you are on the site. When a user scans your page, they are naturally drawn to the left hand side and it is a prominent convention in web design to follow this logic. The Navigation bar is positioned at the top right of the webpag on Desktop and middle screens, but is responsive and is redeployed where screen size gets smaller. Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
 
-User Experience related to common elements on each page
+#### User Experience related to common elements on each page
 
 ### Logo
 - The Logo is in the same place on each page.
@@ -166,7 +205,7 @@ The site is boken down into 3 main areas and this section gives a simplified exp
 ### The Footer: 
 This area shares the Social Media Links with the user, and carries some copyright information for the site.  On a fully developed site it may also include a sitemap, navigation etc. There would also be contact information and a location for the given company/person.  
 
-User Experience Checklist for Home Page
+#### User Experience Checklist for Home Page
 
 - The page creates text and images that support the overall theme of the site.
 - Images are meaningful and support the text on the page.
@@ -190,7 +229,7 @@ This section contains a text box on the information related to improving your me
 ### The Spirit Section: 
 This section contains a text box on the information related to improving your spiritual health. There is a list included that gives simple tips on how you can be proactive in improving your own spiritual health. There is also an embedded Iframe with a simple 5minute meditation sourced from YouTube, which will allow the user's to try a mediitation for themselves. In addition there is a quote, to support the overall message of the importance of working on the body, mind and spirit to emphasise the importance of combining the elements, this also helps balance the symmetry of the section.  
 
-User Experience Checklist for Lifestyle Page
+#### User Experience Checklist for Lifestyle Page
 
 
 ## The Next Page <a name="next"></a>
@@ -206,13 +245,13 @@ This section includes a text box explaining the details of the upcoming Webinar,
 The form itself contains required fields before you can submit the form. There is also a minimul limit on how many characters are needed to complete the name fields. In this case '4 characters' are needed in the name fields.  I would have used placeholders but trusted users would understand what is required.  The email field requires the '@' in order to be a valid entry. There is a placeholder in this field, giving them the format that is required of them. There is also a reset button included to allow user to clear their entries, if they need to restart the process.
 I had tried to add javascript event listener to the submit button, but this prooved problematic as it was redirecting the user before all fields were entered and felt it was more advantageous to have the form working correctly, but this again would be an area I would revisit in order to have the Form fully functionally with the redirection in place. I did leave the javascript in place and have comments explaining  the issue.   
 
-User Experience Checklist for Next Page
+#### User Experience Checklist for Next Page
 
 - Related information in grouped together i.e Resources Section, Webinar Section.
 - Colour is used to group and structure items on the page i.e Resources and Webinar section.
 - There are no broken links.
 - Page content is in language the user will understand.  
-#### Form:
+### Form:
 - Only necessary questions are on the form.
 - Fields are labelled conventionally.
 - Form submission is confirmed by a confirmation page, in this case the Code Institute page showing that the information has been inputted to the site, but in future a confirmation page will be implemented.
@@ -224,7 +263,7 @@ User Experience Checklist for Next Page
 This page is displayed when the user registers for the webinar, it confirms to the user that they have their place confirmed in the webinar. It gives them a compact information panel with time and date details with an image showing the date of the Webinar in pictorial form. It also displays a pictorial representation of the Zoom logo, and a message that the link will be delivered to them via email.
 There is also a final message to the user on  why it is a good idea to connect with social media as there will be additional information and resources available within these channels. This also acts as a CTA to engage in these channels.  
 
-User Experience Checklist for Confirmation Page
+#### User Experience Checklist for Confirmation Page
 
 - The layout focuses the user's attention on the essential details needed for the webinar I.e. The date and time and the location.
 - The images reinforce the details in the information panels. Making use of skeuomorphism by using objects i.e. Zoom Logo and Scheduling Icons, concepts easily recognized by users. 
@@ -233,15 +272,15 @@ User Experience Checklist for Confirmation Page
 -There is a clear call to action as the user is encouraged to connect on social media channels to avail of further information and resources.  
 
 
-##The 404 Page  <a name="404"></a>
+## The 404 Page  <a name="404"></a>
 This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the elements of the website in place in order for the user to return to the website on whatever page they require.  
 
-User Experience Checklist for 404 Page
+#### User Experience Checklist for 404 Page
 
 - The image is in keeping with the concept of the website.
 - All page content is useful and appropriate for the situation.  
 
-
+----
 ## Features to be implemented in the Future <a name="future"></a>
 - As mentioned previously, there were a couple of challenges with existing features that I would like to improve in the future. I will utilize javascript to redirect users to the thank you page after they submit their details for the webinar. 
 - I will also insert the call to action for the newsletter sign up, and use javascript to create a pop-up form and a notification when they have sucessfully signed up.
@@ -249,7 +288,7 @@ User Experience Checklist for 404 Page
 - At the moment the navigation on small screens seems adequate, but if I was to add more menu items I would have to implement a hamburger menu.
 - I would like to introduce more interactivity in the site by use of a blog, with the latest blog being highlighted within the site and enable users to comment and form threads to promote connections.  
 
-
+----
 ## Technologies Used <a name="technology"></a>
 
 - Programming Languages:	HTML,	CSS3
@@ -260,7 +299,7 @@ User Experience Checklist for 404 Page
 - Multimedia:				Sourced from YouTube
 - Free Images:			Pixalbay, Unsplash, Pexels  
 
-
+----
 ## Deployment  <a name="deployment"></a>
 
 The Website was developed within Gitpod and was pushed to GitHub using the git commands:
@@ -300,8 +339,10 @@ This Template has been provided by the Code Institute and includes a number of t
 - You can then add a meaningful message that describe the changes you made.
 -You can add the commit to current branch or new branch. I chose to commit to main branch and clicked to propose the new file.  
 
+----
 ## Testing  <a name="testing"></a>
 
+----
 ## Credit  <a name="credit"></a>
 
 ### Content of the site
@@ -317,7 +358,7 @@ The video was sourced from YouTube.
 ### Code
 The Social Media code was based on the code in 'Cool Runnings' project, the previous website on the Code Institute Course.
 
-
+----
 
 
 
@@ -332,7 +373,6 @@ The Social Media code was based on the code in 'Cool Runnings' project, the prev
   
 
 
-## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
