@@ -1,36 +1,38 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+ # The Balancing Pact
 
-# The Balancing Pact
 [Visit the Balancing Pact](https://mhickey2.github.io/First_Project/)
 
 
 
 # Table of Contents
 1. [Introduction](#introduction)
-2. [](#bus)
-    1. [User Goals](#usergoals)
-    2. [Site owners Goals](#siteownergoals)
-3. [UX Strategy](#uxstrategy)
+2. [UX Strategy](#uxstrategy)
     1. [Business Goals](#businessgoals)
     1. [Target Customer](#targetcustomer)
-4. [User Stories](#userstories)
+3. [User Stories](#userstories)
     1. [First Time User](#firsttimeuser)
     2. [Regular User](#regularuser)
     3. [Site Owner](#siteowner)
-5.  [Design](#design)
+4.  [Design](#design)
     1. [Wireframes](#wireframes)
     2. [Colour Scheme](#colourscheme)
     3. [Fonts](#fonts)
     4. [Icons](#icons)
     5. [Structure](#structure)
-6.  [Features](#features) 
-7.  [Future](#future)
-8.  [Tools and Technology](#Technology)
-9.  [Testing](#testing)
-10. [Bugs](#bugs)
-11. [Deployment](#deployment)
-12. [Credits](#credits)
-13. [Acknowledgements](#acknowledgements)
+5.  [Features](#features)
+    1. [Home Page](#homepage)
+    2. [Lifestyle Page](#lifestylepage)
+    3. [Next Page](#nextpage)
+    4. [Confirmation Page](#confirmationpage) 
+    5. [404 Page](#404page)
+6.  [Future](#future)
+7.  [Tools and Technology](#Technology)
+8.  [Testing](#testing)
+9.  [Bugs](#bugs)
+10. [Deployment](#deployment)
+11. [Credits](#credits)
+12. [Acknowledgements](#acknowledgements)
 
 ## Introduction <a name="introduction"></a>
 Tha Balancing pact Website is targeted at the general population from hard working students, people with
@@ -150,7 +152,7 @@ User Experience related to common elements on each page
 - Social network links are clearly displayed in the footer.
 
 
-## The Home Page 
+## The Home Page <a name="homepage"></a>
 ### Hero Image/Overlay:  
 The Home Page's first imapact is the Hero Image at the top of the screen below the header section. This image hopes to capture a delicate balancing act, and is symbolic for the delicate balance we maintain in our lives despite the ongoing effects of a sometimes busy and hectic lifestyle. The colour scheme being green is conducive to health and healing when you research the impact of colour on emotional wellbeing. This image will be rendered smaller on a smaller screen. In combination with the image there is an overly with the key message of the site, and acts as an introduction and an invitation to learn more. 
 
@@ -178,7 +180,7 @@ User Experience Checklist for Home Page
 - The information is concise and there are no large areas of text.
 - Content is easily scanable with short paragraphs and there is a clear hierarchy on the page with headings and subheadings indicating what is related to each section.
 
-## The Lifestyle Page (formerly Technique Page)
+## The Lifestyle Page (formerly Technique Page) <a name="lifestyle"></a>
 
 ### The Body Section: 
 This section contains a text box on the information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be proactive in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site.
@@ -193,7 +195,7 @@ This section contains a text box on the information related to improving your sp
 User Experience Checklist for Lifestyle Page
 
 
-## The Next Page
+## The Next Page <a name="next"></a>
 
 ### What's Next Section: 
 The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website.
@@ -220,7 +222,7 @@ User Experience Checklist for Next Page
 - Email field contains an example to make the expected input clear.
 
 
-## The Confirmation Page
+## The Confirmation Page <a name="confirmation"></a>
 This page is displayed when the user registers for the webinar, it confirms to the user that they have their place confirmed in the webinar. It gives them a compact information panel with time and date details with an image showing the date of the Webinar in pictorial form. It also displays a pictorial representation of the Zoom logo, and a message that the link will be delivered to them via email.
 There is also a final message to the user on  why it is a good idea to connect with social media as there will be additional information and resources available within these channels. This also acts as a CTA to engage in these channels.
 
@@ -233,7 +235,7 @@ User Experience Checklist for Confirmation Page
 -There is a clear call to action as the user is encouraged to connect on social media channels to avail of further information and resources.
 
 
-##The 404 Page
+##The 404 Page  <a name="404"></a>
 This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the elements of the website in place in order for the user to return to the website on whatever page they require.
 
 User Experience Checklist for 404 Page
@@ -242,7 +244,7 @@ User Experience Checklist for 404 Page
 - All page content is useful and appropriate for the situation.
 
 
-## Features to be implemented in the Future
+## Features to be implemented in the Future <a name="future"></a>
 - As mentioned previously, there were a couple of challenges with existing features that I would like to improve in the future. I will utilize javascript to redirect users to the thank you page after they submit their details for the webinar. 
 - I will also insert the call to action for the newsletter sign up, and use javascript to create a pop-up form and a notification when they have sucessfully signed up.
 - In relation to forms I would also use a captcha/anti-spam feature for security reasons.
@@ -250,7 +252,7 @@ User Experience Checklist for 404 Page
 - I would like to introduce more interactivity in the site by use of a blog, with the latest blog being highlighted within the site and enable users to comment and form threads to promote connections.
 
 
-## Technologies Used
+## Technologies Used <a name="technology"></a>
 
 - Programming Languages:	HTML,	CSS3
 - IDE - Editor:				Gitpod
@@ -261,7 +263,7 @@ User Experience Checklist for 404 Page
 - Free Images:			Pixalbay, Unsplash, Pexels
 
 
-## Deployment
+## Deployment  <a name="deployment"></a>
 
 The Website was developed within Gitpod and was pushed to GitHub using the git commands:
 Git add .	Which added all files
@@ -300,14 +302,16 @@ This Template has been provided by the Code Institute and includes a number of t
 - You can then add a meaningful message that describe the changes you made.
 -You can add the commit to current branch or new branch. I chose to commit to main branch and clicked to propose the new file.
 
-## Testing  
+## Testing  <a name="testing"></a>
 
-## Credit
-Content of the site:
-I created the written content but drew inspiration from:
-https://www.betterup.com/blog/mind-body-and-soul?fbclid=IwAR3YrY5lJSkBwhZ5ThmwbzLNSRhWmvyO2dHpYe2XXrltwZ-tI8QgQrWUlWo
+## Credit  <a name="credit"></a>
+
+### Content of the site
+I created the written content but drew inspiration from this:
+[Better up.com Blog](https://www.betterup.com/blog/mind-body-and-soul?fbclid=IwAR3YrY5lJSkBwhZ5ThmwbzLNSRhWmvyO2dHpYe2XXrltwZ-tI8QgQrWUlWo)
 I have had an interest in holistic health and stress management in the past and feel Work/Life Balance is a topic highly relevant in the current climate.
-Media
+
+### Media
 All the imagery from the site was obtained from:
 Pixalbay Pexels, Unsplash
 The video was sourced from YouTube.
