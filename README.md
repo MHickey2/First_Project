@@ -9,7 +9,7 @@
 1. [Introduction](#introduction)
 2. [UX Strategy](#uxstrategy)
     1. [Business Goals](#businessgoals)
-    1. [Target Customer](#targetcustomer)
+    2. [Target Customer](#targetcustomer)
 3. [User Stories](#userstories)
     1. [First Time User](#firsttimeuser)
     2. [Regular User](#regularuser)
@@ -29,10 +29,18 @@
 6.  [Future](#future)
 7.  [Tools and Technology](#Technology)
 8.  [Testing](#testing)
+    1. [Validator Testing](#validatortesting)
+    2. [Manual Testing](#manualtesting)
+    3. [User Story Testing](#userstorytesting)
 9.  [Bugs](#bugs)
 10. [Deployment](#deployment)
-11. [Credits](#credits)
-12. [Acknowledgements](#acknowledgements)
+    1. [Repository](#githubrepository)
+    2. [Deploy the Site](#deployingsite)
+    3. [Run Project locally](#runlocally)
+    4. [Student Template](#studenttemplate)
+    5. [Custom 404 Page](#404page)
+11.  [Credits](#credits)
+12.  [Acknowledgements](#acknowledgements)
 
 
 # The Balancing Pact
@@ -310,37 +318,57 @@ Git commit -m “Various Messages”   which commited these files and the messag
 Git push	Which pushed these files into the GitHub Repository  
 
 ### Create a GitHub Repository for your site
-- Use the drop-down menu on the upper far rigt corner of your page and select New Repository.
-- You will be presented with form for input, you can select wo owns the repository and can give the repository a name. At this point you can add a description.
-- You can choose the visibility of the site, in this case public was chosen.
-- You can then initialize the site with a README.
-- You can now click the create repository button.  
+1. Use the drop-down menu on the upper far rigt corner of your page and select New Repository.
+2. You will be presented with form for input, you can select who owns the repository and can give the repository a name. At this point you can add a description.
+3. You can choose the visibility of the site, in this case public was chosen.
+4. You can then initialize the site with a README.
+5. You can now click the create repository button.  
 
 ### To initially deploy this site from the Repository to GitHub pages, the following steps were followed:
-- Log into your GitHub account.
-- Choose the repository that contains your intended site, in this case.
-- Choose the Settings options.
--Scroll down to the GitHub Pages section. 
-- Within GitHub Pages you can choose a theme from the options given.  
+1. Log into your GitHub account.
+2. Choose the repository that contains your intended site, in this case.
+3. Choose the Settings options.
+4. Scroll down to the GitHub Pages section. 
+5. Within GitHub Pages you can choose a theme from the options given.  
 
 ### How to run the project Locally
-- You can add a browser extension for gitpod onto your browser, in this case chrome. Also available in Firefox (add-ons). On chrome you use 3 dots on right hand corner of your screen, choose extensions, and again using hamburger menu chose to go to chrome webstore and search for gitpod and your result will be displayed. You will need to authorize permission and it will be added to Chrome.
-- Navigate to your GitHub Repository, there will be a green Gitpod button available now, you can use this and your code will be used to build a workspace which you can use to work locally.
-- The first time you do this, you need to login with GitHub so click to authorize.
-- Within the Code Institute website there is a GitPod button which will allow you to access your workspaces dashboard or you can use a shortcut on your computer to allow you to access these workspaces independently.  
+1. You can add a browser extension for gitpod onto your browser, in this case chrome. Also available in Firefox (add-ons). On chrome you use 3 dots on right hand corner of your screen, choose extensions, and again using hamburger menu chose to go to chrome webstore and search for gitpod and your result will be displayed. You will need to authorize permission and it will be added to Chrome.
+2. Navigate to your GitHub Repository, there will be a green Gitpod button available now, you can use this and your code will be used to build a workspace which you can use to work locally.
+3. The first time you do this, you need to login with GitHub so click to authorize.
+4. Within the Code Institute website there is a GitPod button which will allow you to access your workspaces dashboard or you can use a shortcut on your computer to allow you to access these workspaces independently.  
 
 ### GitHub Student Template
 This Template has been provided by the Code Institute and includes a number of tools to make life easier and has been used within this present site.  
 
 ### Creating a custom 404 page for your GitHub Pages Site
-- Navigate to the site repository.
-- Using the 'add file' dropdown, choose 'Create new File'.
-- In the presented filed name, type 404.html/404.md. In my case I chose 404.html.
-- You can then add a meaningful message that describe the changes you made.
--You can add the commit to current branch or new branch. I chose to commit to main branch and clicked to propose the new file.  
+1. Navigate to the site repository.
+2. Using the 'add file' dropdown, choose 'Create new File'.
+3. In the presented filed name, type 404.html/404.md. In my case I chose 404.html.
+4. You can then add a meaningful message that describe the changes you made.
+5. You can add the commit to current branch or new branch. I chose to commit to main branch and clicked to propose the new file.  
 
 ----
 ## Testing  <a name="testing"></a>
+
+<details>
+  <summary>1. Validator Testing</summary>
+</details>
+
+
+
+<details>
+  <summary>2. Manual Testing</summary>
+
+<p align ="center">      
+     <img src="assets/images/mantest.png" height="800" width="1000"/>    
+</p>
+
+</details>
+
+<details>
+  <summary>3. User Story Testing</summary>
+</details>
+
 
 ----
 ## Credit  <a name="credit"></a>
