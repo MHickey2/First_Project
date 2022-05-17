@@ -5,7 +5,7 @@
 
 
 
-# Table of Contents
+# Table of Contents <a name="toc"></a>
 1. [Introduction](#introduction)
 2. [UX Strategy](#uxstrategy)
     1. [Business Goals](#businessgoals)
@@ -95,6 +95,7 @@ People who are seeking some advice or tips on maintaining balance in their lives
 - I want to extend the knowledge base within my site and use innovative ways to keep my users satisfied.
 - Discover any shortcomings in the present site, and use user feedback to improve the user experience within the site.  
 
+ #### [Return to Table of Contents](#toc)
 ----
 ## Design
 
@@ -103,7 +104,8 @@ People who are seeking some advice or tips on maintaining balance in their lives
 <details><a name="wireframes"></a>
 <summary>Wireframes for Site</summary>
 
-Wireframes for Desktop, Medium Screens and Mobile Screens.  
+Wireframes for Desktop, Medium Screens and Mobile Screens.<br/> 
+Wireframes were created in Figma. 
 
 
 
@@ -177,6 +179,8 @@ spirit section on the lifestyle page.
 <summary>Structure</summary>
 </details>
 
+
+ #### [Return to Table of Contents](#toc)
 ----
  ## Features  <a name="features"></a>
 There are some common featurses available on each page of the website. The Logo is positioned at the top left corner and it also acts as a link back to the home page, wherever you are on the site. When a user scans your page, they are naturally drawn to the left hand side and it is a prominent convention in web design to follow this logic. The Navigation bar is positioned at the top right of the webpag on Desktop and middle screens, but is responsive and is redeployed where screen size gets smaller. Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
@@ -288,6 +292,8 @@ This page is displayed to the user if they experience a problem connecting with 
 - The image is in keeping with the concept of the website.
 - All page content is useful and appropriate for the situation.  
 
+ #### [Return to Table of Contents](#toc)
+
 ----
 ## Features to be implemented in the Future <a name="future"></a>
 - As mentioned previously, there were a couple of challenges with existing features that I would like to improve in the future. I will utilize javascript to redirect users to the thank you page after they submit their details for the webinar. 
@@ -296,17 +302,21 @@ This page is displayed to the user if they experience a problem connecting with 
 - At the moment the navigation on small screens seems adequate, but if I was to add more menu items I would have to implement a hamburger menu.
 - I would like to introduce more interactivity in the site by use of a blog, with the latest blog being highlighted within the site and enable users to comment and form threads to promote connections.  
 
+
+#### [Return to Table of Contents](#toc)
 ----
 ## Technologies Used <a name="technology"></a>
 
 - Programming Languages:	HTML,	CSS3
-- IDE - Editor:				Gitpod
-- Deployment:			Gitpod
-- Fonts:					Google Fonts
-- Social Media Icons:		Font Awesome
-- Multimedia:				Sourced from YouTube
-- Free Images:			Pixalbay, Unsplash, Pexels  
+- IDE - Editor:				    Gitpod
+- Deployment:			        Gitpod
+- Fonts:					        Google Fonts
+- Wireframes:             Figma
+- Social Media Icons:		  Font Awesome
+- Multimedia:				      Sourced from YouTube
+- Free Images:			      Pixalbay, Unsplash, Pexels  
 
+ #### [Return to Table of Contents](#toc)
 ----
 ## Deployment  <a name="deployment"></a>
 
@@ -347,6 +357,7 @@ This Template has been provided by the Code Institute and includes a number of t
 4. You can then add a meaningful message that describe the changes you made.
 5. You can add the commit to current branch or new branch. I chose to commit to main branch and clicked to propose the new file.  
 
+ [Return to Table of Contents](#toc)
 ----
 ## Testing  <a name="testing"></a>
 
@@ -406,7 +417,11 @@ The website can be expanded to include more areas of interest, in this regard ex
 
 </details>
 
+#### [Return to Table of Contents](#toc)
 
+## Bugs <a name="bugs"></a>
+
+#### [Return to Table of Contents](#toc)
 ----
 ## Credit  <a name="credit"></a>
 
