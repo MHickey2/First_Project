@@ -118,6 +118,7 @@ Wireframes were created in Figma.
 
 <details>
   <summary>2. Lifestyle Page Wireframe</summary>
+  <br/>
 <p>
   <img src="assets/images/wireframes/lifestyle_page.png"/>
 </p>
@@ -125,6 +126,7 @@ Wireframes were created in Figma.
 
 <details>
   <summary>3. Next Page Wireframe</summary>
+  <br/>
 <p>
   <img src="assets/images/wireframes/next_page.png"/>
 </p>
@@ -132,6 +134,7 @@ Wireframes were created in Figma.
 
 <details>
   <summary>4. Confirmation Page Wireframe</summary>
+  <br/>
 <p>
   <img src="assets/images/wireframes/confirmation_page.jpg"/>
 </p>
@@ -139,19 +142,27 @@ Wireframes were created in Figma.
 
 <details>
   <summary>4. 404 Page Wireframe</summary>
+  <br/>
 <p>
   <img src="assets/images/wireframes/404_page.png"/>
 </p>
 </details>
+<br/>
 
 </details>
 
 <details><a name="colourscheme"></a>
 <summary>Colour Scheme</summary>
+<br/>
+<p align="center">
+  <img src="assets/images/colourscheme.png"/>
+</p>
+<br/>
 </details>
 
 <details><a name="fonts"></a>
 <summary>Fonts</summary>
+<br/>
 font-family: 'Roboto', sans-serif;
 
 Roboto
@@ -168,15 +179,17 @@ Font-weight: Bold 700
 
 Used for the opening Welcome section on the home page and for the Quotes linked to the body, mind and
 spirit section on the lifestyle page.
-
+<br/>
 </details>
 
 <details><a name="icons"></a>
 <summary>Icons</summary>
+<br/>
 </details>
 
 <details><a name="structure"></a>
 <summary>Structure</summary>
+<br/>
 </details>
 
 
@@ -369,15 +382,17 @@ This Template has been provided by the Code Institute and includes a number of t
 
 <details>
   <summary>2. Manual Testing</summary>
-
+<br/>
 <p align ="center">      
-     <img src="assets/images/mantest.jpg" height="800" width="1000"/>    
+     <img src="assets/images/mantest.png" height="650" width="800"/>    
 </p>
 </details>
 
 <details>
   <summary>3. User Story Testing</summary>
-##As a first time user to the site
+  <br/>
+
+## As a first time user to the site
 
 - Learn more about the topics within the site.
 - I want to disover the content within the site in relation to my interests.
