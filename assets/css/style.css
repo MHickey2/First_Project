@@ -299,7 +299,7 @@ footer p {
 
 .body-list {
 	margin: 20px;
-	width: 60%;
+	width: 58%;
 	background-color: #fff;
 	border: 2px solid #5c2766;
 	border-radius: 10px;
@@ -325,7 +325,7 @@ footer p {
 .quote {
 	float: right;
 	display: block;
-	margin-right: 15px;
+	margin-right: 10px;
 	font-size: 1.75rem;
 	margin-top: 40px;
 	color: rgba(126, 43, 182);
@@ -366,7 +366,7 @@ footer p {
 
 .mind-list {
 	margin: 20px;
-	width: 60%;
+	width: 58%;
 	background-color: #fff;
 	border: 2px solid #5c2766;
 	border-radius: 10px;
@@ -391,19 +391,18 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 900px;
+	height: 900px;
 	
 		
 }
 
 .spirit-technique {
+	font-family: 'Roboto', sans-serif;
 	width: 60%;
 	text-align: center;
 	float: left;
 	line-height: 1.4;
-	padding: 10px;
-	font-size: 110%;
-	font-family: 'Roboto', sans-serif;
+	padding-top: 10px;
 	padding-bottom: 40px;
 }
 
@@ -413,20 +412,18 @@ footer p {
 	text-align: center;
 }
 
-.spirit .shapely-body {
-	width: 35%;
+.mind .shapely-body {
 	float: right;
 }
 
 .spirit-list {
 	margin: 20px;
-	width: 60%;
+	width: 58%;
 	background-color: #fff;
 	border: 2px solid #5c2766;
 	border-radius: 10px;
 	text-align: center;
 	float: left;
-	line-height: 1.4;
 	padding: 5px;
 	font-family: 'Roboto', sans-serif;
 	
@@ -720,7 +717,7 @@ styling as a seperate entity. */
 
 /*Fix for problems with the cover-text over the hero-image */
 
-@media screen and (max-width: 5000px) {
+@media screen and (max-width: 5120px) {
 
 	#cover-text {		
 		position: absolute;
@@ -746,6 +743,9 @@ styling as a seperate entity. */
 		margin: 0;
 	}
 
+	.spirit {
+		height: 1300px;
+	}
 /*Resource Section including the table;*/
 
 	.resources {

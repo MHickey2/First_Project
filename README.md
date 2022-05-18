@@ -96,7 +96,7 @@ People who are seeking some advice or tips on maintaining balance in their lives
 - I want to utilize social media links to join with like minded people and I can learn and share information with them.  
   <br/>
 
-### As a regular user of the site, I want to …...  <a namee="regularuser"></a>
+### As a regular user of the site, I want to …...  <a name="regularuser"></a>
 - I want to have updated information and possibly more expansion to cover more areas within the remit of the site.
 - I would like an updated Resources List. 
 - I want more opportunities to be interactive and share my opinions with others. 
@@ -302,10 +302,21 @@ This section builds on from the work in the Hero Image/Overlay, by providing mor
 <br/> 
 
 ### Breakdown of Information areas: 
-The site is boken down into 3 main areas and this section gives a simplified explanation of what they are, what they encompass and there is a call to action ie Body Tips, if they want to go to that area of particular interest i.e Body, Mind and Spirit. There are images to support the textual information.  
+The site is boken down into 3 main areas and this section gives a simplified explanation of what they are, what they encompass and there is a call to action ie Body Tips, if they want to go to that area of particular interest i.e Body, Mind and Spirit. There are images to support the textual information.
+<br/>
+<p align="center">
+  <img src="assets/images/boxes.png" height="555" width="981"/>
+</p>
+<br/>   
 
 ### The Footer: 
-This area shares the Social Media Links with the user, and carries some copyright information for the site.  On a fully developed site it may also include a sitemap, navigation etc. There would also be contact information and a location for the given company/person.  
+This area shares the Social Media Links with the user, and carries some copyright information for the site.  On a fully developed site it may also include a sitemap, navigation etc. There would also be contact information and a location for the given company/person.
+<br/>
+<p align="center">
+  <img src="assets/images/footer.png"/ height="50" width="800"/>
+</p>
+<br/>
+
 
 #### User Experience Checklist for Home Page
 
@@ -322,14 +333,28 @@ This area shares the Social Media Links with the user, and carries some copyrigh
 ## The Lifestyle Page (formerly Technique Page) <a name="lifestyle"></a>
 
 ### The Body Section: 
-This section contains a text box on the information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be proactive in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site.  
+This section contains a text box on the information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be proactive in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site. 
+<br/>
+<p align="center">
+  <img src="assets/images/body.png"/ height="600" width="900"/>
+</p>
+<br/> 
 
 ### The Mind Section: 
 This section contains a text box on the information related to improving your mental health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be proactive in improving your own mental health. In addition there is a mind related quote, to support the overall message, this also helps balance the symmetry of the section.  
-
+<br/>
+<p align="center">
+  <img src="assets/images/mind.png"/ height="600" width="900"/>
+</p>
+<br/>
 
 ### The Spirit Section: 
-This section contains a text box on the information related to improving your spiritual health. There is a list included that gives simple tips on how you can be proactive in improving your own spiritual health. There is also an embedded Iframe with a simple 5minute meditation sourced from YouTube, which will allow the user's to try a mediitation for themselves. In addition there is a quote, to support the overall message of the importance of working on the body, mind and spirit to emphasise the importance of combining the elements, this also helps balance the symmetry of the section.  
+This section contains a text box on the information related to improving your spiritual health. There is a list included that gives simple tips on how you can be proactive in improving your own spiritual health. There is also an embedded Iframe with a simple 5minute meditation sourced from YouTube, which will allow the user's to try a mediitation for themselves. In addition there is a quote, to support the overall message of the importance of working on the body, mind and spirit to emphasise the importance of combining the elements, this also helps balance the symmetry of the section.
+<br/>
+<p align="center">
+  <img src="assets/images/spirit.png"/ height="600" width="900"/>
+</p>
+<br/>  
 
 #### User Experience Checklist for Lifestyle Page
 
@@ -337,15 +362,30 @@ This section contains a text box on the information related to improving your sp
 ## The Next Page <a name="next"></a>
 
 ### What's Next Section: 
-The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website.  
+The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website.
+<br/>
+<p align="center">
+  <img src="assets/images/nextsection.png"/ height="600" width="900"/>
+</p>
+<br/>    
 
 ### The Resources Section: 
 The Section includes a table with details of websites that will help the user learn more about the subject areas. There is a name, a brief description of the site and links that will bring user directlly to the sites. (will open on to new site in new window, so as to allow the user to keep present site open.  
+<br/>
+<p align="center">
+  <img src="assets/images/resources.png"/ height="250" width="600"/>
+</p>
+<br/>  
 
 ### The Form Section: 
 This section includes a text box explaining the details of the upcoming Webinar, the date, time and location and a Form where the user can register for the Webinar. The post links, use the Code Institute link, as the Webinar is not an actual Event but has been created for educational purposes.
 The form itself contains required fields before you can submit the form. There is also a minimul limit on how many characters are needed to complete the name fields. In this case '4 characters' are needed in the name fields.  I would have used placeholders but trusted users would understand what is required.  The email field requires the '@' in order to be a valid entry. There is a placeholder in this field, giving them the format that is required of them. There is also a reset button included to allow user to clear their entries, if they need to restart the process.
-I had tried to add javascript event listener to the submit button, but this prooved problematic as it was redirecting the user before all fields were entered and felt it was more advantageous to have the form working correctly, but this again would be an area I would revisit in order to have the Form fully functionally with the redirection in place. I did leave the javascript in place and have comments explaining  the issue.   
+I had tried to add javascript event listener to the submit button, but this prooved problematic as it was redirecting the user before all fields were entered and felt it was more advantageous to have the form working correctly, but this again would be an area I would revisit in order to have the Form fully functionally with the redirection in place. I did leave the javascript in place and have comments explaining  the issue. 
+<br/>
+<p align="center">
+  <img src="assets/images/formsection.png"/ height="350" width="600"/>
+</p>
+<br/>    
 
 #### User Experience Checklist for Next Page
 
@@ -358,12 +398,22 @@ I had tried to add javascript event listener to the submit button, but this proo
 - Fields are labelled conventionally.
 - Form submission is confirmed by a confirmation page, in this case the Code Institute page showing that the information has been inputted to the site, but in future a confirmation page will be implemented.
 - The user is given direction on what is needed to fill in the form correctly I.e required fields, no of characters, inclusion of '@'.
-- Email field contains an example to make the expected input clear.  
+- Email field contains an example to make the expected input clear.
+  <br/>
+<p align="center">
+  <img src="assets/images/form.png"/ height="250" width="250"/>
+</p>
+<br/>    
 
 
 ## The Confirmation Page <a name="confirmation"></a>
 This page is displayed when the user registers for the webinar, it confirms to the user that they have their place confirmed in the webinar. It gives them a compact information panel with time and date details with an image showing the date of the Webinar in pictorial form. It also displays a pictorial representation of the Zoom logo, and a message that the link will be delivered to them via email.
 There is also a final message to the user on  why it is a good idea to connect with social media as there will be additional information and resources available within these channels. This also acts as a CTA to engage in these channels.  
+ <br/>
+<p align="center">
+  <img src="assets/images/thanks.png"/ height="150" width="250"/>
+</p>
+<br/> 
 
 #### User Experience Checklist for Confirmation Page
 
@@ -376,6 +426,11 @@ There is also a final message to the user on  why it is a good idea to connect w
 
 ## The 404 Page  <a name="404"></a>
 This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the elements of the website in place in order for the user to return to the website on whatever page they require.  
+<br/>
+<p align="center">
+  <img src="assets/images/errormessage.png"/ height="250" width="250"/>
+</p>
+<br/> 
 
 #### User Experience Checklist for 404 Page
 
@@ -529,6 +584,13 @@ The video was sourced from YouTube.
 
 ### Code
 The Social Media code was based on the code in 'Cool Runnings' project, the previous website on the Code Institute Course.
+
+### Sources
+Sites that I have consulted when there was issues with the site:<br/>
+- [W3Schools](https://www.w3schools.com/html/html5_svg.asp)
+- [https://stackoverflow.com/](https://stackoverflow.com/)
+
+
 
 ----
 
