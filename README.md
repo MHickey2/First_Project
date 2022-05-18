@@ -45,35 +45,47 @@
 
 # The Balancing Pact
 <p align ="center">      
-     <img src="assets/images/balance-img.png" height="150" width="150"/>    
+     <img src="assets/images/logo.png" height="" width=""/>    
 </p>
 
 ## Introduction <a name="introduction"></a>
 Tha Balancing pact Website is targeted at the general population from hard working students, people with
 busy lifestyles and parents in need of some downtime. It provides information on how you can incorporate
 a few simple life changes to improve the quality of your life. It is a concise and practical compendium 
-of useful tips and some useful resources to hopefully give inspiration and practical advice for people
-seeking out ways to improve their health and wellbeing. People will also be able to sign up for a newsletter and be able to use social media to join a community of like minded people.  
+of useful tips and resources to hopefully give inspiration and practical advice for people seeking out 
+ways to improve their health and wellbeing. Users will also be able to sign up for an upcoming Webinar 
+on the subject and will have the option to use social media to join a community of like minded people.  
+<br/>
+## UX Strategy <a name="uxstrategy"></a>
+The website is designed as an introduction to the subject of 'Life Balance', so the aim is to present 
+information in a condensed and logical manner within 3 main subject areas. This involved intensive research
+initially to find what subject areas are most pertinent and how they can be presented to the users. There was also
+a period of competitor analysis on existing websites to evaluate the goals I needed to concentrate on within the project. It was also important to identify the target audience for the website to determine the tone needed in the delivery of the
+site.
+<br/> 
 
-
-## The Business Goals of the website: <a name="businessgoals"></a>
+### The Business Goals of the website: <a name="businessgoals"></a>
 - no commercial goals, but the site is to build awareness of ways a person can improve their quality of live by adopting simple changes that can integrate into their lives and improve their quality of life.
 - Provide simple tips on achieving good work life balance.
 - Promote engagement with users by giving them access to a regular newsletter.
 - Further engage the user by allowing users to register for an upcoming webinar that offers an interative and more indepth insight into the issues within the site. 
-- Offer users the opportunity to engage with others by joining with dedicated social media in order to build a community of people who have the goal to attain more balance in their lives.  
+- Offer users the opportunity to engage with others by joining with dedicated social media in order to build a community of people who have the goal to attain more balance in their lives. 
+  <br/> 
 
 
-## The Target Customer: <a name="targetcustomer"></a>
-The audience of the site is fairly diverse, but would generally be aimed at an adult audience, all genders and age groups. 
-Open to single people and those in families, with or without childeren
-Working, unemployed, Student or retired.
+### The Target Customer: <a name="targetcustomer"></a>
+The audience of the site is fairly diverse, but the site would generally be aimed at an adult audience, all genders and age groups. 
+Open to single people and those in families, with or without childeren.
+Working people, unemployed, Student or retired.
 Would probably have some access to digital technology.
 People who are seeking some advice or tips on maintaining balance in their lives or can be prone to stress in their lives.  
-   
+ <br/>  
 
-## As a first time user to the site, I want to …..<a name="firsttimeuser"></a>
-- Learn more about the topics within the site.
+ #### [Return to Table of Contents](#toc)
+----
+## User Stories
+### As a first time user to the site, I want to …..<a name="firsttimeuser"></a>
+- i want to learn more about the topics within the site.
 - I want to disover the content within the site in relation to my interests.
 - I want to learn if there are possible solutions to help me gain more balance in my life.
 - I want to find simple changes that I can integrate into my life that will make a difference.
@@ -82,24 +94,26 @@ People who are seeking some advice or tips on maintaining balance in their lives
 - I want access to resouces that I can access and can help me find more indepth knowledge in specific areas.
 - I want to sign up for a newsletter to keep updated on more information on a regular basis.
 - I want to utilize social media links to join with like minded people and I can learn and share information with them.  
+  <br/>
 
-
-## As a regular user of the site, I want to …...  <a namee="regularuser"></a>
+### As a regular user of the site, I want to …...  <a namee="regularuser"></a>
 - I want to have updated information and possibly more expansion to cover more areas within the remit of the site.
-- I would like an updated Resources List.  
+- I would like an updated Resources List. 
+- I want more opportunities to be interactive and share my opinions with others. 
+ <br/>
 
 
-## As the site owner, I want to …..    <a name="siteowner"></a>
+### As the site owner, I want to …..    <a name="siteowner"></a>
 - Provide a compendium of information that offers the user insights and tips to the users on how to create more balance in their life.
 - Engage with the site users and discover ways to improve the site and provide information relevant to my user's needs.
 - I want to extend the knowledge base within my site and use innovative ways to keep my users satisfied.
-- Discover any shortcomings in the present site, and use user feedback to improve the user experience within the site.  
+- Discover any shortcomings in the present site, and use user feedback to improve the user experience within the site.
+  <br/>  
+
 
  #### [Return to Table of Contents](#toc)
 ----
 ## Design
-
-
 
 <details><a name="wireframes"></a>
 <summary>Wireframes for Site</summary>
@@ -111,40 +125,40 @@ Wireframes were created in Figma.
 
 <details>
   <summary>1. Home Page Wireframe</summary>
-  <p>
-     <img src="assets/images/wireframes/home_page.png"/>    
+  <p align="center">
+     <img src="assets/images/wireframes/home_page.png" height="700" width="700"/>    
 </p>
 </details>
 
 <details>
   <summary>2. Lifestyle Page Wireframe</summary>
   <br/>
-<p>
-  <img src="assets/images/wireframes/lifestyle_page.png"/>
+<p align="center">
+  <img src="assets/images/wireframes/lifestyle_page.png" height="700" width="700"/>
 </p>
 </details>
 
 <details>
   <summary>3. Next Page Wireframe</summary>
   <br/>
-<p>
-  <img src="assets/images/wireframes/next_page.png"/>
+<p align="center">
+  <img src="assets/images/wireframes/next_page.png" height="700" width="700"/>
 </p>
 </details>
 
 <details>
   <summary>4. Confirmation Page Wireframe</summary>
   <br/>
-<p>
-  <img src="assets/images/wireframes/confirmation_page.jpg"/>
+<p align="center">
+  <img src="assets/images/wireframes/confirmation_page.jpg" height="700" width="700"/>
 </p>
 </details>
 
 <details>
   <summary>4. 404 Page Wireframe</summary>
   <br/>
-<p>
-  <img src="assets/images/wireframes/404_page.png"/>
+<p align="center">
+  <img src="assets/images/wireframes/404_page.png" height="700" width="700"/>
 </p>
 </details>
 <br/>
@@ -153,16 +167,31 @@ Wireframes were created in Figma.
 
 <details><a name="colourscheme"></a>
 <summary>Colour Scheme</summary>
+
+The colour scheme for the website has evolved over time and mainly consists of these complementary colours. There are other colours in the site but they are all a derivation of these colours. 
 <br/>
 <p align="center">
   <img src="assets/images/colourscheme.png"/>
 </p>
 <br/>
+
+### Other Colours
+- Home Page: 
+- The Cover Text on Hero Image: 
+- Welcome Panel: Gradient
+- Next Page:
+- Resources Section background:
+- Sign Up Form:
+
 </details>
 
 <details><a name="fonts"></a>
 <summary>Fonts</summary>
 <br/>
+
+<p align="center">
+  <img src="assets/images/font.png"/>
+</p>
 font-family: 'Roboto', sans-serif;
 
 Roboto
@@ -178,16 +207,29 @@ Font-weight: Regular 400
 Font-weight: Bold 700
 
 Used for the opening Welcome section on the home page and for the Quotes linked to the body, mind and
-spirit section on the lifestyle page.
+spirit section on the lifestyle page, and the error message on the 404.page.
+
+<p align="center">
+  <img src="assets/images/quote.png"/>
+</p>
 <br/>
 </details>
 
 <details><a name="icons"></a>
 <summary>Icons</summary>
 <br/>
+<p align="center">
+  <img src="assets/images/fonticons.png"/>
+</p>
+- In relation to the Logo I used a 'Balancing Scales icon' to support the overall message of balance in the website.<br/>
+- I added the Social Media Icons to the footer element.<br/>
+- In ther resources section, for logistic reasons I could not add the name of the website in the link section so used the arrow icon to indicate what each links relate to as a temporary measure.
+  <br/>
 </details>
 
+
 <details><a name="structure"></a>
+<br/>
 <summary>Structure</summary>
 <br/>
 </details>
@@ -196,13 +238,30 @@ spirit section on the lifestyle page.
  #### [Return to Table of Contents](#toc)
 ----
  ## Features  <a name="features"></a>
-There are some common featurses available on each page of the website. The Logo is positioned at the top left corner and it also acts as a link back to the home page, wherever you are on the site. When a user scans your page, they are naturally drawn to the left hand side and it is a prominent convention in web design to follow this logic. The Navigation bar is positioned at the top right of the webpag on Desktop and middle screens, but is responsive and is redeployed where screen size gets smaller. Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
+There are some common featurses available on each page of the website. 
+
+The Logo is positioned at the top left corner and it also acts as a link back to the home page, wherever you are on the site. When a user scans your page, they are naturally drawn to the left hand side and it is a prominent convention in web design to follow this logic. 
+
+The Navigation bar is positioned at the top right of the webpag on Desktop and middle screens, but is responsive and is redeployed where screen size gets smaller. 
+
+<br/>
+<p align="center">
+  <img src="assets/images/header.png"/ height="60" width="800"/>
+</p>
+<br/>
+Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
+
+<br/>
+<p align="center">
+  <img src="assets/images/footer.png"/ height="60" width="800"/>
+</p>
+<br/>
 
 #### User Experience related to common elements on each page
 
 ### Logo
 - The Logo is in the same place on each page.
--The logo can be pressed by the user and they will be returned to the home page.
+- The logo can be pressed by the user and they will be returned to the home page.
 
 ### Navigation
 - There is a navigation bar with clear links to all website pages.
@@ -212,17 +271,35 @@ There are some common featurses available on each page of the website. The Logo 
 
 ### Footer
 - Social network links are clearly displayed in the footer.  
+<br/>
 
 
 ## The Home Page <a name="homepage"></a>
+<br/>
+
 ### Hero Image/Overlay:  
 The Home Page's first imapact is the Hero Image at the top of the screen below the header section. This image hopes to capture a delicate balancing act, and is symbolic for the delicate balance we maintain in our lives despite the ongoing effects of a sometimes busy and hectic lifestyle. The colour scheme being green is conducive to health and healing when you research the impact of colour on emotional wellbeing. This image will be rendered smaller on a smaller screen. In combination with the image there is an overly with the key message of the site, and acts as an introduction and an invitation to learn more.   
+<br/>
+<p align="center">
+  <img src="assets/images/hero.png"/ height="400" width="700"/>
+</p>
+<br/>
 
 ### Sign Up for Newsletter*: 
 This section is displayed early to get the user's attention early. This is the user's opportunity to interact with the site and build a relationship with the site moving forward. This feature has since been removed and will hope to have a better grasp of javascript in order to use a pop up window to find the user details and another pop up to confirm that they have signed up for the newsletter. Image shows how it did look on the screen before the removal.  
+<br/>
+<p align="center">
+  <img src="assets/images/newsletter.png"/ height="30" width="400"/>
+</p>
+<br/>
 
 ### Welcome Section: 
-This section builds on from the work in the Hero Image/Overlay, by providing more information to the user, this provides the context for the site, and should give the user enough inofrmation to gauge whether this site has anything to offer them and what they can expect from the site. The text is supplemented by the image, which helps the user relate to the human element behind the website.  
+This section builds on from the work in the Hero Image/Overlay, by providing more information to the user, this provides the context for the site, and should give the user enough inofrmation to gauge whether this site has anything to offer them and what they can expect from the site. The text is supplemented by the image, which helps the user relate to the human element behind the website. 
+<br/>
+<p align="center">
+  <img src="assets/images/welcome.png" height="250" width="500"/>
+</p>
+<br/> 
 
 ### Breakdown of Information areas: 
 The site is boken down into 3 main areas and this section gives a simplified explanation of what they are, what they encompass and there is a call to action ie Body Tips, if they want to go to that area of particular interest i.e Body, Mind and Spirit. There are images to support the textual information.  
@@ -469,7 +546,4 @@ The Social Media code was based on the code in 'Cool Runnings' project, the prev
 
 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
 

@@ -144,7 +144,7 @@ header {
 .introduction p {
 	color: #ffffff;
 	font: 170%;
-	text-align: justify;
+	text-align: center;
 	font-family: 'Roboto', sans-serif;	
 	line-height: 1.6;
 	font-weight: 300;
@@ -195,7 +195,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 }
 
 #boxes .box p {
-	text-align: justify;
+	text-align: center;
 	color: #313131;
 	font-size: 100%;
 	padding: 5px;
@@ -286,7 +286,7 @@ footer p {
 .body-technique p {
 	font-size: 110%;
 	font-family: 'Roboto', sans-serif;
-	text-align: justify;
+	text-align: center;
 	padding: 5px;
 }
 
@@ -357,7 +357,7 @@ footer p {
 .mind-technique p {
 	font-size: 110%;
 	font-family: 'Roboto', sans-serif;
-	text-align: justify;
+	text-align: center;
 }
 
 .mind .shapely-body {
@@ -410,7 +410,7 @@ footer p {
 .spirit-technique p {
 	font-size: 110%;
 	font-family: 'Roboto', sans-serif;
-	text-align: justify;
+	text-align: center;
 }
 
 .spirit .shapely-body {
@@ -496,7 +496,7 @@ footer p {
 	padding: 10px;
 	line-height: 1.5;
 	color: #313131;
-	text-align: justify;
+	text-align: center;
 }
 
 /* Resource Section */
@@ -627,7 +627,7 @@ input[type=password]:focus {
 }
 
 .workshop-news p {
-	text-align: justify;
+	text-align: center;
 	font-size: 110%;
 	line-height: 1.4;
 	padding: 3%;
@@ -697,7 +697,7 @@ indicating that is a zoom meeting and the link will be sent to the user in their
 	padding: 10px;
 	line-height: 1.5;
 	color: #313131;
-	text-align: justify;
+	text-align: center;
 	width: 50%;
 }
 
