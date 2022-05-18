@@ -326,7 +326,7 @@ footer p {
 	float: right;
 	display: block;
 	margin-right: 10px;
-	font-size: 1.75rem;
+	font-size: 1.6rem;
 	margin-top: 40px;
 	color: rgba(126, 43, 182);
 	text-align: center;
@@ -360,9 +360,7 @@ footer p {
 	text-align: center;
 }
 
-.mind .shapely-body {
-	float: right;
-}
+
 
 .mind-list {
 	margin: 20px;
@@ -391,7 +389,7 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	height: 900px;
+	min-height: 900px;
 	
 		
 }
@@ -412,9 +410,7 @@ footer p {
 	text-align: center;
 }
 
-.mind .shapely-body {
-	float: right;
-}
+
 
 .spirit-list {
 	margin: 20px;
@@ -743,8 +739,9 @@ styling as a seperate entity. */
 		margin: 0;
 	}
 
-	.spirit {
-		height: 1300px;
+	
+	.spirit, .mind, .body {
+		min-height: 1100px;
 	}
 /*Resource Section including the table;*/
 
@@ -808,9 +805,6 @@ styling as a seperate entity. */
 
     .peaceful {
         width: 50%;
-        /*float: left;
-		object-fit: cover;
-		display: block;*/
         padding: 10px;           
     }
 
@@ -1422,6 +1416,14 @@ styling as a seperate entity. */
 		padding: 2px;
 		font-size: 300;
 	}
+
+	.specific-styling {
+		clear: both;
+		text-align: center;	
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	} 
 
 /*Webinar Registration section on next page*/
 
