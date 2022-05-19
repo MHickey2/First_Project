@@ -243,6 +243,22 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	margin-top: 10px;
 }
 
+.site-button {
+	text-align: center;
+	font-size: 110%;
+	background-color: pink;
+	color: #313131;
+	font-weight: bold;
+	border: 1px solid black;	
+	width: 60px;
+	height: 25px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: right;
+
+}
+
 /* Footer Section */
 
 footer {
@@ -422,7 +438,7 @@ footer p {
 }
 
 .spirit-technique p {
-	font-size: 110%;
+	font-size: 100%;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
@@ -471,7 +487,7 @@ footer p {
 	color: #5c2766;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
-	margin: 12px;
+	margin: 15px;
 	padding: 5px;
 }
 
@@ -480,6 +496,7 @@ footer p {
 	color: #fff;
 	text-transform: uppercase;
 	padding: 5px;
+	margin-top: 5px;
 }
 
 /* Next Page as in the last page with the wind up information */
@@ -512,7 +529,7 @@ footer p {
 /* Resource Section */
 
 .resources {
-	height: 430px;
+	height: 470px;
 	background-color: #927397;
 }
 
@@ -531,8 +548,7 @@ th {
 td {
 	background-color: #fff;
 	color: #313131;
-	font-size: 120%;
-	line-height: 1.5;
+	font-size: 110%;	
 	font-family: 'Roboto', sans-serif;
 	border: 1px solid black;
 	font-weight: 300;
@@ -654,16 +670,6 @@ input[type=password]:focus {
 	color: rgb(95, 11, 145);
 }
 
-.testing-links {
-	display: inline-block;
-	margin-left: 30px;
-	list-style-type: none;
-	font-family: 'Roboto', 'sans-serif';
-	font-size: 1.3rem;
-	color: purple;
-	font-weight: 700;
-	text-decoration: none;	
-}
 
 /* Confirmation page/ Page will be displayed to the user when they sign up for the Webinar */
 
@@ -732,6 +738,17 @@ styling as a seperate entity. */
 
 @media screen and (max-width: 5120px) {
 
+	
+
+	#menu {
+		display: inline-block;
+		margin-left: 420px;
+		margin-top: 10px;
+		list-style: none;
+		text-transform: uppercase;
+	}
+
+	
 	#cover-text {		
 		position: absolute;
 		left: 100px;
@@ -742,7 +759,26 @@ styling as a seperate entity. */
 
 /* ************************For larger to medium screens size from 1200px wide and down ***************** */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
+
+	#menu {
+		display: inline-block;
+		margin-left: 30px;
+		margin-top: 10px;
+		list-style: none;
+		text-transform: uppercase;
+	}
+
+	#menu li {
+		display: inline-block;
+		list-style-type: none;
+		font-family: 'Roboto', 'sans-serif';
+		font-size: 1.3rem;
+		color: #fff;
+		font-weight: 700;
+		
+	}
+
 
 /*Cover text over Hero Image*/
 	#cover-text {
@@ -759,6 +795,21 @@ styling as a seperate entity. */
 	
 	.spirit, .mind, .body {
 		min-height: 1100px;
+	}
+
+	.quote {
+		
+		display: block;
+		float: right;
+		margin-right: 10px;
+		font-size: 1.6rem;
+		margin-top: 40px;
+		color: rgba(126, 43, 182);
+		text-align: center;
+		line-height: 1.1;
+		font-family: 'Dancing Script', cursive;
+		font-weight: 400;
+		padding: 10px;
 	}
 /*Resource Section including the table;*/
 
@@ -806,6 +857,25 @@ styling as a seperate entity. */
 		margin-left: 20px;
 		font-size: 140%;
 	}
+
+	#menu {
+		display: inline-block;
+		margin-left: 70px;
+		margin-top: 10px;
+		list-style: none;
+		text-transform: uppercase;
+	}
+
+	#menu li {
+		display: inline-block;
+		list-style-type: none;
+		font-family: 'Roboto', 'sans-serif';
+		font-size: 1.3rem;
+		color: #fff;
+		font-weight: 700;		
+	}
+
+
 
 /*Cover text within the hero image*/
 
@@ -949,7 +1019,7 @@ styling as a seperate entity. */
 		background-color: #fff;
 		color: #313131;
 		font-size: 100%;
-		line-height: 1.4;
+		line-height: 1.5;
 		font-family: 'Roboto', sans-serif;
 		border: 1px solid black;
 		font-weight: 300;
@@ -1014,35 +1084,58 @@ styling as a seperate entity. */
 		width: 100%;
 	}
 
-	header {
-		height: 120px;
+	/*header {
+		height: 140px;
 		width: 100%;
 	}
 
 	/* Logo and Menu Section */
-
-	#logo {
-		text-align: center;
-		margin-left: 12px;
-		font-size: 150%;
+     
+	/*#logo {
+		display: inline-block;
+		margin-left: 20px;
+		font-size: 1.5rem;		
+		margin-top: 5px;
 	}
 
 	#menu {
-		display: flex;
-		list-style: none;
-		text-transform: uppercase;
-		margin-right: 10px;
+		display: inline-block;
+		margin-left: 20px;		
+		line-height: 8px;
+		padding: 5px;
+		margin-top: 35px;
 	}
-
 
 	#menu li {
-		clear: both;
-		margin-right: 10px;
-		margin-top: 10px;
-		list-style-type: none;
-		font-family: 'Roboto', sans-serif;
-		font-size: 130%;
+		float: right;		
+		font-weight: 300;
+	}*/
+
+    /*Logo and Menu*/
+    header {
+		height: 150px;
 	}
+
+	#logo {
+		text-align: center;
+		margin-top: 3px;
+	}
+
+	#menu {
+		clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 10px;
+		line-height: 8px;
+		padding: 5px;
+	}
+
+	#menu li {
+		margin: 5px;		
+		font-weight: 300;
+	}
+
+
 
 		/* Hero Image Section */
 
@@ -1411,6 +1504,9 @@ styling as a seperate entity. */
 @media screen and (max-width: 600px) {
 
 /*Logo and Menu Section*/
+    header {
+		height: 150px;
+	}
 
 	#logo {
 		text-align: center;
@@ -1427,12 +1523,38 @@ styling as a seperate entity. */
 		line-height: 25px;
 	}
 
-
+	
 	#menu li {
+		clear: both;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: auto;
 		margin: 5px;
 		padding: 2px;
 		font-weight: 300;
+
 	}
+
+	/*Logo and Menu*/
+	#logo {
+		text-align: center;
+		margin-top: 3px;
+	}
+
+	#menu {
+		clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 10px;
+		line-height: 8px;
+		padding: 5px;
+	}
+
+	#menu li {
+		margin: 5px;		
+		font-weight: 300;
+	}
+
 
 	.specific-styling {
 		clear: both;
@@ -1457,7 +1579,7 @@ styling as a seperate entity. */
 @media screen and (max-width: 400px) {
 
 	header {
-		height: 120px;
+		height: 140px;
 	}
 
 /*Logo and Menu*/
