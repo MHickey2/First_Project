@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@300;700&display=swap');
 
 * {
@@ -29,75 +30,72 @@ body {
 
 header {
 	background-color: #927397;
-	height: 120px;
+	height: 100px;
 	width: 100%;
 }
 
-
 /*Logo Section */
 
-#logo {    
-    float: left;
-    margin-left: 30px;
-    margin-top: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    
-} 
+#logo {
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 2rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #fff;
+}
 
 /* Navigation Section */
 
-#menu {    
-    display: flex;
-    list-style: none;
-    text-transform: uppercase;
+#menu {
+	display: flex;
+	list-style: none;
+	text-transform: uppercase;
 }
 
-#menu, #logo {
-    line-height: 70px;
+#menu,
+#logo {
+	line-height: 70px;
 }
 
 #menu li {
-    display: inline-block;
-    margin-right: 30px;
-    list-style-type: none;
-    font-family: 'Roboto', 'sans-serif';
-    font-size: 1.3rem;
-    color: #fff;
-    font-weight: 400;
+	display: inline-block;
+	margin-right: 30px;
+	list-style-type: none;
+	font-family: 'Roboto', 'sans-serif';
+	font-size: 1.3rem;
+	color: #fff;
+	font-weight: 700;	
 }
 
 
 #menu a {
-    text-decoration: none;
-    color: #fff;
+	text-decoration: none;
+	color: #fff;
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #fff;
+	border-bottom: 2px solid #fff;
 }
 
 #menu a:hover,
 #menu a:focus {
-	color: black;
+	color: purple;
 	background-color: #fff;
 	text-decoration: underline;
-      
 }
 
 #menu .active {
-    border: 3px solid #fff;
-    color: #fff;
-    padding: 2px;	
+	border: 3px solid #fff;
+	color: #fff;
+	padding: 3px;
 }
 
-
-
+/*Hero Image Section */
 
 #hero-image {
 	clear: both;
@@ -119,10 +117,10 @@ header {
 	height: 180px;
 	margin-left: 30px;
 	padding-top: 20px;
-	padding-left: 45px;
+	padding-left: 50px;
 	background-color: rgba(21, 146, 84, 0.8);
 	bottom: 120px;
-	left: 25px;
+	left: 30px;
 	position: absolute;
 	border-radius: 20px;
 }
@@ -301,7 +299,7 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 780px;
+	min-height: 900px;
 	
 }
 
@@ -327,7 +325,6 @@ footer p {
 	display: block;
 	padding-top: 20px;
 	max-width: 100%;
-	object-fit: cover;
 }
 
 .body-list {
@@ -375,7 +372,7 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 780px;
+	min-height: 900px;
 	
 }
 
@@ -422,7 +419,7 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 780px;
+	min-height: 900px;
 	
 		
 }
@@ -438,7 +435,7 @@ footer p {
 }
 
 .spirit-technique p {
-	font-size: 100%;
+	font-size: 110%;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
@@ -487,7 +484,7 @@ footer p {
 	color: #5c2766;
 	text-transform: uppercase;
 	font-family: 'Roboto', sans-serif;
-	margin: 15px;
+	margin: 12px;
 	padding: 5px;
 }
 
@@ -496,7 +493,6 @@ footer p {
 	color: #fff;
 	text-transform: uppercase;
 	padding: 5px;
-	margin-top: 5px;
 }
 
 /* Next Page as in the last page with the wind up information */
@@ -529,7 +525,7 @@ footer p {
 /* Resource Section */
 
 .resources {
-	height: 470px;
+	height: 460px;
 	background-color: #927397;
 }
 
@@ -548,7 +544,8 @@ th {
 td {
 	background-color: #fff;
 	color: #313131;
-	font-size: 110%;	
+	font-size: 120%;
+	line-height: 1.5;
 	font-family: 'Roboto', sans-serif;
 	border: 1px solid black;
 	font-weight: 300;
@@ -670,6 +667,16 @@ input[type=password]:focus {
 	color: rgb(95, 11, 145);
 }
 
+.testing-links {
+	display: inline-block;
+	margin-left: 30px;
+	list-style-type: none;
+	font-family: 'Roboto', 'sans-serif';
+	font-size: 1.3rem;
+	color: purple;
+	font-weight: 700;
+	text-decoration: none;	
+}
 
 /* Confirmation page/ Page will be displayed to the user when they sign up for the Webinar */
 
@@ -738,17 +745,6 @@ styling as a seperate entity. */
 
 @media screen and (max-width: 5120px) {
 
-	
-
-	/*#menu {
-		display: inline-block;
-		margin-left: 420px;
-		margin-top: 10px;
-		list-style: none;
-		text-transform: uppercase;
-	}*/
-
-	
 	#cover-text {		
 		position: absolute;
 		left: 100px;
@@ -760,18 +756,6 @@ styling as a seperate entity. */
 /* ************************For larger to medium screens size from 1200px wide and down ***************** */
 
 @media screen and (max-width: 1200px) {
-
-
-	/*#menu li {
-		display: inline-block;
-		list-style-type: none;
-		font-family: 'Roboto', 'sans-serif';
-		font-size: 1.3rem;
-		color: #fff;
-		font-weight: 700;
-		
-	}*/
-
 
 /*Cover text over Hero Image*/
 	#cover-text {
@@ -788,21 +772,6 @@ styling as a seperate entity. */
 	
 	.spirit, .mind, .body {
 		min-height: 1100px;
-	}
-
-	.quote {
-		
-		display: block;
-		float: right;
-		margin-right: 10px;
-		font-size: 1.6rem;
-		margin-top: 40px;
-		color: rgba(126, 43, 182);
-		text-align: center;
-		line-height: 1.1;
-		font-family: 'Dancing Script', cursive;
-		font-weight: 400;
-		padding: 10px;
 	}
 /*Resource Section including the table;*/
 
@@ -845,38 +814,11 @@ styling as a seperate entity. */
 
 /*Logo*/	
 
-	/*#logo {
+	#logo {
 		text-align: right;
 		margin-left: 20px;
 		font-size: 140%;
 	}
-
-	#menu {
-		display: inline-block;
-		margin-left: 70px;
-		margin-top: 10px;
-		list-style: none;
-		text-transform: uppercase;
-	}
-
-	#menu li {
-		display: inline-block;
-		list-style-type: none;
-		font-family: 'Roboto', 'sans-serif';
-		font-size: 1.3rem;
-		color: #fff;
-		font-weight: 700;		
-	}*/
-
-	header {
-        height: 150px;
-    }
-    
-    #logo {
-        text-align: right;
-        margin-left: 20px;    
-        font-size: 140%;          
-    } 
 
 /*Cover text within the hero image*/
 
@@ -951,12 +893,12 @@ styling as a seperate entity. */
 	
 /*Images in the body, mind and spirit sections on the lifestyle page*/
 	
-	/*.healthy-person {
+	.healthy-person {
 		height: 80%;
 		float: none;
 		/*display: block;
 		padding: 5px;*/
-	}*/
+	}
 
 	.body-technique,
 	.mind-technique,
@@ -1020,7 +962,7 @@ styling as a seperate entity. */
 		background-color: #fff;
 		color: #313131;
 		font-size: 100%;
-		line-height: 1.5;
+		line-height: 1.4;
 		font-family: 'Roboto', sans-serif;
 		border: 1px solid black;
 		font-weight: 300;
@@ -1066,7 +1008,7 @@ styling as a seperate entity. */
 		line-height: 1;
 		width: fit-content;
 	}
-
+}
 
 
 /* *******************For small screen sizes 800px and down *************************************************/
@@ -1085,141 +1027,59 @@ styling as a seperate entity. */
 		width: 100%;
 	}
 
-	
-
-    /*Logo and Menu*/
-   /* header {
-		height: 150px;
+	header {
+		height: 110px;
+		width: 100%;
 	}
+
+	/* Logo and Menu Section */
 
 	#logo {
 		text-align: center;
-		margin-top: 3px;
+		margin-left: 12px;
+		font-size: 150%;
 	}
 
 	#menu {
-		clear: left;
-		float: center;
-		margin-left: 30px;
-		margin-top: 25px;
-		line-height: 8px;
-		padding: 5px;
+		display: flex;
+		list-style: none;
+		text-transform: uppercase;
+		margin-right: 10px;
 	}
+
 
 	#menu li {
-		margin: 5px;		
-		font-weight: 300;
-	}*/
-
-     /* Logo and Menu Section */
-
-	 /*#logo {
-        text-align: center;
-        margin-left: 10px;    
-        font-size: 150%;          
-    } 
-    
-    #menu {    
-        display: flex;
-        list-style: none;
-        text-transform: uppercase;
-        margin-right: 10px;  
-    }
-    
-
-
-    #menu li {
-        clear: both;        
-        margin-right: 5px;
-        list-style-type: none;
-        font-family: 'Roboto', 'sans-serif';
-        font-size: 100%;  
-                 
-    }
-    
-    #menu a {
-        text-decoration: none;
-        color: white;
-    }
-    
-    #menu a:hover {
-        border-bottom: 1px solid white;
-    }
-    
-    .active {
-        border-bottom: 3px solid white;
-    }
-    header {
-        height: 150px;
-        width: 100%;        
-    }*/
-
-    /* Logo and Menu Section */
-
-    #logo {
-        text-align: center;
-        margin-left: 10px;    
-        font-size: 150%;          
-    } 
+		clear: both;
+		margin-right: 10px;
+		margin-top: 10px;
+		list-style-type: none;
+		font-family: 'Roboto', sans-serif;
+		font-size: 120%;
 	}
-     
-    
-    
-    #menu {    
-        display: flex;
-        list-style: none;
-        text-transform: uppercase;
-        margin-right: 10px;  
-    }
-    
-
-
-    #menu li {
-        clear: both;        
-        margin-right: 5px;
-        list-style-type: none;
-        font-family: 'Roboto', 'sans-serif';
-        font-size: 100%;  
-                 
-    }
-    
-    #menu a {
-        text-decoration: none;
-        color: white;
-    }
-    
-    #menu a:hover {
-        border-bottom: 1px solid white;
-    }
-    
-    .active {
-        border-bottom: 3px solid white;
-    }
-
 
 		/* Hero Image Section */
 
-	#hero-image {		
-		clear: both;		
-		width: 100%;
-		background: url('../images/stones.jpg') no-repeat center center;
+	#hero-image {
 		margin-bottom: 10px;
+		clear: both;
+		height: 300px;
+		width: 100%;
+		background: url('../images/stones-sm.jpg') no-repeat center center;
 	}
 
 	#cover-text {
 		color: #fff;
-		font-size: 90%;
+		font-size: 80%;
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		width: 45%;
+		width: 55%;
 		background-color: rgba(21, 146, 84, 0.4);
 		position: absolute;
 		left: 20%;
 		top: 40%;
 		bottom: 120px;
 		left: 30px;
-		height: 30%
 	}
 
 	
@@ -1558,15 +1418,12 @@ styling as a seperate entity. */
 		margin-right: auto;
 	}
 
-
+}
 
 /* For smartphones screen sizes 600px and lower */
 @media screen and (max-width: 600px) {
 
 /*Logo and Menu Section*/
-    /*header {
-		height: 160px;
-	}
 
 	#logo {
 		text-align: center;
@@ -1575,65 +1432,20 @@ styling as a seperate entity. */
 	}
 
 	#menu {
-		/*margin-bottom: 2.5rem;*/
-		
-		/*margin-left: 30px;
+		margin-bottom: 2.5rem;
+		clear: left;
+		float: left;
+		margin-left: 30px;
 		margin-bottom: 20px;
-		line-height: 25px;*/
+		line-height: 25px;
 	}
 
-	
+
 	#menu li {
-		clear: both;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: auto;
 		margin: 5px;
 		padding: 2px;
-		font-weight: 300;
-
+		font-size: 300;
 	}
-
-	/*Logo and Menu*/
-	
-
-	/*#menu {
-		clear: left;
-		float: center;
-		margin-left: 30px;
-		margin-bottom: 10px;
-		line-height: 8px;
-		padding: 5px;
-	}
-
-	#menu li {
-		margin: 5px;		
-		font-weight: 300;
-	}
-     
-	#menu {
-        margin-bottom: 2.5rem;
-    }*/
-
-    #logo {
-        text-align: center;
-        font-family: 'Robot' sans-serif;
-        font-weight: 300;
-    }
-    #menu li {
-        margin: 5px ;
-        padding: 2px ;
-        font-size: 300;
-    }
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
 
 	.specific-styling {
 		clear: both;
@@ -1643,32 +1455,6 @@ styling as a seperate entity. */
 		margin-right: auto;
 	} 
 
-	/* Hero Image Section */
-
-	#hero-image {		
-		clear: both;		
-		width: 100%;
-		background: url('../images/stones.jpg') no-repeat center center;
-		margin-bottom: 10px;
-	}
-
-	#cover-text {
-		color: #fff;
-		font-size: 90%;
-		font-family: 'Roboto', sans-serif;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		width: 42%;
-		background-color: rgba(21, 146, 84, 0.4);
-		position: absolute;
-		left: 20%;
-		top: 40%;
-		bottom: 120px;
-		left: 20px;
-		height: 40%
-	}
-
-		
 /*Webinar Registration section on next page*/
 
 	.form-section {
@@ -1677,15 +1463,14 @@ styling as a seperate entity. */
 		background-color: rgba(126, 43, 182, 0.6);
 	}
 
-
+}
 
 /* For ultra small screen sizes 400px and lower */
 
 @media screen and (max-width: 400px) {
 
 	header {
-		height: 160px;
-		padding: 5px;
+		height: 120px;
 	}
 
 /*Logo and Menu*/
@@ -1694,15 +1479,19 @@ styling as a seperate entity. */
 		margin-top: 3px;
 	}
 
-	#menu {		
-		display: inline-block;
-		margin-left: 5px;			
-		line-height: .7;
-		font-size: 110%;
-		padding: 5px;	
+	#menu {
+		clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 10px;
+		line-height: 8px;
+		padding: 5px;
 	}
 
-	
+	#menu li {
+		margin: 5px;		
+		font-size: 300;
+	}
 
 /*Hero Image and Cover Text*/	
 	#hero-image {
@@ -1722,13 +1511,13 @@ styling as a seperate entity. */
 		text-transform: uppercase;
 		letter-spacing: 0px;
 		width: 45%;
-		height: 35%;
+		height: 150px;
 		margin-left: 10px;
 		padding-top: 10px;
 		padding-left: 10px;
 		padding-bottom: 50px;
 		background-color: rgba(21, 146, 84, 0.8);
-		bottom: 140px;
+		bottom: 130px;
 		left: 10px;
 		position: absolute;
 	}
@@ -1792,3 +1581,4 @@ styling as a seperate entity. */
 	}
 
 }
+
