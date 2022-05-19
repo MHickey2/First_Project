@@ -33,75 +33,72 @@ header {
 	width: 100%;
 }
 
+
 /*Logo Section */
 
-#logo {
-	float: left;
-	margin-left: 15px;
-	margin-top: 10px;
-	text-decoration: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 2.3rem;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 700;
-	color: #fff;
-}
+#logo {    
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    
+} 
 
 /* Navigation Section */
 
-#menu {
-	display: inline-block;
-	margin-left: 420px;
-	margin-top: 10px;
-	list-style: none;
-	text-transform: uppercase;
+#menu {    
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
 }
 
-#menu,
-#logo {
-	line-height: 80px;
+#menu, #logo {
+    line-height: 70px;
 }
 
 #menu li {
-	display: inline-block;
-	margin-left: 30px;	
-	list-style-type: none;
-	font-family: 'Roboto', 'sans-serif';
-	font-size: 1.3rem;
-	color: #fff;
-	font-weight: 700;
-	padding-left: 25px;	
+    display: inline-block;
+    margin-right: 30px;
+    list-style-type: none;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 400;
 }
 
 
 #menu a {
-	text-decoration: none;
-	color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 #menu a:hover {
-	border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 
 #menu a:hover,
 #menu a:focus {
-	color: purple;
+	color: black;
 	background-color: #fff;
 	text-decoration: underline;
+      
 }
 
 #menu .active {
-	border: 3px solid #fff;
-	color: #fff;
-	padding: 3px;
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 2px;	
 }
-
-/*Heo Image Section */
 
 #hero-image {
 	clear: both;
-	height: 500px;
+	height: 579px;
 	width: 100%;
 	background: url('../images/stones.jpg') no-repeat center center;
 	margin-top: 15px;
@@ -119,10 +116,10 @@ header {
 	height: 180px;
 	margin-left: 30px;
 	padding-top: 20px;
-	padding-left: 50px;
+	padding-left: 45px;
 	background-color: rgba(21, 146, 84, 0.8);
 	bottom: 120px;
-	left: 30px;
+	left: 25px;
 	position: absolute;
 	border-radius: 20px;
 }
@@ -740,13 +737,13 @@ styling as a seperate entity. */
 
 	
 
-	#menu {
+	/*#menu {
 		display: inline-block;
 		margin-left: 420px;
 		margin-top: 10px;
 		list-style: none;
 		text-transform: uppercase;
-	}
+	}*/
 
 	
 	#cover-text {		
@@ -759,15 +756,8 @@ styling as a seperate entity. */
 
 /* ************************For larger to medium screens size from 1200px wide and down ***************** */
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1200px) {
 
-	#menu {
-		display: inline-block;
-		margin-left: 30px;
-		margin-top: 10px;
-		list-style: none;
-		text-transform: uppercase;
-	}
 
 	#menu li {
 		display: inline-block;
@@ -852,7 +842,7 @@ styling as a seperate entity. */
 
 /*Logo*/	
 
-	#logo {
+	/*#logo {
 		text-align: right;
 		margin-left: 20px;
 		font-size: 140%;
@@ -873,9 +863,17 @@ styling as a seperate entity. */
 		font-size: 1.3rem;
 		color: #fff;
 		font-weight: 700;		
-	}
+	}*/
 
-
+	header {
+        height: 150px;
+    }
+    
+    #logo {
+        text-align: right;
+        margin-left: 20px;    
+        font-size: 140%;          
+    } 
 
 /*Cover text within the hero image*/
 
@@ -950,12 +948,12 @@ styling as a seperate entity. */
 	
 /*Images in the body, mind and spirit sections on the lifestyle page*/
 	
-	.healthy-person {
+	/*.healthy-person {
 		height: 80%;
 		float: none;
 		/*display: block;
 		padding: 5px;*/
-	}
+	}*/
 
 	.body-technique,
 	.mind-technique,
@@ -1065,7 +1063,7 @@ styling as a seperate entity. */
 		line-height: 1;
 		width: fit-content;
 	}
-}
+
 
 
 /* *******************For small screen sizes 800px and down *************************************************/
@@ -1084,35 +1082,10 @@ styling as a seperate entity. */
 		width: 100%;
 	}
 
-	/*header {
-		height: 140px;
-		width: 100%;
-	}
-
-	/* Logo and Menu Section */
-     
-	/*#logo {
-		display: inline-block;
-		margin-left: 20px;
-		font-size: 1.5rem;		
-		margin-top: 5px;
-	}
-
-	#menu {
-		display: inline-block;
-		margin-left: 20px;		
-		line-height: 8px;
-		padding: 5px;
-		margin-top: 35px;
-	}
-
-	#menu li {
-		float: right;		
-		font-weight: 300;
-	}*/
+	
 
     /*Logo and Menu*/
-    header {
+   /* header {
 		height: 150px;
 	}
 
@@ -1123,9 +1096,9 @@ styling as a seperate entity. */
 
 	#menu {
 		clear: left;
-		float: left;
+		float: center;
 		margin-left: 30px;
-		margin-bottom: 10px;
+		margin-top: 25px;
 		line-height: 8px;
 		padding: 5px;
 	}
@@ -1133,33 +1106,117 @@ styling as a seperate entity. */
 	#menu li {
 		margin: 5px;		
 		font-weight: 300;
-	}
+	}*/
 
+     /* Logo and Menu Section */
+
+	 /*#logo {
+        text-align: center;
+        margin-left: 10px;    
+        font-size: 150%;          
+    } 
+    
+    #menu {    
+        display: flex;
+        list-style: none;
+        text-transform: uppercase;
+        margin-right: 10px;  
+    }
+    
+
+
+    #menu li {
+        clear: both;        
+        margin-right: 5px;
+        list-style-type: none;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 100%;  
+                 
+    }
+    
+    #menu a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #menu a:hover {
+        border-bottom: 1px solid white;
+    }
+    
+    .active {
+        border-bottom: 3px solid white;
+    }
+    header {
+        height: 150px;
+        width: 100%;        
+    }*/
+
+    /* Logo and Menu Section */
+
+    #logo {
+        text-align: center;
+        margin-left: 10px;    
+        font-size: 150%;          
+    } 
+	}
+     
+    
+    
+    #menu {    
+        display: flex;
+        list-style: none;
+        text-transform: uppercase;
+        margin-right: 10px;  
+    }
+    
+
+
+    #menu li {
+        clear: both;        
+        margin-right: 5px;
+        list-style-type: none;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 100%;  
+                 
+    }
+    
+    #menu a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #menu a:hover {
+        border-bottom: 1px solid white;
+    }
+    
+    .active {
+        border-bottom: 3px solid white;
+    }
 
 
 		/* Hero Image Section */
 
-	#hero-image {
-		margin-bottom: 10px;
-		clear: both;
-		height: 300px;
+	#hero-image {		
+		clear: both;		
 		width: 100%;
-		background: url('../images/stones-sm.jpg') no-repeat center center;
+		background: url('../images/stones.jpg') no-repeat center center;
+		margin-bottom: 10px;
 	}
 
 	#cover-text {
 		color: #fff;
-		font-size: 80%;
+		font-size: 90%;
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		width: 55%;
+		width: 45%;
 		background-color: rgba(21, 146, 84, 0.4);
 		position: absolute;
 		left: 20%;
 		top: 40%;
 		bottom: 120px;
 		left: 30px;
+		height: 30%
 	}
 
 	
@@ -1498,14 +1555,14 @@ styling as a seperate entity. */
 		margin-right: auto;
 	}
 
-}
+
 
 /* For smartphones screen sizes 600px and lower */
 @media screen and (max-width: 600px) {
 
 /*Logo and Menu Section*/
-    header {
-		height: 150px;
+    /*header {
+		height: 160px;
 	}
 
 	#logo {
@@ -1515,12 +1572,11 @@ styling as a seperate entity. */
 	}
 
 	#menu {
-		margin-bottom: 2.5rem;
-		clear: left;
-		float: left;
-		margin-left: 30px;
+		/*margin-bottom: 2.5rem;*/
+		
+		/*margin-left: 30px;
 		margin-bottom: 20px;
-		line-height: 25px;
+		line-height: 25px;*/
 	}
 
 	
@@ -1536,14 +1592,11 @@ styling as a seperate entity. */
 	}
 
 	/*Logo and Menu*/
-	#logo {
-		text-align: center;
-		margin-top: 3px;
-	}
+	
 
-	#menu {
+	/*#menu {
 		clear: left;
-		float: left;
+		float: center;
 		margin-left: 30px;
 		margin-bottom: 10px;
 		line-height: 8px;
@@ -1554,6 +1607,29 @@ styling as a seperate entity. */
 		margin: 5px;		
 		font-weight: 300;
 	}
+     
+	#menu {
+        margin-bottom: 2.5rem;
+    }*/
+
+    #logo {
+        text-align: center;
+        font-family: 'Robot' sans-serif;
+        font-weight: 300;
+    }
+    #menu li {
+        margin: 5px ;
+        padding: 2px ;
+        font-size: 300;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 
 
 	.specific-styling {
@@ -1564,6 +1640,32 @@ styling as a seperate entity. */
 		margin-right: auto;
 	} 
 
+	/* Hero Image Section */
+
+	#hero-image {		
+		clear: both;		
+		width: 100%;
+		background: url('../images/stones.jpg') no-repeat center center;
+		margin-bottom: 10px;
+	}
+
+	#cover-text {
+		color: #fff;
+		font-size: 90%;
+		font-family: 'Roboto', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		width: 42%;
+		background-color: rgba(21, 146, 84, 0.4);
+		position: absolute;
+		left: 20%;
+		top: 40%;
+		bottom: 120px;
+		left: 20px;
+		height: 40%
+	}
+
+		
 /*Webinar Registration section on next page*/
 
 	.form-section {
@@ -1572,14 +1674,15 @@ styling as a seperate entity. */
 		background-color: rgba(126, 43, 182, 0.6);
 	}
 
-}
+
 
 /* For ultra small screen sizes 400px and lower */
 
 @media screen and (max-width: 400px) {
 
 	header {
-		height: 140px;
+		height: 160px;
+		padding: 5px;
 	}
 
 /*Logo and Menu*/
@@ -1588,19 +1691,15 @@ styling as a seperate entity. */
 		margin-top: 3px;
 	}
 
-	#menu {
-		clear: left;
-		float: left;
-		margin-left: 30px;
-		margin-bottom: 10px;
-		line-height: 8px;
-		padding: 5px;
+	#menu {		
+		display: inline-block;
+		margin-left: 5px;			
+		line-height: .7;
+		font-size: 110%;
+		padding: 5px;	
 	}
 
-	#menu li {
-		margin: 5px;		
-		font-weight: 300;
-	}
+	
 
 /*Hero Image and Cover Text*/	
 	#hero-image {
@@ -1620,13 +1719,13 @@ styling as a seperate entity. */
 		text-transform: uppercase;
 		letter-spacing: 0px;
 		width: 45%;
-		height: 150px;
+		height: 35%;
 		margin-left: 10px;
 		padding-top: 10px;
 		padding-left: 10px;
 		padding-bottom: 50px;
 		background-color: rgba(21, 146, 84, 0.8);
-		bottom: 130px;
+		bottom: 140px;
 		left: 10px;
 		position: absolute;
 	}
