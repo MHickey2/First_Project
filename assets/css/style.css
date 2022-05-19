@@ -96,6 +96,9 @@ header {
     padding: 2px;	
 }
 
+
+
+
 #hero-image {
 	clear: both;
 	height: 579px;
@@ -759,7 +762,7 @@ styling as a seperate entity. */
 @media screen and (max-width: 1200px) {
 
 
-	#menu li {
+	/*#menu li {
 		display: inline-block;
 		list-style-type: none;
 		font-family: 'Roboto', 'sans-serif';
@@ -767,7 +770,7 @@ styling as a seperate entity. */
 		color: #fff;
 		font-weight: 700;
 		
-	}
+	}*/
 
 
 /*Cover text over Hero Image*/
