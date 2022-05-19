@@ -45,7 +45,7 @@
 
 # The Balancing Pact
 <p align ="center">      
-     <img src="assets/images/logo.png" height="" width=""/>    
+     <img src="assets/images/logo.png" height="64" width="431"/>    
 </p>
 
 ## Introduction <a name="introduction"></a>
@@ -246,14 +246,14 @@ The Navigation bar is positioned at the top right of the webpag on Desktop and m
 
 <br/>
 <p align="center">
-  <img src="assets/images/header.png"/ height="60" width="800"/>
+  <img src="assets/images/header.png"/ height="47" width="673"/>
 </p>
 <br/>
 Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
 
 <br/>
 <p align="center">
-  <img src="assets/images/footer.png"/ height="60" width="800"/>
+  <img src="assets/images/footer.png"/ height="67" width="673"/>
 </p>
 <br/>
 
@@ -281,7 +281,7 @@ Each page also has a footer which contains Social Media links, these open to ind
 The Home Page's first imapact is the Hero Image at the top of the screen below the header section. This image hopes to capture a delicate balancing act, and is symbolic for the delicate balance we maintain in our lives despite the ongoing effects of a sometimes busy and hectic lifestyle. The colour scheme being green is conducive to health and healing when you research the impact of colour on emotional wellbeing. This image will be rendered smaller on a smaller screen. In combination with the image there is an overly with the key message of the site, and acts as an introduction and an invitation to learn more.   
 <br/>
 <p align="center">
-  <img src="assets/images/hero.png"/ height="400" width="700"/>
+  <img src="assets/images/hero.png"/ height="249" width="636"/>
 </p>
 <br/>
 
@@ -289,7 +289,7 @@ The Home Page's first imapact is the Hero Image at the top of the screen below t
 This section is displayed early to get the user's attention early. This is the user's opportunity to interact with the site and build a relationship with the site moving forward. This feature has since been removed and will hope to have a better grasp of javascript in order to use a pop up window to find the user details and another pop up to confirm that they have signed up for the newsletter. Image shows how it did look on the screen before the removal.  
 <br/>
 <p align="center">
-  <img src="assets/images/newsletter.png"/ height="30" width="400"/>
+  <img src="assets/images/newsletter.png"/ height="32" width="511"/>
 </p>
 <br/>
 
@@ -297,7 +297,7 @@ This section is displayed early to get the user's attention early. This is the u
 This section builds on from the work in the Hero Image/Overlay, by providing more information to the user, this provides the context for the site, and should give the user enough inofrmation to gauge whether this site has anything to offer them and what they can expect from the site. The text is supplemented by the image, which helps the user relate to the human element behind the website. 
 <br/>
 <p align="center">
-  <img src="assets/images/welcome.png" height="250" width="500"/>
+  <img src="assets/images/welcome.png" height="244" width="665"/>
 </p>
 <br/> 
 
@@ -305,7 +305,7 @@ This section builds on from the work in the Hero Image/Overlay, by providing mor
 The site is boken down into 3 main areas and this section gives a simplified explanation of what they are, what they encompass and there is a call to action ie Body Tips, if they want to go to that area of particular interest i.e Body, Mind and Spirit. There are images to support the textual information.
 <br/>
 <p align="center">
-  <img src="assets/images/boxes.png" height="555" width="981"/>
+  <img src="assets/images/boxes.png" height="277" width="590"/>
 </p>
 <br/>   
 
@@ -313,7 +313,7 @@ The site is boken down into 3 main areas and this section gives a simplified exp
 This area shares the Social Media Links with the user, and carries some copyright information for the site.  On a fully developed site it may also include a sitemap, navigation etc. There would also be contact information and a location for the given company/person.
 <br/>
 <p align="center">
-  <img src="assets/images/footer.png"/ height="50" width="800"/>
+  <img src="assets/images/footer.png"/ height="67" width="673"/>
 </p>
 <br/>
 
@@ -325,7 +325,7 @@ This area shares the Social Media Links with the user, and carries some copyrigh
 - The Hero Image including the cover text conveys the underlying message of the site.
 - There is an obvious starting point on the page.
 - Home page is clearly recognised as the home page with inclusion of welcoming text below the Hero Image.
-- Related information is grouped together under specific headings in the information section below the welcoming text.
+- Related information is grouped together under specific headings in the information section below the   welcoming text.
 - Clickable items are clearly distinguished.
 - The information is concise and there are no large areas of text.
 - Content is easily scanable with short paragraphs and there is a clear hierarchy on the page with headings and subheadings indicating what is related to each section.  
@@ -336,7 +336,7 @@ This area shares the Social Media Links with the user, and carries some copyrigh
 This section contains a text box on the information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be proactive in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site. 
 <br/>
 <p align="center">
-  <img src="assets/images/body.png"/ height="600" width="900"/>
+  <img src="assets/images/body.png"/ height="426" width=683"/>
 </p>
 <br/> 
 
@@ -344,7 +344,7 @@ This section contains a text box on the information related to improving your ph
 This section contains a text box on the information related to improving your mental health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be proactive in improving your own mental health. In addition there is a mind related quote, to support the overall message, this also helps balance the symmetry of the section.  
 <br/>
 <p align="center">
-  <img src="assets/images/mind.png"/ height="600" width="900"/>
+  <img src="assets/images/mind.png"/ height="415" width="683"/>
 </p>
 <br/>
 
@@ -352,7 +352,7 @@ This section contains a text box on the information related to improving your me
 This section contains a text box on the information related to improving your spiritual health. There is a list included that gives simple tips on how you can be proactive in improving your own spiritual health. There is also an embedded Iframe with a simple 5minute meditation sourced from YouTube, which will allow the user's to try a mediitation for themselves. In addition there is a quote, to support the overall message of the importance of working on the body, mind and spirit to emphasise the importance of combining the elements, this also helps balance the symmetry of the section.
 <br/>
 <p align="center">
-  <img src="assets/images/spirit.png"/ height="600" width="900"/>
+  <img src="assets/images/spirit.png"/ height="416" width="683"/>
 </p>
 <br/>  
 
@@ -365,7 +365,7 @@ This section contains a text box on the information related to improving your sp
 The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website.
 <br/>
 <p align="center">
-  <img src="assets/images/nextsection.png"/ height="600" width="900"/>
+  <img src="assets/images/nextsection.png"/ height="441" width="616"/>
 </p>
 <br/>    
 
@@ -373,7 +373,7 @@ The Section includes an image, helping the user relate to the site content and t
 The Section includes a table with details of websites that will help the user learn more about the subject areas. There is a name, a brief description of the site and links that will bring user directlly to the sites. (will open on to new site in new window, so as to allow the user to keep present site open.  
 <br/>
 <p align="center">
-  <img src="assets/images/resources.png"/ height="250" width="600"/>
+  <img src="assets/images/resources.png"/ height="190" width="607"/>
 </p>
 <br/>  
 
@@ -383,7 +383,7 @@ The form itself contains required fields before you can submit the form. There i
 I had tried to add javascript event listener to the submit button, but this prooved problematic as it was redirecting the user before all fields were entered and felt it was more advantageous to have the form working correctly, but this again would be an area I would revisit in order to have the Form fully functionally with the redirection in place. I did leave the javascript in place and have comments explaining  the issue. 
 <br/>
 <p align="center">
-  <img src="assets/images/formsection.png"/ height="350" width="600"/>
+  <img src="assets/images/formsection.png"/ height="303" width="674"/>
 </p>
 <br/>    
 
@@ -401,7 +401,7 @@ I had tried to add javascript event listener to the submit button, but this proo
 - Email field contains an example to make the expected input clear.
   <br/>
 <p align="center">
-  <img src="assets/images/form.png"/ height="250" width="250"/>
+  <img src="assets/images/form.png"/ height="434" width="435"/>
 </p>
 <br/>    
 
@@ -411,7 +411,7 @@ This page is displayed when the user registers for the webinar, it confirms to t
 There is also a final message to the user on  why it is a good idea to connect with social media as there will be additional information and resources available within these channels. This also acts as a CTA to engage in these channels.  
  <br/>
 <p align="center">
-  <img src="assets/images/thanks.png"/ height="150" width="250"/>
+  <img src="assets/images/thanks.png"/ height="238" width="377"/>
 </p>
 <br/> 
 
@@ -428,7 +428,7 @@ There is also a final message to the user on  why it is a good idea to connect w
 This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the elements of the website in place in order for the user to return to the website on whatever page they require.  
 <br/>
 <p align="center">
-  <img src="assets/images/errormessage.png"/ height="250" width="250"/>
+  <img src="assets/images/errormessage.png"/ height="244" width="357"/>
 </p>
 <br/> 
 
