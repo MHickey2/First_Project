@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 * {
 	margin: 0;
@@ -13,7 +13,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	color: #313131;
 	background-color: white;
 	scroll-behavior: smooth;
@@ -49,16 +49,7 @@ header {
 	color: #fff;
 }
 
-/* Navigation Section */
-
-/*#menu {
-	display: flex;
-	list-style: none;
-	text-transform: uppercase;
-}*/
-
-#menu{
-    font-size: 110%;
+#menu {
     list-style-type: none;
     letter-spacing: 4px;
 }
@@ -68,7 +59,7 @@ header {
 	margin-right: 30px;
 	list-style-type: none;
 	font-family: 'Roboto', 'sans-serif';
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	color: #fff;
 	font-weight: 300;
 }
@@ -77,17 +68,6 @@ header {
 #logo {
 	line-height: 70px;
 }
-
-/*#menu li {
-	display: inline-block;
-	margin-right: 30px;
-	list-style-type: none;
-	font-family: 'Roboto', 'sans-serif';
-	font-size: 1.3rem;
-	color: #fff;
-	font-weight: 700;	
-}*/
-
 
 #menu a {
 	text-decoration: none;
@@ -131,7 +111,7 @@ header {
 	letter-spacing: 2px;
 	width: 40%;
 	height: 180px;
-	margin-left: 30px;
+	margin-left: 25px;
 	padding-top: 20px;
 	padding-left: 50px;
 	background-color: rgba(21, 146, 84, 0.8);
@@ -160,12 +140,12 @@ header {
 
 .introduction p {
 	color: #ffffff;
-	font: 170%;
+	font: 17px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;	
 	line-height: 1.6;
 	font-weight: 300;
-	padding: 1%;
+	padding: 2%;
 }
 
 #welcome-text {
@@ -214,12 +194,12 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 #boxes .box p {
 	text-align: center;
 	color: #313131;
-	font-size: 100%;
+	font-size: 17px;
 	padding: 5px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	padding: 6px;
-	line-height: 1.5;
+	line-height: 1.6;
 }
 
 #boxes .box h2 {
@@ -243,6 +223,11 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	border: 1px solid black;
 }
 
+#boxes .box .button:hover {
+	background-color: green;
+	color: #fff;
+}
+
 #top-button {
 	text-align: center;
 	font-size: 110%;
@@ -259,10 +244,9 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 
 .site-button {
 	text-align: center;
-	font-size: 110%;
+	font-size: 100%;
 	background-color: pink;
-	color: #313131;
-	font-weight: bold;
+	color: #313131;	
 	border: 1px solid black;	
 	width: 60px;
 	height: 25px;
@@ -271,6 +255,11 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	margin-top: 10px;
 	float: right;
 
+}
+
+.site-button:hover {
+	background-color: palevioletred;
+	color: #fff;
 }
 
 /* Footer Section */
@@ -325,7 +314,6 @@ footer p {
 	text-align: center;
 	float: left;
 	line-height: 1.4;
-	padding-top: 10px;
 	padding-bottom: 40px;
 }
 
@@ -442,7 +430,6 @@ footer p {
 	text-align: center;
 	float: left;
 	line-height: 1.4;
-	padding-top: 10px;
 	padding-bottom: 40px;
 }
 
@@ -526,7 +513,7 @@ footer p {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Roboto', sans-serif;
-	font-size: 120%;
+	font-size: 17px;
 	background-color: #fff;
 	padding: 10px;
 	line-height: 1.5;
@@ -550,18 +537,19 @@ table {
 
 th {
 	font-weight: bold;
-	font-size: 120%;
+	font-size: 17px;
 }
 
 td {
 	background-color: #fff;
 	color: #313131;
-	font-size: 120%;
+	font-size: 17px;
 	line-height: 1.5;
 	font-family: 'Roboto', sans-serif;
 	border: 1px solid black;
 	font-weight: 300;
 	padding: 5px;
+	vertical-align: middle;
 }
 
 /* Form Section with information on Workshop and Registration Form */
@@ -663,7 +651,7 @@ input[type=password]:focus {
 
 .workshop-news p {
 	text-align: center;
-	font-size: 110%;
+	font-size: 17px;
 	line-height: 1.4;
 	padding: 3%;
 }
@@ -727,7 +715,7 @@ indicating that is a zoom meeting and the link will be sent to the user in their
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Roboto', sans-serif;
-	font-size: 120%;
+	font-size: 17px;
 	background-color: #fff;
 	padding: 10px;
 	line-height: 1.5;
@@ -774,6 +762,8 @@ styling as a seperate entity. */
 		font-size: 1rem;
 		margin-left: 20px;		
 	}
+
+	
 
 /*Welcome section on the home page*/	
 	.welcome {
@@ -826,11 +816,7 @@ styling as a seperate entity. */
 
 /*Logo*/	
 
-	#logo {
-		text-align: right;
-		margin-left: 20px;
-		font-size: 140%;
-	}
+	
 
 /*Cover text within the hero image*/
 
@@ -1040,35 +1026,48 @@ styling as a seperate entity. */
 	}
 
 	header {
-		height: 110px;
+		height: 130px;
 		width: 100%;
 	}
 
 	/* Logo and Menu Section */
 
-	#logo {
+	/*#logo {
 		text-align: center;
 		margin-left: 12px;
 		font-size: 150%;
 	}
 
-	#menu {
+	/*#menu {
 		display: flex;
 		list-style: none;
 		text-transform: uppercase;
 		margin-right: 10px;
-	}
+	}*/
 
 
-	#menu li {
+	/*#menu li {
 		clear: both;
 		margin-right: 10px;
 		margin-top: 10px;
 		list-style-type: none;
 		font-family: 'Roboto', sans-serif;
 		font-size: 120%;
+	}*/
+    
+	#logo {
+		text-align: right;
+		margin-left: 20px;
+		font-size: 140%;
 	}
 
+	#menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 		/* Hero Image Section */
 
 	#hero-image {
@@ -1079,19 +1078,28 @@ styling as a seperate entity. */
 		background: url('../images/stones-sm.jpg') no-repeat center center;
 	}
 
-	#cover-text {
+	/*#cover-text {
 		color: #fff;
 		font-size: 80%;
 		font-family: 'Roboto', sans-serif;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		width: 55%;
+		width: 40%;
 		background-color: rgba(21, 146, 84, 0.4);
 		position: absolute;
-		left: 20%;
+		
+		width: 50%;
 		top: 40%;
-		bottom: 120px;
+		bottom: 90px;
 		left: 30px;
+	}*/
+
+	#cover-text {
+		left: 45px;
+		bottom: 20px;
+		width: 40%;
+		text-align: left;
+		font-size: 80%;
 	}
 
 	
@@ -1265,6 +1273,7 @@ styling as a seperate entity. */
 		font-size: 110%;
 		line-height: 1.4;
 		font-family: 'Roboto', sans-serif;
+		vertical-align: center;
 	}
 
 
@@ -1437,7 +1446,7 @@ styling as a seperate entity. */
 
 /*Logo and Menu Section*/
 
-	#logo {
+	/*#logo {
 		text-align: center;
 		font-family: 'Robot' sans-serif;
 		font-weight: 300;
@@ -1465,8 +1474,16 @@ styling as a seperate entity. */
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-	} 
-
+	} */
+    #cover-text {
+		left: 5px;
+		bottom: 30px;
+		width: 50%;
+		text-align: left;
+		font-size: 70%;
+		margin-left: 5px;
+		height: 140px;
+	}
 /*Webinar Registration section on next page*/
 
 	.form-section {
@@ -1486,22 +1503,33 @@ styling as a seperate entity. */
 	}
 
 /*Logo and Menu*/
-	#logo {
+	*#logo {
 		text-align: center;
+		float: center;
 		margin-top: 3px;
+		font-size: 120%;
 	}
 
 	#menu {
-		clear: right;		
-		float: none;
-		margin-bottom: 10px;		
-		padding: 5px;
+			
+		float: right;
+		margin-bottom: 10px;	
+		margin-left: auto;
+		margin-right: auto;		
 	}
 
 	#menu li {
-		font-size: 1rem;
-		text-transform: uppercase;
+		font-size: 110%;
+			
 	}
+
+	#logo, #menu {
+		line-height: 50px;
+	}
+
+	
+
+	
 
 /*Hero Image and Cover Text*/	
 	#hero-image {
@@ -1521,8 +1549,8 @@ styling as a seperate entity. */
 		text-transform: uppercase;
 		letter-spacing: 0px;
 		width: 45%;
-		height: 150px;
-		margin-left: 10px;
+		height: 120px;
+		margin-left: 5px;
 		padding-top: 10px;
 		padding-left: 10px;
 		padding-bottom: 50px;
