@@ -5,9 +5,47 @@
 ## Testing  <a name="testing"></a>
 
 <details>
-  <summary>1. Validator Testing</summary>
+  <summary>1. Browser Testing</summary>
+  The site was tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Brave Browser on the Desktop.
+  The site was tested on iPhone5 on mobile.
+
+  Appearance and Functionality appeared consistent in all browsers
 </details>
 
+<details>
+  <summary>1. Responsive Testing</summary>
+   I regularly tested the responsiveness of the site using Google Chrome Developer tools. I also used Window Resizer and a
+   Responsive Design Tester Application.
+
+   The Media Query Breakpoints I used where:
+
+</details>
+
+<details>
+  <summary>1. Validator Testing</summary>
+
+  ### W3C Validator 
+
+  ### Contrast Checker
+  Using [https://color.a11y.com/](https://color.a11y.com/) I checked the site for any contrast issues and there were some issues with my introductory text and buttons on my information panels on the index page, so I used the colour contrast checker to test new colours that would not cause any issues, I then made the changes in my css files and tested again, and on revision all the pages passed their tests.
+
+<br/>
+  <p align ="center">      
+     <img src="assets/images/contrastindex.png" height="146" width="889"/>   
+  </p>
+  <p align ="center">      
+     <img src="assets/images/contrastlifestyle.png" height="146" width="889"/>   
+  </p>
+  <p align ="center">      
+     <img src="assets/images/contrastnext.png" height="146" width="889"/>   
+  </p>
+  <p align ="center">      
+     <img src="assets/images/contrastconfirmation.png" height="146" width="889"/>   
+  </p>
+  <p align ="center">      
+     <img src="assets/images/contrast404.png" height="146" width="889"/>   
+  </p>
+</details>
 
 
 <details>
@@ -17,20 +55,7 @@
      <img src="assets/images/mantest.png" height="650" width="800"/>
 
  
-|Feature---|Expect---|-Action--|Result---|
-|Logo in the Header Section of each page   | When Clicked the Home page will open  | Clicked on the Logo  |Home Page opened when clicked on all pages   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |
-|   |   |   |   |    
+   
 </p>
 </details>
 
