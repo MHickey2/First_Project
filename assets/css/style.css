@@ -97,7 +97,7 @@ header {
 	clear: both;
 	height: 579px;
 	width: 100%;
-	background: url('../images/stones.jpg') no-repeat center center;
+	background: url('../images/stones.webp') no-repeat center center;
 	margin-top: 15px;
 	overflow: hidden;
 	position: relative;
@@ -192,6 +192,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	margin: auto;
 	object-fit: cover;
 	border: 1px solid black;
+	
 }
 
 #boxes .box p {
@@ -567,7 +568,7 @@ td {
 .form-section {
 	margin-top: 20px;
 	/* background-color:rgba(126, 43, 182, 0.6);*/
-	background: url('../images/rocks.jpg') no-repeat center center;
+	background: url('../images/rocks.webp') no-repeat center center;
 	background-size: cover;
 	border-radius: 33px;
 	width: 100%;
@@ -1090,7 +1091,7 @@ styling as a seperate entity. */
 		clear: both;
 		height: 300px;
 		width: 100%;
-		background: url('../images/stones-sm.jpg') no-repeat center center;
+		background: url('../images/stones-sm.webp') no-repeat center center;
 	}
 
 	/*#cover-text {

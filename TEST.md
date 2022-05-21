@@ -86,11 +86,14 @@ Using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator
 <summary>Manual Testing</summary>
 <br/>
 <p align ="center">      
-     <img src="assets/images/mantest.png" height="650" width="800"/>
-
- 
-   
+     <img src="assets/images/mantest.png" height="" width=""/>
 </p>
+<p align ="center">      
+     <img src="assets/images/mantest1.png" height="" width=""/>
+</p>
+<br/>
+* In this site the action has been set to “Get” in order to redirect the user to the Confirmation Page, the alternative is to set it to “Post” to the 'Code Institute Site', the site was tested using both alternatives and it worked as expected in each scenario. 
+
 </details>
 
 <details><a name="userstorytesting"></a>
