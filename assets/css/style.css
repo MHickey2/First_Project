@@ -183,7 +183,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	width: 30%;
 	background-color: #fff;
 	gap: 10px;
-	padding: 5px;
+	/*padding: 5px;*/
 	margin: 15px;
 }
 
@@ -234,16 +234,17 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 
 #top-button {
 	text-align: center;
-	font-size: 13px;
+	font-size: 16px;
 	background-color: plum;
 	color: #313131;
 	font-weight: bold;
 	border: 1px solid black;	
-	width: 150px;
+	width: 140px;
 	height: 30px;
 	margin-left: 5px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
 }
 
 #top-button:hover {
