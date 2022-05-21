@@ -125,7 +125,10 @@ header {
 
 .welcome {
 	/*background-color: #9fa4c4;*/
-	background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+	/*background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
+	background: #880085;*/
+	background:#E0B0FF;
+
 	margin: 7px 3px 7px 3px;
 	display: flex;
 	padding: 8px;
@@ -139,7 +142,7 @@ header {
 }
 
 .introduction p {
-	color: #ffffff;
+	color: #313131;
 	font: 17px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;	
@@ -211,6 +214,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 
 #boxes .box .button {
 	background-color: #789773;
+	background-Color: #006400;
 	width: 55%;
 	color: #fff;
 	padding: 10px;
@@ -224,7 +228,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 }
 
 #boxes .box .button:hover {
-	background-color: green;
+	background-color: #00FF40;
 	color: #fff;
 }
 
