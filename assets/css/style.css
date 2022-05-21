@@ -1533,7 +1533,7 @@ styling as a seperate entity. */
 	}
 
 	#menu li {
-		font-size: 17px;
+		font-size: 15px;
 		font-weight: bold;
 			
 	}
@@ -1554,7 +1554,8 @@ styling as a seperate entity. */
 		position: relative;		
 		background: url('../images/stones-sm.jpg') no-repeat center center;
 		width: 100%;
-		margin-bottom: 5px;		
+		margin-bottom: 5px;
+		margin-top: -8px;		
 	}
 
 	#cover-text {

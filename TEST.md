@@ -14,11 +14,25 @@
 
 <details><a name="responsivetesting"></a>
 <summary>Responsive Testing</summary>
+<br/>
+   <p align ="center">      
+     <img src="assets/images/amiresp.png" height="" width=""/>   
+   </p>
 
    I regularly tested the responsiveness of the site using Google Chrome Developer tools. I also used Window Resizer and a
-   Responsive Design Tester Application.
+   Responsive Design Tester Application. I also used [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) and it was a useful way to see how the site was progressing in regards to reponding to different screen sizes.
+
+   Had not intended to cater for the larger screens but cover text was problematic on the hero image, so I applied a minor fix. Should be responsive down to 320px screen, but any smaller and there will be issues. In regard to bigger screens it should be good to 5119px.
 
    The Media Query Breakpoints I used where:
+   - 5120px width and below;
+   - 1200px width and below;
+   - 950px width and below;
+   - 800px width and below;
+   - 600px width and below;
+   - 400px width and below;
+
+ 
 
 </details>
 
@@ -35,10 +49,15 @@ and tested and there were no other problems. The next page had some issues with 
 <br/>
 <p align ="center">      
      <img src="assets/images/htmlchecker.png" height="424" width="1366"/>   
-  </p>
+</p>
   
+- Jigsaw CSS Validator
 
+Using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/) I tested the css by inputting the url of the live site, there were 3 errors for obsolete use of floats which I rectified and retested with no issues this time.
 
+<p align ="center">      
+     <img src="assets/images/cssvalid.png" height="337" width="1289"/>   
+</p>
 
 
 
