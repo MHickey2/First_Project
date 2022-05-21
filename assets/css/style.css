@@ -573,7 +573,7 @@ td {
 	width: 100%;
 	height: fit-content;
 	margin-bottom: 20px;
-	padding: 0, 20px;
+	padding: 0 20px;
 }
 
 .form-section h2 {
@@ -1223,7 +1223,7 @@ styling as a seperate entity. */
 
 	.quote {
 		display: block;
-		float: center;
+		
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 1.50rem;
@@ -1520,7 +1520,6 @@ styling as a seperate entity. */
 /*Logo and Menu*/
 	*#logo {
 		text-align: center;
-		float: center;
 		margin-top: 3px;
 		font-size: 120%;
 	}

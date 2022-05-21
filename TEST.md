@@ -1,19 +1,20 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
  # The Balancing Pact
 
+# Testing
 
-## Testing  <a name="testing"></a>
-
-<details>
-  <summary>1. Browser Testing</summary>
+<details><a name="browsertesting"></a>
+<summary>Browser Testing</summary>
   The site was tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Brave Browser on the Desktop.
   The site was tested on iPhone5 on mobile.
 
   Appearance and Functionality appeared consistent in all browsers
 </details>
 
-<details>
-  <summary>1. Responsive Testing</summary>
+
+<details><a name="responsivetesting"></a>
+<summary>Responsive Testing</summary>
+
    I regularly tested the responsiveness of the site using Google Chrome Developer tools. I also used Window Resizer and a
    Responsive Design Tester Application.
 
@@ -21,10 +22,25 @@
 
 </details>
 
-<details>
-  <summary>1. Validator Testing</summary>
 
-  ### W3C Validator 
+
+<details><a name="validatortesting"></a>
+<summary>Validator Testing</summary>
+
+- W3C Validator 
+
+Using [https://validator.w3.org/](https://validator.w3.org/) I tested each page individually and fixed any errors indicated. In the Index page I had used too many arias for features and I removed them. Initially my testing for the 
+lifestyle page would not work, so I figured it was the embedded video that was causing the problem so I commented it out
+and tested and there were no other problems. The next page had some issues with the links in the resource section but fixed them and there were also some issues with missing tags that highligted one issue that was masking the real one, the body tag had been entered at wrong place and caused rolling issues near bottom of page but fixed that. Other than some headings missing the rest of the site tested without problems. There is some indepth discussion on issues in the bug session.
+<br/>
+<p align ="center">      
+     <img src="assets/images/htmlchecker.png" height="424" width="1366"/>   
+  </p>
+  
+
+
+
+
 
   ### Contrast Checker
   Using [https://color.a11y.com/](https://color.a11y.com/) I checked the site for any contrast issues and there were some issues with my introductory text and buttons on my information panels on the index page, so I used the colour contrast checker to test new colours that would not cause any issues, I then made the changes in my css files and tested again, and on revision all the pages passed their tests.
@@ -47,9 +63,8 @@
   </p>
 </details>
 
-
-<details>
-  <summary>2. Manual Testing</summary>
+<details><a name="manualtesting"></a>
+<summary>Manual Testing</summary>
 <br/>
 <p align ="center">      
      <img src="assets/images/mantest.png" height="650" width="800"/>
@@ -59,9 +74,9 @@
 </p>
 </details>
 
-<details>
-  <summary>3. User Story Testing</summary>
-  <br/>
+<details><a name="userstorytesting"></a>
+<summary>User Story Testing</summary>
+ <br/>
 
 ## As a first time user to the site
 
