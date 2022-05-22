@@ -422,7 +422,7 @@ There is also a final message to the user on  why it is a good idea to connect w
 
 
 ## The 404 Page  <a name="404"></a>
-This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the elements of the website in place in order for the user to return to the website on whatever page they require. The 404 Page can be found at [https://mhickey2.github.io/First_Project/error.page](https://mhickey2.github.io/First_Project/error.page)
+This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](#404). The 404 Page can be found at [https://mhickey2.github.io/First_Project/error.page](https://mhickey2.github.io/First_Project/error.page)
 <br/>
 <p align="center">
   <img src="assets/images/errormessage.png"/ height="244" width="357"/>
@@ -432,7 +432,7 @@ This page is displayed to the user if they experience a problem connecting with 
 #### User Experience Checklist for 404 Page
 
 - The image is in keeping with the concept of the website.
-- All page content is useful and appropriate for the situation.  
+- All page content (image and message) is useful and appropriate for the situation.  
 
  #### [Return to Table of Contents](#toc)
 
@@ -504,14 +504,14 @@ Git push	Which pushed these files into the GitHub Repository
 2. Click the green Code Button at top right of the repository.
 3. Copy the url for the repository.
 4. Open Git Bash and Change the current working directory to where you want the cloned directory.
-5. Type git clone, and then paste the URL you previously copied using $ git clone https://hostname/YOUR-USERNAME/YOUR-REPOSITORY
-6. Pressing enter will create your clone.
+5. Type git clone, and then paste the URL you previously copied using $ git clone. 
+6. Pressing enter will then create your clone.
 
 
 ### GitHub Student Template
 This Template has been provided by the Code Institute and includes a number of tools to make life easier and has been used within this present site.  
 
-### Creating a custom 404 page for your GitHub Pages Site
+### Creating a custom 404 page for your GitHub Pages Site (<a name="add404"></a>)
 1. Navigate to the site repository.
 2. Using the 'add file' dropdown, choose 'Create new File'.
 3. In the presented filed name, type 404.html/404.md. In my case I chose 404.html.
@@ -524,7 +524,7 @@ More information is available at [https://docs.github.com/en](https://docs.githu
 ----
 ## Testing <a name="TEST.md">
 
--[See Testing on TEST.md Page](TEST.md)
+[SEE TESTING on TEST.md Page](TEST.md)
 
 
 
