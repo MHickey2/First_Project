@@ -61,7 +61,7 @@ header {
 	font-family: 'Roboto', 'sans-serif';
 	font-size: 1.5rem;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 #menu,
@@ -197,7 +197,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	font-size: 17px;
 	padding: 5px;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	padding: 6px;
 	line-height: 1.6;
 }
@@ -543,7 +543,7 @@ td {
 	line-height: 1.5;
 	font-family: 'Roboto', sans-serif;
 	border: 1px solid black;
-	font-weight: 300;
+	font-weight: 400;
 	padding: 5px;
 	vertical-align: middle;
 }
@@ -858,7 +858,7 @@ styling as a seperate entity. */
 		text-align: justify;
 		color: #313131;
 		font-family: 'Roboto', sans-serif;
-		font-weight: 300;
+		font-weight: 400;
 		font-size: 90%;
 		padding: 3px;
         min-height: 360px;
@@ -952,7 +952,7 @@ styling as a seperate entity. */
 		line-height: 1.4;
 		font-family: 'Roboto', sans-serif;
 		border: 1px solid black;
-		font-weight: 300;
+		font-weight: 400;
 		padding: 5px;
 	}
 
@@ -1120,7 +1120,7 @@ styling as a seperate entity. */
 		text-align: justify;
 		color: #313131;
 		font-family: 'Roboto', sans-serif;
-		font-weight: 300;
+		font-weight: 400;
 		font-size: 90%;
 		padding: 5px;
         min-height: 150px;
