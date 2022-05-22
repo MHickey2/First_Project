@@ -2,18 +2,24 @@
  # The Balancing Pact
 
 # Testing
+# Table of Contents <a name="toc"></a>
+1.  [Cross Browser Testing](#browsertesting)
+2.  [Responsive Testing](#responsivetesting)
+3.  [Validator Testing](#validatortesting)
+4.  [Manual Testing](#manualtesting)
+5. [User Story Testing](#userstorytesting)
 
-<details><a name="browsertesting"></a>
-<summary>Browser Testing</summary>
+## Browser Testing<a name="browsertesting"></a>
+
   The site was tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Brave Browser on the Desktop.
   The site was tested on iPhone5 on mobile.
 
   Appearance and Functionality appeared consistent in all browsers
-</details>
+<br/>
 
 
-<details><a name="responsivetesting"></a>
-<summary>Responsive Testing</summary>
+## Responsive Testing<a name="responsivetesting"></a>
+
 <br/>
    <p align ="center">      
      <img src="assets/images/amiresp.png" height="" width=""/>   
@@ -34,12 +40,11 @@
 
  
 
-</details>
+<br/>
 
 
 
-<details><a name="validatortesting"></a>
-<summary>Validator Testing</summary>
+# Validator Testing<a name="validatortesting"></a>
 
 - W3C Validator 
 
@@ -47,6 +52,7 @@ Using [https://validator.w3.org/](https://validator.w3.org/) I tested each page 
 lifestyle page would not work, so I figured it was the embedded video that was causing the problem so I commented it out
 and tested and there were no other problems. The next page had some issues with the links in the resource section but fixed them and there were also some issues with missing tags that highligted one issue that was masking the real one, the body tag had been entered at wrong place and caused rolling issues near bottom of page but fixed that. Other than some headings missing the rest of the site tested without problems. There is some indepth discussion on issues in the bug session.
 <br/>
+
 <p align ="center">      
      <img src="assets/images/htmlchecker.png" height="424" width="1366"/>   
 </p>
@@ -81,10 +87,10 @@ Used the Lighthouse Testing in Google Development and the plan was to share scre
   <p align ="center">      
      <img src="assets/images/contrast404.png" height="146" width="889"/>   
   </p>
-</details>
 
-<details><a name="manualtesting"></a>
-<summary>Manual Testing</summary>
+
+Manual Testing<a name="manualtesting"></a>
+
 <br/>
 <p align ="center">      
      <img src="assets/images/mantest.png" height="" width=""/>
@@ -95,10 +101,10 @@ Used the Lighthouse Testing in Google Development and the plan was to share scre
 <br/>
 * In this site the action has been set to “Get” in order to redirect the user to the Confirmation Page, the alternative is to set it to “Post” to the 'Code Institute Site', the site was tested using both alternatives and it worked as expected in each scenario. 
 
-</details>
+<br/>>
 
-<details><a name="userstorytesting"></a>
-<summary>User Story Testing</summary>
+## User Story Testing<a name="userstorytesting"></a>
+
  <br/>
 
 ## As a first time user to the site
@@ -139,4 +145,4 @@ The website can be expanded to include more areas of interest, in this regard ex
 - I want to extend the knowledge base within my site and use innovative ways to keep my users satisfied.
 - Discover any shortcomings in the present site, and use user feedback to improve the user experience within the site.
 
-</details>
+

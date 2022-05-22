@@ -28,21 +28,16 @@
     5. [404 Page](#404page)
 6.  [Future](#future)
 7.  [Tools and Technology](#Technology)
-8.  [Testing](#testing)
-9.  1. [Cross Browser Testing](#browsertesting)
-10. 2. [Responsive Testing](#responsivetesting)
-    1. [Validator Testing](#validatortesting)
-    2. [Manual Testing](#manualtesting)
-    3. [User Story Testing](#userstorytesting)
-11. [Bugs](#bugs)
-12. [Deployment](#deployment)
+8.  [Testing](TEST.md)
+9.  [Bugs](#bugs)
+10. [Deployment](#deployment)
     1. [Repository](#githubrepository)
     2. [Deploy the Site](#deployingsite)
     3. [Run Project locally](#runlocally)
     4. [Student Template](#studenttemplate)
     5. [Custom 404 Page](#404page)
-13.  [Credits](#credits)
-14.  [Acknowledgements](#acknowledgements)
+11.  [Credits](#credits)
+12.  [Acknowledgements](#acknowledgements)
 
 
 # The Balancing Pact
@@ -197,7 +192,7 @@ The colour scheme for the website has evolved over time and mainly consists of t
 font-family: 'Roboto', sans-serif;
 
 Roboto
-font-weight: Light 300
+font-weight: Light 400
 font-weight: Bold 700
 
 Used for the majority of the site, both for regular text and headings.
@@ -461,7 +456,8 @@ This page is displayed to the user if they experience a problem connecting with 
 - Wireframes:             Figma
 - Social Media Icons:		  Font Awesome
 - Multimedia:				      Sourced from YouTube
-- Free Images:			      Pixalbay, Unsplash, Pexels  
+- Free Images:			      Pixalbay, Unsplash, Pexels
+- Image Converter:        Convertio  
 
  #### [Return to Table of Contents](#toc)
 ----
@@ -486,13 +482,29 @@ Git push	Which pushed these files into the GitHub Repository
 2. Choose the repository that contains your intended site, in this case.
 3. Choose the Settings options.
 4. Scroll down to the GitHub Pages section. 
-5. Within GitHub Pages you can choose a theme from the options given.  
+5. You will see a Source dropdown Menu you can chose "main", and then "Save", it took a while for the Site to be published, but you will be told when it has been published and will be shown the link to the live site.
+
+
+### How to fork a GitHub Repository
+1. Log into GitHub and go to the required Repository.
+2. The Fork button is found at the top right corner of the page.
+3. When you click this button you will have a copy of the repository in your own GitHub account.
+
 
 ### How to run the project Locally
 1. You can add a browser extension for gitpod onto your browser, in this case chrome. Also available in Firefox (add-ons). On chrome you use 3 dots on right hand corner of your screen, choose extensions, and again using hamburger menu chose to go to chrome webstore and search for gitpod and your result will be displayed. You will need to authorize permission and it will be added to Chrome.
 2. Navigate to your GitHub Repository, there will be a green Gitpod button available now, you can use this and your code will be used to build a workspace which you can use to work locally.
 3. The first time you do this, you need to login with GitHub so click to authorize.
-4. Within the Code Institute website there is a GitPod button which will allow you to access your workspaces dashboard or you can use a shortcut on your computer to allow you to access these workspaces independently.  
+4. Within the Code Institute website there is a GitPod button which will allow you to access your workspaces dashboard or you can use a shortcut on your computer to allow you to access these workspaces independently. 
+
+### How to make a local Clone
+1. Navigate to the main page of the repository.
+2. Click the green Code Button at top right of the repository.
+3. Copy the url for the repository.
+4. Open Git Bash and Change the current working directory to where you want the cloned directory.
+5. Type git clone, and then paste the URL you previously copied using $ git clone https://hostname/YOUR-USERNAME/YOUR-REPOSITORY
+6. Pressing enter will create your clone.
+
 
 ### GitHub Student Template
 This Template has been provided by the Code Institute and includes a number of tools to make life easier and has been used within this present site.  
@@ -506,67 +518,11 @@ This Template has been provided by the Code Institute and includes a number of t
 
  [Return to Table of Contents](#toc)
 ----
-## Testing  <a name="testing"></a>
+## Testing <a name="TEST.md">
 
-<details>
-  <summary>1. Validator Testing</summary>
-</details>
+-[See Testing on TEST.md Page](TEST.md)
 
 
-
-<details>
-  <summary>2. Manual Testing</summary>
-<br/>
-<p align ="center">      
-     <img src="assets/images/mantest.png" height="650" width="800"/>    
-</p>
-</details>
-
-<details>
-  <summary>3. User Story Testing</summary>
-  <br/>
-
-## As a first time user to the site
-
-- Learn more about the topics within the site.
-- I want to disover the content within the site in relation to my interests.
-- I want to learn if there are possible solutions to help me gain more balance in my life.
-- I want to find simple changes that I can integrate into my life that will make a difference.
-- I want to employ a one stop approach that incorporates a range of options
-- I want this information to be concise and easy to find and utilize.
-  
-Information is delivered in a concise manner, and layed out in logical groupings. Each topic is introduced on the Home Page and are explored more deeply on the lifestyle page. Possible changes are contained in the list items within each section. Each section of the lifestyle page follows the same format to build familiarity with the user and can help the user identify information pertinent to each area of their life in easily absorbed chunks.
-
-There is also a webinar highlighted in the Next page where the user can avail of a free Event that will highlight more information on the subject. 
-
-- I want access to resouces that I can access and can help me find more indepth knowledge in specific areas.
-  
-The Resources section is available on the Next Page and consists of names of organisations, a brief introduction to what they do and links that will allow the user to research further into their topics of interest.
-
-- I want to sign up for a newsletter to keep updated on more information on a regular basis.
-  
-This feature has been postponed until the next iteration, when javascript can be applied to allow pop-up form to be enabled.
-
-- I want to utilize social media links to join with like minded people and I can learn and share information with them.
-
-Social Media Links are clearly displayed in the footer section and are promoted further in the Confirmation Page when the user registers for the Webinar.
-
-## As a regular user of the site
-
-- I want to have updated information and possibly more expansion to cover more areas within the remit of the site.
-- I would like an updated Resources List.
-  
-The website can be expanded to include more areas of interest, in this regard expansion will depend on user feedback, this is where intereaction is key and social media and the upcoming webinar will be good resources.
-
-## As the site owner, I want to …..
-- Provide a compendium of information that offers the user insights and tips to the users on how to create more balance in their life.
-- Engage with the site users and discover ways to improve the site and provide information relevant to my user's needs.
-- I want to extend the knowledge base within my site and use innovative ways to keep my users satisfied.
-- Discover any shortcomings in the present site, and use user feedback to improve the user experience within the site.
-
-</details>
-
-#### [Return to Table of Contents](#toc)
 
 ## Bugs <a name="bugs"></a>
 
