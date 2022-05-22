@@ -59,7 +59,8 @@ Using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator
      <img src="assets/images/cssvalid.png" height="337" width="1289"/>   
 </p>
 
-
+### Lighouse
+Used the Lighthouse Testing in Google Development and the plan was to share screenshots, but have been having issues getting accurate scores from the site, I did speak with a Turor, with persistant low scores in performance and the Tutor shared screenshots of the pages with me, these were not the scores I was getting and it would not be useful to share mine as they would not be a true representation, it has also made it hard to gauge my progression as I now do not trust the evaluation, this may be due to connection issues or technical issues with my laptop, but are for the moment out of my control. 
 
   ### Contrast Checker
   Using [https://color.a11y.com/](https://color.a11y.com/) I checked the site for any contrast issues and there were some issues with my introductory text and buttons on my information panels on the index page, so I used the colour contrast checker to test new colours that would not cause any issues, I then made the changes in my css files and tested again, and on revision all the pages passed their tests.

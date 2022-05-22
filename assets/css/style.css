@@ -960,7 +960,7 @@ styling as a seperate entity. */
 
 	.form-section {
 		background-color: rgb(95, 11, 145);
-		background: url('../images/stones.jpg') no-repeat center center;
+		background: url('../images/stones.webp') no-repeat center center;
 		height: 720px;
 		margin-bottom: -40px;
 	}
@@ -1162,7 +1162,6 @@ styling as a seperate entity. */
 	}
 
 	.body {
-		/*background-color: mediumorchid;*/
 		margin: 10px;
 		padding: 10px;
 		border-radius: 15px;
@@ -1507,7 +1506,7 @@ styling as a seperate entity. */
 	}
 
 	#menu li {
-		font-size: 17px;
+		font-size: 15px;
 		font-weight: bold;
 			
 	}
@@ -1526,7 +1525,7 @@ styling as a seperate entity. */
 		height: 320px;
 		float: none;
 		position: relative;		
-		background: url('../images/stones-sm.jpg') no-repeat center center;
+		background: url('../images/stones-sm.webp') no-repeat center center;
 		width: 100%;
 		margin-bottom: 5px;
 		margin-top: -8px;		
