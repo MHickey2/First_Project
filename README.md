@@ -42,7 +42,7 @@
 
 # The Balancing Pact
 <p align ="center">      
-     <img src="assets/images/logo.png" height="64" width="431"/>    
+     <img src="assets/images/amiresp1.png" height="" width=""/>    
 </p>
 
 ## Introduction <a name="introduction"></a>
@@ -422,7 +422,7 @@ There is also a final message to the user on  why it is a good idea to connect w
 
 
 ## The 404 Page  <a name="404"></a>
-This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the elements of the website in place in order for the user to return to the website on whatever page they require.  
+This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the elements of the website in place in order for the user to return to the website on whatever page they require. The 404 Page can be found at [https://mhickey2.github.io/First_Project/error.page](https://mhickey2.github.io/First_Project/error.page)
 <br/>
 <p align="center">
   <img src="assets/images/errormessage.png"/ height="244" width="357"/>
@@ -454,10 +454,12 @@ This page is displayed to the user if they experience a problem connecting with 
 - Deployment:			        Gitpod
 - Fonts:					        Google Fonts
 - Wireframes:             Figma
+- Testing                 [https://developer.chrome.com/docs/devtools/](https://developer.chrome.com/docs/devtools/)
 - Social Media Icons:		  Font Awesome
 - Multimedia:				      Sourced from YouTube
-- Free Images:			      Pixalbay, Unsplash, Pexels
-- Image Converter:        Convertio  
+- Free Images:			      Pixalbay, [https://unsplash.com/](https://unsplash.com/), [https://www.pexels.com/](https://www.pexels.com/)
+- Image Converter:        Convertio 
+- Image Compression:      tinyPNG 
 
  #### [Return to Table of Contents](#toc)
 ----
@@ -516,6 +518,8 @@ This Template has been provided by the Code Institute and includes a number of t
 4. You can then add a meaningful message that describe the changes you made.
 5. You can add the commit to current branch or new branch. I chose to commit to main branch and clicked to propose the new file.  
 
+More information is available at [https://docs.github.com/en](https://docs.github.com/en), in regards to GitHub and is a great reference point for all GitHub queries.
+
  [Return to Table of Contents](#toc)
 ----
 ## Testing <a name="TEST.md">
@@ -526,6 +530,7 @@ This Template has been provided by the Code Institute and includes a number of t
 
 ## Bugs <a name="bugs"></a>
 
+
 #### [Return to Table of Contents](#toc)
 ----
 ## Credit  <a name="credit"></a>
@@ -534,14 +539,15 @@ This Template has been provided by the Code Institute and includes a number of t
 I created the written content but drew inspiration from this:
 [Better up.com Blog](https://www.betterup.com/blog/mind-body-and-soul?fbclid=IwAR3YrY5lJSkBwhZ5ThmwbzLNSRhWmvyO2dHpYe2XXrltwZ-tI8QgQrWUlWo)
 I have had an interest in holistic health and stress management in the past and feel Work/Life Balance is a topic highly relevant in the current climate.  
+I used the documentation and template provided by the Code Institute to provide the structure of the README file and referred to the GitHub documention as the basis of my Deployment section.
 
 ### Media
-All the imagery from the site was obtained from:
-Pixalbay Pexels, Unsplash
-The video was sourced from YouTube.
+All the imagery from the site was obtained from:<br/>
+Pixalbay Pexels, Unsplash<br/>
+The video was sourced from YouTube.<br/>
 
 ### Code
-The Social Media code was based on the code in 'Cool Runnings' project, the previous website on the Code Institute Course.
+The Social Media and Navigation code were based on the code in 'Cool Runnings' project, the previous website on the Code Institute Course.
 
 ### Sources
 Sites that I have consulted when there was issues with the site:<br/>
@@ -551,7 +557,9 @@ Sites that I have consulted when there was issues with the site:<br/>
 
 
 ----
-
+## Acknowledgements <a name="acknowledgements"></a>
+Thank you to my Mentor<br/>
+Thank you to the staff of the Code Institute for their support.
 
 
 

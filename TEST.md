@@ -22,7 +22,7 @@
 
 <br/>
    <p align ="center">      
-     <img src="assets/images/amiresp.png" height="" width=""/>   
+     <img src="assets/images/amiresp1.png" height="" width=""/>   
    </p>
 
    I regularly tested the responsiveness of the site using Google Chrome Developer tools. I also used Window Resizer and a
@@ -66,7 +66,7 @@ Using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator
 </p>
 
 ### Lighouse
-Used the Lighthouse Testing in Google Development and the plan was to share screenshots, but have been having issues getting accurate scores from the site, I did speak with a Turor, with persistant low scores in performance and the Tutor shared screenshots of the pages with me, these were not the scores I was getting and it would not be useful to share mine as they would not be a true representation, it has also made it hard to gauge my progression as I now do not trust the evaluation, this may be due to connection issues or technical issues with my laptop, but are for the moment out of my control. 
+Used the Lighthouse Testing in Google Development and the plan was to share screenshots, but have been having issues getting accurate scores from the site, I did speak with a Turor, with persistant low scores in performance and the Tutor shared screenshots of the pages with me, these were not the scores I was getting and it would not be useful to share mine as they would not be a true representation, it has also made it hard to gauge my progression as I now do not trust the evaluation, this may be due to connection issues or technical issues with my laptop, but are for the moment out of my control. Will look at alternative sites who offer responsive testing to supplement information.
 
   ### Contrast Checker
   Using [https://color.a11y.com/](https://color.a11y.com/) I checked the site for any contrast issues and there were some issues with my introductory text and buttons on my information panels on the index page, so I used the colour contrast checker to test new colours that would not cause any issues, I then made the changes in my css files and tested again, and on revision all the pages passed their tests.
@@ -99,7 +99,7 @@ Manual Testing<a name="manualtesting"></a>
      <img src="assets/images/mantest1.png" height="" width=""/>
 </p>
 <br/>
-* In this site the action has been set to “Get” in order to redirect the user to the Confirmation Page, the alternative is to set it to “Post” to the 'Code Institute Site', the site was tested using both alternatives and it worked as expected in each scenario. 
+* In this site the action has been set to “POST” using the 'Code Institute Site' to validate the form action is working correctly and the Code Institute acknowledgment is displaying, I also had used "GET" in order to redirect the user to the Confirmation Page, the site was tested using both alternatives and it worked as expected in each scenario. The 'Confirmation Page' can be found at [https://mhickey2.github.io/First_Project/confirmation.html](https://mhickey2.github.io/First_Project/confirmation.html)
 
 <br/>>
 
