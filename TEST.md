@@ -17,7 +17,7 @@
   Appearance and Functionality appeared consistent in all browsers
 <br/>
 
-
+----
 ## Responsive Testing<a name="responsivetesting"></a>
 
 <br/>
@@ -43,7 +43,7 @@
 <br/>
 
 
-
+----
 # Validator Testing<a name="validatortesting"></a>
 
 - W3C Validator 
@@ -88,8 +88,8 @@ Used the Lighthouse Testing in Google Development and the plan was to share scre
      <img src="assets/images/contrast404.png" height="146" width="889"/>   
   </p>
 
-
-Manual Testing<a name="manualtesting"></a>
+----
+## Manual Testing<a name="manualtesting"></a>
 
 <br/>
 <p align ="center">      
@@ -103,6 +103,7 @@ Manual Testing<a name="manualtesting"></a>
 
 <br/>>
 
+----
 ## User Story Testing<a name="userstorytesting"></a>
 
  <br/>
@@ -146,3 +147,7 @@ The website can be expanded to include more areas of interest, in this regard ex
 - Discover any shortcomings in the present site, and use user feedback to improve the user experience within the site.
 
 
+#### [Return to Table of Contents](#toc)
+#### [Return to README.md](README.md)
+
+----

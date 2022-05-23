@@ -1496,6 +1496,7 @@ styling as a seperate entity. */
 
 	header {
 		height: 120px;
+		background-color: purple
 	}
 
 /*Logo and Menu*/
@@ -1569,6 +1570,7 @@ styling as a seperate entity. */
 
 	.workshop-signup-form {
 		width: 90%;
+		background-color: purple;
 	}
 
 	input[type=submit] {
