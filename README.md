@@ -53,6 +53,7 @@ of useful tips and resources to hopefully give inspiration and practical advice 
 ways to improve their health and wellbeing. Users will also be able to sign up for an upcoming Webinar 
 on the subject and will have the option to use social media to join a community of like minded people.  
 <br/>
+
 ## UX Strategy <a name="uxstrategy"></a>
 The website is designed as an introduction to the subject of 'Life Balance', so the aim is to present 
 information in a condensed and logical manner within 3 main subject areas. This involved intensive research
@@ -186,25 +187,26 @@ The colour scheme for the website has evolved over time and mainly consists of t
 <summary>Fonts</summary>
 <br/>
 
+## Fonts used on Site  
+
+### Roboto 
+font-family: 'Roboto', sans-serif;    
+font-weight: Light 400;  
+font-weight: Bold 700;
+
+Used for the majority of the site, both for regular text and headings. Sans serif is the fallback font in case other font is not available. See below for example of font in use.
+
 <p align="center">
   <img src="assets/images/font.png"/>
 </p>
-font-family: 'Roboto', sans-serif;
 
-Roboto
-font-weight: Light 400
-font-weight: Bold 700
+### Dancing Script  
+font-family: 'Dancing Script', cursive;  
+Font-weight: Regular 400;  
+Font-weight: Bold 700;
 
-Used for the majority of the site, both for regular text and headings.
-
-font-family: 'Dancing Script', cursive;
-
-Dancing Script
-Font-weight: Regular 400
-Font-weight: Bold 700
-
-Used for the opening Welcome section on the home page and for the Quotes linked to the body, mind and
-spirit section on the lifestyle page, and the error message on the 404.page.
+Used for the opening Welcome Text in the welcome section on the home page and for the Quotes linked to the body, mind and
+spirit section on the lifestyle page, and the error message on the 404.page. Cursive is the fallback font in case other font is not available. See below for the font in use.
 
 <p align="center">
   <img src="assets/images/quote.png"/>
@@ -219,8 +221,8 @@ spirit section on the lifestyle page, and the error message on the 404.page.
   <img src="assets/images/fonticons.png"/>
 </p>
 - In relation to the Logo I used a 'Balancing Scales icon' to support the overall message of balance in the website.<br/>
-- I added the Social Media Icons to the footer element.<br/>
-- In ther resources section, for logistic reasons I could not add the name of the website in the link section so used the arrow icon to indicate what each links relate to as a temporary measure.
+- I added the Social Media Icons to the footer element to represent each Social Media Channel.<br/>
+- In ther resources section, for logistic reasons I could not add the name of the website in the links themselves so used the arrow icon to indicate what each links relate to as a temporary measure. I also used up arrow in the top of Screen button found at the bottom of each website pages (404 page is short and did not require this feature).  
   <br/>
 </details>
 
@@ -228,6 +230,16 @@ spirit section on the lifestyle page, and the error message on the 404.page.
 <details><a name="structure"></a>
 <br/>
 <summary>Structure</summary>
+
+## Website Structure  
+
+The website has 4 pages<br/>
+- Home Page - Introduces to the subject of Life Balance and introduces the subject areas. It contains links to the Lifestyle Page.<br/>
+- Lifestyle Page - Content (Images, Text, Lists and Quotes) is grouped into 3 sections (Body, Mind and Spirit).<br/>
+- Next Page - Content broken down into 4 sections (Closing Text and image, Resources and form Section containing details and a registration Form)<br/>
+- Confirmation Page - Content (Image and Text and information Panels) displayed to User when they register for the Webinar. User not currently being redirected as the form is sending information to the Code Institute.<br/>
+<br/>
+There is an additional customised 404 Page - These page is shown when the page required is not available to the user. It consists of an Image and an error message.  
 <br/>
 </details>
 
@@ -553,6 +565,7 @@ The Social Media and Navigation code were based on the code in 'Cool Runnings' p
 Sites that I have consulted when there was issues with the site:<br/>
 - [W3Schools](https://www.w3schools.com/html/html5_svg.asp)
 - [https://stackoverflow.com/](https://stackoverflow.com/)
+- [https://css-tricks.com/](https://css-tricks.com/)
 
 
 
