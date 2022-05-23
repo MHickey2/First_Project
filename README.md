@@ -111,7 +111,8 @@ People who are seeking some advice or tips on maintaining balance in their lives
 
  #### [Return to Table of Contents](#toc)
 ----
-## Design
+## Design  
+<br/>
 
 <details><a name="wireframes"></a>
 <summary>Wireframes for Site</summary>
@@ -162,9 +163,11 @@ Wireframes were created in Figma.
 <br/>
 
 </details>
+<br/>
 
-<details><a name="colourscheme"></a>
-<summary>Colour Scheme</summary>
+
+
+## Colour Scheme    <a name="colourscheme"></a>  
 
 The colour scheme for the website has evolved over time and mainly consists of these complementary colours. There are other colours in the site but they are all a derivation of these colours. 
 <br/>
@@ -174,6 +177,7 @@ The colour scheme for the website has evolved over time and mainly consists of t
 <br/>
 
 ### Other Colours
+
 - Home Page: 
 - The Cover Text on Hero Image: 
 - Welcome Panel: Gradient
@@ -181,13 +185,8 @@ The colour scheme for the website has evolved over time and mainly consists of t
 - Resources Section background:
 - Sign Up Form:
 
-</details>
 
-<details><a name="fonts"></a>
-<summary>Fonts</summary>
-<br/>
-
-## Fonts used on Site  
+## Fonts used on Site  <a name="fonts"></a>
 
 ### Roboto 
 font-family: 'Roboto', sans-serif;    
@@ -212,26 +211,25 @@ spirit section on the lifestyle page, and the error message on the 404.page. Cur
   <img src="assets/images/quote.png"/>
 </p>
 <br/>
-</details>
 
-<details><a name="icons"></a>
-<summary>Icons</summary>
+
+
+## Icons used on site<a name="icons"></a>
+
 <br/>
 <p align="center">
   <img src="assets/images/fonticons.png"/>
 </p>
 - In relation to the Logo I used a 'Balancing Scales icon' to support the overall message of balance in the website.<br/>
 - I added the Social Media Icons to the footer element to represent each Social Media Channel.<br/>
-- In ther resources section, for logistic reasons I could not add the name of the website in the links themselves so used the arrow icon to indicate what each links relate to as a temporary measure. I also used up arrow in the top of Screen button found at the bottom of each website pages (404 page is short and did not require this feature).  
-  <br/>
-</details>
-
-
-<details><a name="structure"></a>
+- In ther resources section, for logistic reasons I could not add the name of the website in the links themselves so used the arrow icon to indicate what each links relate to as a temporary measure. I also used up arrow in the top of Screen button found at the bottom of each website pages (404 page is short and did not require this feature).        
 <br/>
-<summary>Structure</summary>
+<br/>
 
-## Website Structure  
+
+
+## Website Structure <a name="structure"></a>    
+
 
 The website has 4 pages<br/>
 - Home Page - Introduces to the subject of Life Balance and introduces the subject areas. It contains links to the Lifestyle Page.<br/>
@@ -239,9 +237,7 @@ The website has 4 pages<br/>
 - Next Page - Content broken down into 4 sections (Closing Text and image, Resources and form Section containing details and a registration Form)<br/>
 - Confirmation Page - Content (Image and Text and information Panels) displayed to User when they register for the Webinar. User not currently being redirected as the form is sending information to the Code Institute.<br/>
 <br/>
-There is an additional customised 404 Page - These page is shown when the page required is not available to the user. It consists of an Image and an error message.  
-<br/>
-</details>
+There is an additional customised 404 Page - These page is shown when the page required is not available to the user. It consists of an Image and an error message.    
 
 
  #### [Return to Table of Contents](#toc)
@@ -255,14 +251,14 @@ The Navigation bar is positioned at the top right of the webpag on Desktop and m
 
 <br/>
 <p align="center">
-  <img src="assets/images/header.png"/ height="47" width="673"/>
+  <img src="assets/images/header.png" height="47" width="673"/>
 </p>
 <br/>
 Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
 
 <br/>
 <p align="center">
-  <img src="assets/images/footer.png"/ height="67" width="673"/>
+  <img src="assets/images/footer.png" height="67" width="673"/>
 </p>
 <br/>
 
@@ -290,7 +286,7 @@ Each page also has a footer which contains Social Media links, these open to ind
 The Home Page's first imapact is the Hero Image at the top of the screen below the header section. This image hopes to capture a delicate balancing act, and is symbolic for the delicate balance we maintain in our lives despite the ongoing effects of a sometimes busy and hectic lifestyle. The colour scheme being green is conducive to health and healing when you research the impact of colour on emotional wellbeing. This image will be rendered smaller on a smaller screen. In combination with the image there is an overly with the key message of the site, and acts as an introduction and an invitation to learn more.   
 <br/>
 <p align="center">
-  <img src="assets/images/hero.png"/ height="249" width="636"/>
+  <img src="assets/images/hero.png" height="249" width="636"/>
 </p>
 <br/>
 
@@ -298,7 +294,7 @@ The Home Page's first imapact is the Hero Image at the top of the screen below t
 This section is displayed early to get the user's attention early. This is the user's opportunity to interact with the site and build a relationship with the site moving forward. This feature has since been removed and will hope to have a better grasp of javascript in order to use a pop up window to find the user details and another pop up to confirm that they have signed up for the newsletter. Image shows how it did look on the screen before the removal.  
 <br/>
 <p align="center">
-  <img src="assets/images/newsletter.png"/ height="32" width="511"/>
+  <img src="assets/images/newsletter.png" height="32" width="511"/>
 </p>
 <br/>
 
@@ -322,7 +318,7 @@ The site is boken down into 3 main areas and this section gives a simplified exp
 This area shares the Social Media Links with the user, and carries some copyright information for the site.  On a fully developed site it may also include a sitemap, navigation etc. There would also be contact information and a location for the given company/person.
 <br/>
 <p align="center">
-  <img src="assets/images/footer.png"/ height="67" width="673"/>
+  <img src="assets/images/footer.png" height="67" width="673"/>
 </p>
 <br/>
 
@@ -345,7 +341,7 @@ This area shares the Social Media Links with the user, and carries some copyrigh
 This section contains a text box on the information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be proactive in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site. 
 <br/>
 <p align="center">
-  <img src="assets/images/body.png"/ height="426" width=683"/>
+  <img src="assets/images/body.png" height="426" width=683"/>
 </p>
 <br/> 
 
@@ -353,7 +349,7 @@ This section contains a text box on the information related to improving your ph
 This section contains a text box on the information related to improving your mental health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be proactive in improving your own mental health. In addition there is a mind related quote, to support the overall message, this also helps balance the symmetry of the section.  
 <br/>
 <p align="center">
-  <img src="assets/images/mind.png"/ height="415" width="683"/>
+  <img src="assets/images/mind.png" height="415" width="683"/>
 </p>
 <br/>
 
@@ -361,7 +357,7 @@ This section contains a text box on the information related to improving your me
 This section contains a text box on the information related to improving your spiritual health. There is a list included that gives simple tips on how you can be proactive in improving your own spiritual health. There is also an embedded Iframe with a simple 5minute meditation sourced from YouTube, which will allow the user's to try a mediitation for themselves. In addition there is a quote, to support the overall message of the importance of working on the body, mind and spirit to emphasise the importance of combining the elements, this also helps balance the symmetry of the section.
 <br/>
 <p align="center">
-  <img src="assets/images/spirit.png"/ height="416" width="683"/>
+  <img src="assets/images/spirit.png" height="416" width="683"/>
 </p>
 <br/>  
 
@@ -374,7 +370,7 @@ This section contains a text box on the information related to improving your sp
 The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website.
 <br/>
 <p align="center">
-  <img src="assets/images/nextsection.png"/ height="441" width="616"/>
+  <img src="assets/images/nextsection.png" height="441" width="616"/>
 </p>
 <br/>    
 
@@ -382,7 +378,7 @@ The Section includes an image, helping the user relate to the site content and t
 The Section includes a table with details of websites that will help the user learn more about the subject areas. There is a name, a brief description of the site and links that will bring user directlly to the sites. (will open on to new site in new window, so as to allow the user to keep present site open.  
 <br/>
 <p align="center">
-  <img src="assets/images/resources.png"/ height="190" width="607"/>
+  <img src="assets/images/resources.png" height="190" width="607"/>
 </p>
 <br/>  
 
@@ -392,7 +388,7 @@ The form itself contains required fields before you can submit the form. There i
 I had tried to add javascript event listener to the submit button, but this prooved problematic as it was redirecting the user before all fields were entered and felt it was more advantageous to have the form working correctly, but this again would be an area I would revisit in order to have the Form fully functionally with the redirection in place. I did leave the javascript in place and have comments explaining  the issue. 
 <br/>
 <p align="center">
-  <img src="assets/images/formsection.png"/ height="303" width="674"/>
+  <img src="assets/images/formsection.png" height="303" width="674"/>
 </p>
 <br/>    
 
@@ -410,7 +406,7 @@ I had tried to add javascript event listener to the submit button, but this proo
 - Email field contains an example to make the expected input clear.
   <br/>
 <p align="center">
-  <img src="assets/images/form.png"/ height="434" width="435"/>
+  <img src="assets/images/form.png" height="434" width="435"/>
 </p>
 <br/>    
 
@@ -420,7 +416,7 @@ This page is displayed when the user registers for the webinar, it confirms to t
 There is also a final message to the user on  why it is a good idea to connect with social media as there will be additional information and resources available within these channels. This also acts as a CTA to engage in these channels.  
  <br/>
 <p align="center">
-  <img src="assets/images/thanks.png"/ height="238" width="377"/>
+  <img src="assets/images/thanks.png" height="238" width="377"/>
 </p>
 <br/> 
 
@@ -437,7 +433,7 @@ There is also a final message to the user on  why it is a good idea to connect w
 This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](#404). The 404 Page can be found at [https://mhickey2.github.io/First_Project/error.page](https://mhickey2.github.io/First_Project/error.page)
 <br/>
 <p align="center">
-  <img src="assets/images/errormessage.png"/ height="244" width="357"/>
+  <img src="assets/images/errormessage.png" height="244" width="357"/>
 </p>
 <br/> 
 
@@ -499,19 +495,19 @@ Git push	Which pushed these files into the GitHub Repository
 5. You will see a Source dropdown Menu you can chose "main", and then "Save", it took a while for the Site to be published, but you will be told when it has been published and will be shown the link to the live site.
 
 
-### How to fork a GitHub Repository
+### How to fork a GitHub Repository (<a name="fork"></a>)
 1. Log into GitHub and go to the required Repository.
 2. The Fork button is found at the top right corner of the page.
 3. When you click this button you will have a copy of the repository in your own GitHub account.
 
 
-### How to run the project Locally
+### How to run the project Locally (<a name="runlocally"></a>)
 1. You can add a browser extension for gitpod onto your browser, in this case chrome. Also available in Firefox (add-ons). On chrome you use 3 dots on right hand corner of your screen, choose extensions, and again using hamburger menu chose to go to chrome webstore and search for gitpod and your result will be displayed. You will need to authorize permission and it will be added to Chrome.
 2. Navigate to your GitHub Repository, there will be a green Gitpod button available now, you can use this and your code will be used to build a workspace which you can use to work locally.
 3. The first time you do this, you need to login with GitHub so click to authorize.
 4. Within the Code Institute website there is a GitPod button which will allow you to access your workspaces dashboard or you can use a shortcut on your computer to allow you to access these workspaces independently. 
 
-### How to make a local Clone
+### How to make a local Clone (<a name="clone"></a>)
 1. Navigate to the main page of the repository.
 2. Click the green Code Button at top right of the repository.
 3. Copy the url for the repository.
@@ -520,7 +516,7 @@ Git push	Which pushed these files into the GitHub Repository
 6. Pressing enter will then create your clone.
 
 
-### GitHub Student Template
+### GitHub Student Template (<a name="studenttemplate"></a>)
 This Template has been provided by the Code Institute and includes a number of tools to make life easier and has been used within this present site.  
 
 ### Creating a custom 404 page for your GitHub Pages Site (<a name="add404"></a>)
