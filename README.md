@@ -416,7 +416,7 @@ I had tried to add javascript event listener to the submit button, but this proo
 - There are no broken links.
 - Page content is in language the user will understand.
 - Links to Resouce sites are indicated by arrows, ideally I would have name in link itself, but this prooved problematic so had to compromise to ensure mobile screens could see the information more clearly.
--   
+    
 ### Form:
 - Only necessary questions are on the form.
 - Fields are labelled conventionally.
@@ -449,7 +449,7 @@ This page should be displayed when the user registers for the webinar, it confir
 
 
 ## The 404 Page  <a name="404"></a>
-This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](#404). The 404 Page can be found at [https://mhickey2.github.io/First_Project/error.page](https://mhickey2.github.io/First_Project/error.page). See image below.
+This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](#404). The 404 Page can be found at [here](404.html)). See image below.
 
 <br/>
 <p align="center">

@@ -6,6 +6,11 @@
 1.  [Cross Browser Testing](#browsertesting)
 2.  [Responsive Testing](#responsivetesting)
 3.  [Validator Testing](#validatortesting)
+     1. [W3C Validator](#w3c)
+     2. [CSS Validator](#css)
+     3. [Lighthouse](#lighthouse)
+     4. [Contrast Checker](#contrastchecker)
+     5. [WAVE](#wave)
 4.  [Manual Testing](#manualtesting)
 5. [User Story Testing](#userstorytesting)  
 
@@ -23,14 +28,24 @@
 ----
 ## Responsive Testing<a name="responsivetesting"></a>
 
-<br/>
+
+
+   I regularly tested the responsiveness of the site using Google Chrome Developer tools, information on this can be found [here](https://developer.chrome.com/docs/devtools/). I also used Window Resizer and a Responsive Design Tester Application available in the Google Chrome Store. The devices I tested for are in the image below.
+
+   <br/>
+   <p align ="center">      
+     <img src="assets/images/resptests.png" height="" width=""/>   
+   </p>
+   
+   
+   I also used [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) and it was a useful way to see how the site was progressing in regards to reponding to different screen sizes. The image showing responsiveness can be seen below.
+
+   <br/>
    <p align ="center">      
      <img src="assets/images/amiresp1.png" height="" width=""/>   
    </p>
 
-   I regularly tested the responsiveness of the site using Google Chrome Developer tools, information on this can be found [here](https://developer.chrome.com/docs/devtools/). I also used Window Resizer and a Responsive Design Tester Application available in the Google Chrome Store. I also used [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) and it was a useful way to see how the site was progressing in regards to reponding to different screen sizes. The image showing responsiveness can be seen below.
-
-   Had not intended to cater for the larger screens but the cover text was problematic on the hero image, so I applied a minor fix. Should be responsive down to 320px screen, but any smaller and there will be issues. In regard to bigger screens it should be good to 5119px.
+   Had not intended to cater for the larger screens but the cover text was problematic on the hero image, so I applied a minor fix. Should be responsive down to 320px screen, but any smaller and there will be issues. In regard to bigger screens it should be good to 5119px. The website is not responsive for the Galaxy Fold, but this is not within my current scope.
 
    The Media Query Breakpoints I used were:
    - 5120px width and below;
@@ -45,7 +60,7 @@
 ----
 # Validator Testing<a name="validatortesting"></a>
 
-- W3C Validator 
+- W3C Validator <a name="w3c"></a>
 
 Using [https://validator.w3.org/](https://validator.w3.org/) I tested each page individually and fixed any errors highlighted. In the Index page I had used too many arias for features and I removed them. Initially my testing for the 
 lifestyle page would not work, so I figured it was the embedded video that was causing the problem so I commented it out
@@ -58,7 +73,7 @@ and tested and there were no other problems. The next page had some issues with 
      <img src="assets/images/htmlchecker.png" height="424" width="1366"/>   
 </p>
   
-- Jigsaw CSS Validator
+- Jigsaw CSS Validator   <a name="css"></a>
 
 Using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/) I tested the css by inputting the url of the live site, there were 3 errors for obsolete use of floats which I rectified and retested with no issues this time.
 I also checked the CSS on the 404.page and it passed successfuly.
@@ -67,7 +82,7 @@ I also checked the CSS on the 404.page and it passed successfuly.
      <img src="assets/images/cssvalid.png" height="337" width="1289"/>   
 </p>
 
-- Lighthouse  
+- Lighthouse  <a name="lighthouse"></a>
 
 Used the Lighthouse Testing in Google Developer Tools and the plan was to share screenshots, but have been having issues getting accurate scores from the site, I did speak with a Turor, with persistant low scores in performance and the Tutor shared screenshots of the pages with me, these were not the scores I was getting and it would not be useful to share my performance scores as they would not be a true representation, it has also made it hard to gauge my progression as I now do not trust the evaluation, this may be due to connection issues or technical issues with my laptop, but is beyond my control. I also tested in Incognito, but was only marginally better.
 
@@ -79,7 +94,7 @@ I have repeated these tests and barring performance scores they are consistently
 
 
 
-  - Contrast Checker  
+  - Contrast Checker  <a name="contrastchecker"></a>
   
   Using [https://color.a11y.com/](https://color.a11y.com/) I checked the site for any contrast issues and there were some issues with my introductory text and buttons on my information panels on the index page, so I used the colour contrast checker to test new colours that would not cause any issues, I then made the changes in my css files and tested again, and on revision all the pages passed their tests. See images Below.
 
@@ -100,6 +115,15 @@ I have repeated these tests and barring performance scores they are consistently
      <img src="assets/images/contrast404.png" height="146" width="889"/>   
   </p>
 
+
+- Wave (Web Accesability Evaluation tool)   <a name="wave"></a>
+  
+  WAVE is a web accesability tool developed by WebAIM.org. It provides visual feedback about the accessibility of your web content, it highlights any errors and gives you possible suggestions for improvements. After testing it highlighted a couple of issues, including rechecking some of the alt tags, make sure the destination links are evident and advised against justified text as it can be hard on the user's sight. I myself prefer justified text but would rather take the user experience in mind. 
+  <br/>
+  <p align ="center">      
+     <img src="assets/images/wave_test.png" height="" width=""/>   
+  </p>
+  
 ----
 ## Manual Testing<a name="manualtesting"></a>
 
@@ -113,7 +137,7 @@ I have repeated these tests and barring performance scores they are consistently
 <br/>
 * In this site the action has been set to “POST” using the 'Code Institute Site' to validate the form action is working correctly and the Code Institute acknowledgment is displaying, I also had used "GET" in order to redirect the user to the Confirmation Page, the site was tested using both alternatives and it worked as expected in each scenario. The 'Confirmation Page' can be found at  [https://mhickey2.github.io/First_Project/confirmation.html](https://mhickey2.github.io/First_Project/confirmation.html)
 
-<br/>>
+<br/>
 
 ----
 ## User Story Testing<a name="userstorytesting"></a>
