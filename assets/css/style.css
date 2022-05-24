@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -50,8 +49,8 @@ header {
 }
 
 #menu {
-    list-style-type: none;
-    letter-spacing: 4px;
+	list-style-type: none;
+	letter-spacing: 4px;
 }
 
 #menu li {
@@ -122,9 +121,8 @@ header {
 }
 
 /*Welcome Section */
-
 .welcome {
-	background:#E0B0FF;
+	background: #E0B0FF;
 	margin: 7px 3px 7px 3px;
 	display: flex;
 	padding: 8px;
@@ -141,14 +139,14 @@ header {
 	color: #313131;
 	font: 17px;
 	text-align: center;
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto', sans-serif;
 	line-height: 1.6;
-	font-weight: 300;
+	font-weight: 400;
 	padding: 2%;
 }
 
 #welcome-text {
-	color:  #5c2766;
+	color: #5c2766;
 	text-align: center;
 	font-weight: bold;
 	font-family: 'Dancing Script', cursive;
@@ -179,7 +177,6 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	width: 30%;
 	background-color: #fff;
 	gap: 10px;
-	/*padding: 5px;*/
 	margin: 15px;
 }
 
@@ -188,7 +185,6 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	margin: auto;
 	object-fit: cover;
 	border: 1px solid black;
-	
 }
 
 #boxes .box p {
@@ -210,9 +206,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 }
 
 #boxes .box .button {
-	background-Color: #006400;
-    background-color: rgba(21, 146, 84);
-
+	background-color: rgba(21, 146, 84);
 	width: 55%;
 	color: #fff;
 	padding: 10px;
@@ -221,23 +215,23 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	display: block;
 	margin: auto;
 	text-align: center;
-	font-weight: bold;	
+	font-weight: bold;
 	border: 1px solid black;
 }
 
 #boxes .box .button:hover {
-	background-color: darkgreen;
+	background-color: #013220;
 	color: #fff;
 }
 
 #top-button {
-	text-align: center;	
+	text-align: center;
 	font-size: 16px;
 	background-color: plum;
 	color: #313131;
 	font-weight: bold;
 	border: 1px solid black;
-	border-radius: 15px;	
+	border-radius: 15px;
 	width: 150px;
 	height: 30px;
 	margin-bottom: 5px;
@@ -247,7 +241,6 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	margin-right: auto;
 	padding: 5px;
 	text-decoration: none;
-	
 }
 
 #top-button:hover {
@@ -259,8 +252,8 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	text-align: center;
 	font-size: 100%;
 	background-color: pink;
-	color: #313131;	
-	border: 1px solid black;	
+	color: #313131;
+	border: 1px solid black;
 	width: 60px;
 	height: 25px;
 	margin-left: 5px;
@@ -315,7 +308,7 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 780px;	
+	min-height: 780px;
 }
 
 .body-technique {
@@ -338,7 +331,7 @@ footer p {
 	float: right;
 	display: block;
 	max-width: 100%;
-    object-fit: cover;
+	object-fit: cover;
 }
 
 .body-list {
@@ -351,7 +344,6 @@ footer p {
 	float: left;
 	padding: 5px;
 	font-family: 'Roboto', sans-serif;
-	
 }
 
 .lifeskill-lists {
@@ -387,14 +379,14 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 780px;	
+	min-height: 780px;
 }
 
 .mind-technique {
 	width: 60%;
 	text-align: center;
 	float: left;
-	line-height: 1.6;	
+	line-height: 1.6;
 	padding-bottom: 40px;
 }
 
@@ -414,7 +406,7 @@ footer p {
 	float: left;
 	line-height: 1.6;
 	padding: 5px;
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto', sans-serif;
 }
 
 .mind-list ul li {
@@ -428,7 +420,7 @@ footer p {
 	margin: 25px 10px;
 	padding: 20px;
 	border-radius: 15px;
-	min-height: 780px;		
+	min-height: 780px;
 }
 
 .spirit-technique {
@@ -455,7 +447,7 @@ footer p {
 	text-align: center;
 	float: left;
 	padding: 5px;
-	font-family: 'Roboto', sans-serif;	
+	font-family: 'Roboto', sans-serif;
 }
 
 .spirit-list ul li {
@@ -675,7 +667,6 @@ input[type=password]:focus {
 	color: rgb(95, 11, 145);
 }
 
-
 /* Confirmation page/ Page will be displayed to the user when they sign up for the Webinar */
 
 .congrats {
@@ -743,36 +734,35 @@ styling as a seperate entity. */
 
 @media screen and (max-width: 5120px) {
 
-	#cover-text {		
+	#cover-text {
 		position: absolute;
 		left: 100px;
 	}
-		
 }
-
 
 /* ************************For larger to medium screens size from 1200px wide and down ***************** */
 
 @media screen and (max-width: 1200px) {
 
-/*Cover text over Hero Image*/
+	/*Cover text over Hero Image*/
 	#cover-text {
 		font-size: 1rem;
-		margin-left: 20px;		
+		margin-left: 20px;
 	}
 
-	
-/*Welcome section on the home page*/	
+	/*Welcome section on the home page*/
 	.welcome {
 		padding: 30px 0;
 		margin: 0;
 	}
 
-	
-	.spirit, .mind, .body {
+	.spirit,
+	.mind,
+	.body {
 		min-height: 1100px;
 	}
-/*Resource Section including the table;*/
+
+	/*Resource Section including the table;*/
 
 	.resources {
 		width: 100%;
@@ -782,7 +772,7 @@ styling as a seperate entity. */
 		width: 100%;
 	}
 
-/*Form Section on the next page*/
+	/*Form Section on the next page*/
 
 	.form-section {
 		height: 700px;
@@ -803,7 +793,6 @@ styling as a seperate entity. */
 		width: 40%;
 		float: right;
 	}
-
 }
 
 
@@ -811,27 +800,22 @@ styling as a seperate entity. */
 
 @media screen and (max-width: 950px) {
 
-/*Logo*/	
-
-	
-
-/*Cover text within the hero image*/
+	/*Cover text within the hero image*/
 
 	#cover-text {
 		left: 0;
 	}
 
-
-/*Introduction section on the home page*/
+	/*Introduction section on the home page*/
 
 	.introduction {
 		padding: 10px;
 	}
 
-    .peaceful {
-        width: 50%;
-        padding: 10px;           
-    }
+	.peaceful {
+		width: 50%;
+		padding: 10px;
+	}
 
 	.introduction p {
 		font-size: 100%;
@@ -840,7 +824,7 @@ styling as a seperate entity. */
 		padding: 5px;
 	}
 
-/*Boxes of information related to different sections of content within the site on the home page*/
+	/*Boxes of information related to different sections of content within the site on the home page*/
 
 	#boxes {
 		margin: 30px;
@@ -869,10 +853,10 @@ styling as a seperate entity. */
 		font-weight: 400;
 		font-size: 90%;
 		padding: 3px;
-        min-height: 360px;
+		min-height: 360px;
 	}
 
-	#boxes .box .button {		
+	#boxes .box .button {
 		width: 57%;
 		color: #fff;
 		padding: 10px;
@@ -885,9 +869,9 @@ styling as a seperate entity. */
 		text-transform: uppercase;
 		border: 1px solid black;
 	}
-	
-/*Images in the body, mind and spirit sections on the lifestyle page*/
-	
+
+	/*Images in the body, mind and spirit sections on the lifestyle page*/
+
 	.healthy-person {
 		height: 80%;
 		float: none;
@@ -913,28 +897,28 @@ styling as a seperate entity. */
 		line-height: 1.4;
 	}
 
-    .spirit {
-        min-height: fit-content;
-    }
-
-    .healthy-person {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-	    padding: 5px;
-	    max-width: 100%;
-    } 
-
-	.quote {
-        float: none;	
-		font-size: 1.5rem;
-		margin-top: 10px;	
-        display: block;
-        margin-left: auto;
-        margin-right: auto;              
+	.spirit {
+		min-height: fit-content;
 	}
 
-/*Resource section on the next page including the table of sites*/
+	.healthy-person {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5px;
+		max-width: 100%;
+	}
+
+	.quote {
+		float: none;
+		font-size: 1.5rem;
+		margin-top: 10px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*Resource section on the next page including the table of sites*/
 
 	.resources {
 		width: 100%;
@@ -964,7 +948,7 @@ styling as a seperate entity. */
 		padding: 5px;
 	}
 
-/*Webinar Registration section including sign-up form*/
+	/*Webinar Registration section including sign-up form*/
 
 	.form-section {
 		background-color: rgb(95, 11, 145);
@@ -1015,8 +999,9 @@ styling as a seperate entity. */
 	.body-technique,
 	.mind-technique,
 	.spirit-technique,
-	.welcome, .quote, .congrats
-	 {
+	.welcome,
+	.quote,
+	.congrats {
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -1027,31 +1012,6 @@ styling as a seperate entity. */
 		width: 100%;
 	}
 
-	/* Logo and Menu Section */
-
-	/*#logo {
-		text-align: center;
-		margin-left: 12px;
-		font-size: 150%;
-	}
-
-	/*#menu {
-		display: flex;
-		list-style: none;
-		text-transform: uppercase;
-		margin-right: 10px;
-	}*/
-
-
-	/*#menu li {
-		clear: both;
-		margin-right: 10px;
-		margin-top: 10px;
-		list-style-type: none;
-		font-family: 'Roboto', sans-serif;
-		font-size: 120%;
-	}*/
-    
 	#logo {
 		text-align: right;
 		margin-left: 20px;
@@ -1059,13 +1019,14 @@ styling as a seperate entity. */
 	}
 
 	#menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-		/* Hero Image Section */
+		clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 20px;
+		line-height: 25px;
+	}
+
+	/* Hero Image Section */
 
 	#hero-image {
 		margin-bottom: 10px;
@@ -1075,22 +1036,6 @@ styling as a seperate entity. */
 		background: url('../images/stones-sm.webp') no-repeat center center;
 	}
 
-	/*#cover-text {
-		color: #fff;
-		font-size: 80%;
-		font-family: 'Roboto', sans-serif;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		width: 40%;
-		background-color: rgba(21, 146, 84, 0.4);
-		position: absolute;
-		
-		width: 50%;
-		top: 40%;
-		bottom: 90px;
-		left: 30px;
-	}*/
-
 	#cover-text {
 		left: 45px;
 		bottom: 20px;
@@ -1099,27 +1044,26 @@ styling as a seperate entity. */
 		font-size: 80%;
 	}
 
-	
 	/* Welcome Section */
 
 	.introduction {
 		align-items: flex-start;
 		display: block;
-		margin: auto;		
+		margin: auto;
 	}
 
-	.peaceful 	 {
+	.peaceful {
 		display: none;
 	}
 
-
 	/* Boxes for information on index page*/
+
 	#boxes .box img {
 		float: none;
 		text-align: center;
 		object-fit: cover;
 	}
-    
+
 	#boxes .box {
 		padding: 20px;
 	}
@@ -1131,11 +1075,11 @@ styling as a seperate entity. */
 		font-weight: 400;
 		font-size: 90%;
 		padding: 5px;
-        min-height: 150px;
-		
+		min-height: 150px;
 	}
-    
-	#boxes, .box .button{
+
+	#boxes,
+	.box .button {
 		clear: both;
 		display: block;
 	}
@@ -1204,7 +1148,6 @@ styling as a seperate entity. */
 
 	.quote {
 		display: block;
-		
 		margin-left: auto;
 		margin-right: auto;
 		font-size: 1.50rem;
@@ -1231,10 +1174,11 @@ styling as a seperate entity. */
 		font-weight: 700;
 		line-height: 1.5;
 	}
-	
-    .spirit {
-        min-height: 800px;
-    }
+
+	.spirit {
+		min-height: 800px;
+	}
+
 	.next-woman {
 		display: block;
 		margin-top: 20px;
@@ -1343,7 +1287,7 @@ styling as a seperate entity. */
 		background-color: rgba(126, 43, 182, 0.6);
 		margin-bottom: 20px;
 		height: fit-content;
-        border-radius: 0;
+		border-radius: 0;
 	}
 
 	.workshop-news {
@@ -1440,38 +1384,7 @@ styling as a seperate entity. */
 /* For smartphones screen sizes 600px and lower */
 @media screen and (max-width: 600px) {
 
-/*Logo and Menu Section*/
-
-	/*#logo {
-		text-align: center;
-		font-family: 'Robot' sans-serif;
-		font-weight: 300;
-	}
-
-	#menu {
-		margin-bottom: 2.5rem;
-		clear: left;
-		float: left;
-		margin-left: 30px;
-		margin-bottom: 20px;
-		line-height: 25px;
-	}
-
-
-	#menu li {
-		margin: 5px;
-		padding: 2px;
-		font-size: 300;
-	}
-
-	.specific-styling {
-		clear: both;
-		text-align: center;	
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	} */
-    #cover-text {
+	#cover-text {
 		left: 5px;
 		bottom: 30px;
 		width: 50%;
@@ -1480,7 +1393,8 @@ styling as a seperate entity. */
 		margin-left: 5px;
 		height: 140px;
 	}
-/*Webinar Registration section on next page*/
+
+	/*Webinar Registration section on next page*/
 
 	.form-section {
 		height: fit-content;
@@ -1499,7 +1413,7 @@ styling as a seperate entity. */
 		background-color: purple
 	}
 
-/*Logo and Menu*/
+	/*Logo and Menu*/
 	*#logo {
 		text-align: center;
 		margin-top: 3px;
@@ -1507,37 +1421,33 @@ styling as a seperate entity. */
 	}
 
 	#menu {
-			
 		float: right;
-		margin-bottom: 10px;	
+		margin-bottom: 10px;
 		margin-left: auto;
-		margin-right: auto;		
+		margin-right: auto;
 	}
 
 	#menu li {
 		font-size: 15px;
 		font-weight: bold;
-			
 	}
 
-	#logo, #menu {
+	#logo,
+	#menu {
 		line-height: 50px;
 	}
 
-	
+	/*Hero Image and Cover Text*/
 
-	
-
-/*Hero Image and Cover Text*/	
 	#hero-image {
-	    clear: both;
+		clear: both;
 		height: 320px;
 		float: none;
-		position: relative;		
+		position: relative;
 		background: url('../images/stones-sm.webp') no-repeat center center;
 		width: 100%;
 		margin-bottom: 5px;
-		margin-top: -8px;		
+		margin-top: -8px;
 	}
 
 	#cover-text {
@@ -1558,15 +1468,28 @@ styling as a seperate entity. */
 		position: absolute;
 	}
 
-
 	#boxes .box img {
 		float: none;
 		text-align: center;
 		width: 100%;
-		
 	}
-	
-/*Workshop Sign up Form */
+
+	#boxes .box .button {
+		background-color: #40db40;
+		color: #fff;
+	}
+
+	#boxes .box .button:hover {
+		background-color: #117008;
+		color: #fff;
+	}
+
+	#boxes .box .button:active {
+		background-color: #00563f;
+		color: #fff;
+	}
+
+	/*Workshop Sign up Form */
 
 	.workshop-signup-form {
 		width: 90%;
@@ -1576,23 +1499,23 @@ styling as a seperate entity. */
 	input[type=submit] {
 		margin-bottom: 0.5rem;
 	}
-	
 
-/*Image on top of Next Page*/
+
+	/*Image on top of Next Page*/
 
 	.next-woman {
 		width: 100%;
 		padding: 5%
 	}
 
-/*Images in body, mind, spirit section on Technique Page */	
+	/*Images in body, mind, spirit section on Technique Page */
 
 	.healthy-person {
 		display: block;
 		object-fit: cover;
 	}
 
-/*Webinar Registration section on next page*/
+	/*Webinar Registration section on next page*/
 
 	.form-section {
 		height: fit-content;
@@ -1605,7 +1528,7 @@ styling as a seperate entity. */
 		border: none;
 	}
 
-/*Thank you for your Registration on the confirmation page*/
+	/*Thank you for your Registration on the confirmation page*/
 
 	.congrats {
 		width: 100%;
@@ -1617,6 +1540,5 @@ styling as a seperate entity. */
 		margin-left: auto;
 		margin-right: auto;
 	}
-
 }
 
