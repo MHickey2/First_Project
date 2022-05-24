@@ -1,20 +1,23 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
- # The Balancing Pact
+ # The Balancing Pact Testing
 
-# Testing
+
 # Table of Contents <a name="toc"></a>
 1.  [Cross Browser Testing](#browsertesting)
 2.  [Responsive Testing](#responsivetesting)
 3.  [Validator Testing](#validatortesting)
 4.  [Manual Testing](#manualtesting)
-5. [User Story Testing](#userstorytesting)
+5. [User Story Testing](#userstorytesting)  
+
+----
 
 ## Browser Testing<a name="browsertesting"></a>
 
   The site was tested in Google Chrome, Microsoft Edge, Mozilla Firefox and Brave Browser on the Desktop.
-  The site was tested on iPhone5 on mobile.
+  The site was tested on a Lenovo Laptop, an Acer Aspire Netbook and an iPhone5 on mobile.  
 
-  Appearance and Functionality appeared consistent in all browsers
+  Appearance and Functionality appeared consistent in all browsers on the Desktop, but on the older iPhone5
+  the WebP images could not be seen, on this older model safari does not support these images but in September 2020, WebP support was added in Safari version 14.
 <br/>
 
 ----
@@ -25,12 +28,11 @@
      <img src="assets/images/amiresp1.png" height="" width=""/>   
    </p>
 
-   I regularly tested the responsiveness of the site using Google Chrome Developer tools. I also used Window Resizer and a
-   Responsive Design Tester Application. I also used [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) and it was a useful way to see how the site was progressing in regards to reponding to different screen sizes.
+   I regularly tested the responsiveness of the site using Google Chrome Developer tools, information on this can be found [here](https://developer.chrome.com/docs/devtools/). I also used Window Resizer and a Responsive Design Tester Application available in the Google Chrome Store. I also used [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive) and it was a useful way to see how the site was progressing in regards to reponding to different screen sizes. The image showing responsiveness can be seen below.
 
-   Had not intended to cater for the larger screens but cover text was problematic on the hero image, so I applied a minor fix. Should be responsive down to 320px screen, but any smaller and there will be issues. In regard to bigger screens it should be good to 5119px.
+   Had not intended to cater for the larger screens but the cover text was problematic on the hero image, so I applied a minor fix. Should be responsive down to 320px screen, but any smaller and there will be issues. In regard to bigger screens it should be good to 5119px.
 
-   The Media Query Breakpoints I used where:
+   The Media Query Breakpoints I used were:
    - 5120px width and below;
    - 1200px width and below;
    - 950px width and below;
@@ -38,19 +40,18 @@
    - 600px width and below;
    - 400px width and below;
 
- 
-
 <br/>
-
 
 ----
 # Validator Testing<a name="validatortesting"></a>
 
 - W3C Validator 
 
-Using [https://validator.w3.org/](https://validator.w3.org/) I tested each page individually and fixed any errors indicated. In the Index page I had used too many arias for features and I removed them. Initially my testing for the 
+Using [https://validator.w3.org/](https://validator.w3.org/) I tested each page individually and fixed any errors highlighted. In the Index page I had used too many arias for features and I removed them. Initially my testing for the 
 lifestyle page would not work, so I figured it was the embedded video that was causing the problem so I commented it out
-and tested and there were no other problems. The next page had some issues with the links in the resource section but fixed them and there were also some issues with missing tags that highligted one issue that was masking the real one, the body tag had been entered at wrong place and caused rolling issues near bottom of page but fixed that. Other than some headings missing the rest of the site tested without problems. There is some indepth discussion on issues in the bug session.
+and tested and there were no other problems. The next page had some issues with the links in the resource section but fixed them and there were also some issues with missing tags that highligted one issue that was masking the real one, the body tag had been entered at wrong place and was causing rolling issues near the bottom of the page but fixed that. Other than some headings missing the rest of the site tested without problems. Ther are more issues in the Bug section in the [README.md](README.md). The results of the HTML validation can be seen below, this was the entire site check, but I did check each individual page at regular intervals.
+
+
 <br/>
 
 <p align ="center">      
@@ -60,16 +61,27 @@ and tested and there were no other problems. The next page had some issues with 
 - Jigsaw CSS Validator
 
 Using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/) I tested the css by inputting the url of the live site, there were 3 errors for obsolete use of floats which I rectified and retested with no issues this time.
+I also checked the CSS on the 404.page and it passed successfuly.
 
 <p align ="center">      
      <img src="assets/images/cssvalid.png" height="337" width="1289"/>   
 </p>
 
-### Lighouse
-Used the Lighthouse Testing in Google Development and the plan was to share screenshots, but have been having issues getting accurate scores from the site, I did speak with a Turor, with persistant low scores in performance and the Tutor shared screenshots of the pages with me, these were not the scores I was getting and it would not be useful to share mine as they would not be a true representation, it has also made it hard to gauge my progression as I now do not trust the evaluation, this may be due to connection issues or technical issues with my laptop, but are for the moment out of my control. Will look at alternative sites who offer responsive testing to supplement information.
+- Lighthouse  
 
-  ### Contrast Checker
-  Using [https://color.a11y.com/](https://color.a11y.com/) I checked the site for any contrast issues and there were some issues with my introductory text and buttons on my information panels on the index page, so I used the colour contrast checker to test new colours that would not cause any issues, I then made the changes in my css files and tested again, and on revision all the pages passed their tests.
+Used the Lighthouse Testing in Google Developer Tools and the plan was to share screenshots, but have been having issues getting accurate scores from the site, I did speak with a Turor, with persistant low scores in performance and the Tutor shared screenshots of the pages with me, these were not the scores I was getting and it would not be useful to share my performance scores as they would not be a true representation, it has also made it hard to gauge my progression as I now do not trust the evaluation, this may be due to connection issues or technical issues with my laptop, but is beyond my control. I also tested in Incognito, but was only marginally better.
+
+I have repeated these tests and barring performance scores they are consistently scoring 100, except the mobile screen on the Homepage, where the mobile score is 97, but am working to fix the issue, it regards the buttons in the information section, its proving hard as the button has a regular colour and a hover color, but as the button links to another page, there is no active button state. See image below for Lighthouse scores for all pages in Desktop and Mobile.  
+
+<p align ="center">      
+     <img src="assets/images/lighthouse.png" height="182" width="304"/>   
+</p>
+
+
+
+  - Contrast Checker  
+  
+  Using [https://color.a11y.com/](https://color.a11y.com/) I checked the site for any contrast issues and there were some issues with my introductory text and buttons on my information panels on the index page, so I used the colour contrast checker to test new colours that would not cause any issues, I then made the changes in my css files and tested again, and on revision all the pages passed their tests. See images Below.
 
 <br/>
   <p align ="center">      

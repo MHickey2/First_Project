@@ -47,7 +47,7 @@ on the subject and will also have the option to use social media to join a commu
 5.  [Future](#future)
 6.  [Tools and Technology](#Technology)
 7.  [Testing](TEST.md)
-8.  [Bugs](#bugs)
+8.  [Bugs and Issues](#bugs)
 9.  [Deployment](#deployment)
     1. [Repository](#githubrepository)
     2. [Deploy the Site](#deployingsite)
@@ -244,7 +244,6 @@ The website has 4 pages<br/>
 - Confirmation Page - Content (Image and Text and information Panels) displayed to User when they register for the Webinar. User not currently being redirected as the form is sending information to the Code Institute.<br/>
 <br/>
 There is an additional customised 404 Page - These page is shown when the page required is not available to the user. It consists of an Image and an error message. 
-
 
 The Home Page Information panels on the bottom of the page have internal links to sections on the Lifestyle page, this allows the users to be taken directly to an area of interest i.e Body, Mind or Spirit Section.
 
@@ -518,13 +517,13 @@ Git push	Which pushed these files into the GitHub Repository
 5. You will see a Source dropdown Menu you can chose "main", and then "Save", it took a while for the Site to be published, but you will be told when it has been published and will be shown the link to the live site.
 
 
-### How to run the project Locally (<a name="runlocally"></a>)
+### How to run the project Locally <a name="runlocally"></a>
 1. You can add a browser extension for gitpod onto your browser, in this case chrome. Also available in Firefox (add-ons). On chrome you use 3 dots on right hand corner of your screen, choose extensions, and again using hamburger menu chose to go to chrome webstore and search for gitpod and your result will be displayed. You will need to authorize permission and it will be added to Chrome.
 2. Navigate to your GitHub Repository, there will be a green Gitpod button available now, you can use this and your code will be used to build a workspace which you can use to work locally.
 3. The first time you do this, you need to login with GitHub so click to authorize.
 4. Within the Code Institute website there is a GitPod button which will allow you to access your workspaces dashboard or you can use a shortcut on your computer to allow you to access these workspaces independently. 
 
-### How to make a local Clone (<a name="clone"></a>)
+### How to make a local Clone <a name="clone"></a>
 1. Navigate to the main page of the repository.
 2. Click the green Code Button at top right of the repository.
 3. Copy the url for the repository.
@@ -533,16 +532,16 @@ Git push	Which pushed these files into the GitHub Repository
 6. Pressing enter will then create your clone.
 
 
-### How to fork a GitHub Repository (<a name="fork"></a>)
+### How to fork a GitHub Repository <a name="fork"></a>
 1. Log into GitHub and go to the required Repository.
 2. The Fork button is found at the top right corner of the page.
 3. When you click this button you will have a copy of the repository in your own GitHub account.
 
 
-### GitHub Student Template (<a name="studenttemplate"></a>)
+### GitHub Student Template <a name="studenttemplate"></a>
 This Template has been provided by the Code Institute and includes a number of tools to make life easier and has been used within this present site.  
 
-### Creating a custom 404 page for your GitHub Pages Site (<a name="add404"></a>)
+### Creating a custom 404 page for your GitHub Pages Site <a name="add404"></a>
 1. Navigate to the site repository.
 2. Using the 'add file' dropdown, choose 'Create new File'.
 3. In the presented filed name, type 404.html/404.md. In my case I chose 404.html.
@@ -551,7 +550,7 @@ This Template has been provided by the Code Institute and includes a number of t
 
 More information is available at [https://docs.github.com/en](https://docs.github.com/en), in regards to GitHub and is a great reference point for all GitHub queries.
 
- [Return to Table of Contents](#toc)
+ #### [Return to Table of Contents](#toc)
 ----
 ## Testing <a name="TEST.md">
 
@@ -559,7 +558,38 @@ More information is available at [https://docs.github.com/en](https://docs.githu
 
 ----
 
-## Bugs <a name="bugs"></a>
+## Bugs and Issues <a name="bugs"></a>
+
+### Home Page  
+- Initially I had a problem with the navigation, in that I could not change the spacing between the menu items, and when I tried different display types, it caused issues when making the navigation responsive, in the end I stripped it right back and simplified the format using the Love running Navigation as a template for the present Nav.
+
+- The cover text had a tendancy to drift, but worked with sizing and padding to allow the cover text to fit within the hero image on all size screens.
+  
+- I had a problem with the welcome section of the home page with aligning the image in the smaller screens, but in the end I hid the image in smaller screens as I felt the image wasnt adding much and didn't want the home page to have excess content.
+
+- The boxes section was problematic as I had set the boxes at a minimal height and when the page was on a small screen there was too much spaces between the buttons and the content, but modified the code and it's working alright now.  
+
+### Lifestyle Page
+- I had some problems with alignment in each section, but managed to use sizing to enable different elements fell into position when being responsive.
+  
+- The Spirit Section, in particular was problematic as the section tended to overlap the footer element, it still does this a little during transiitions between mid-level breakpoints but believe this is a minor but unavoidable issue.
+
+- The video I used was originally longer, so swapped it for a shorter duration one, as I felt this might improve loading time, there is an issue when using any third party resource, I have used prefetch in the header, but can't attest to any improvement in loading time, but the video is loading and will play when selected.      
+
+### Next Page  
+- I had some issues with the Resource section, originally I had 3 fields, with the last one being links, ideally using links is not adequate and the preferred format would be identifying where the user will be sent to, but there was not enough space, I then used arrows to point to the links in the next field and was not happy with this, so my Mentor suggested having the link in previous field which is what I ended up doing and was a good compromise as there is a description inside the field with the link itself. This also allows the table to be seen more clearly.
+
+- Alignment caused a problem within the Form section, but eventually I managed to figure out how the form and webinar information panel could fit within the section with no issues.      
+
+### Confirmation Page  
+- I had some problems with the information boxes on this page, but used the layout of the information boxes on the first page as a template and managed to improve the layout issues.    
+
+### 404 Page
+- I had some issues with background in the image for smaller screens, but used a smaller alternative, specifically for the smaller screens and this fixed the issue.  
+
+### Unfixed Issues  
+- Lighhouse testing has flagged a number of issues with render-blocking resources and third party resouces affecting performance, also some cacheing issues, and I am not sure how to deal with these yet.
+- I did begin to add png/jpg versions of images so that older iPhones will be able to show images, but had issues doing this with all images in the site, so would like to research more into whether this would be necessary now that safari has begun to support WebP images since 2020. 
 
 
 #### [Return to Table of Contents](#toc)
@@ -590,7 +620,7 @@ Sites that I have consulted when there was issues with the site:<br/>
 
 ----
 ## Acknowledgements <a name="acknowledgements"></a>
-Thank you to my Mentor<br/>
+Thank you to my Mentor, Brian Macharia<br/>
 Thank you to the staff of the Code Institute for their support.
 
 ----
