@@ -23,7 +23,7 @@
   The site was tested on a Lenovo Laptop, an Acer Aspire Netbook and an iPhone5 on mobile.  
 
   Appearance and Functionality appeared consistent in all browsers on the Desktop, but on the older iPhone5
-  the WebP images could not be seen, on this older model safari does not support these images but in September 2020, WebP support was added in Safari version 14.
+  the WebP images could not be seen, on this older model safari does not support these images but in September 2020, WebP support was added in Safari version 14.  
 <br/>
 
 ----
@@ -141,7 +141,8 @@ I have repeated these tests and barring performance scores they are consistently
      <img src="assets/images/readme/mantest1.png" alt="manual test part 2" />
 </p>
 <br/>
-* In this site the action has been set to “POST” using the 'Code Institute Site' to validate the form action is working correctly and the Code Institute acknowledgment is displaying, I also had used "GET" in order to redirect the user to the Confirmation Page, the site was tested using both alternatives and it worked as expected in each scenario. The 'Confirmation Page' can be found [here](confirmation.html)    
+* In this site the action has been set to “POST” using the 'Code Institute Site' to validate the form action is working correctly and the Code Institute acknowledgment is displaying, I also had used "GET" in order to redirect the user to the Confirmation Page, the site was tested using both alternatives and it worked as expected in each scenario. The 'Confirmation Page' can be found [here](confirmation.html)  
+      
 <br/>
 When working within GitPod, I inserted buttons on the next screen that would take me to page that did not exist so I could test whether the 404 page would be shown. I also had another button that brought me to the confirmation page as I had the form set to 'POST' and not 'GET'. I removed these buttons before final submission. See image below.
 
@@ -156,6 +157,7 @@ When working within GitPod, I inserted buttons on the next screen that would tak
 ## User Story Testing<a name="userstorytesting"></a>
 
  <br/>
+
 
 ## As a first time user to the site
 
@@ -180,7 +182,8 @@ This feature has been postponed until the next iteration, when javascript can be
 
 - I want to utilize social media links to join with like minded people and I can learn and share information with them.
 
-Social Media Links are clearly displayed in the footer section and are promoted further in the Confirmation Page when the user registers for the Webinar.
+Social Media Links are clearly displayed in the footer section and are promoted further in the Confirmation Page when the user registers for the Webinar.  
+<br/>
 
 ## As a regular user of the site
 
@@ -190,9 +193,10 @@ After engaging with users, it is hoped that new content will utilize user feedba
 
 - I would like an updated Resources List.
 
-By keeping up to date with current trends, the resource section will grow to keep up with the futrure needs of the users. 
+By keeping up to date with current trends, the resource section will grow to keep up with the futrure needs of the users.   
+<br/>
 
-## As the site owner, I want to …..
+## As the site owner, I want to …..  
 
 - Provide a compendium of information that offers the user insights and tips to create more balance in their lives.
 - Engage with the site users and discover ways to improve the site and provide information relevant to my user's needs.
