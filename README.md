@@ -5,7 +5,7 @@
 # The Balancing Pact Website: Milestone 1 Project
 
 <p align ="center">      
-     <img src="assets/images/amiresp1.png" height="" width=""/>    
+     <img src="assets/images/readme/amiresp1.png" height="" width=""/>    
 </p>
 <br/>  
 
@@ -179,7 +179,7 @@ Wireframes were created in Figma.
 The colour scheme for the website has evolved over time and mainly consists of these complementary colours. There are other colours in the site but they are all a derivation of these colours. 
 <br/>
 <p align="center">
-  <img src="assets/images/colourscheme.png"/>
+  <img src="assets/images/readme/colourscheme.png"/>
 </p>
 <br/>
 
@@ -198,7 +198,7 @@ font-weight: Bold 700;
 Used for the majority of the site, both for regular text and headings. Sans serif is the fallback font in case other font is not available. See below for example of font in use.  
 
 <p align="center">
-  <img src="assets/images/font.png"/>
+  <img src="assets/images/readme/font.png"/>
 </p>
 
 ### Dancing Script  
@@ -210,13 +210,13 @@ Used for the opening Welcome Text in the welcome section on the home page and fo
 spirit section on the lifestyle page, and the error message on the 404.page. Cursive is the fallback font in case other font is not available. See below for the font in use.  
 
 <p align="center">
-  <img src="assets/images/quote.png"/>
+  <img src="assets/images/readme/quote.png"/>
 </p>
 <br/>
 In relation to the color, I gave the main font the color #313131t can aid in preventing eye strain and can be used in a multitude of situations.  
 
 <p align="center">
-  <img src="assets/images/textfont.png"/>
+  <img src="assets/images/readme/textfont.png"/>
 </p>
 <br/>
 
@@ -224,7 +224,7 @@ In relation to the color, I gave the main font the color #313131t can aid in pre
 
 <br/>
 <p align="center">
-  <img src="assets/images/fonticons.png"/>
+  <img src="assets/images/readme/fonticons.png"/>
 </p>
 - In relation to the Logo I used a 'Balancing Scales icon' to support the overall message of balance in the website.<br/>
 - I added the Social Media Icons to the footer element to represent each Social Media Channel.<br/>
@@ -261,14 +261,14 @@ The Navigation bar is positioned at the top right of the webpage on Desktop and 
 
 <br/>
 <p align="center">
-  <img src="assets/images/header.png" height="47" width="673"/>
+  <img src="assets/images/readme/header.png" height="47" width="673"/>
 </p>
 <br/>
 Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
 
 <br/>
 <p align="center">
-  <img src="assets/images/footer.png" height="67" width="673"/>
+  <img src="assets/images/readme/footer.png" height="67" width="673"/>
 </p>
 <br/>
 
@@ -296,7 +296,7 @@ Each page also has a footer which contains Social Media links, these open to ind
 The Home Page's first imapact is the Hero Image at the top of the screen below the header section. This image conveys a delicate balancing act, and is symbolic for the delicate balance we maintain in our lives despite the ongoing effects of a sometimes busy and hectic lifestyle. The colour scheme being green is conducive to health and healing when you research the impact of colour on emotional wellbeing. This image will be rendered smaller on a smaller screen. In combination with the image there is an overlay with the key message of the site, and acts as an introduction and an invitation to learn more.   
 <br/>
 <p align="center">
-  <img src="assets/images/hero.png" height="249" width="636"/>
+  <img src="assets/images/readme/hero.png" height="249" width="636"/>
 </p>
 <br/>
 
@@ -304,7 +304,7 @@ The Home Page's first imapact is the Hero Image at the top of the screen below t
 This section is displayed early to get the user's attention early. This is the user's opportunity to interact with the site and build a relationship with the site moving forward. This feature has since been removed and I hope to have a better grasp of javascript in order to use a pop up window to find the user details and another pop up to confirm that they have signed up for the newsletter. The below Image shows how it did look on the screen before the removal.  
 <br/>
 <p align="center">
-  <img src="assets/images/newsletter.png" height="32" width="511"/>
+  <img src="assets/images/readme/newsletter.png" height="32" width="511"/>
 </p>
 <br/>
 
@@ -312,7 +312,7 @@ This section is displayed early to get the user's attention early. This is the u
 This section builds on from the work in the Hero Image/Overlay, by providing more information to the user, this provides the context for the site, and should give the user enough information to gauge whether this site has anything to offer them and what they can expect. The text is supplemented by the image, this visual helps the user relate to the human element behind the website. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/welcome.png" height="244" width="665"/>
+  <img src="assets/images/readme/welcome.png" height="244" width="665"/>
 </p>
 <br/> 
 
@@ -320,7 +320,7 @@ This section builds on from the work in the Hero Image/Overlay, by providing mor
 The site is broken down into 3 main areas and this section gives a simplified explanation of what they are, what they encompass and there is a CTA ie Body Tips, if they want to go to that section on the Lifestyle Page they need to click this button. The images support the textual information. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/boxes.png" height="277" width="590"/>
+  <img src="assets/images/readme/boxes.png" height="277" width="590"/>
 </p>
 <br/>   
 
@@ -328,7 +328,7 @@ The site is broken down into 3 main areas and this section gives a simplified ex
 This area shares the Social Media Links with the user, and carries some copyright information for the site.  On a fully developed site it may also include a sitemap, navigation etc. There would also be contact information and a location for the given company/person. THis site has been built for educational purposes and there is no existing location. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/footer.png" height="67" width="673"/>
+  <img src="assets/images/readme/footer.png" height="67" width="673"/>
 </p>
 <br/>
 
@@ -349,7 +349,7 @@ This area shares the Social Media Links with the user, and carries some copyrigh
 This section contains a text box containing information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be pro-active in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/body.png" height="426" width=683"/>
+  <img src="assets/images/readme/body.png" height="426" width=683"/>
 </p>
 <br/> 
 
@@ -357,7 +357,7 @@ This section contains a text box containing information related to improving you
 This section contains a text box containing information related to improving your mental health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be pro-active in improving your own mental health. In addition there is a mind related quote, to support the overall message, this also helps balance the symmetry of the section. See image below. 
 <br/>
 <p align="center">
-  <img src="assets/images/mind.png" height="415" width="683"/>
+  <img src="assets/images/readme/mind.png" height="415" width="683"/>
 </p>
 <br/>
 
@@ -365,7 +365,7 @@ This section contains a text box containing information related to improving you
 This section contains a text box containing information related to improving your spiritual health. There is a list included that gives simple tips on how you can be pro-active in improving your own spiritual health. There is also an embedded Iframe with a simple 2 minute meditation sourced from YouTube, which will allow the user to try a mediitation for themselves. In addition there is a quote, to support the overall message of the importance of working on the body, mind and spirit to emphasise the importance of combining the elements, this also helps balance the symmetry of the section. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/spirit.png" height="416" width="683"/>
+  <img src="assets/images/readme/spirit.png" height="416" width="683"/>
 </p>
 <br/>  
 
@@ -387,7 +387,7 @@ This section contains a text box containing information related to improving you
 The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/nextsection.png" height="441" width="616"/>
+  <img src="assets/images/readme/nextsection.png" height="441" width="616"/>
 </p>
 <br/>    
 
@@ -395,7 +395,7 @@ The Section includes an image, helping the user relate to the site content and t
 The Section includes a table with details of websites that will help the user learn more about the different subject areas. There is a name, a brief description of the site and links that will bring user directly to the relevant sites.(will open on to new site in new window, so as to allow the user to keep present site open). See image below.  
 <br/>
 <p align="center">
-  <img src="assets/images/resources.png" height="190" width="607"/>
+  <img src="assets/images/readme/resources.png" height="190" width="607"/>
 </p>
 <br/>  
 
@@ -405,7 +405,7 @@ The form itself contains required fields before you can submit the form. There i
 I had tried to add javascript event listener to the submit button, but this prooved problematic as it was redirecting the user before all fields were entered and I felt it was more advantageous to have the form working correctly, but this again would be an area I would revisit in order to have the Form fully functionally with the redirection to the Confirmation Page in place. I did leave the javascript in place and have comments explaining  the issue. See image below. 
 <br/>
 <p align="center">
-  <img src="assets/images/formsection.png" height="303" width="674"/>
+  <img src="assets/images/readme/formsection.png" height="303" width="674"/>
 </p>
 <br/>    
 
@@ -425,7 +425,7 @@ I had tried to add javascript event listener to the submit button, but this proo
 - Email field contains an example to make the expected input clear.
   <br/>
 <p align="center">
-  <img src="assets/images/form.png" height="434" width="435"/>
+  <img src="assets/images/readme/form.png" height="434" width="435"/>
 </p>
 <br/>    
 
@@ -435,7 +435,7 @@ This page should be displayed when the user registers for the webinar, it confir
  
  <br/>
 <p align="center">
-  <img src="assets/images/thanks.png" height="238" width="377"/>
+  <img src="assets/images/readme/thanks.png" height="238" width="377"/>
 </p>
 <br/> 
 
@@ -453,7 +453,7 @@ This page is displayed to the user if they experience a problem connecting with 
 
 <br/>
 <p align="center">
-  <img src="assets/images/errormessage.png" height="244" width="357"/>
+  <img src="assets/images/readme/errormessage.png" height="244" width="357"/>
 </p>
 <br/> 
 

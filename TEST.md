@@ -34,7 +34,7 @@
 
    <br/>
    <p align ="center">      
-     <img src="assets/images/resptests.png" height="" width=""/>   
+     <img src="assets/images/readme/resptests.png" height="" width=""/>   
    </p>
    
    
@@ -42,7 +42,7 @@
 
    <br/>
    <p align ="center">      
-     <img src="assets/images/amiresp1.png" height="" width=""/>   
+     <img src="assets/images/readme/amiresp1.png" height="" width=""/>   
    </p>
 
    Had not intended to cater for the larger screens but the cover text was problematic on the hero image, so I applied a minor fix. Should be responsive down to 320px screen, but any smaller and there will be issues. In regard to bigger screens it should be good to 5119px. The website is not responsive for the Galaxy Fold, but this is not within my current scope.
@@ -70,7 +70,7 @@ and tested and there were no other problems. The next page had some issues with 
 <br/>
 
 <p align ="center">      
-     <img src="assets/images/htmlchecker.png" height="424" width="1366"/>   
+     <img src="assets/images/readme/htmlchecker.png" height="424" width="1366"/>   
 </p>
   
 - Jigsaw CSS Validator   <a name="css"></a>
@@ -79,7 +79,7 @@ Using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator
 I also checked the CSS on the 404.page and it passed successfuly.
 
 <p align ="center">      
-     <img src="assets/images/cssvalid.png" height="337" width="1289"/>   
+     <img src="assets/images/readme/cssvalid.png" height="337" width="1289"/>   
 </p>
 
 - Lighthouse  <a name="lighthouse"></a>
@@ -89,7 +89,7 @@ Used the Lighthouse Testing in Google Developer Tools and the plan was to share 
 I have repeated these tests and barring performance scores they are consistently scoring 100, except the mobile screen on the Homepage, where the mobile score is 97, but am working to fix the issue, it regards the buttons in the information section, its proving hard as the button has a regular colour and a hover color, but as the button links to another page, there is no active button state. See image below for Lighthouse scores for all pages in Desktop and Mobile.  
 
 <p align ="center">      
-     <img src="assets/images/lighthouse.png" height="182" width="304"/>   
+     <img src="assets/images/readme/lighthouse.png" height="182" width="304"/>   
 </p>
 
 
@@ -100,19 +100,19 @@ I have repeated these tests and barring performance scores they are consistently
 
 <br/>
   <p align ="center">      
-     <img src="assets/images/contrastindex.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrastindex.png" height="146" width="889"/>   
   </p>
   <p align ="center">      
-     <img src="assets/images/contrastlifestyle.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrastlifestyle.png" height="146" width="889"/>   
   </p>
   <p align ="center">      
-     <img src="assets/images/contrastnext.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrastnext.png" height="146" width="889"/>   
   </p>
   <p align ="center">      
-     <img src="assets/images/contrastconfirmation.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrastconfirmation.png" height="146" width="889"/>   
   </p>
   <p align ="center">      
-     <img src="assets/images/contrast404.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrast404.png" height="146" width="889"/>   
   </p>
 
 
@@ -121,7 +121,7 @@ I have repeated these tests and barring performance scores they are consistently
   WAVE is a web accesability tool developed by WebAIM.org. It provides visual feedback about the accessibility of your web content, it highlights any errors and gives you possible suggestions for improvements. After testing it highlighted a couple of issues, including rechecking some of the alt tags, make sure the destination links are evident and advised against justified text as it can be hard on the user's sight. I myself prefer justified text but would rather take the user experience in mind. 
   <br/>
   <p align ="center">      
-     <img src="assets/images/wave_test.png" height="" width=""/>   
+     <img src="assets/images/readme/wave_test.png" height="" width=""/>   
   </p>
   
 ----
@@ -129,10 +129,10 @@ I have repeated these tests and barring performance scores they are consistently
 
 <br/>
 <p align ="center">      
-     <img src="assets/images/mantest.png" height="" width=""/>
+     <img src="assets/images/readme/mantest.png" height="" width=""/>
 </p>
 <p align ="center">      
-     <img src="assets/images/mantest1.png" height="" width=""/>
+     <img src="assets/images/readme/mantest1.png" height="" width=""/>
 </p>
 <br/>
 * In this site the action has been set to “POST” using the 'Code Institute Site' to validate the form action is working correctly and the Code Institute acknowledgment is displaying, I also had used "GET" in order to redirect the user to the Confirmation Page, the site was tested using both alternatives and it worked as expected in each scenario. The 'Confirmation Page' can be found at  [https://mhickey2.github.io/First_Project/confirmation.html](https://mhickey2.github.io/First_Project/confirmation.html)
