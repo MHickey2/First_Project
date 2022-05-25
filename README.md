@@ -5,7 +5,7 @@
 # The Balancing Pact Website: Milestone 1 Project
 
 <p align ="center">      
-     <img src="assets/images/readme/amiresp1.png" height="" width=""/>    
+     <img src="assets/images/readme/amiresp1.png" height="" width="" alt="Am I responsive result" />    
 </p>
 <br/>  
 
@@ -21,6 +21,9 @@ on the subject and will also have the option to use social media to join a commu
 <br/>
 
 [Visit the Balancing Pact Website](https://mhickey2.github.io/First_Project/)  
+<br/>    
+
+[Visit the Balancing Pact Repository](https://github.com/MHickey2/First_Project)  
 <br/>    
 
 # Table of Contents <a name="toc"></a>
@@ -64,14 +67,14 @@ on the subject and will also have the option to use social media to join a commu
 ## UX Strategy <a name="uxstrategy"></a>
 The website is designed as an introduction to the subject of 'Life Balance', so the aim is to present 
 information in a condensed and logical manner within 3 main subject areas. This involved intensive research
-initially to find what subject areas are most pertinent and establish suitable ways this information can be presented to the users. There was also a period of competitive analysis on existing websites to evaluate the goals I needed to accomplish within the project. It was also important to identify the target audience for the website to determine the tone needed in the delivery of the site's content.
+initially to find what subject areas were most pertinent and find suitable ways this information can be presented to the users. There was also a period of competitive analysis on existing websites to evaluate the goals I needed to accomplish within this project. It was also important to identify the target audience for the website to determine the tone needed in the delivery of the site's content.
 <br/> 
 
 ### The Business Goals of the website: <a name="businessgoals"></a>
 - No commercial goals, but the site's goal is to build awareness of ways a person can improve their quality of live by adopting simple changes.
 - Provide simple tips on achieving good work life balance.
 - Promote engagement with users by giving them access to a regular newsletter.*
-- Further engage the user by allowing the to register for an upcoming webinar that offers an interative and more indepth insight into the issues within the site. 
+- Further engage the user by allowing the user to register for an upcoming webinar that offers an interative and more indepth insight into the issues within the site. 
 - Offer users the opportunity to engage with others by joining with dedicated social media channels in order to build a community of people who have similar goals. 
   <br/> 
 
@@ -79,7 +82,7 @@ initially to find what subject areas are most pertinent and establish suitable w
 ### The Target Customer: <a name="targetcustomer"></a>
 - The audience of the site is fairly diverse, but the site would generally be aimed at an adult audience, all genders and age groups. 
 - Open to single people and those in families, with or without childeren.
-- Working people, unemployed, Student or retired.
+- Working people, unemployed, Students or retired.
 - Would probably have some access to digital technology.
 - People who are seeking some advice or tips on maintaining balance in their lives or can be prone to stress.
  <br/>  
@@ -88,29 +91,29 @@ initially to find what subject areas are most pertinent and establish suitable w
 ----
 ## User Stories
 ### As a first time user to the site, I want to …..<a name="firsttimeuser"></a>
-- i want to learn more about the topics within the site.
-- I want to disover the content within the site in relation to my interests.
+- I want to learn more about the topics within the site.
+- I want to disover the content within the site relating to my interests.
 - I want to learn if there are possible solutions to help me gain more balance in my life.
 - I want to find simple changes that I can integrate into my life that will make a difference.
-- I want to employ a one stop approach that incorporates a range of options
+- I want to employ a one stop approach that incorporates a range of options.
 - I want this information to be concise and easy to find and utilize.
-- I want access to resouces that I can access and can help me find more indepth knowledge in specific areas.
+- I want access to resouces that can help me find more indepth knowledge in specific areas.
 - I want to sign up for a newsletter to keep updated on more information on a regular basis.
 - I want to utilize social media links to join with like minded people and I can learn and share information with them.  
   <br/>
 
 ### As a regular user of the site, I want to …...  <a name="regularuser"></a>
-- I want to have updated information and possibly more expansion to cover more areas within the remit of the site.
-- I would like an updated Resources List. 
+- I want to have updated information on content within the remit of the site.
+- I would like an updated Resource List. 
 - I want more opportunities to be interactive and share my opinions with others. 
  <br/>
 
 
 ### As the site owner, I want to …..    <a name="siteowner"></a>
-- Provide a compendium of information that offers the user insights and tips to the users on how to create more balance in their life.
+- Provide a compendium of information that offers the user insights and tips to create more balance in their lives.
 - Engage with the site users and discover ways to improve the site and provide information relevant to my user's needs.
 - I want to extend the knowledge base within my site and use innovative ways to keep my users satisfied.
-- Discover any shortcomings in the present site, and use user feedback to improve the user experience within the site.
+
   <br/>  
 
 
@@ -132,7 +135,7 @@ Wireframes were created in Figma.
 <details>
   <summary>1. Home Page Wireframe</summary>
   <p align="center">
-     <img src="assets/images/wireframes/home_page.png" height="700" width="700"/>    
+     <img src="assets/images/wireframes/home_page.png" height="700" width="700" alt="Home Page Wireframe" />    
 </p>
 </details>
 
@@ -140,7 +143,7 @@ Wireframes were created in Figma.
   <summary>2. Lifestyle Page Wireframe</summary>
   <br/>
 <p align="center">
-  <img src="assets/images/wireframes/lifestyle_page.png" height="700" width="700"/>
+  <img src="assets/images/wireframes/lifestyle_page.png" height="700" width="700" alt="Lifestyle Page Wireframe" />
 </p>
 </details>
 
@@ -148,7 +151,7 @@ Wireframes were created in Figma.
   <summary>3. Next Page Wireframe</summary>
   <br/>
 <p align="center">
-  <img src="assets/images/wireframes/next_page.png" height="700" width="700"/>
+  <img src="assets/images/wireframes/next_page.png" height="700" width="700" alt="Next Page Wireframe" />
 </p>
 </details>
 
@@ -156,7 +159,7 @@ Wireframes were created in Figma.
   <summary>4. Confirmation Page Wireframe</summary>
   <br/>
 <p align="center">
-  <img src="assets/images/wireframes/confirmation_page.jpg" height="700" width="700"/>
+  <img src="assets/images/wireframes/confirmation_page.jpg" height="700" width="700" alt="Confirmation Page Wireframe" />
 </p>
 </details>
 
@@ -164,7 +167,7 @@ Wireframes were created in Figma.
   <summary>4. 404 Page Wireframe</summary>
   <br/>
 <p align="center">
-  <img src="assets/images/wireframes/404_page.png" height="700" width="700"/>
+  <img src="assets/images/wireframes/404_page.png" height="700" width="700" alt="404 Page Wireframe" />
 </p>
 </details>
 <br/>
@@ -179,7 +182,7 @@ Wireframes were created in Figma.
 The colour scheme for the website has evolved over time and mainly consists of these complementary colours. There are other colours in the site but they are all a derivation of these colours. 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/colourscheme.png"/>
+  <img src="assets/images/readme/colourscheme.png" alt="Colour Scheme" />
 </p>
 <br/>
 
@@ -198,7 +201,7 @@ font-weight: Bold 700;
 Used for the majority of the site, both for regular text and headings. Sans serif is the fallback font in case other font is not available. See below for example of font in use.  
 
 <p align="center">
-  <img src="assets/images/readme/font.png"/>
+  <img src="assets/images/readme/font.png" alt="Roboto Example Font" />
 </p>
 
 ### Dancing Script  
@@ -210,13 +213,13 @@ Used for the opening Welcome Text in the welcome section on the home page and fo
 spirit section on the lifestyle page, and the error message on the 404.page. Cursive is the fallback font in case other font is not available. See below for the font in use.  
 
 <p align="center">
-  <img src="assets/images/readme/quote.png"/>
+  <img src="assets/images/readme/quote.png" alt="Dancing Script Font" />
 </p>
 <br/>
 In relation to the color, I gave the main font the color #313131t can aid in preventing eye strain and can be used in a multitude of situations.  
 
 <p align="center">
-  <img src="assets/images/readme/textfont.png"/>
+  <img src="assets/images/readme/textfont.png" alt="Using font #313131" />
 </p>
 <br/>
 
@@ -224,7 +227,7 @@ In relation to the color, I gave the main font the color #313131t can aid in pre
 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/fonticons.png"/>
+  <img src="assets/images/readme/fonticons.png" alt="Example of Icons" />
 </p>
 - In relation to the Logo I used a 'Balancing Scales icon' to support the overall message of balance in the website.<br/>
 - I added the Social Media Icons to the footer element to represent each Social Media Channel.<br/>
@@ -249,6 +252,53 @@ The Home Page Information panels on the bottom of the page have internal links t
 
 There is an inclusion of the top of the screen button at the bottom of each screen which will allow the user to return to the top of the screen, this is a handy feature particularly with pages with a lot of content and when on mobile screens.
 
+## Final Webpages
+
+<details>
+<summary>Final Site Pages</summary>
+
+
+<details>
+  <summary>1. Home Page</summary>
+  <p align="center">
+     <img src="assets/images/readme/homepage.png" height="" width="" alt="Final Home Page" />    
+</p>
+</details>
+
+<details>
+  <summary>2. Lifestyle Page</summary>
+  <br/>
+<p align="center">
+  <img src="assets/images/readme/lifestylepage.png" height="" width="" alt="Final Lifestyle Page" />
+</p>
+</details>
+
+<details>
+  <summary>3. Next Page</summary>
+  <br/>
+<p align="center">
+  <img src="assets/images/readme/nextpage.png" height="" width="" alt="Final Next Page" />
+</p>
+</details>
+
+<details>
+  <summary>4. Confirmation Page</summary>
+  <br/>
+<p align="center">
+  <img src="assets/images/readme/confirmationpage.png" height="" width="" alt="Final Confirmation Page"/>
+</p>
+</details>
+
+<details>
+  <summary>4. 404 Page</summary>
+  <br/>
+<p align="center">
+  <img src="assets/images/readme/404page.png" height="" width="" alt="Final 404 Page" />
+</p>
+</details>
+
+</details>
+<br/>
 
  #### [Return to Table of Contents](#toc)
 ----
@@ -261,14 +311,14 @@ The Navigation bar is positioned at the top right of the webpage on Desktop and 
 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/header.png" height="47" width="673"/>
+  <img src="assets/images/readme/header.png" height="47" width="673" alt="Header Section" />
 </p>
 <br/>
 Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/footer.png" height="67" width="673"/>
+  <img src="assets/images/readme/footer.png" height="67" width="673" alt="Footer Section"/>
 </p>
 <br/>
 
@@ -296,7 +346,7 @@ Each page also has a footer which contains Social Media links, these open to ind
 The Home Page's first imapact is the Hero Image at the top of the screen below the header section. This image conveys a delicate balancing act, and is symbolic for the delicate balance we maintain in our lives despite the ongoing effects of a sometimes busy and hectic lifestyle. The colour scheme being green is conducive to health and healing when you research the impact of colour on emotional wellbeing. This image will be rendered smaller on a smaller screen. In combination with the image there is an overlay with the key message of the site, and acts as an introduction and an invitation to learn more.   
 <br/>
 <p align="center">
-  <img src="assets/images/readme/hero.png" height="249" width="636"/>
+  <img src="assets/images/readme/hero.png" height="249" width="636" alt="Hero Image"/>
 </p>
 <br/>
 
@@ -304,7 +354,7 @@ The Home Page's first imapact is the Hero Image at the top of the screen below t
 This section is displayed early to get the user's attention early. This is the user's opportunity to interact with the site and build a relationship with the site moving forward. This feature has since been removed and I hope to have a better grasp of javascript in order to use a pop up window to find the user details and another pop up to confirm that they have signed up for the newsletter. The below Image shows how it did look on the screen before the removal.  
 <br/>
 <p align="center">
-  <img src="assets/images/readme/newsletter.png" height="32" width="511"/>
+  <img src="assets/images/readme/newsletter.png" height="32" width="511" alt="Newsletter Section" />
 </p>
 <br/>
 
@@ -312,7 +362,7 @@ This section is displayed early to get the user's attention early. This is the u
 This section builds on from the work in the Hero Image/Overlay, by providing more information to the user, this provides the context for the site, and should give the user enough information to gauge whether this site has anything to offer them and what they can expect. The text is supplemented by the image, this visual helps the user relate to the human element behind the website. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/readme/welcome.png" height="244" width="665"/>
+  <img src="assets/images/readme/welcome.png" height="244" width="665" alt="Welcome Section"/>
 </p>
 <br/> 
 
@@ -320,7 +370,7 @@ This section builds on from the work in the Hero Image/Overlay, by providing mor
 The site is broken down into 3 main areas and this section gives a simplified explanation of what they are, what they encompass and there is a CTA ie Body Tips, if they want to go to that section on the Lifestyle Page they need to click this button. The images support the textual information. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/readme/boxes.png" height="277" width="590"/>
+  <img src="assets/images/readme/boxes.png" height="277" width="590" alt="Information Section" />
 </p>
 <br/>   
 
@@ -328,7 +378,7 @@ The site is broken down into 3 main areas and this section gives a simplified ex
 This area shares the Social Media Links with the user, and carries some copyright information for the site.  On a fully developed site it may also include a sitemap, navigation etc. There would also be contact information and a location for the given company/person. THis site has been built for educational purposes and there is no existing location. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/readme/footer.png" height="67" width="673"/>
+  <img src="assets/images/readme/footer.png" height="67" width="673" alt="Footer Section"/>
 </p>
 <br/>
 
@@ -349,7 +399,7 @@ This area shares the Social Media Links with the user, and carries some copyrigh
 This section contains a text box containing information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be pro-active in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/readme/body.png" height="426" width=683"/>
+  <img src="assets/images/readme/body.png" height="426" width="683" alt="Body Section"/>
 </p>
 <br/> 
 
@@ -357,7 +407,7 @@ This section contains a text box containing information related to improving you
 This section contains a text box containing information related to improving your mental health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be pro-active in improving your own mental health. In addition there is a mind related quote, to support the overall message, this also helps balance the symmetry of the section. See image below. 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/mind.png" height="415" width="683"/>
+  <img src="assets/images/readme/mind.png" height="415" width="683" alt="Mind Section"/>
 </p>
 <br/>
 
@@ -365,7 +415,7 @@ This section contains a text box containing information related to improving you
 This section contains a text box containing information related to improving your spiritual health. There is a list included that gives simple tips on how you can be pro-active in improving your own spiritual health. There is also an embedded Iframe with a simple 2 minute meditation sourced from YouTube, which will allow the user to try a mediitation for themselves. In addition there is a quote, to support the overall message of the importance of working on the body, mind and spirit to emphasise the importance of combining the elements, this also helps balance the symmetry of the section. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/readme/spirit.png" height="416" width="683"/>
+  <img src="assets/images/readme/spirit.png" height="416" width="683" alt="Spirit Section"/>
 </p>
 <br/>  
 
@@ -387,7 +437,7 @@ This section contains a text box containing information related to improving you
 The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website. See image below.
 <br/>
 <p align="center">
-  <img src="assets/images/readme/nextsection.png" height="441" width="616"/>
+  <img src="assets/images/readme/nextsection.png" height="441" width="616" alt="Next Section" />
 </p>
 <br/>    
 
@@ -395,7 +445,7 @@ The Section includes an image, helping the user relate to the site content and t
 The Section includes a table with details of websites that will help the user learn more about the different subject areas. There is a name, a brief description of the site and links that will bring user directly to the relevant sites.(will open on to new site in new window, so as to allow the user to keep present site open). See image below.  
 <br/>
 <p align="center">
-  <img src="assets/images/readme/resources.png" height="190" width="607"/>
+  <img src="assets/images/readme/resources.png" height="190" width="607" alt="Resources"/>
 </p>
 <br/>  
 
@@ -405,7 +455,7 @@ The form itself contains required fields before you can submit the form. There i
 I had tried to add javascript event listener to the submit button, but this prooved problematic as it was redirecting the user before all fields were entered and I felt it was more advantageous to have the form working correctly, but this again would be an area I would revisit in order to have the Form fully functionally with the redirection to the Confirmation Page in place. I did leave the javascript in place and have comments explaining  the issue. See image below. 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/formsection.png" height="303" width="674"/>
+  <img src="assets/images/readme/formsection.png" height="303" width="674" alt="Form Section"/>
 </p>
 <br/>    
 
@@ -425,7 +475,7 @@ I had tried to add javascript event listener to the submit button, but this proo
 - Email field contains an example to make the expected input clear.
   <br/>
 <p align="center">
-  <img src="assets/images/readme/form.png" height="434" width="435"/>
+  <img src="assets/images/readme/form.png" height="434" width="435" alt="Form"/>
 </p>
 <br/>    
 
@@ -435,7 +485,7 @@ This page should be displayed when the user registers for the webinar, it confir
  
  <br/>
 <p align="center">
-  <img src="assets/images/readme/thanks.png" height="238" width="377"/>
+  <img src="assets/images/readme/thanks.png" height="238" width="377" alt="Thank you Section"/>
 </p>
 <br/> 
 
@@ -449,11 +499,11 @@ This page should be displayed when the user registers for the webinar, it confir
 
 
 ## The 404 Page  <a name="404"></a>
-This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](#404). The 404 Page can be found at [here](404.html)). See image below.
+This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](#404). The 404 Page can be found [here](404.html)). See image below.
 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/errormessage.png" height="244" width="357"/>
+  <img src="assets/images/readme/errormessage.png" height="244" width="357" alt="Error Message" />
 </p>
 <br/> 
 

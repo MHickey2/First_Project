@@ -14,6 +14,7 @@
 4.  [Manual Testing](#manualtesting)
 5. [User Story Testing](#userstorytesting)  
 
+#### [Return to README.md](README.md)
 ----
 
 ## Browser Testing<a name="browsertesting"></a>
@@ -34,7 +35,7 @@
 
    <br/>
    <p align ="center">      
-     <img src="assets/images/readme/resptests.png" height="" width=""/>   
+     <img src="assets/images/readme/resptests.png" height="" width="" alt="responsive test results"/>   
    </p>
    
    
@@ -42,7 +43,7 @@
 
    <br/>
    <p align ="center">      
-     <img src="assets/images/readme/amiresp1.png" height="" width=""/>   
+     <img src="assets/images/readme/amiresp1.png" height="" width="" alt="Am I responsive results"/>   
    </p>
 
    Had not intended to cater for the larger screens but the cover text was problematic on the hero image, so I applied a minor fix. Should be responsive down to 320px screen, but any smaller and there will be issues. In regard to bigger screens it should be good to 5119px. The website is not responsive for the Galaxy Fold, but this is not within my current scope.
@@ -70,7 +71,7 @@ and tested and there were no other problems. The next page had some issues with 
 <br/>
 
 <p align ="center">      
-     <img src="assets/images/readme/htmlchecker.png" height="424" width="1366"/>   
+     <img src="assets/images/readme/htmlchecker.png" height="424" width="1366" alt="HTML check results"/>   
 </p>
   
 - Jigsaw CSS Validator   <a name="css"></a>
@@ -79,7 +80,7 @@ Using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator
 I also checked the CSS on the 404.page and it passed successfuly.
 
 <p align ="center">      
-     <img src="assets/images/readme/cssvalid.png" height="337" width="1289"/>   
+     <img src="assets/images/readme/cssvalid.png" height="337" width="1289" alt="CSS Validation results"/>   
 </p>
 
 - Lighthouse  <a name="lighthouse"></a>
@@ -89,7 +90,7 @@ Used the Lighthouse Testing in Google Developer Tools and the plan was to share 
 I have repeated these tests and barring performance scores they are consistently scoring 100, except the mobile screen on the Homepage, where the mobile score is 97, but am working to fix the issue, it regards the buttons in the information section, its proving hard as the button has a regular colour and a hover color, but as the button links to another page, there is no active button state. See image below for Lighthouse scores for all pages in Desktop and Mobile.  
 
 <p align ="center">      
-     <img src="assets/images/readme/lighthouse.png" height="182" width="304"/>   
+     <img src="assets/images/readme/lighthouse.png" height="182" width="304" alt="lighthouse results" />   
 </p>
 
 
@@ -100,19 +101,19 @@ I have repeated these tests and barring performance scores they are consistently
 
 <br/>
   <p align ="center">      
-     <img src="assets/images/readme/contrastindex.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrastindex.png" height="146" width="889" alt="contrast index result"/>   
   </p>
   <p align ="center">      
-     <img src="assets/images/readme/contrastlifestyle.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrastlifestyle.png" height="146" width="889" alt="contrast lifestyle result"/>   
   </p>
   <p align ="center">      
-     <img src="assets/images/readme/contrastnext.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrastnext.png" height="146" width="889" alt="contrast next result"/>   
   </p>
   <p align ="center">      
-     <img src="assets/images/readme/contrastconfirmation.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrastconfirmation.png" height="146" width="889" alt="contrast confirmation result"/>   
   </p>
   <p align ="center">      
-     <img src="assets/images/readme/contrast404.png" height="146" width="889"/>   
+     <img src="assets/images/readme/contrast404.png" height="146" width="889" alt="contrast 404 result"/>   
   </p>
 
 
@@ -121,7 +122,7 @@ I have repeated these tests and barring performance scores they are consistently
   WAVE is a web accesability tool developed by WebAIM.org. It provides visual feedback about the accessibility of your web content, it highlights any errors and gives you possible suggestions for improvements. After testing it highlighted a couple of issues, including rechecking some of the alt tags, make sure the destination links are evident and advised against justified text as it can be hard on the user's sight. I myself prefer justified text but would rather take the user experience in mind. 
   <br/>
   <p align ="center">      
-     <img src="assets/images/readme/wave_test.png" height="" width=""/>   
+     <img src="assets/images/readme/wave_test.png" height="" width="" alt="wave test result"/>   
   </p>
   
 ----
@@ -129,16 +130,19 @@ I have repeated these tests and barring performance scores they are consistently
 
 <br/>
 <p align ="center">      
-     <img src="assets/images/readme/mantest.png" height="" width=""/>
+     <img src="assets/images/readme/mantest.png" height="" width="" alt="manual test part 1" />
 </p>
 <p align ="center">      
-     <img src="assets/images/readme/mantest1.png" height="" width=""/>
+     <img src="assets/images/readme/mantest1.png" height="" width="" alt="manual test part 2" />
 </p>
 <br/>
 * In this site the action has been set to “POST” using the 'Code Institute Site' to validate the form action is working correctly and the Code Institute acknowledgment is displaying, I also had used "GET" in order to redirect the user to the Confirmation Page, the site was tested using both alternatives and it worked as expected in each scenario. The 'Confirmation Page' can be found at  [https://mhickey2.github.io/First_Project/confirmation.html](https://mhickey2.github.io/First_Project/confirmation.html)
 
 <br/>
-
+<p align ="center">      
+     <img src="assets/images/readme/boxesbuttons.png" height="" width="" alt="test buttons"/>
+</p>
+<br/>
 ----
 ## User Story Testing<a name="userstorytesting"></a>
 
@@ -172,16 +176,22 @@ Social Media Links are clearly displayed in the footer section and are promoted 
 ## As a regular user of the site
 
 - I want to have updated information and possibly more expansion to cover more areas within the remit of the site.
+
+After engaging with users, it is hoped that new content will utilize user feedbacks and will be expand according to their needs. The webinar will also be key to determining future scope of the website.
+
 - I would like an updated Resources List.
-  
-The website can be expanded to include more areas of interest, in this regard expansion will depend on user feedback, this is where intereaction is key and social media and the upcoming webinar will be good resources.
+
+By keeping up to date with current trends, the resource section will grow to keep up with the futrure needs of the users. 
 
 ## As the site owner, I want to …..
-- Provide a compendium of information that offers the user insights and tips to the users on how to create more balance in their life.
+
+- Provide a compendium of information that offers the user insights and tips to create more balance in their lives.
 - Engage with the site users and discover ways to improve the site and provide information relevant to my user's needs.
 - I want to extend the knowledge base within my site and use innovative ways to keep my users satisfied.
-- Discover any shortcomings in the present site, and use user feedback to improve the user experience within the site.
 
+The website can be expanded to include more areas of interest, in this regard expansion will depend on user feedback, this is where intereaction is key and social media and the upcoming webinar will be good resources.
+
+  
 
 #### [Return to Table of Contents](#toc)
 #### [Return to README.md](README.md)
