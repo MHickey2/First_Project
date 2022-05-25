@@ -5,7 +5,7 @@
 # The Balancing Pact Website: Milestone 1 Project
 
 <p align ="center">      
-     <img src="assets/images/readme/amiresp1.png" height="" width="" alt="Am I responsive result" />    
+     <img src="assets/images/readme/amiresp1.png"  alt="Am I responsive result" />    
 </p>
 <br/>  
 
@@ -41,6 +41,7 @@ on the subject and will also have the option to use social media to join a commu
     3. [Fonts](#fonts)
     4. [Icons](#icons)
     5. [Structure](#structure)
+    6. [Final Webpages](#webpages)
 4.  [Features](#features)
     1. [Home Page](#homepage)
     2. [Lifestyle Page](#lifestylepage)
@@ -53,7 +54,7 @@ on the subject and will also have the option to use social media to join a commu
 8.  [Bugs and Issues](#bugs)
     1. [Resolved](#resolved)
     2. [Unresolved](#unresolved)
-11. [Deployment](#deployment)
+9.  [Deployment](#deployment)
     1. [Repository](#githubrepository)
     2. [Deploy the Site](#deployingsite)
     3. [Run Project locally](#runlocally)
@@ -61,8 +62,8 @@ on the subject and will also have the option to use social media to join a commu
     5. [Fork GitHub Repository](#fork)
     6. [Student Template](#studenttemplate)
     7. [Custom 404 Page](#404page)
-11.  [Credits](#credits)
-12.  [Acknowledgements](#acknowledgements)
+10.  [Credits](#credits)
+11.  [Acknowledgements](#acknowledgements)
 
 ----
 
@@ -91,7 +92,7 @@ initially to find what subject areas were most pertinent and find suitable ways 
 
  #### [Return to Table of Contents](#toc)
 ----
-## User Stories
+## User Stories  <a name="userstories"></a>
 ### As a first time user to the site, I want to …..<a name="firsttimeuser"></a>
 - I want to learn more about the topics within the site.
 - I want to disover the content within the site relating to my interests.
@@ -123,7 +124,6 @@ initially to find what subject areas were most pertinent and find suitable ways 
 ----
 ## Design  
 <br/>
-
 ## Wireframes <a name="wireframes"></a>
 
 <details>
@@ -177,7 +177,7 @@ Wireframes were created in Figma.
 </details>
 <br/>
 
-
+#### [Return to Table of Contents](#toc)
 
 ## Colour Scheme    <a name="colourscheme"></a>  
 
@@ -268,11 +268,11 @@ The Home Page Information panels on the bottom of the page have internal links t
 
 There is an inclusion of the top of the screen button at the bottom of each screen which will allow the user to return to the top of the screen, this is a handy feature particularly with pages with a lot of content and when on mobile screens.
 
-## Final Webpages
+## Final Webpages  <a name="webpages"></a>
 
 <details>
-<summary>Final Site Pages</summary>
-
+<summary>Final Website Pages</summary>
+<br/>
 
 <details>
   <summary>1. Home Page</summary>
@@ -410,7 +410,7 @@ This area shares the Social Media Links with the user, and carries some copyrigh
 - Content is easily scanable with short paragraphs and there is a clear hierarchy on the page with headings and subheadings indicating what is related to each section.  
 <br/>    
 
-## The Lifestyle Page (formerly Technique Page) <a name="lifestyle"></a>
+## The Lifestyle Page (formerly Technique Page) <a name="lifestylepage"></a>
 
 ### The Body Section: 
 This section contains a text box containing information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be pro-active in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site. See image below.  
@@ -448,7 +448,7 @@ This section contains a text box containing information related to improving you
 
 
 
-## The Next Page <a name="next"></a>
+## The Next Page <a name="nextpage"></a>
 
 ### What's Next Section: 
 The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website. See image below.  
@@ -497,7 +497,7 @@ I had tried to add javascript event listener to the submit button, but this proo
 <br/>    
 
 
-## The Confirmation Page <a name="confirmation"></a>
+## The Confirmation Page <a name="confirmationpage"></a>
 This page should be displayed when the user registers for the webinar, it confirms to the user that they have their place confirmed in the webinar. There is also a verbal CTA on why it is a good idea to connect with social media as there will be additional information and resources available within these channels. The Page also provides the user with a set of compact information panels with time and date details with an image showing the date of the Webinar in pictorial form. It also displays a pictorial representation of the Zoom logo, and a message that the link will be delivered to them via email.
  
  <br/>
@@ -515,7 +515,7 @@ This page should be displayed when the user registers for the webinar, it confir
 -There is a clear call to action as the user is encouraged to connect on social media channels to avail of further information and resources.    
 
 
-## The 404 Page  <a name="404"></a>
+## The 404 Page  <a name="404page"></a>
 This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of relaxation.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](#404). The 404 Page can be found [here](404.html)). See image below.
 
 <br/>
