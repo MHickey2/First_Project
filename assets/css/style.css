@@ -1480,15 +1480,11 @@ styling as a seperate entity. */
 	}
 
 	#boxes .box .button:hover {
-		background-color: #117008;
+		background-color: pink;
 		color: #fff;
 	}
 
-	#boxes .box .button:active {
-		background-color: #00563f;
-		color: #fff;
-	}
-
+	
 	/*Workshop Sign up Form */
 
 	.workshop-signup-form {
