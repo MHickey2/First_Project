@@ -33,7 +33,7 @@ header {
 	width: 100%;
 }
 
-/*Logo Section */
+/*Logo and Menu Section*/
 
 #logo {
 	float: left;
@@ -121,6 +121,7 @@ header {
 }
 
 /*Welcome Section */
+
 .welcome {
 	background: #E0B0FF;
 	margin: 7px 3px 7px 3px;
@@ -224,6 +225,8 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	color: #fff;
 }
 
+/*Styling for top of screen button on all pages except 404 */
+
 #top-button {
 	text-align: center;
 	font-size: 16px;
@@ -247,6 +250,8 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 	background-color: purple;
 	color: #fff;
 }
+
+/* Styling for the links in the resource section on Next page*/
 
 .site-button {
 	text-align: center;
@@ -327,6 +332,8 @@ footer p {
 	padding: 5px;
 }
 
+/*Styling for the images and media on the lifestyle page*/
+
 .healthy-person {
 	float: right;
 	display: block;
@@ -357,6 +364,8 @@ footer p {
 	font-weight: 700;
 	line-height: 1.5;
 }
+
+/*Styling for the quotes in the lifestyle page*/
 
 .quote {
 	float: right;
@@ -455,7 +464,7 @@ footer p {
 	font-size: 17px;
 }
 
-/* Styling for Headings, are used throughout the site */
+/* Styling for Headings, that are used throughout the site */
 
 .ornate {
 	clear: both;
@@ -473,6 +482,8 @@ footer p {
 	text-transform: uppercase;
 	width: 50%;
 }
+
+/*Alternative styling for Headings*/
 
 .specific-styling {
 	text-align: center;
@@ -501,7 +512,7 @@ footer p {
 	margin-right: auto;
 }
 
-/* Closing Text Box summing up the website */
+/* Closing Text Box summing up the website content, and leaving a final message */
 
 .closing p {
 	width: 80%;
@@ -565,7 +576,7 @@ td {
 	color: rgb(95, 11, 145);
 }
 
-/* Sign up form for the Webinar */
+/* Sign up Form for the Webinar */
 
 .workshop-signup-form {
 	margin: 70px 50px 0 10px;
@@ -607,6 +618,8 @@ input[type=password]:focus {
 	outline: none;
 }
 
+/*Buttons for the Form*/
+
 .signup-button {
 	margin-top: 20px;
 	border-radius: 12px;
@@ -641,6 +654,8 @@ input[type=password]:focus {
 	color: #fff;
 }
 
+/*Styling for the webinar information in the form section*/
+
 .workshop-news {
 	width: 32%;
 	display: block;
@@ -660,6 +675,7 @@ input[type=password]:focus {
 	text-align: center;
 	color: rgb(95, 11, 145);
 }
+/*Allows for making Webinar Details stand out */
 
 .span {
 	margin: 0 auto;
@@ -667,7 +683,8 @@ input[type=password]:focus {
 	color: rgb(95, 11, 145);
 }
 
-/* Confirmation page/ Page will be displayed to the user when they sign up for the Webinar */
+/* Confirmation page/ Page will be displayed to the user when they sign up for the Webinar. This is not activated as 
+currently the Form is posting to the Code Institute. */
 
 .congrats {
 	display: block;
@@ -681,7 +698,6 @@ input[type=password]:focus {
 indicating that is a zoom meeting and the link will be sent to the user in their preferred email. */
 
 #boxes1 {
-
 	width: fit-content;
 	padding: 2rem 2rem;
 	text-align: center;
@@ -697,7 +713,6 @@ indicating that is a zoom meeting and the link will be sent to the user in their
 #boxes1 .box1 img {
 	object-fit: cover;
 }
-
 
 .webinar-message {
 	display: block;
@@ -723,7 +738,7 @@ indicating that is a zoom meeting and the link will be sent to the user in their
 }
 
 /* CSS styles are included on the 404.html pages, as it is not directly involved in the website, I wanted to keep the
-styling as a seperate entity. */
+styling as a seperate entity, see style1.css */
 
 
 /*****************************************    MEDIA QUERIES    *******************************************************/
@@ -834,8 +849,7 @@ styling as a seperate entity. */
 	}
 
 	.box {
-		width: 29%;
-		/*min-height: 370px;*/
+		width: 29%;		
 		background-color: #fff;
 		gap: 10px;
 		margin: 15px;
@@ -874,9 +888,7 @@ styling as a seperate entity. */
 
 	.healthy-person {
 		height: 80%;
-		float: none;
-		/*display: block;
-		padding: 5px;*/
+		float: none;	
 	}
 
 	.body-technique,
@@ -1178,7 +1190,7 @@ styling as a seperate entity. */
 	.spirit {
 		min-height: 800px;
 	}
-
+    /*Woman in the next page, was second woman I used*/
 	.next-woman {
 		display: block;
 		margin-top: 20px;
@@ -1187,7 +1199,6 @@ styling as a seperate entity. */
 		width: 100%;
 		height: fit-content;
 	}
-
 
 	table {
 		background-color: #fff;
@@ -1216,7 +1227,6 @@ styling as a seperate entity. */
 		vertical-align: center;
 	}
 
-
 	.closing p {
 		margin-top: 15px;
 		font-family: 'Roboto', sans-serif;
@@ -1230,7 +1240,6 @@ styling as a seperate entity. */
 		padding: 5px;
 		text-align: justify;
 	}
-
 
 	.workshop-signup-form {
 		margin: 60px 15px 0 15px;
@@ -1474,13 +1483,17 @@ styling as a seperate entity. */
 		width: 100%;
 	}
 
+/*This is an unresolved issue, despite using vastly different colours, it still shows a problem, it may be because
+	on pressing button it takes you to different page, so the button never is active, will do more research*/
+	
+
 	#boxes .box .button {
-		background-color: #40db40;
+		background-color:  rgba(21, 146, 84);
 		color: #fff;
 	}
 
 	#boxes .box .button:hover {
-		background-color: pink;
+		background-color: #013220;
 		color: #fff;
 	}
 

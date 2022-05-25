@@ -1,6 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
- ----
 
 # The Balancing Pact Website: Milestone 1 Project
 
@@ -124,6 +121,7 @@ initially to find what subject areas were most pertinent and find suitable ways 
 ----
 ## Design  
 <br/>
+
 ## Wireframes <a name="wireframes"></a>
 
 <details>
@@ -181,7 +179,7 @@ Wireframes were created in Figma.
 
 ## Colour Scheme    <a name="colourscheme"></a>  
 
-The colour scheme for the website has evolved over time and mainly consists of these complementary colours. There are other colours in the site but they are all a derivation of these colours. See the second image Below.  
+The colour scheme for the website has evolved over time and mainly consists of these complementary colours. There are other colours in the site but they are all a derivation of these colours. The images on the site supplement these colours i.e stones background in the form section. See the second image Below for various colours within the site now.    
 <br/>
 <p align="center">
   <img src="assets/images/readme/colourscheme.png" alt="Colour Scheme" />
@@ -192,15 +190,8 @@ The colour scheme for the website has evolved over time and mainly consists of t
   <img src="assets/images/readme/colourscheme1.png" alt="Colour Scheme" />
 </p>
 <br/>
-Codes for Colour Scheme <br/> 
-#927397<br/>  
-#5c2766<br/>   
-#f5c8ee<br/>   
-#f5c8ee<br/>   
-#013220<br/>   
-#789773<br/>   
-#f400ed<br/>     
-<br/>  
+**Codes:  &nbsp; #927397 &nbsp;  #5c2766  &nbsp; #f5c8ee  &nbsp; #e0b0ff  &nbsp; #013220  &nbsp;  #789773 &nbsp; #f400ed**  
+
 
 
 
@@ -238,7 +229,7 @@ In relation to the color, I gave the main font the color #313131t can aid in pre
 </p>
 <br/>
 
-## Icons used on site<a name="icons"></a>
+## Icons used on site <a name="icons"></a>
 
 - In relation to the Logo I used a 'Balancing Scales icon' to support the overall message of balance in the website.<br/>
 - I added the Social Media Icons to the footer element to represent each Social Media Channel.<br/>
@@ -268,7 +259,7 @@ The Home Page Information panels on the bottom of the page have internal links t
 
 There is an inclusion of the top of the screen button at the bottom of each screen which will allow the user to return to the top of the screen, this is a handy feature particularly with pages with a lot of content and when on mobile screens.
 
-## Final Webpages  <a name="webpages"></a>
+## Final Website Pages  <a name="webpages"></a>
 
 <details>
 <summary>Final Website Pages</summary>
@@ -327,14 +318,14 @@ The Navigation bar is positioned at the top right of the webpage on Desktop and 
 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/header.png" height="" width="" alt="Header Section" />
+  <img src="assets/images/readme/header.png"  alt="Header Section" />
 </p>
 <br/>
 Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/footer.png" height="" width="" alt="Footer Section"/>
+  <img src="assets/images/readme/footer.png"  alt="Footer Section"/>
 </p>
 <br/>
 
@@ -545,7 +536,7 @@ This page is displayed to the user if they experience a problem connecting with 
 
 #### [Return to Table of Contents](#toc)
 ----
-## Technologies Used <a name="technology"></a>
+## Tools and Technologies Used <a name="technology"></a>
 
 - Programming Languages:<br/>	HTML,	CSS3
   
@@ -677,7 +668,7 @@ More information is available at [https://docs.github.com/en](https://docs.githu
 
 #### [Return to Table of Contents](#toc)
 ----
-## Credit  <a name="credit"></a>
+## Credit  <a name="credits"></a>
 
 ### Content of the site
 I created the written content but drew inspiration from this:
