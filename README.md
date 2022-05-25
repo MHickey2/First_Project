@@ -51,7 +51,9 @@ on the subject and will also have the option to use social media to join a commu
 6.  [Tools and Technology](#Technology)
 7.  [Testing](TEST.md)
 8.  [Bugs and Issues](#bugs)
-9.  [Deployment](#deployment)
+    1. [Resolved](#resolved)
+    2. [Unresolved](#unresolved)
+11. [Deployment](#deployment)
     1. [Repository](#githubrepository)
     2. [Deploy the Site](#deployingsite)
     3. [Run Project locally](#runlocally)
@@ -59,8 +61,8 @@ on the subject and will also have the option to use social media to join a commu
     5. [Fork GitHub Repository](#fork)
     6. [Student Template](#studenttemplate)
     7. [Custom 404 Page](#404page)
-10.  [Credits](#credits)
-11.  [Acknowledgements](#acknowledgements)
+11.  [Credits](#credits)
+12.  [Acknowledgements](#acknowledgements)
 
 ----
 
@@ -179,15 +181,26 @@ Wireframes were created in Figma.
 
 ## Colour Scheme    <a name="colourscheme"></a>  
 
-The colour scheme for the website has evolved over time and mainly consists of these complementary colours. There are other colours in the site but they are all a derivation of these colours. 
+The colour scheme for the website has evolved over time and mainly consists of these complementary colours. There are other colours in the site but they are all a derivation of these colours. See the second image Below.  
 <br/>
 <p align="center">
   <img src="assets/images/readme/colourscheme.png" alt="Colour Scheme" />
 </p>
 <br/>
-
-### Other Colours
-
+<br/>
+<p align="center">
+  <img src="assets/images/readme/colourscheme1.png" alt="Colour Scheme" />
+</p>
+<br/>
+Codes for Colour Scheme <br/> 
+#927397<br/>  
+#5c2766<br/>   
+#f5c8ee<br/>   
+#f5c8ee<br/>   
+#013220<br/>   
+#789773<br/>   
+#f400ed<br/>     
+<br/>  
 
 
 
@@ -212,12 +225,14 @@ Font-weight: Bold 700;
 Used for the opening Welcome Text in the welcome section on the home page and for the Quotes linked to the body, mind and
 spirit section on the lifestyle page, and the error message on the 404.page. Cursive is the fallback font in case other font is not available. See below for the font in use.  
 
+<br/>
 <p align="center">
   <img src="assets/images/readme/quote.png" alt="Dancing Script Font" />
 </p>
 <br/>
-In relation to the color, I gave the main font the color #313131t can aid in preventing eye strain and can be used in a multitude of situations.  
+In relation to the color, I gave the main font the color #313131t can aid in preventing eye strain and can be used in a multitude of situations.
 
+<br/>
 <p align="center">
   <img src="assets/images/readme/textfont.png" alt="Using font #313131" />
 </p>
@@ -225,16 +240,16 @@ In relation to the color, I gave the main font the color #313131t can aid in pre
 
 ## Icons used on site<a name="icons"></a>
 
+- In relation to the Logo I used a 'Balancing Scales icon' to support the overall message of balance in the website.<br/>
+- I added the Social Media Icons to the footer element to represent each Social Media Channel.<br/>
+- In ther resources section, for logistic reasons I could not add the name of the website in the links themselves so used the arrow icon to indicate what each links relate to as a temporary measure. I also used up arrow in the top of Screen button found at the bottom of each website pages (404 page is short and did not require this feature). See image below.  
+
 <br/>
 <p align="center">
   <img src="assets/images/readme/fonticons.png" alt="Example of Icons" />
 </p>
-- In relation to the Logo I used a 'Balancing Scales icon' to support the overall message of balance in the website.<br/>
-- I added the Social Media Icons to the footer element to represent each Social Media Channel.<br/>
-- In ther resources section, for logistic reasons I could not add the name of the website in the links themselves so used the arrow icon to indicate what each links relate to as a temporary measure. I also used up arrow in the top of Screen button found at the bottom of each website pages (404 page is short and did not require this feature).        
+       
 <br/>
-<br/>
-
 
 
 ## Website Structure <a name="structure"></a>    
@@ -245,7 +260,8 @@ The website has 4 pages<br/>
 - Lifestyle Page - Content (Images, Text, Lists and Quotes) is grouped into 3 sections (Body, Mind and Spirit).<br/>
 - Next Page - Content broken down into 4 sections (Closing Text and image, Resources and form Section containing details and a registration Form)<br/>
 - Confirmation Page - Content (Image and Text and information Panels) displayed to User when they register for the Webinar. User not currently being redirected as the form is sending information to the Code Institute.<br/>
-<br/>
+
+
 There is an additional customised 404 Page - These page is shown when the page required is not available to the user. It consists of an Image and an error message. 
 
 The Home Page Information panels on the bottom of the page have internal links to sections on the Lifestyle page, this allows the users to be taken directly to an area of interest i.e Body, Mind or Spirit Section.
@@ -311,14 +327,14 @@ The Navigation bar is positioned at the top right of the webpage on Desktop and 
 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/header.png" height="47" width="673" alt="Header Section" />
+  <img src="assets/images/readme/header.png" height="" width="" alt="Header Section" />
 </p>
 <br/>
 Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
 
 <br/>
 <p align="center">
-  <img src="assets/images/readme/footer.png" height="67" width="673" alt="Footer Section"/>
+  <img src="assets/images/readme/footer.png" height="" width="" alt="Footer Section"/>
 </p>
 <br/>
 
@@ -354,28 +370,28 @@ The Home Page's first imapact is the Hero Image at the top of the screen below t
 This section is displayed early to get the user's attention early. This is the user's opportunity to interact with the site and build a relationship with the site moving forward. This feature has since been removed and I hope to have a better grasp of javascript in order to use a pop up window to find the user details and another pop up to confirm that they have signed up for the newsletter. The below Image shows how it did look on the screen before the removal.  
 <br/>
 <p align="center">
-  <img src="assets/images/readme/newsletter.png" height="32" width="511" alt="Newsletter Section" />
+  <img src="assets/images/readme/newsletter.png" height="" width="" alt="Newsletter Section" />
 </p>
 <br/>
 
 ### Welcome Section: 
-This section builds on from the work in the Hero Image/Overlay, by providing more information to the user, this provides the context for the site, and should give the user enough information to gauge whether this site has anything to offer them and what they can expect. The text is supplemented by the image, this visual helps the user relate to the human element behind the website. See image below.
+This section builds on from the work in the Hero Image/Overlay, by providing more information to the user, this provides the context for the site, and should give the user enough information to gauge whether this site has anything to offer them and what they can expect. The text is supplemented by the image, this visual helps the user relate to the human element behind the website. See image below.  
 <br/>
 <p align="center">
-  <img src="assets/images/readme/welcome.png" height="244" width="665" alt="Welcome Section"/>
+  <img src="assets/images/readme/welcome.png" height="" width="" alt="Welcome Section"/>
 </p>
 <br/> 
 
 ### Breakdown of Information areas: 
-The site is broken down into 3 main areas and this section gives a simplified explanation of what they are, what they encompass and there is a CTA ie Body Tips, if they want to go to that section on the Lifestyle Page they need to click this button. The images support the textual information. See image below.
+The site is broken down into 3 main areas and this section gives a simplified explanation of what they are, what they encompass and there is a CTA ie Body Tips, if they want to go to that section on the Lifestyle Page they need to click this button. The images support the textual information. See image below.  
 <br/>
 <p align="center">
-  <img src="assets/images/readme/boxes.png" height="277" width="590" alt="Information Section" />
+  <img src="assets/images/readme/boxes.png" height="" width="" alt="Information Section" />
 </p>
 <br/>   
 
 ### The Footer: 
-This area shares the Social Media Links with the user, and carries some copyright information for the site.  On a fully developed site it may also include a sitemap, navigation etc. There would also be contact information and a location for the given company/person. THis site has been built for educational purposes and there is no existing location. See image below.
+This area shares the Social Media Links with the user, and carries some copyright information for the site.  On a fully developed site it may also include a sitemap, navigation etc. There would also be contact information and a location for the given company/person. THis site has been built for educational purposes and there is no existing location. See image below.  
 <br/>
 <p align="center">
   <img src="assets/images/readme/footer.png" height="67" width="673" alt="Footer Section"/>
@@ -392,11 +408,12 @@ This area shares the Social Media Links with the user, and carries some copyrigh
 - Related information is grouped together under specific headings in the information section below the welcoming text.
 - Clickable items are clearly distinguished.
 - Content is easily scanable with short paragraphs and there is a clear hierarchy on the page with headings and subheadings indicating what is related to each section.  
+<br/>    
 
 ## The Lifestyle Page (formerly Technique Page) <a name="lifestyle"></a>
 
 ### The Body Section: 
-This section contains a text box containing information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be pro-active in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site. See image below.
+This section contains a text box containing information related to improving your physical health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be pro-active in improving your own physical health. In addition there is a body related quote, to support the overall message, this also helps balance the symmetry of the section, as it threw off the general aesthethic of the site. See image below.  
 <br/>
 <p align="center">
   <img src="assets/images/readme/body.png" height="426" width="683" alt="Body Section"/>
@@ -404,15 +421,15 @@ This section contains a text box containing information related to improving you
 <br/> 
 
 ### The Mind Section: 
-This section contains a text box containing information related to improving your mental health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be pro-active in improving your own mental health. In addition there is a mind related quote, to support the overall message, this also helps balance the symmetry of the section. See image below. 
+This section contains a text box containing information related to improving your mental health. There is an image supplementing this information and there is a list included that gives simple tips on how you can be pro-active in improving your own mental health. In addition there is a mind related quote, to support the overall message, this also helps balance the symmetry of the section. See image below.   
 <br/>
 <p align="center">
   <img src="assets/images/readme/mind.png" height="415" width="683" alt="Mind Section"/>
 </p>
-<br/>
+<br/>  
 
 ### The Spirit Section: 
-This section contains a text box containing information related to improving your spiritual health. There is a list included that gives simple tips on how you can be pro-active in improving your own spiritual health. There is also an embedded Iframe with a simple 2 minute meditation sourced from YouTube, which will allow the user to try a mediitation for themselves. In addition there is a quote, to support the overall message of the importance of working on the body, mind and spirit to emphasise the importance of combining the elements, this also helps balance the symmetry of the section. See image below.
+This section contains a text box containing information related to improving your spiritual health. There is a list included that gives simple tips on how you can be pro-active in improving your own spiritual health. There is also an embedded Iframe with a simple 2 minute meditation sourced from YouTube, which will allow the user to try a mediitation for themselves. In addition there is a quote, to support the overall message of the importance of working on the body, mind and spirit to emphasise the importance of combining the elements, this also helps balance the symmetry of the section. See image below.  
 <br/>
 <p align="center">
   <img src="assets/images/readme/spirit.png" height="416" width="683" alt="Spirit Section"/>
@@ -434,7 +451,7 @@ This section contains a text box containing information related to improving you
 ## The Next Page <a name="next"></a>
 
 ### What's Next Section: 
-The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website. See image below.
+The Section includes an image, helping the user relate to the site content and there is a text area, recapping what has been covered so far in the site and highlighting the resources available in the next section and promoting the upcoming webinar which will concentrate on the topics included in the website. See image below.  
 <br/>
 <p align="center">
   <img src="assets/images/readme/nextsection.png" height="441" width="616" alt="Next Section" />
@@ -445,17 +462,17 @@ The Section includes an image, helping the user relate to the site content and t
 The Section includes a table with details of websites that will help the user learn more about the different subject areas. There is a name, a brief description of the site and links that will bring user directly to the relevant sites.(will open on to new site in new window, so as to allow the user to keep present site open). See image below.  
 <br/>
 <p align="center">
-  <img src="assets/images/readme/resources.png" height="190" width="607" alt="Resources"/>
+  <img src="assets/images/readme/resources.png" height="" width="" alt="Resources"/>
 </p>
 <br/>  
 
 ### The Form Section: 
 This section includes a text box explaining the details of the upcoming Webinar, the date, time and location and a Form where the user can register for the Webinar. The post links, use the Code Institute link, as the Webinar is not an actual Event but has been created for educational purposes.
 The form itself contains required fields before you can submit the form. There is also a minimal limit on how many characters are needed to complete the name fields. In this case '4 characters' are needed in the name fields.  I would have used placeholders but trusted users would understand what is required.  The email field requires the '@' in order to be a valid entry. There is a placeholder in this field, giving them the format that is required of them. There is also a reset button included to allow users to clear their entries, if they need to restart the process.
-I had tried to add javascript event listener to the submit button, but this prooved problematic as it was redirecting the user before all fields were entered and I felt it was more advantageous to have the form working correctly, but this again would be an area I would revisit in order to have the Form fully functionally with the redirection to the Confirmation Page in place. I did leave the javascript in place and have comments explaining  the issue. See image below. 
+I had tried to add javascript event listener to the submit button, but this prooved problematic as it was redirecting the user before all fields were entered and I felt it was more advantageous to have the form working correctly, but this again would be an area I would revisit in order to have the Form fully functionally with the redirection to the Confirmation Page in place. I did leave the javascript in place and have comments explaining  the issue. See image below.   
 <br/>
 <p align="center">
-  <img src="assets/images/readme/formsection.png" height="303" width="674" alt="Form Section"/>
+  <img src="assets/images/readme/formsection.png" height="" width="" alt="Form Section"/>
 </p>
 <br/>    
 
@@ -472,7 +489,7 @@ I had tried to add javascript event listener to the submit button, but this proo
 - Fields are labelled conventionally.
 - Form submission is confirmed by a confirmation page, in this case the Code Institute page showing that the information has been inputted to the site, but in future a confirmation page will be implemented.
 - The user is given direction on what is needed to fill in the form correctly I.e required fields, no of characters, inclusion of '@'.
-- Email field contains an example to make the expected input clear.
+- Email field contains an example to make the expected input clear.  
   <br/>
 <p align="center">
   <img src="assets/images/readme/form.png" height="434" width="435" alt="Form"/>
@@ -495,7 +512,7 @@ This page should be displayed when the user registers for the webinar, it confir
 - The images reinforce the details in the information panels. Making use of skeuomorphism by using objects i.e. Zoom Logo and Scheduling Icons, concepts easily recognized by users. 
 -The background is uncomplicated so necessary information is easily found.
 -The user is informed on what the next steps will be in relation to the webinar.
--There is a clear call to action as the user is encouraged to connect on social media channels to avail of further information and resources.  
+-There is a clear call to action as the user is encouraged to connect on social media channels to avail of further information and resources.    
 
 
 ## The 404 Page  <a name="404"></a>
@@ -516,6 +533,7 @@ This page is displayed to the user if they experience a problem connecting with 
 
 ----
 ## Features to be implemented in the Future <a name="future"></a>
+
 - As mentioned previously, there were a couple of challenges with existing features that I would like to improve in the future. I will utilize javascript to redirect users to the Confirmation Page after they submit their details for the webinar. 
 - I will also insert the call to action for the newsletter sign up, and use javascript to create a pop-up form and a notification when they have sucessfully signed up.
 - In relation to forms I would also use a captcha/anti-spam feature for security reasons.
@@ -529,17 +547,27 @@ This page is displayed to the user if they experience a problem connecting with 
 ----
 ## Technologies Used <a name="technology"></a>
 
-- Programming Languages:	HTML,	CSS3
+- Programming Languages:<br/>	HTML,	CSS3
+  
 - IDE - Editor:				    Gitpod
+  
 - Deployment:			        Gitpod
-- Fonts:					        Google Fonts
+
+- Fonts:					        [Google Fonts](https://fonts.google.com/)
+
 - Wireframes:             Figma
-- Testing                 [https://developer.chrome.com/docs/devtools/](https://developer.chrome.com/docs/devtools/)
-- Social Media Icons:		  Font Awesome
-- Multimedia:				      Sourced from YouTube
-- Free Images:			      Pixalbay, [https://unsplash.com/](https://unsplash.com/), [https://www.pexels.com/](https://www.pexels.com/)
-- Image Converter:        Convertio 
-- Image Compression:      tinyPNG 
+  
+- Testing                 [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
+  
+- Social Media Icons:		  [Font Awesome](https://fontawesome.com/)
+  
+- Multimedia:				      Sourced from [YouTube](https://www.youtube.com/)
+
+- Free Images:		<br/>	      [Pixalbay](https://pixabay.com/),<br/> [Unsplash](https://unsplash.com/),<br/> [Pexels](https://www.pexels.com/)
+  
+- Image Converter:        [Convertio](https://convertio.co/)
+
+- Image Compression:      [tinyPNG](https://tinyjpg.com/)  
 
  #### [Return to Table of Contents](#toc)
 ----
@@ -550,7 +578,7 @@ Git add .	Which added all files
 
 Git commit -m “Various Messages”   which commited these files and the message indicated what these files related to i.e “Working on styling for the Navigation”
 
-Git push	Which pushed these files into the GitHub Repository  
+Git push	Which pushed these files into the GitHub Repository    
 
 ### Create a GitHub Repository for your site <a name="githubrepository"></a> 
 1. Use the drop-down menu on the upper far rigt corner of your page and select New Repository.
@@ -610,7 +638,11 @@ More information is available at [https://docs.github.com/en](https://docs.githu
 
 ## Bugs and Issues <a name="bugs"></a>
 
-### Home Page  
+
+## Resolved Issues
+
+
+### Home Page  <a name="resolved"></a>
 - Initially I had a problem with the navigation, in that I could not change the spacing between the menu items, and when I tried different display types, it caused issues when making the navigation responsive, in the end I stripped it right back and simplified the format using the Love running Navigation as a template for the present Nav.
 
 - The cover text had a tendancy to drift, but worked with sizing and padding to allow the cover text to fit within the hero image on all size screens.
@@ -637,7 +669,8 @@ More information is available at [https://docs.github.com/en](https://docs.githu
 ### 404 Page
 - I had some issues with background in the image for smaller screens, but used a smaller alternative, specifically for the smaller screens and this fixed the issue.  
 
-### Unfixed Issues  
+
+## Unresolved Issues  <a name="unresolved"></a>
 - Lighhouse testing has flagged a number of issues with render-blocking resources and third party resouces affecting performance, also some cacheing issues, and I am not sure how to deal with these yet.
 - I did begin to add png/jpg versions of images so that older iPhones will be able to show images, but had issues doing this with all images in the site, so would like to research more into whether this would be necessary now that safari has begun to support WebP images since 2020. 
 
