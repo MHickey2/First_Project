@@ -87,7 +87,7 @@ Using [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator
 
 Used the Lighthouse Testing in Google Developer Tools and the plan was to share screenshots, but have been having issues getting accurate scores from the site, I did speak with a Turor, with persistant low scores in performance and the Tutor shared screenshots of the pages with me, these were not the scores I was getting and it would not be useful to share my performance scores as they would not be a true representation, it has also made it hard to gauge my progression as I now do not trust the evaluation, this may be due to connection issues or technical issues with my laptop, but is beyond my control. I also tested in Incognito, but it was only marginally better.
 
-I have repeated these tests and barring performance scores they are consistently scoring 100, except the mobile screen on the Homepage, where the mobile score is 97, but am working to fix the issue, it regards the buttons in the information section, its proving hard as the button has a regular colour and a hover color, but as the button links to another page, there is no active button state. See image below for Lighthouse scores for all pages in Desktop and Mobile.  
+I have repeated these tests and barring performance scores they are now scoring 100. See image below for Lighthouse scores for all pages in Desktop and Mobile.  
 
 <br/>
 <p align ="center">      
@@ -97,7 +97,7 @@ I have repeated these tests and barring performance scores they are consistently
 
   - Contrast Checker  <a name="contrastchecker"></a>
   
-  Using [https://color.a11y.com/](https://color.a11y.com/) I checked the site for any contrast issues and there were some issues with my introductory text and buttons on my information panels on the index page, so I used the colour contrast checker to test new colours that would not cause any issues, I then made the changes in my css files and tested again, and on revision all the pages passed their tests. See images Below.
+  Using [https://color.a11y.com/](https://color.a11y.com/) I checked the site for any contrast issues and there were some issues with my introductory text and buttons on my information panels on the index page, so I used the colour contrast checker to test new colours that would not cause any issues, I then made the changes in my css files and tested again, and on revision all the pages passed their tests. Las minute contrast fix solved the last issue with the site. See images Below.
 
 <br/>
   <p align ="center">      
@@ -142,10 +142,11 @@ The Following table, shows the manual tests that were done within the site and r
      <img src="assets/images/readme/mantest1.png" alt="manual test part 2" />
 </p>
 <br/>
-* In this site the action has been set to “POST” using the 'Code Institute Site' to validate the form action is working correctly and the Code Institute acknowledgment is displaying, I also had used "GET" in order to redirect the user to the Confirmation Page, the site was tested using both alternatives and it worked as expected in each scenario. The 'Confirmation Page' can be found [here](confirmation.html)  
+* In this site the action has been set to “POST” using the 'Code Institute Site' to validate the form action is working correctly and the Code Institute acknowledgment is displaying, I also had used "GET" in order to redirect the user to the Confirmation Page, the site was tested using both alternatives and it worked as expected in each scenario.*  
+    
       
 <br/>
-When working within GitPod, I inserted buttons on the next screen that would take me to page that did not exist so I could test whether the 404 page would be shown. I also had another button that brought me to the confirmation page as I had the form set to 'POST' and not 'GET'. I removed these buttons before final submission. See image below.
+When working within GitPod, I inserted buttons on the 'next page' that would take me to page that did not exist so I could test whether the 404 page would be shown. I also had another button that brought me to the confirmation page as I had the form set to 'POST' and not 'GET'. I removed these buttons before final submission. See image below.
 
 <br/>
 <p align ="center">      

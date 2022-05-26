@@ -47,7 +47,7 @@ on the subject and will also have the option to use social media to join a commu
     5. [404 Page](#404page)
 5.  [Future](#future)
 6.  [Tools and Technology](#Technology)
-7.  [Testing](TEST.md)
+7.  [Testing Information](TEST.md)
 8.  [Bugs and Issues](#bugs)
     1. [Resolved](#resolved)
     2. [Unresolved](#unresolved)
@@ -113,7 +113,6 @@ initially to find what subject areas were most pertinent and find suitable ways 
 - Provide a compendium of information that offers the user insights and tips to create more balance in their lives.
 - Engage with the site users and discover ways to improve the site and provide information relevant to my user's needs.
 - I want to extend the knowledge base within my site and use innovative ways to keep my users satisfied.
-
   <br/>  
 
 
@@ -190,7 +189,7 @@ The colour scheme for the website has evolved over time and mainly consists of t
   <img src="assets/images/readme/colourscheme1.png" alt="Colour Scheme" />
 </p>
 <br/>
-Codes:  &nbsp; #927397 &nbsp;  #5c2766  &nbsp; #f5c8ee  &nbsp; #e0b0ff  &nbsp; #013220  &nbsp;  #789773 &nbsp; #f400ed 
+**Codes:** &nbsp; &nbsp; #927397 &nbsp;  #5c2766  &nbsp; #f5c8ee  &nbsp; #e0b0ff  &nbsp; #013220  &nbsp;  #789773 &nbsp; #f400ed 
 
 </br>  
 
@@ -223,7 +222,8 @@ spirit section on the lifestyle page, and the error message on the 404.page. Cur
   <img src="assets/images/readme/quote.png" alt="Dancing Script Font" />
 </p>
 <br/>
-In relation to the color, I gave the main font the color #313131, it can aid in preventing eye strain and can be used in a multitude of situations. I wanted to enable user experience throughout the site where possible.
+In relation to the color, I gave the main font the color #313131, it can aid in preventing eye strain and can be used in a multitude of situations. I wanted to enable user experience throughout the site where possible.  
+
 
 <br/>
 <p align="center">
@@ -323,7 +323,8 @@ The Navigation bar is positioned at the top right of the webpage on Desktop and 
   <img src="assets/images/readme/header.png"  alt="Header Section" />
 </p>
 <br/>
-Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links, they are not linked to specific accounts. There is also a copyright address contained within this section.     
+Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links, they are not linked to specific accounts. There is also a copyright address contained within this section.  
+
 
 <br/>
 <p align="center">
@@ -517,7 +518,7 @@ This page should be displayed when the user registers for the webinar, it confir
 
 
 ## The 404 Page  <a name="404page"></a>
-This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of Balance.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](#404). The 404 Page can be found [here](404.html). See image below.
+This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of Balance.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](README.md#404). The 404 Page can be found [here](404.html). See image below.
 
 <br/>
 <p align="center">
@@ -584,7 +585,8 @@ Git add .	Which added all files
 
 Git commit -m “Various Messages”   which commited these files and the message indicated what these files related to i.e “Working on styling for the Navigation”
 
-Git push	Which pushed these files into the GitHub Repository.      
+Git push	Which pushed these files into the GitHub Repository.  
+
 
 ### Create a GitHub Repository for your site <a name="githubrepository"></a> 
 1. Use the drop-down menu on the upper far rigt corner of your page and select New Repository.

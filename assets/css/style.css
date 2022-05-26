@@ -207,7 +207,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 }
 
 #boxes .box .button {
-	background-color: rgba(21, 146, 84);
+	background-color: #286407;
 	width: 55%;
 	color: #fff;
 	padding: 10px;
@@ -873,6 +873,7 @@ styling as a seperate entity, see style1.css */
 	#boxes .box .button {
 		width: 57%;
 		color: #fff;
+		background-color: #286407;
 		padding: 10px;
 		text-decoration: none;
 		font-size: 16px;
@@ -1488,7 +1489,7 @@ styling as a seperate entity, see style1.css */
 	
 
 	#boxes .box .button {
-		background-color:  rgba(21, 146, 84);
+		background-color: #286407;
 		color: #fff;
 	}
 
