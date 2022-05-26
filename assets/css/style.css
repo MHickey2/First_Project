@@ -229,7 +229,7 @@ the lifestyle page and they have links to individual areas in the lifestyle page
 
 #top-button {
 	text-align: center;
-	font-size: 16px;
+	font-size: 15px;
 	background-color: plum;
 	color: #313131;
 	font-weight: bold;
@@ -986,7 +986,7 @@ styling as a seperate entity, see style1.css */
 		padding: 5px;
 		float: left;
 		border: none;
-		font-size: 16%;
+		font-size: 16px;
 	}
 
 	/*confirmation page */
@@ -1293,8 +1293,7 @@ styling as a seperate entity, see style1.css */
 
 	.form-section {
 		margin-top: 0px;
-		background: none;
-		background-color: none;		
+		background: none;		
 		margin-bottom: 0px;
 		height: fit-content;
 		border-radius: 0;
@@ -1408,8 +1407,7 @@ styling as a seperate entity, see style1.css */
 
 	.form-section {
 		height: fit-content;
-		background: none;
-		background-color: none;
+		background: none;		
 	}
 
 }
