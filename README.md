@@ -321,7 +321,7 @@ The Navigation bar is positioned at the top right of the webpage on Desktop and 
   <img src="assets/images/readme/header.png"  alt="Header Section" />
 </p>
 <br/>
-Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.   
+Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links they are not linked to specific accounts. There is also a copyright address contained within this section.     
 
 <br/>
 <p align="center">
@@ -558,7 +558,9 @@ This page is displayed to the user if they experience a problem connecting with 
   
 - Image Converter:        [Convertio](https://convertio.co/)
 
-- Image Compression:      [tinyPNG](https://tinyjpg.com/)  
+- Image Compression:      [tinyPNG](https://tinyjpg.com/) 
+
+- Grammar and spelling: [Grammarly](https://app.grammarly.com/)
 
  #### [Return to Table of Contents](#toc)
 ----
@@ -664,6 +666,7 @@ More information is available at [https://docs.github.com/en](https://docs.githu
 ## Unresolved Issues  <a name="unresolved"></a>
 - Lighhouse testing has flagged a number of issues with render-blocking resources and third party resouces affecting performance, also some cacheing issues, and I am not sure how to deal with these yet.
 - I did begin to add png/jpg versions of images so that older iPhones will be able to show images, but had issues doing this with all images in the site, so would like to research more into whether this would be necessary now that safari has begun to support WebP images since 2020. 
+- In last minute testing, noticed there is an error in the form section at about 820, where it falls out of alignment,thought I had resolved this issue, but still needs some tweaking in ipad air. (fixed issue by changing font size for screens under 950px.)
 
 
 #### [Return to Table of Contents](#toc)
