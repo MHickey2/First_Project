@@ -25,6 +25,8 @@
   the WebP images could not be seen, on this older model, Safari does not support these images but in September 2020 onward, WebP support was added in Safari version 14.  
 <br/>
 
+#### [Return to Table of Contents](#toc)
+
 ----
 ## Responsive Testing<a name="responsivetesting"></a>
 
@@ -57,6 +59,8 @@
    - 400px width and below;
 
 <br/>
+
+#### [Return to Table of Contents](#toc)
 
 ----
 # Validator Testing<a name="validatortesting"></a>
@@ -126,7 +130,7 @@ I have repeated these tests and barring performance scores they are now scoring 
      <img src="assets/images/readme/wave_test.png"  alt="wave test result"/>   
   </p>
   
-
+#### [Return to Table of Contents](#toc)
 
 ----
 ## Manual Testing<a name="manualtesting"></a>
@@ -153,6 +157,8 @@ When working within GitPod, I inserted buttons on the 'next page' that would tak
      <img src="assets/images/readme/testbuttons.png"  alt="test buttons"/>
 </p>
 <br/>
+
+#### [Return to Table of Contents](#toc)
 
 ----
 

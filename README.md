@@ -189,7 +189,7 @@ The colour scheme for the website has evolved over time and mainly consists of t
   <img src="assets/images/readme/colourscheme1.png" alt="Colour Scheme" />
 </p>
 <br/>
-**Codes:** &nbsp; &nbsp; #927397 &nbsp;  #5c2766  &nbsp; #f5c8ee  &nbsp; #e0b0ff  &nbsp; #013220  &nbsp;  #789773 &nbsp; #f400ed 
+Codes: &nbsp; &nbsp; &nbsp; #927397 &nbsp;  #5c2766  &nbsp; #f5c8ee  &nbsp; #e0b0ff  &nbsp; #013220  &nbsp;  #789773 &nbsp; #f400ed 
 
 </br>  
 
@@ -323,6 +323,7 @@ The Navigation bar is positioned at the top right of the webpage on Desktop and 
   <img src="assets/images/readme/header.png"  alt="Header Section" />
 </p>
 <br/>
+
 Each page also has a footer which contains Social Media links, these open to individual Social Media Pages, but as these are dummie links, they are not linked to specific accounts. There is also a copyright address contained within this section.  
 
 
@@ -595,6 +596,7 @@ Git push	Which pushed these files into the GitHub Repository.
 4. You can then initialize the site with a README.
 5. You can now click the create repository button.
    <br/>  
+
 
 
 ### To initially deploy this site from the Repository to GitHub pages <a name="deployingsite"></a>
