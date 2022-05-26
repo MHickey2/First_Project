@@ -17,7 +17,7 @@ body {
     margin-right: auto;
     height: 360px;
     width: 640px;
-    background: url('/assets/images/buddhism.webp') no-repeat center center;
+    background: url('../images/buddhism.webp') no-repeat center center;
     background-size: cover;
     margin-top: 20px;
   }
@@ -35,7 +35,7 @@ body {
 
   @media screen and (max-width: 600px) {
     .error-message {
-      background: url('/assets/images/buddhism-sm.webp') no-repeat center center;
+      background: url('../images/buddhism-sm.webp') no-repeat center center;
       display: block;
       margin-left: auto;
       margin-right: auto;
