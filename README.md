@@ -519,7 +519,7 @@ This page should be displayed when the user registers for the webinar, it confir
 
 
 ## The 404 Page  <a name="404page"></a>
-This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of Balance.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found [here](README.md#404). The 404 Page can be found [here](404.html). See image below.
+This page is displayed to the user if they experience a problem connecting with a desired link. In accordance with the general theme of the site, it conveys a serene image, with an accompanying message in the spirit of Balance.  I believe the image conveys the spirit of relaxation and although not normally done I left the usual Header and footer elements of the website in place in order for the user to return to the website on whatever page they require. The steps I took to add the 404 page can be found in the Deployment section in the README.md. See image below.
 
 <br/>
 <p align="center">
@@ -586,7 +586,7 @@ Git add .	Which added all files
 
 Git commit -m “Various Messages”   which commited these files and the message indicated what these files related to i.e “Working on styling for the Navigation”
 
-Git push	Which pushed these files into the GitHub Repository.  
+Git push	Which pushed these files into the GitHub Repository.    
 
 
 ### Create a GitHub Repository for your site <a name="githubrepository"></a> 
