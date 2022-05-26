@@ -64,4 +64,8 @@ body {
       height: 220px;
       width: 320px;
     }
+
+    h2{
+      color: purple;
+    }
   }
